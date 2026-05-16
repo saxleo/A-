@@ -1,0 +1,70 @@
+{
+  "date": "2026-05-15",
+  "marketTemp": "分歧",
+  "marketTempColor": "amber",
+  "stats": {
+    "limitUp": 72,
+    "limitDown": 11,
+    "maxBoard": 6,
+    "maxBoardStock": "蒙娜丽莎",
+    "volumeChange": "",
+    "volumeChangeNum": 0,
+    "shIndex": 4135.39,
+    "shChange": -1.02,
+    "szIndex": 15561.37,
+    "szChange": -1.17
+  },
+  "morning": {
+    "emotion": "⚠️分歧",
+    "position": "总仓≤3成，单标≤1成",
+    "sectors": [
+      {"name": "周期/有色/化工", "limitUpCount": 1, "leader": "中欣氟材", "status": "一般活跃"},
+      {"name": "大消费", "limitUpCount": 1, "leader": "金富科技", "status": "一般活跃"},
+      {"name": "电力/能源", "limitUpCount": 1, "leader": "利仁科技", "status": "一般活跃"}
+    ],
+    "modeA": [
+      {"name": "蒙娜丽莎", "code": "002918", "boards": 5, "sector": "大消费-先进陶瓷", "match": "预期7.0%，实际+9.98% ✅超预期", "risk": "🟡交易所关注"},
+      {"name": "威龙股份", "code": "603779", "boards": 2, "sector": "大消费-淄博国资入主", "match": "预期7.0%，实际+9.98% ✅超预期", "risk": "-"},
+      {"name": "金富科技", "code": "003018", "boards": 1, "sector": "大消费-液冷并购", "match": "预期7.0%，实际+10.01% ✅超预期", "risk": "-"},
+      {"name": "天富能源", "code": "600509", "boards": 1, "sector": "电力/能源-电力", "match": "预期6.0%，实际+6.49% ✅超预期", "risk": "-"}
+    ],
+    "modeB": [
+      {"name": "华升股份", "code": "600156", "boards": 2, "sector": "液冷服务器", "match": "预期7.0%，实际+4.86% ➖符合"},
+      {"name": "晶升股份", "code": "688478", "boards": 1, "sector": "半导体", "match": "预期6.0%，实际+4.88% ➖符合"},
+      {"name": "中利集团", "code": "002309", "boards": 1, "sector": "光伏储能", "match": "预期7.0%，实际+4.45% ➖符合"}
+    ],
+    "modeC": [
+      {"name": "利仁科技", "code": "001259", "reason": "无量高开骗炮"},
+      {"name": "京能电力", "code": "600578", "reason": "无量高开骗炮"},
+      {"name": "露笑科技", "code": "002617", "reason": "无量高开骗炮"},
+      {"name": "瑞玛精密", "code": "002976", "reason": "无量高开骗炮"},
+      {"name": "星德胜", "code": "603344", "reason": "无量高开骗炮"}
+    ]
+  },
+  "review": {
+    "emotion": "中性偏弱",
+    "emotionScore": 50,
+    "yesterdayPremium": 41.2,
+    "continueLimitUpRate": 8.8,
+    "boards": [
+      {"code": "002918", "name": "蒙娜丽莎", "boards": 6, "sector": "大消费", "firstTime": "09:25", "openTimes": 4, "status": "烂板", "seal": 0.63},
+      {"code": "001259", "name": "利仁科技", "boards": 5, "sector": "大消费", "firstTime": "09:25", "openTimes": 0, "status": "一字板", "seal": 2.81},
+      {"code": "603779", "name": "威龙股份", "boards": 3, "sector": "大消费", "firstTime": "09:25", "openTimes": 0, "status": "一字板", "seal": 3.68},
+      {"code": "600578", "name": "京能电力", "boards": 3, "sector": "电力/能源", "firstTime": "", "openTimes": 36, "status": "大烂板", "seal": 0.24}
+    ],
+    "sectors": [
+      {"name": "机器人/人形机器人", "limitUpCount": 18, "attackScore": 57.6, "status": "最强"},
+      {"name": "氟化工/化学原料", "limitUpCount": 10, "attackScore": 32.0, "status": "次强"},
+      {"name": "大消费", "limitUpCount": 8, "attackScore": 25.6, "status": "强势"},
+      {"name": "半导体/芯片", "limitUpCount": 5, "attackScore": 16.0, "status": "分化"}
+    ],
+    "modeAHit": {"hit": 2, "miss": 2, "rate": 50.0},
+    "modeCHit": {"hit": 3, "miss": 2, "rate": 60.0},
+    "tomorrow": [
+      {"tier": "6进7", "name": "蒙娜丽莎", "today": "6板，烂板4炸", "prediction": "监管压力极大", "strategy": "🚫严禁参与"},
+      {"tier": "5进6", "name": "利仁科技", "today": "5板，一字", "prediction": "无量，注意开板", "strategy": "⚠️观望"},
+      {"tier": "3进4", "name": "威龙股份", "today": "3板，一字", "prediction": "复牌+国资，有故事", "strategy": "🟡若分歧转一致可观察"},
+      {"tier": "3进4", "name": "京能电力", "today": "3板，36炸", "prediction": "烂板王，出货信号", "strategy": "🚫严禁参与"}
+    ]
+  }
+}
