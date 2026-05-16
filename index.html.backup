@@ -1,0 +1,1936 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>超黄体系 · 每日复盘</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Noto Sans SC', 'sans-serif'],
+                        mono: ['JetBrains Mono', 'monospace'],
+                    },
+                    colors: {
+                        bg: '#0a0e1a',
+                        card: '#111827',
+                        cardHover: '#1a2235',
+                        border: '#1f2937',
+                        gold: '#fbbf24',
+                        red: '#ef4444',
+                        green: '#22c55e',
+                        amber: '#f59e0b',
+                        rose: '#fb7185',
+                        cyan: '#06b6d4',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { background: #0a0e1a; color: #e2e8f0; font-family: 'Noto Sans SC', sans-serif; }
+        .glass { background: rgba(17,24,39,0.85); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.05); }
+        .card-glow { box-shadow: 0 0 20px rgba(251,191,36,0.05); }
+        .pulse-gold { animation: pulseGold 2s infinite; }
+        @keyframes pulseGold { 0%,100% { box-shadow: 0 0 5px rgba(251,191,36,0.3); } 50% { box-shadow: 0 0 20px rgba(251,191,36,0.6); } }
+        .shimmer { background: linear-gradient(90deg, transparent, rgba(255,255,255,0.03), transparent); background-size: 200% 100%; animation: shimmer 2s infinite; }
+        @keyframes shimmer { 0% { background-position: -200% 0; } 100% { background-position: 200% 0; } }
+        .tab-active { border-bottom: 2px solid #fbbf24; color: #fbbf24; }
+        .limit-up { color: #ef4444; }
+        .limit-down { color: #22c55e; }
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: #0a0e1a; }
+        ::-webkit-scrollbar-thumb { background: #1f2937; border-radius: 3px; }
+        ::-webkit-scrollbar-thumb:hover { background: #374151; }
+    </style>
+</head>
+<body class="min-h-screen">
+    <!-- 顶部导航 -->
+    <nav class="fixed top-0 left-0 right-0 z-50 glass">
+        <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <div class="w-8 h-8 bg-gradient-to-br from-gold to-amber rounded flex items-center justify-center">
+                    <i class="fas fa-chart-line text-black text-sm"></i>
+                </div>
+                <h1 class="font-bold text-lg tracking-wide">超黄体系 <span class="text-gold">·</span> 每日复盘</h1>
+            </div>
+            <div class="flex items-center gap-4">
+                <select id="dateSelector" class="bg-card border border-border rounded px-3 py-1.5 text-sm focus:outline-none focus:border-gold">
+                    <option value="2026-05-15">2026-05-15 周五</option>
+                </select>
+                <div id="marketTemp" class="px-3 py-1 rounded text-xs font-medium bg-amber-500/20 text-amber-400 border border-amber-500/30">
+                    ⚠️ 分歧
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 主内容 -->
+    <main class="pt-16 pb-8 px-4 max-w-7xl mx-auto">
+        <!-- 核心数据卡片 -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-6">
+            <div class="glass rounded-lg p-4 card-glow">
+                <div class="text-xs text-gray-400 mb-1">涨停数</div>
+                <div class="text-2xl font-bold font-mono limit-up">72<span class="text-xs text-gray-500 ml-1">只</span></div>
+                <div class="text-xs text-gray-500 mt-1">非ST: 54只</div>
+            </div>
+            <div class="glass rounded-lg p-4 card-glow">
+                <div class="text-xs text-gray-400 mb-1">跌停数</div>
+                <div class="text-2xl font-bold font-mono limit-down">11<span class="text-xs text-gray-500 ml-1">只</span></div>
+            </div>
+            <div class="glass rounded-lg p-4 card-glow">
+                <div class="text-xs text-gray-400 mb-1">最高连板</div>
+                <div class="text-2xl font-bold font-mono text-gold">6<span class="text-xs text-gray-500 ml-1">板</span></div>
+                <div class="text-xs text-gray-500 mt-1">蒙娜丽莎</div>
+            </div>
+            <div class="glass rounded-lg p-4 card-glow">
+                <div class="text-xs text-gray-400 mb-1">上证涨跌</div>
+                <div class="text-2xl font-bold font-mono limit-down">-1.02<span class="text-xs text-gray-500 ml-1">%</span></div>
+                <div class="text-xs text-gray-500 mt-1">4,135.39</div>
+            </div>
+        </div>
+
+        <!-- Tab 导航 -->
+        <div class="flex gap-6 border-b border-border mb-6 overflow-x-auto">
+            <button onclick="switchTab('wind')" id="tab-wind" class="tab-btn pb-3 text-sm font-medium text-gray-400 border-b-2 border-transparent hover:text-gray-200 whitespace-nowrap">
+                <i class="fas fa-wind mr-1.5"></i>风向早报
+            </button>
+            <button onclick="switchTab('morning')" id="tab-morning" class="tab-btn pb-3 text-sm font-medium text-gray-400 border-b-2 border-transparent hover:text-gray-200 whitespace-nowrap">
+                <i class="fas fa-sun mr-1.5"></i>早盘策略
+            </button>
+            <button onclick="switchTab('firstboard')" id="tab-firstboard" class="tab-btn pb-3 text-sm font-medium text-gray-400 border-b-2 border-transparent hover:text-gray-200 whitespace-nowrap">
+                <i class="fas fa-star mr-1.5"></i>首板策略
+            </button>
+            <button onclick="switchTab('noon')" id="tab-noon" class="tab-btn pb-3 text-sm font-medium text-gray-400 border-b-2 border-transparent hover:text-gray-200 whitespace-nowrap">
+                <i class="fas fa-cloud-sun mr-1.5"></i>午间小结
+            </button>
+            <button onclick="switchTab('review')" id="tab-review" class="tab-btn pb-3 text-sm font-medium text-gray-400 border-b-2 border-transparent hover:text-gray-200 whitespace-nowrap">
+                <i class="fas fa-moon mr-1.5"></i>深度复盘
+            </button>
+            <button onclick="switchTab('youthu')" id="tab-youthu" class="tab-btn pb-3 text-sm font-medium text-gray-400 border-b-2 border-transparent hover:text-gray-200 whitespace-nowrap">
+                <i class="fas fa-dragon mr-1.5"></i>游资复盘
+            </button>
+            <button onclick="switchTab('firstboard')" id="tab-firstboard" class="tab-btn pb-3 text-sm font-medium text-gray-400 border-b-2 border-transparent hover:text-gray-200 whitespace-nowrap">
+                <i class="fas fa-star mr-1.5"></i>首板策略
+            </button>
+            <button onclick="switchTab('history')" id="tab-history" class="tab-btn pb-3 text-sm font-medium text-gray-400 border-b-2 border-transparent hover:text-gray-200 whitespace-nowrap">
+                <i class="fas fa-archive mr-1.5"></i>历史归档
+            </button>
+        </div>
+
+        <!-- 风向早报内容 -->
+        <div id="content-wind" class="tab-content">
+            <div class="glass rounded-lg p-5 mb-5">
+                <h2 class="text-lg font-bold mb-4 flex items-center gap-2 text-cyan-400">
+                    <i class="fas fa-globe-americas"></i>
+                    外围映射（精确到0.01%）
+                </h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-3 mb-4">
+                    <div class="bg-card rounded p-3">
+                        <div class="text-xs text-gray-400 mb-1">道指（美东5/14收盘）</div>
+                        <div class="text-xl font-bold font-mono limit-down">-0.14%</div>
+                        <div class="text-xs text-gray-500">49,693.20</div>
+                    </div>
+                    <div class="bg-card rounded p-3 border border-gold/20">
+                        <div class="text-xs text-gray-400 mb-1">纳指 🔥历史新高</div>
+                        <div class="text-xl font-bold font-mono limit-up">+1.20%</div>
+                        <div class="text-xs text-gray-500">26,402.34</div>
+                    </div>
+                    <div class="bg-card rounded p-3 border border-gold/20">
+                        <div class="text-xs text-gray-400 mb-1">标普500 🔥历史新高</div>
+                        <div class="text-xl font-bold font-mono limit-up">+0.58%</div>
+                        <div class="text-xs text-gray-500">7,444.25</div>
+                    </div>
+                </div>
+                <div class="bg-card rounded p-3 mb-3">
+                    <div class="text-xs text-gray-400 mb-2">热门科技股</div>
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-2 text-sm">
+                        <div class="flex justify-between"><span>英伟达</span><span class="limit-up font-mono">+2.30%</span></div>
+                        <div class="flex justify-between"><span>美光科技</span><span class="limit-up font-mono">+4.83%</span></div>
+                        <div class="flex justify-between"><span>谷歌</span><span class="limit-up font-mono">+3.95%</span></div>
+                        <div class="flex justify-between"><span>Meta</span><span class="limit-up font-mono">+2.15%</span></div>
+                    </div>
+                </div>
+                <div class="bg-card rounded p-3 mb-3">
+                    <div class="text-xs text-gray-400 mb-2">中概股</div>
+                    <div class="grid grid-cols-2 md:grid-cols-3 gap-2 text-sm">
+                        <div class="flex justify-between"><span>纳斯达克中国金龙</span><span class="limit-up font-mono">+3.89%</span></div>
+                        <div class="flex justify-between"><span>金山云</span><span class="limit-up font-mono">+17.05%</span></div>
+                        <div class="flex justify-between"><span>阿里巴巴</span><span class="limit-up font-mono">+8.18%</span></div>
+                    </div>
+                </div>
+                <div class="bg-gold/10 border border-gold/20 rounded p-3">
+                    <div class="text-gold font-bold text-sm mb-1">🔥 光通信/CPO（A股映射重点）</div>
+                    <div class="text-xs text-gray-300">Coherent +7.95% · 康宁 +4.21% · Lumentum +3.14%</div>
+                    <div class="text-xs text-gray-500 mt-1">→ AI算力需求驱动，光模块产业链持续高景气</div>
+                </div>
+            </div>
+
+            <div class="glass rounded-lg p-5 mb-5">
+                <h2 class="text-lg font-bold mb-4 flex items-center gap-2 text-cyan-400">
+                    <i class="fas fa-newspaper"></i>
+                    政策风向
+                </h2>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-xs">
+                        <thead>
+                            <tr class="text-gray-400 border-b border-border">
+                                <th class="pb-2 text-left">日期</th>
+                                <th class="pb-2 text-left">政策/事件</th>
+                                <th class="pb-2 text-left">来源</th>
+                                <th class="pb-2 text-left">影响板块</th>
+                                <th class="pb-2 text-center">时效</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-gray-300">
+                            <tr class="border-b border-border/50">
+                                <td class="py-2 text-gray-400">05-15</td>
+                                <td class="py-2">央行开展3000亿元买断式逆回购（6个月期）</td>
+                                <td class="py-2 text-gray-400">央行公告</td>
+                                <td class="py-2">流动性</td>
+                                <td class="py-2 text-center"><span class="text-amber-400">⚠️常态化</span></td>
+                            </tr>
+                            <tr class="border-b border-border/50">
+                                <td class="py-2 text-gray-400">05-14</td>
+                                <td class="py-2">农业农村部修订《生猪产能综合调控实施方案》</td>
+                                <td class="py-2 text-gray-400">农业农村部</td>
+                                <td class="py-2">养殖</td>
+                                <td class="py-2 text-center"><span class="text-green-400">✅今日生效</span></td>
+                            </tr>
+                            <tr class="border-b border-border/50">
+                                <td class="py-2 text-gray-400">05-14</td>
+                                <td class="py-2">蒙娜丽莎风险提示：参股公司并非英伟达供应商</td>
+                                <td class="py-2 text-gray-400">公司公告</td>
+                                <td class="py-2">半导体</td>
+                                <td class="py-2 text-center"><span class="text-red-400">⚠️高标风险</span></td>
+                            </tr>
+                            <tr>
+                                <td class="py-2 text-gray-400">05-14</td>
+                                <td class="py-2">大唐发电7天6板后断板（跌2.31%）</td>
+                                <td class="py-2 text-gray-400">市场数据</td>
+                                <td class="py-2">电力</td>
+                                <td class="py-2 text-center"><span class="text-red-400">🔴高标承压</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="glass rounded-lg p-5 mb-5">
+                <h2 class="text-lg font-bold mb-4 flex items-center gap-2 text-gold">
+                    <i class="fas fa-crosshairs"></i>
+                    唯一主线锁定
+                </h2>
+                <div class="bg-gold/10 border border-gold/20 rounded-lg p-4 mb-3">
+                    <div class="text-gold font-bold text-lg mb-2">🔥 预判今日NO.1：光通信/CPO</div>
+                    <div class="text-sm text-gray-300 mb-2">
+                        <strong>双驱动逻辑：</strong><br/>
+                        ① 外围：美股光通信大涨（Coherent+7.95%，康宁+4.21%），纳指+1.2%创历史新高<br/>
+                        ② 中概股金龙指数+3.89%，科技情绪全面回暖<br/>
+                        ③ 电力板块高标断板，资金可能切换至科技线
+                    </div>
+                    <div class="text-xs text-gray-400">验证标准：09:25:30该板块出现 ≥2只一字板/秒板 → ✅锁定成功</div>
+                </div>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-2 text-xs text-gray-400">
+                    <div class="bg-card rounded p-2 text-center">
+                        <div class="text-red-400">❌ 电力/能源</div>
+                        <div>高标大唐发电断板，排除</div>
+                    </div>
+                    <div class="bg-card rounded p-2 text-center">
+                        <div class="text-red-400">❌ 大消费/养殖</div>
+                        <div>涨停数仅7只，排除</div>
+                    </div>
+                    <div class="bg-card rounded p-2 text-center">
+                        <div class="text-red-400">❌ 半导体</div>
+                        <div>高标风险提示，排除</div>
+                    </div>
+                    <div class="bg-gold/10 rounded p-2 text-center border border-gold/20">
+                        <div class="text-gold">✅ 光通信/CPO</div>
+                        <div>外围映射最强，锁定</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="glass rounded-lg p-5">
+                <h2 class="text-lg font-bold mb-4 flex items-center gap-2 text-amber-400">
+                    <i class="fas fa-history"></i>
+                    昨日涨停板块回顾
+                </h2>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-xs">
+                        <thead>
+                            <tr class="text-gray-400 border-b border-border">
+                                <th class="pb-2 text-left">板块</th>
+                                <th class="pb-2 text-center">涨停数</th>
+                                <th class="pb-2 text-left">最高标</th>
+                                <th class="pb-2 text-left">今日关注</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-gray-300">
+                            <tr class="border-b border-border/50">
+                                <td class="py-2 font-medium">电力/能源</td>
+                                <td class="py-2 text-center font-mono text-gold">13只</td>
+                                <td class="py-2">蒙娜丽莎5板</td>
+                                <td class="py-2 text-gray-400">大唐发电断板，板块分化，关注补涨而非追高</td>
+                            </tr>
+                            <tr class="border-b border-border/50">
+                                <td class="py-2 font-medium">大消费</td>
+                                <td class="py-2 text-center font-mono">7只</td>
+                                <td class="py-2">蒙娜丽莎5板</td>
+                                <td class="py-2 text-gray-400">养殖政策催化，华统股份/天邦食品等昨日已涨停</td>
+                            </tr>
+                            <tr class="border-b border-border/50">
+                                <td class="py-2 font-medium">半导体</td>
+                                <td class="py-2 text-center font-mono">5只</td>
+                                <td class="py-2">可川科技3板</td>
+                                <td class="py-2 text-gray-400">外围科技股大涨映射，但高标有风险提示</td>
+                            </tr>
+                            <tr class="border-b border-border/50">
+                                <td class="py-2 font-medium">机器人</td>
+                                <td class="py-2 text-center font-mono">4只</td>
+                                <td class="py-2">—</td>
+                                <td class="py-2 text-gray-400">持续性待观察</td>
+                            </tr>
+                            <tr>
+                                <td class="py-2 font-medium">周期/有色/化工</td>
+                                <td class="py-2 text-center font-mono">4只</td>
+                                <td class="py-2">—</td>
+                                <td class="py-2 text-gray-400">环氧丙烷涨价（泰和新材）</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- 早盘策略内容 -->
+        <div id="content-morning" class="tab-content hidden">
+            <!-- 情绪定位 -->
+            <div class="glass rounded-lg p-5 mb-5">
+                <h2 class="text-lg font-bold mb-4 flex items-center gap-2">
+                    <i class="fas fa-thermometer-half text-amber-400"></i>
+                    情绪定位
+                </h2>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-4">
+                    <div class="bg-card rounded p-3 text-center">
+                        <div class="text-xs text-gray-400">昨日涨停高开率</div>
+                        <div class="text-xl font-bold font-mono text-red-400 mt-1">11.1%</div>
+                        <div class="text-xs text-red-500/70">❄️ 低于30%</div>
+                    </div>
+                    <div class="bg-card rounded p-3 text-center">
+                        <div class="text-xs text-gray-400">一字板/秒板爆量</div>
+                        <div class="text-xl font-bold font-mono text-green-400 mt-1">0只</div>
+                        <div class="text-xs text-green-500/70">✅ 爆率&lt;30%</div>
+                    </div>
+                    <div class="bg-card rounded p-3 text-center">
+                        <div class="text-xs text-gray-400">量能达标率</div>
+                        <div class="text-xl font-bold font-mono text-amber-400 mt-1">9/54</div>
+                        <div class="text-xs text-amber-500/70">⚠️ 低于60%</div>
+                    </div>
+                    <div class="bg-card rounded p-3 text-center">
+                        <div class="text-xs text-gray-400">竞价涨停家数</div>
+                        <div class="text-xl font-bold font-mono text-red-400 mt-1">3家</div>
+                        <div class="text-xs text-red-500/70">❄️ 低于30只</div>
+                    </div>
+                </div>
+                <div class="bg-red-500/10 border border-red-500/20 rounded p-3 text-center">
+                    <span class="text-red-400 font-bold">🌡️ 情绪定位：⚠️ 分歧</span>
+                    <span class="text-gray-400 mx-2">|</span>
+                    <span class="text-amber-400 font-bold">建议仓位：总仓≤3成，单标≤1成</span>
+                </div>
+            </div>
+
+            <!-- 板块强度 -->
+            <div class="glass rounded-lg p-5 mb-5">
+                <h2 class="text-lg font-bold mb-4 flex items-center gap-2">
+                    <i class="fas fa-fire text-red-400"></i>
+                    板块强度实况
+                </h2>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-sm">
+                        <thead>
+                            <tr class="text-gray-400 text-xs border-b border-border">
+                                <th class="pb-2 text-left">排名</th>
+                                <th class="pb-2 text-left">板块名称</th>
+                                <th class="pb-2 text-center">涨停数</th>
+                                <th class="pb-2 text-left">最高标</th>
+                                <th class="pb-2 text-left">板块判定</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-xs">
+                            <tr class="border-b border-border/50">
+                                <td class="py-3 font-bold text-gold">TOP1</td>
+                                <td class="py-3 font-medium">大消费</td>
+                                <td class="py-3 text-center font-mono">4只</td>
+                                <td class="py-3">蒙娜丽莎(5板)</td>
+                                <td class="py-3"><span class="text-gold">🔥🔥 强势（身位龙+首板集群）</span></td>
+                            </tr>
+                            <tr class="border-b border-border/50">
+                                <td class="py-3 font-bold text-gold">TOP2</td>
+                                <td class="py-3 font-medium">电力/能源</td>
+                                <td class="py-3 text-center font-mono">2只</td>
+                                <td class="py-3">天富能源(1板)</td>
+                                <td class="py-3"><span class="text-amber-400">🔥 活跃（身位龙明确）</span></td>
+                            </tr>
+                            <tr>
+                                <td class="py-3 font-bold text-gold">TOP3</td>
+                                <td class="py-3 font-medium">液冷/服务器</td>
+                                <td class="py-3 text-center font-mono">2只</td>
+                                <td class="py-3">金富科技(1板)</td>
+                                <td class="py-3"><span class="text-amber-400">🔥 活跃（题材扩散）</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Mode A 核心买点 -->
+            <div class="glass rounded-lg p-5 mb-5">
+                <h2 class="text-lg font-bold mb-4 flex items-center gap-2 text-gold">
+                    <i class="fas fa-star"></i>
+                    Mode A：核心买点 ⭐⭐⭐⭐⭐
+                </h2>
+                <div class="space-y-3">
+                    <div class="bg-card rounded-lg p-4 border border-gold/20 pulse-gold">
+                        <div class="flex items-start justify-between mb-2">
+                            <div>
+                                <span class="text-gold font-bold text-lg">蒙娜丽莎</span>
+                                <span class="text-gray-400 text-sm ml-2">002918</span>
+                                <span class="text-xs bg-gold/20 text-gold px-2 py-0.5 rounded ml-2">5天5板</span>
+                            </div>
+                            <span class="text-xs bg-gold/20 text-gold px-2 py-1 rounded">✅ 超预期</span>
+                        </div>
+                        <div class="text-sm text-gray-300 mb-2">大消费-先进陶瓷 | 板块地位：大消费身位龙</div>
+                        <div class="text-xs text-gray-400 space-y-1">
+                            <div>• 体系匹配：预期7.0%，实际+9.98% ✅超预期，量能✅达标</div>
+                            <div>• 监管状态：🟡交易所关注</div>
+                            <div class="text-amber-400 mt-2">▸ 建议买点：分歧转一致上板（核心重仓）</div>
+                        </div>
+                    </div>
+
+                    <div class="bg-card rounded-lg p-4 border border-gold/20">
+                        <div class="flex items-start justify-between mb-2">
+                            <div>
+                                <span class="text-gold font-bold text-lg">威龙股份</span>
+                                <span class="text-gray-400 text-sm ml-2">603779</span>
+                                <span class="text-xs bg-gold/20 text-gold px-2 py-0.5 rounded ml-2">2天2板</span>
+                            </div>
+                            <span class="text-xs bg-gold/20 text-gold px-2 py-1 rounded">✅ 超预期</span>
+                        </div>
+                        <div class="text-sm text-gray-300 mb-2">大消费-淄博国资入主 | 板块地位：大消费身位龙</div>
+                        <div class="text-xs text-gray-400">
+                            <div>• 体系匹配：预期7.0%，实际+9.98% ✅超预期，量能✅达标</div>
+                            <div class="text-amber-400 mt-2">▸ 建议买点：分歧转一致上板（核心重仓）</div>
+                        </div>
+                    </div>
+
+                    <div class="bg-card rounded-lg p-4 border border-gold/20">
+                        <div class="flex items-start justify-between mb-2">
+                            <div>
+                                <span class="text-gold font-bold text-lg">金富科技</span>
+                                <span class="text-gray-400 text-sm ml-2">003018</span>
+                                <span class="text-xs bg-gold/20 text-gold px-2 py-0.5 rounded ml-2">1天1板</span>
+                            </div>
+                            <span class="text-xs bg-gold/20 text-gold px-2 py-1 rounded">✅ 超预期</span>
+                        </div>
+                        <div class="text-sm text-gray-300 mb-2">大消费-液冷并购 | 板块地位：大消费身位龙</div>
+                        <div class="text-xs text-gray-400">
+                            <div>• 体系匹配：预期7.0%，实际+10.01% ✅超预期，量能✅达标</div>
+                            <div class="text-amber-400 mt-2">▸ 建议买点：合格回封板（常规）</div>
+                        </div>
+                    </div>
+
+                    <div class="bg-card rounded-lg p-4 border border-gold/20">
+                        <div class="flex items-start justify-between mb-2">
+                            <div>
+                                <span class="text-gold font-bold text-lg">天富能源</span>
+                                <span class="text-gray-400 text-sm ml-2">600509</span>
+                                <span class="text-xs bg-gold/20 text-gold px-2 py-0.5 rounded ml-2">1天1板</span>
+                            </div>
+                            <span class="text-xs bg-gold/20 text-gold px-2 py-1 rounded">✅ 超预期</span>
+                        </div>
+                        <div class="text-sm text-gray-300 mb-2">电力/能源-电力 | 板块地位：电力/能源身位龙</div>
+                        <div class="text-xs text-gray-400">
+                            <div>• 体系匹配：预期6.0%，实际+6.49% ✅超预期，量能✅达标</div>
+                            <div class="text-amber-400 mt-2">▸ 建议买点：合格回封板（常规）</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mode B 观察区 -->
+            <div class="glass rounded-lg p-5 mb-5">
+                <h2 class="text-lg font-bold mb-4 flex items-center gap-2 text-amber-400">
+                    <i class="fas fa-eye"></i>
+                    Mode B：观察区 🟡
+                </h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
+                    <div class="bg-card rounded p-3 border border-amber-500/20">
+                        <div class="font-bold text-amber-400">华升股份</div>
+                        <div class="text-xs text-gray-400">600156 | 液冷服务器</div>
+                        <div class="text-xs text-gray-300 mt-1">预期7.0%，实际+4.86% ➖符合，量能✅</div>
+                        <div class="text-xs text-gray-500 mt-1">策略：等回封确认</div>
+                    </div>
+                    <div class="bg-card rounded p-3 border border-amber-500/20">
+                        <div class="font-bold text-amber-400">晶升股份</div>
+                        <div class="text-xs text-gray-400">688478 | 半导体</div>
+                        <div class="text-xs text-gray-300 mt-1">预期6.0%，实际+4.88% ➖符合，量能✅</div>
+                        <div class="text-xs text-gray-500 mt-1">策略：等回封确认</div>
+                    </div>
+                    <div class="bg-card rounded p-3 border border-amber-500/20">
+                        <div class="font-bold text-amber-400">中利集团</div>
+                        <div class="text-xs text-gray-400">002309 | 光伏储能</div>
+                        <div class="text-xs text-gray-300 mt-1">预期7.0%，实际+4.45% ➖符合，量能✅</div>
+                        <div class="text-xs text-gray-500 mt-1">策略：等回封确认</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mode C 禁止买入 -->
+            <div class="glass rounded-lg p-5 mb-5">
+                <h2 class="text-lg font-bold mb-4 flex items-center gap-2 text-red-400">
+                    <i class="fas fa-ban"></i>
+                    Mode C：绝对禁止买入 🚫
+                </h2>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-sm">
+                        <thead>
+                            <tr class="text-gray-400 text-xs border-b border-border">
+                                <th class="pb-2 text-left">名称</th>
+                                <th class="pb-2 text-left">代码</th>
+                                <th class="pb-2 text-left">禁止理由</th>
+                                <th class="pb-2 text-left">监管/涨幅</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-xs">
+                            <tr class="border-b border-border/50">
+                                <td class="py-2 text-red-400 font-medium">利仁科技</td>
+                                <td class="py-2 font-mono text-gray-400">001259</td>
+                                <td class="py-2 text-gray-300">无量高开骗炮</td>
+                                <td class="py-2 text-gray-400">⚪需观察</td>
+                            </tr>
+                            <tr class="border-b border-border/50">
+                                <td class="py-2 text-red-400 font-medium">京能电力</td>
+                                <td class="py-2 font-mono text-gray-400">600578</td>
+                                <td class="py-2 text-gray-300">无量高开骗炮</td>
+                                <td class="py-2 text-gray-400">-</td>
+                            </tr>
+                            <tr class="border-b border-border/50">
+                                <td class="py-2 text-red-400 font-medium">露笑科技</td>
+                                <td class="py-2 font-mono text-gray-400">002617</td>
+                                <td class="py-2 text-gray-300">无量高开骗炮</td>
+                                <td class="py-2 text-gray-400">-</td>
+                            </tr>
+                            <tr class="border-b border-border/50">
+                                <td class="py-2 text-red-400 font-medium">瑞玛精密</td>
+                                <td class="py-2 font-mono text-gray-400">002976</td>
+                                <td class="py-2 text-gray-300">无量高开骗炮</td>
+                                <td class="py-2 text-gray-400">-</td>
+                            </tr>
+                            <tr>
+                                <td class="py-2 text-red-400 font-medium">星德胜</td>
+                                <td class="py-2 font-mono text-gray-400">603344</td>
+                                <td class="py-2 text-gray-300">无量高开骗炮</td>
+                                <td class="py-2 text-gray-400">-</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- 仓位策略 -->
+            <div class="glass rounded-lg p-5">
+                <h2 class="text-lg font-bold mb-4 flex items-center gap-2 text-cyan-400">
+                    <i class="fas fa-shield-alt"></i>
+                    仓位策略
+                </h2>
+                <div class="bg-card rounded-lg p-4 text-center">
+                    <div class="text-3xl font-bold text-amber-400 mb-2">3-5成</div>
+                    <div class="text-sm text-gray-400">单标≤1成 | 总仓≤3成</div>
+                    <div class="mt-3 text-xs text-gray-500">
+                        <div class="inline-block bg-red-500/10 text-red-400 px-3 py-1 rounded mr-2">聚焦：主线核心</div>
+                        <div class="inline-block bg-green-500/10 text-green-400 px-3 py-1 rounded">回避：后排跟风</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 午间小结内容 -->
+        <div id="content-noon" class="tab-content hidden">
+            <div class="glass rounded-lg p-5 mb-5">
+                <h2 class="text-lg font-bold mb-4 flex items-center gap-2 text-cyan-400">
+                    <i class="fas fa-chart-bar"></i>
+                    大盘概况（截至12:22）
+                </h2>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-4">
+                    <div class="bg-card rounded p-3">
+                        <div class="text-xs text-gray-400">上证指数</div>
+                        <div class="text-xl font-bold font-mono limit-up">+0.12%</div>
+                        <div class="text-xs text-gray-500">4,183.06</div>
+                        <div class="text-xs text-gray-600">探底回升</div>
+                    </div>
+                    <div class="bg-card rounded p-3">
+                        <div class="text-xs text-gray-400">深证成指</div>
+                        <div class="text-xl font-bold font-mono limit-up">+0.24%</div>
+                        <div class="text-xs text-gray-500">15,783.18</div>
+                        <div class="text-xs text-gray-600">翻红</div>
+                    </div>
+                    <div class="bg-card rounded p-3">
+                        <div class="text-xs text-gray-400">创业板指</div>
+                        <div class="text-xl font-bold font-mono limit-up">+0.57%</div>
+                        <div class="text-xs text-gray-500">3,973.78</div>
+                        <div class="text-xs text-gray-600">从-2%拉回</div>
+                    </div>
+                    <div class="bg-card rounded p-3">
+                        <div class="text-xs text-gray-400">成交额</div>
+                        <div class="text-xl font-bold font-mono text-amber-400">2.17万亿</div>
+                        <div class="text-xs text-amber-500/70">缩量984亿 ⚠️</div>
+                    </div>
+                </div>
+                <div class="bg-amber-500/10 border border-amber-500/20 rounded p-3 text-center">
+                    <span class="text-amber-400 font-bold">🟡 市场情绪：探底回升</span>
+                    <span class="text-gray-400 mx-2">|</span>
+                    <span class="text-gray-300 text-sm">早盘低开低走，午后机器人/半导体/氟化工带动反弹</span>
+                </div>
+            </div>
+
+            <div class="glass rounded-lg p-5 mb-5">
+                <h2 class="text-lg font-bold mb-4 flex items-center gap-2 text-red-400">
+                    <i class="fas fa-fire-alt"></i>
+                    板块强度排名（TOP10）
+                </h2>
+                <div class="space-y-3">
+                    <div class="bg-card rounded-lg p-4 border-l-4 border-red-500">
+                        <div class="flex items-center justify-between mb-2">
+                            <div class="flex items-center gap-2">
+                                <span class="text-red-400 font-bold text-lg">TOP1</span>
+                                <span class="font-bold">机器人/减速器</span>
+                                <span class="text-xs bg-red-500/20 text-red-400 px-2 py-0.5 rounded">超级主线</span>
+                            </div>
+                            <span class="text-gold font-mono font-bold">+2.59%</span>
+                        </div>
+                        <div class="text-xs text-gray-400">涨停10+只 | 主力净流入+35.9亿 | 代表：巨轮智能、三丰智能、五洲新春、绿的谐波</div>
+                        <div class="text-xs text-gray-500 mt-1">驱动：机器人场景应用大赛（杭州）+减速器技术突破+特斯拉Optimus量产预期</div>
+                    </div>
+                    <div class="bg-card rounded-lg p-4 border-l-4 border-orange-500">
+                        <div class="flex items-center justify-between mb-2">
+                            <div class="flex items-center gap-2">
+                                <span class="text-orange-400 font-bold text-lg">TOP2</span>
+                                <span class="font-bold">氟化工/化学原料</span>
+                                <span class="text-xs bg-orange-500/20 text-orange-400 px-2 py-0.5 rounded">强势</span>
+                            </div>
+                            <span class="text-gold font-mono font-bold">+2.27%</span>
+                        </div>
+                        <div class="text-xs text-gray-400">涨停6+只 | 主力净流入+28.7亿 | 代表：多氟多、滨化股份、中欣氟材、金石资源</div>
+                        <div class="text-xs text-gray-500 mt-1">驱动：氟化工产品涨价+新能源材料需求+制冷剂配额约束</div>
+                    </div>
+                    <div class="bg-card rounded-lg p-4 border-l-4 border-amber-500">
+                        <div class="flex items-center justify-between mb-2">
+                            <div class="flex items-center gap-2">
+                                <span class="text-amber-400 font-bold text-lg">TOP3</span>
+                                <span class="font-bold">半导体/芯片</span>
+                                <span class="text-xs bg-amber-500/20 text-amber-400 px-2 py-0.5 rounded">强势</span>
+                            </div>
+                            <span class="text-gold font-mono font-bold">+1.99%</span>
+                        </div>
+                        <div class="text-xs text-gray-400">涨停3+只 | 主力净流入+8.4亿 | 代表：北方华创盘中涨停创历史新高、长电科技+7.73%</div>
+                        <div class="text-xs text-gray-500 mt-1">驱动：华为哈勃入股弥尔光半导体+国产替代加速+在手订单充足</div>
+                    </div>
+                    <div class="bg-card rounded-lg p-4 border-l-4 border-yellow-500">
+                        <div class="flex items-center justify-between mb-2">
+                            <div class="flex items-center gap-2">
+                                <span class="text-yellow-400 font-bold">TOP4</span>
+                                <span class="font-bold">消费电子</span>
+                                <span class="text-xs bg-yellow-500/20 text-yellow-400 px-2 py-0.5 rounded">强势</span>
+                            </div>
+                            <span class="text-gold font-mono font-bold">+1.34%</span>
+                        </div>
+                        <div class="text-xs text-gray-400">涨停2+只 | 主力净流入+27.7亿 | 代表：蓝思科技+7.46%、领益智造+6.65%</div>
+                        <div class="text-xs text-gray-500 mt-1">驱动：AI眼镜/智能硬件新品预期+苹果产业链复苏</div>
+                    </div>
+                    <div class="bg-card rounded-lg p-4 border-l-4 border-green-500">
+                        <div class="flex items-center justify-between mb-2">
+                            <div class="flex items-center gap-2">
+                                <span class="text-green-400 font-bold">TOP5</span>
+                                <span class="font-bold">白色家电</span>
+                                <span class="text-xs bg-green-500/20 text-green-400 px-2 py-0.5 rounded">活跃</span>
+                            </div>
+                            <span class="text-gold font-mono font-bold">+2.02%</span>
+                        </div>
+                        <div class="text-xs text-gray-400">涨停2+只 | 主力净流入+25.7亿 | 代表：利仁科技5连板（一字涨停）</div>
+                        <div class="text-xs text-gray-500 mt-1">驱动：以旧换新政策+消费复苏</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="glass rounded-lg p-5 mb-5">
+                <h2 class="text-lg font-bold mb-4 flex items-center gap-2 text-cyan-400">
+                    <i class="fas fa-bullhorn"></i>
+                    午间核心资讯
+                </h2>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-xs">
+                        <thead>
+                            <tr class="text-gray-400 border-b border-border">
+                                <th class="pb-2 text-center">时间</th>
+                                <th class="pb-2 text-left">资讯内容</th>
+                                <th class="pb-2 text-left">影响板块</th>
+                                <th class="pb-2 text-center">重要性</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-gray-300">
+                            <tr class="border-b border-border/50">
+                                <td class="py-2 text-center text-gray-400">12:03</td>
+                                <td class="py-2 font-medium">华为哈勃入股弥尔光半导体</td>
+                                <td class="py-2">半导体</td>
+                                <td class="py-2 text-center"><span class="text-gold">⭐⭐⭐</span></td>
+                            </tr>
+                            <tr class="border-b border-border/50">
+                                <td class="py-2 text-center text-gray-400">12:02</td>
+                                <td class="py-2">午评：创业板指探底回升涨0.57%，机器人概念股大涨</td>
+                                <td class="py-2">全局/机器人</td>
+                                <td class="py-2 text-center"><span class="text-gold">⭐⭐⭐</span></td>
+                            </tr>
+                            <tr class="border-b border-border/50">
+                                <td class="py-2 text-center text-gray-400">11:47</td>
+                                <td class="py-2">半日涨停71只、跌停21只；氟化工/减速器/电机概念走强</td>
+                                <td class="py-2">全局</td>
+                                <td class="py-2 text-center"><span class="text-gold">⭐⭐⭐</span></td>
+                            </tr>
+                            <tr class="border-b border-border/50">
+                                <td class="py-2 text-center text-gray-400">11:47</td>
+                                <td class="py-2">连板股：大唐发电8天7板，蒙娜丽莎6连板，利仁科技5连板</td>
+                                <td class="py-2">高标</td>
+                                <td class="py-2 text-center"><span class="text-gold">⭐⭐⭐</span></td>
+                            </tr>
+                            <tr class="border-b border-border/50">
+                                <td class="py-2 text-center text-gray-400">11:42</td>
+                                <td class="py-2">TD COWEN将博通目标价从405美元上调至500美元</td>
+                                <td class="py-2">美股/半导体</td>
+                                <td class="py-2 text-center">⭐⭐</td>
+                            </tr>
+                            <tr>
+                                <td class="py-2 text-center text-gray-400">11:24</td>
+                                <td class="py-2">港股存储概念股震荡上行，大普微涨超10%创新高</td>
+                                <td class="py-2">存储芯片</td>
+                                <td class="py-2 text-center">⭐⭐</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="glass rounded-lg p-5">
+                <h2 class="text-lg font-bold mb-4 flex items-center gap-2 text-amber-400">
+                    <i class="fas fa-clipboard-check"></i>
+                    早盘策略验证
+                </h2>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-sm">
+                        <thead>
+                            <tr class="text-gray-400 text-xs border-b border-border">
+                                <th class="pb-2 text-left">预判项</th>
+                                <th class="pb-2 text-left">09:25预判</th>
+                                <th class="pb-2 text-left">12:22实际</th>
+                                <th class="pb-2 text-center">验证</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-xs">
+                            <tr class="border-b border-border/50">
+                                <td class="py-2 font-bold">唯一主线</td>
+                                <td class="py-2 text-gray-300">光通信/CPO</td>
+                                <td class="py-2 text-red-400 font-bold">机器人/减速器</td>
+                                <td class="py-2 text-center"><span class="text-red-400">❌ 预判错误</span></td>
+                            </tr>
+                            <tr class="border-b border-border/50">
+                                <td class="py-2">验证标准</td>
+                                <td class="py-2 text-gray-300">光通信一字板≥2只</td>
+                                <td class="py-2 text-gray-300">光通信0只一字板</td>
+                                <td class="py-2 text-center"><span class="text-red-400">❌ 未达标</span></td>
+                            </tr>
+                            <tr class="border-b border-border/50">
+                                <td class="py-2">备选主线</td>
+                                <td class="py-2 text-gray-300">电力/能源</td>
+                                <td class="py-2 text-gray-300">电力大唐发电反包涨停</td>
+                                <td class="py-2 text-center"><span class="text-amber-400">⚠️ 部分正确</span></td>
+                            </tr>
+                            <tr>
+                                <td class="py-2">实际最强</td>
+                                <td class="py-2 text-gray-300">—</td>
+                                <td class="py-2 text-red-400 font-bold">机器人（10+涨停，+35.9亿流入）</td>
+                                <td class="py-2 text-center"><span class="text-green-400">✅ 事实确认</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="mt-3 bg-amber-500/10 border border-amber-500/20 rounded p-3">
+                    <div class="text-amber-400 text-sm font-bold mb-1">⚠️ 验证结论</div>
+                    <div class="text-xs text-gray-300">早盘预判"光通信/CPO"为唯一主线，实际最强为"机器人/减速器"。光通信外围映射未转化为A股一字板，资金切换至机器人。验证失败，但备选主线电力部分正确（大唐发电反包涨停）。</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 深度复盘内容 -->
+        <div id="content-review" class="tab-content hidden">
+            <!-- 情绪周期 -->
+            <div class="glass rounded-lg p-5 mb-5">
+                <h2 class="text-lg font-bold mb-4 flex items-center gap-2">
+                    <i class="fas fa-chart-pie text-cyan-400"></i>
+                    情绪周期定位
+                </h2>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-4">
+                    <div class="bg-card rounded p-3">
+                        <div class="text-xs text-gray-400">涨停数</div>
+                        <div class="text-xl font-bold font-mono text-gold">72只</div>
+                        <div class="text-xs text-gray-500">昨日: 80只</div>
+                    </div>
+                    <div class="bg-card rounded p-3">
+                        <div class="text-xs text-gray-400">连板高度</div>
+                        <div class="text-xl font-bold font-mono text-gold">6板</div>
+                        <div class="text-xs text-gray-500">昨日: 5板</div>
+                    </div>
+                    <div class="bg-card rounded p-3">
+                        <div class="text-xs text-gray-400">昨日今溢价</div>
+                        <div class="text-xl font-bold font-mono text-amber-400">41.2%</div>
+                        <div class="text-xs text-amber-500/70">分化严重</div>
+                    </div>
+                    <div class="bg-card rounded p-3">
+                        <div class="text-xs text-gray-400">两市成交额</div>
+                        <div class="text-xl font-bold font-mono text-cyan-400">4,227亿</div>
+                    </div>
+                </div>
+                <div class="bg-amber-500/10 border border-amber-500/20 rounded p-3 text-center">
+                    <span class="text-amber-400 font-bold text-lg">🟡 中性偏弱（50/100）</span>
+                    <div class="text-sm text-gray-400 mt-1">指数全线收跌，但涨停数维持72只，情绪未崩溃</div>
+                </div>
+            </div>
+
+            <!-- 连板梯队 -->
+            <div class="glass rounded-lg p-5 mb-5">
+                <h2 class="text-lg font-bold mb-4 flex items-center gap-2 text-gold">
+                    <i class="fas fa-layer-group"></i>
+                    连板梯队
+                </h2>
+                <div class="space-y-3">
+                    <div class="bg-card rounded-lg p-4 border border-gold/30 pulse-gold">
+                        <div class="flex items-center justify-between mb-2">
+                            <div class="flex items-center gap-3">
+                                <span class="text-2xl font-bold text-gold">6板</span>
+                                <span class="font-bold text-lg">蒙娜丽莎</span>
+                                <span class="text-xs text-gray-400">先进陶瓷+建筑陶瓷</span>
+                            </div>
+                            <span class="text-xs bg-amber-500/20 text-amber-400 px-2 py-1 rounded">⚠️ 烂板4炸</span>
+                        </div>
+                        <div class="flex gap-4 text-xs text-gray-400">
+                            <span>封单: 0.63亿</span>
+                            <span>开板: 4次</span>
+                            <span class="text-amber-400">大消费</span>
+                        </div>
+                    </div>
+                    <div class="bg-card rounded-lg p-4 border border-gold/20">
+                        <div class="flex items-center justify-between mb-2">
+                            <div class="flex items-center gap-3">
+                                <span class="text-2xl font-bold text-gold">5板</span>
+                                <span class="font-bold text-lg">利仁科技</span>
+                                <span class="text-xs text-gray-400">股份转让+小家电</span>
+                            </div>
+                            <span class="text-xs bg-green-500/20 text-green-400 px-2 py-1 rounded">✅ 一字板</span>
+                        </div>
+                        <div class="flex gap-4 text-xs text-gray-400">
+                            <span>封单: 2.81亿</span>
+                            <span>开板: 0次</span>
+                            <span class="text-amber-400">大消费</span>
+                        </div>
+                    </div>
+                    <div class="bg-card rounded-lg p-4 border border-gray-500/20 bg-gray-500/5">
+                        <div class="flex items-center justify-between mb-2">
+                            <div class="flex items-center gap-3">
+                                <span class="text-2xl font-bold text-gray-400">4板</span>
+                                <span class="font-bold text-lg text-gray-500">— 空缺 —</span>
+                            </div>
+                            <span class="text-xs bg-gray-500/20 text-gray-400 px-2 py-1 rounded">🚫 断层</span>
+                        </div>
+                        <div class="text-xs text-gray-500">今日无4板标的，梯队出现断层，中位板风险极高</div>
+                    </div>
+                    <div class="bg-card rounded-lg p-4 border border-gold/20">
+                        <div class="flex items-center justify-between mb-2">
+                            <div class="flex items-center gap-3">
+                                <span class="text-2xl font-bold text-gold">3板</span>
+                                <span class="font-bold text-lg">威龙股份</span>
+                                <span class="text-xs text-gray-400">淄博国资入主+复牌</span>
+                            </div>
+                            <span class="text-xs bg-green-500/20 text-green-400 px-2 py-1 rounded">✅ 一字板</span>
+                        </div>
+                        <div class="flex gap-4 text-xs text-gray-400">
+                            <span>封单: 3.68亿</span>
+                            <span>开板: 0次</span>
+                            <span class="text-amber-400">大消费</span>
+                        </div>
+                    </div>
+                    <div class="bg-card rounded-lg p-4 border border-red-500/30">
+                        <div class="flex items-center justify-between mb-2">
+                            <div class="flex items-center gap-3">
+                                <span class="text-2xl font-bold text-gold">3板</span>
+                                <span class="font-bold text-lg">京能电力</span>
+                                <span class="text-xs text-gray-400">风光火储+绿电转型</span>
+                            </div>
+                            <span class="text-xs bg-red-500/20 text-red-400 px-2 py-1 rounded">❌ 36次炸板</span>
+                        </div>
+                        <div class="flex gap-4 text-xs text-gray-400">
+                            <span>封单: 0.24亿</span>
+                            <span>开板: 36次</span>
+                            <span class="text-amber-400">电力/能源</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 板块效应 -->
+            <div class="glass rounded-lg p-5 mb-5">
+                <h2 class="text-lg font-bold mb-4 flex items-center gap-2 text-red-400">
+                    <i class="fas fa-fire-alt"></i>
+                    板块效应分析
+                </h2>
+                <div id="sectorChart" style="width:100%;height:300px;"></div>
+                <div class="mt-4 grid grid-cols-2 md:grid-cols-4 gap-2 text-xs">
+                    <div class="bg-card rounded p-2 text-center border-t-2 border-red-400">
+                        <div class="text-red-400 font-bold">机器人</div>
+                        <div class="text-gray-400">18涨停 | 57.6分</div>
+                    </div>
+                    <div class="bg-card rounded p-2 text-center border-t-2 border-orange-400">
+                        <div class="text-orange-400 font-bold">氟化工</div>
+                        <div class="text-gray-400">10涨停 | 32.0分</div>
+                    </div>
+                    <div class="bg-card rounded p-2 text-center border-t-2 border-amber-400">
+                        <div class="text-amber-400 font-bold">大消费</div>
+                        <div class="text-gray-400">8涨停 | 25.6分</div>
+                    </div>
+                    <div class="bg-card rounded p-2 text-center border-t-2 border-green-400">
+                        <div class="text-green-400 font-bold">半导体</div>
+                        <div class="text-gray-400">5涨停 | 16.0分</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 涨停时间分布 -->
+            <div class="glass rounded-lg p-5 mb-5">
+                <h2 class="text-lg font-bold mb-4 flex items-center gap-2 text-cyan-400">
+                    <i class="fas fa-clock"></i>
+                    涨停时间分布
+                </h2>
+                <div id="timeChart" style="width:100%;height:250px;"></div>
+            </div>
+
+            <!-- 实盘回顾 -->
+            <div class="glass rounded-lg p-5 mb-5">
+                <h2 class="text-lg font-bold mb-4 flex items-center gap-2 text-green-400">
+                    <i class="fas fa-bullseye"></i>
+                    今日实盘回顾
+                </h2>
+                <div class="mb-4">
+                    <h3 class="text-sm font-bold text-gold mb-2">Mode A 命中率</h3>
+                    <div class="bg-card rounded p-3">
+                        <div class="flex justify-between text-sm mb-2">
+                            <span>命中: 2只</span>
+                            <span>未命中: 2只</span>
+                            <span class="font-bold text-gold">命中率: 50.0%</span>
+                        </div>
+                        <div class="w-full bg-border rounded h-2">
+                            <div class="bg-gold h-2 rounded" style="width:50%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-sm font-bold text-gold mb-2">Mode C 拦截率</h3>
+                    <div class="bg-card rounded p-3">
+                        <div class="flex justify-between text-sm mb-2">
+                            <span>成功: 3只</span>
+                            <span>误判: 2只</span>
+                            <span class="font-bold text-gold">拦截率: 60.0%</span>
+                        </div>
+                        <div class="w-full bg-border rounded h-2">
+                            <div class="bg-gold h-2 rounded" style="width:60%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 明日策略 -->
+            <div class="glass rounded-lg p-5">
+                <h2 class="text-lg font-bold mb-4 flex items-center gap-2 text-amber-400">
+                    <i class="fas fa-chess-knight"></i>
+                    明日策略（2026-05-18 周一）
+                </h2>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-sm">
+                        <thead>
+                            <tr class="text-gray-400 text-xs border-b border-border">
+                                <th class="pb-2 text-left">梯队</th>
+                                <th class="pb-2 text-left">标的</th>
+                                <th class="pb-2 text-left">今日状态</th>
+                                <th class="pb-2 text-left">明日预判</th>
+                                <th class="pb-2 text-left">策略</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-xs">
+                            <tr class="border-b border-border/50">
+                                <td class="py-2 font-bold text-red-400">6进7</td>
+                                <td class="py-2 font-medium">蒙娜丽莎</td>
+                                <td class="py-2 text-gray-300">6板，烂板4炸</td>
+                                <td class="py-2 text-gray-300">监管压力极大</td>
+                                <td class="py-2"><span class="text-red-400 font-bold">🚫严禁参与</span></td>
+                            </tr>
+                            <tr class="border-b border-border/50">
+                                <td class="py-2 font-bold text-amber-400">5进6</td>
+                                <td class="py-2 font-medium">利仁科技</td>
+                                <td class="py-2 text-gray-300">5板，一字</td>
+                                <td class="py-2 text-gray-300">无量，注意开板</td>
+                                <td class="py-2"><span class="text-amber-400">⚠️观望，不主动</span></td>
+                            </tr>
+                            <tr class="border-b border-border/50">
+                                <td class="py-2 font-bold text-gold">3进4</td>
+                                <td class="py-2 font-medium">威龙股份</td>
+                                <td class="py-2 text-gray-300">3板，一字</td>
+                                <td class="py-2 text-gray-300">复牌+国资，有故事</td>
+                                <td class="py-2"><span class="text-amber-400">🟡若分歧转一致可观察</span></td>
+                            </tr>
+                            <tr class="border-b border-border/50">
+                                <td class="py-2 font-bold text-red-400">3进4</td>
+                                <td class="py-2 font-medium">京能电力</td>
+                                <td class="py-2 text-gray-300">3板，36炸</td>
+                                <td class="py-2 text-gray-300">烂板王，出货信号</td>
+                                <td class="py-2"><span class="text-red-400 font-bold">🚫严禁参与</span></td>
+                            </tr>
+                            <tr>
+                                <td class="py-2 font-bold text-gold">2进3</td>
+                                <td class="py-2 font-medium">北自科技</td>
+                                <td class="py-2 text-gray-300">2板，机器人</td>
+                                <td class="py-2 text-gray-300">机器人身位龙</td>
+                                <td class="py-2"><span class="text-amber-400">🟡若板块持续可观察</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="mt-4 bg-red-500/10 border border-red-500/20 rounded p-3">
+                    <div class="text-red-400 font-bold mb-2">🔴 风控要点</div>
+                    <ul class="text-xs text-gray-300 space-y-1">
+                        <li>• 高标监管风险：蒙娜丽莎6板+烂板4炸+交易所关注，严禁参与</li>
+                        <li>• 京能电力36次炸板：历史级烂板，明日低开概率极高</li>
+                        <li>• 指数全线收跌：上证-1.02%、深证-1.17%，明日若继续下跌需控仓</li>
+                        <li>• 昨日今溢价仅41.2%：中位板风险大，断板股占比58.8%</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- 午间小结内容 -->
+        <div id="content-noon" class="tab-content hidden">
+            <div class="glass rounded-lg p-5 mb-5">
+                <h2 class="text-lg font-bold mb-4 flex items-center gap-2 text-gold">
+                    <i class="fas fa-dragon"></i>
+                    首板策略 V4.0 · 五维评分精算
+                </h2>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-4">
+                    <div class="bg-card rounded p-3 text-center">
+                        <div class="text-xs text-gray-400">候选池</div>
+                        <div class="text-xl font-bold font-mono text-gold">Top5</div>
+                        <div class="text-xs text-gray-500">满分140分制</div>
+                    </div>
+                    <div class="bg-card rounded p-3 text-center">
+                        <div class="text-xs text-gray-400">新高突破</div>
+                        <div class="text-xl font-bold font-mono text-gold">1+4</div>
+                        <div class="text-xs text-gray-500">350日新高+60日新高</div>
+                    </div>
+                    <div class="bg-card rounded p-3 text-center">
+                        <div class="text-xs text-gray-400">涨跌家数</div>
+                        <div class="text-xl font-bold font-mono text-gold">51.2%</div>
+                        <div class="text-xs text-gray-500">涨2724 | 跌2598</div>
+                    </div>
+                    <div class="bg-card rounded p-3 text-center">
+                        <div class="text-xs text-gray-400">情绪节点</div>
+                        <div class="text-xl font-bold font-mono text-gold">高潮日</div>
+                        <div class="text-xs text-gray-500">大盘节点+20分</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Top1 泰晶科技 -->
+            <div class="glass rounded-lg p-5 mb-5">
+                <div class="flex items-center justify-between mb-4">
+                    <div class="flex items-center gap-3">
+                        <span class="text-2xl font-bold text-gold">🥇 Top 1</span>
+                        <span class="font-bold text-xl">泰晶科技</span>
+                        <span class="text-gray-400 font-mono">603738</span>
+                        <span class="text-xs bg-gold/20 text-gold px-2 py-1 rounded">光通信</span>
+                    </div>
+                    <div class="text-right">
+                        <div class="text-2xl font-bold font-mono text-gold">98分</div>
+                        <div class="text-xs text-gold">良好(80-99)</div>
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-5 gap-3 mb-4">
+                    <div class="bg-card rounded p-3">
+                        <div class="text-xs text-gray-400 mb-1">① 大盘节点</span></div>
+                        <div class="text-xl font-bold font-mono text-gold">20/20</div>
+                        <div class="text-xs text-gray-500">情绪高潮日+20分</div>
+                    </div>
+                    <div class="bg-card rounded p-3">
+                        <div class="text-xs text-gray-400 mb-1">② 板块强度</span></div>
+                        <div class="text-xl font-bold font-mono text-red-400">0/40</div>
+                        <div class="text-xs text-gray-500">光通信0只涨停-弱势</div>
+                    </div>
+                    <div class="bg-card rounded p-3">
+                        <div class="text-xs text-gray-400 mb-1">③ 人气辨识度</span></div>
+                        <div class="text-xl font-bold font-mono text-gold">20/20</div>
+                        <div class="text-xs text-gray-500">历史龙头/高辨识度</div>
+                    </div>
+                    <div class="bg-card rounded p-3">
+                        <div class="text-xs text-gray-400 mb-1">④ 分时特征</span></div>
+                        <div class="text-xl font-bold font-mono text-gold">18/20</div>
+                        <div class="text-xs text-gray-500">09:34涨停,0炸</div>
+                    </div>
+                    <div class="bg-card rounded p-3">
+                        <div class="text-xs text-gray-400 mb-1">⑤ 价格结构</span></div>
+                        <div class="text-xl font-bold font-mono text-gold">40/40</div>
+                        <div class="text-xs text-gray-500">58.28元,350日新高</div>
+                    </div>
+                </div>
+                <div class="bg-card rounded p-3 mb-3">
+                    <div class="text-xs font-bold text-gray-300 mb-2">四类超预期信号验证</div>
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-2 text-xs">
+                        <div class="bg-gray-800/50 rounded p-2 text-center">
+                            <div class="text-gray-400">竞价超预期</div>
+                            <div class="text-red-400">□ 未触发</div>
+                        </div>
+                        <div class="bg-gray-800/50 rounded p-2 text-center">
+                            <div class="text-gray-400">分时超预期</div>
+                            <div class="text-red-400">□ 未触发</div>
+                        </div>
+                        <div class="bg-green-500/10 rounded p-2 text-center border border-green-500/20">
+                            <div class="text-gray-400">封单超预期</div>
+                            <div class="text-green-400 font-bold">✅ 2.95亿</div>
+                        </div>
+                        <div class="bg-green-500/10 rounded p-2 text-center border border-green-500/20">
+                            <div class="text-gray-400">扛跌超预期</div>
+                            <div class="text-green-400 font-bold">✅ 涨停股无数据</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gold/10 border border-gold/20 rounded p-3">
+                    <div class="text-gold font-bold text-sm mb-1">▸ 策略判定</div>
+                    <div class="text-xs text-gray-300">买点：已涨停，等开板回封（不打半路）；或次日竞价关注 | 仓位：首板仓位≤0.8成（情绪高潮日） | 纪律：次日无论盈亏开盘即出（不格局）</div>
+                </div>
+            </div>
+
+            <!-- Top2 万通发展 -->
+            <div class="glass rounded-lg p-5 mb-5">
+                <div class="flex items-center justify-between mb-4">
+                    <div class="flex items-center gap-3">
+                        <span class="text-2xl font-bold text-gray-300">🥈 Top 2</span>
+                        <span class="font-bold text-xl">万通发展</span>
+                        <span class="text-gray-400 font-mono">600246</span>
+                        <span class="text-xs bg-cyan-500/20 text-cyan-400 px-2 py-1 rounded">商业航天/军工/低空</span>
+                    </div>
+                    <div class="text-right">
+                        <div class="text-2xl font-bold font-mono text-cyan-400">76分</div>
+                        <div class="text-xs text-cyan-400">合格(70-79)</div>
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-5 gap-3 mb-4">
+                    <div class="bg-card rounded p-3"><div class="text-xs text-gray-400">大盘节点</div><div class="text-xl font-bold font-mono text-gold">20/20</div></div>
+                    <div class="bg-card rounded p-3"><div class="text-xs text-gray-400">板块强度</div><div class="text-xl font-bold font-mono text-red-400">0/40</div><div class="text-xs text-gray-500">0只涨停-弱势</div></div>
+                    <div class="bg-card rounded p-3"><div class="text-xs text-gray-400">人气辨识度</div><div class="text-xl font-bold font-mono text-gold">20/20</div><div class="text-xs text-gray-500">历史龙头</div></div>
+                    <div class="bg-card rounded p-3"><div class="text-xs text-gray-400">分时特征</div><div class="text-xl font-bold font-mono text-cyan-400">16/20</div><div class="text-xs text-gray-500">09:38涨停,0炸</div></div>
+                    <div class="bg-card rounded p-3"><div class="text-xs text-gray-400">价格结构</div><div class="text-xl font-bold font-mono text-cyan-400">20/40</div><div class="text-xs text-gray-500">60日新高</div></div>
+                </div>
+                <div class="bg-card rounded p-3 mb-3">
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-2 text-xs">
+                        <div class="bg-gray-800/50 rounded p-2 text-center"><div class="text-gray-400">竞价超预期</div><div class="text-red-400">□ 未触发</div></div>
+                        <div class="bg-gray-800/50 rounded p-2 text-center"><div class="text-gray-400">分时超预期</div><div class="text-red-400">□ 未触发</div></div>
+                        <div class="bg-green-500/10 rounded p-2 text-center border border-green-500/20"><div class="text-gray-400">封单超预期</div><div class="text-green-400 font-bold">✅ 2.39亿</div></div>
+                        <div class="bg-green-500/10 rounded p-2 text-center border border-green-500/20"><div class="text-gray-400">扛跌超预期</div><div class="text-green-400 font-bold">✅ 无数据</div></div>
+                    </div>
+                </div>
+                <div class="bg-cyan-500/10 border border-cyan-500/20 rounded p-3">
+                    <div class="text-cyan-400 font-bold text-sm mb-1">▸ 策略判定</div>
+                    <div class="text-xs text-gray-300">买点：等开板回封（不打半路） | 仓位：≤0.5成 | 纪律：次日开盘即出</div>
+                </div>
+            </div>
+
+            <!-- Top3-5 简化展示 -->
+            <div class="glass rounded-lg p-5 mb-5">
+                <h3 class="text-sm font-bold text-gray-300 mb-4">🥉 Top 3-5 概览</h3>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-sm">
+                        <thead>
+                            <tr class="text-gray-400 text-xs border-b border-border">
+                                <th class="pb-2 text-left">排名</th>
+                                <th class="pb-2 text-left">标的</th>
+                                <th class="pb-2 text-left">板块</th>
+                                <th class="pb-2 text-center">总分</th>
+                                <th class="pb-2 text-center">大盘</th>
+                                <th class="pb-2 text-center">板块</th>
+                                <th class="pb-2 text-center">人气</th>
+                                <th class="pb-2 text-center">分时</th>
+                                <th class="pb-2 text-center">价格</th>
+                                <th class="pb-2 text-center">评级</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-xs">
+                            <tr class="border-b border-border/50">
+                                <td class="py-2 font-bold text-amber-400">Top 3</td>
+                                <td class="py-2">红豆股份 <span class="text-gray-400 font-mono">600400</span></td>
+                                <td class="py-2">商业航天/军工/低空</td>
+                                <td class="py-2 text-center font-mono font-bold text-amber-400">73</td>
+                                <td class="py-2 text-center">20</td>
+                                <td class="py-2 text-center text-red-400">0</td>
+                                <td class="py-2 text-center">15</td>
+                                <td class="py-2 text-center">18</td>
+                                <td class="py-2 text-center">20</td>
+                                <td class="py-2 text-center"><span class="text-amber-400">合格</span></td>
+                            </tr>
+                            <tr class="border-b border-border/50">
+                                <td class="py-2 font-bold text-amber-400">Top 4</td>
+                                <td class="py-2">江化微 <span class="text-gray-400 font-mono">603078</span></td>
+                                <td class="py-2">半导体</td>
+                                <td class="py-2 text-center font-mono font-bold text-amber-400">71</td>
+                                <td class="py-2 text-center">20</td>
+                                <td class="py-2 text-center text-red-400">0</td>
+                                <td class="py-2 text-center">15</td>
+                                <td class="py-2 text-center">16</td>
+                                <td class="py-2 text-center">20</td>
+                                <td class="py-2 text-center"><span class="text-amber-400">合格</span></td>
+                            </tr>
+                            <tr>
+                                <td class="py-2 font-bold text-gray-400">Top 5</td>
+                                <td class="py-2">中巨芯 <span class="text-gray-400 font-mono">688549</span></td>
+                                <td class="py-2">半导体</td>
+                                <td class="py-2 text-center font-mono font-bold text-gray-400">60</td>
+                                <td class="py-2 text-center">20</td>
+                                <td class="py-2 text-center text-red-400">0</td>
+                                <td class="py-2 text-center text-red-400">0</td>
+                                <td class="py-2 text-center">20</td>
+                                <td class="py-2 text-center">20</td>
+                                <td class="py-2 text-center"><span class="text-gray-400">不合格</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- 板块强度总览 -->
+            <div class="glass rounded-lg p-5 mb-5">
+                <h2 class="text-lg font-bold mb-4 flex items-center gap-2 text-cyan-400">
+                    <i class="fas fa-layer-group"></i>
+                    板块强度总览（9:42前）
+                </h2>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-xs">
+                        <thead>
+                            <tr class="text-gray-400 border-b border-border">
+                                <th class="pb-2 text-left">板块</th>
+                                <th class="pb-2 text-center">一字板</th>
+                                <th class="pb-2 text-center">9:42前涨停</th>
+                                <th class="pb-2 text-center">板块强度</th>
+                                <th class="pb-2 text-center">热度</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-gray-300">
+                            <tr class="border-b border-border/50">
+                                <td class="py-2 font-medium">电子</td>
+                                <td class="py-2 text-center">1只</td>
+                                <td class="py-2 text-center">6只</td>
+                                <td class="py-2 text-center font-mono text-gold">25分</td>
+                                <td class="py-2 text-center"><span class="text-amber-400">🟡 强势板块</span></td>
+                            </tr>
+                            <tr class="border-b border-border/50">
+                                <td class="py-2 font-medium">基础化工</td>
+                                <td class="py-2 text-center">2只</td>
+                                <td class="py-2 text-center">6只</td>
+                                <td class="py-2 text-center font-mono text-gold">25分</td>
+                                <td class="py-2 text-center"><span class="text-amber-400">🟡 强势板块</span></td>
+                            </tr>
+                            <tr class="border-b border-border/50">
+                                <td class="py-2 font-medium">机械设备</td>
+                                <td class="py-2 text-center">1只</td>
+                                <td class="py-2 text-center">3只</td>
+                                <td class="py-2 text-center font-mono text-gold">20分</td>
+                                <td class="py-2 text-center"><span class="text-amber-400">🟡 强势板块</span></td>
+                            </tr>
+                            <tr class="border-b border-border/50">
+                                <td class="py-2 font-medium">轻工制造</td>
+                                <td class="py-2 text-center">1只</td>
+                                <td class="py-2 text-center">4只</td>
+                                <td class="py-2 text-center font-mono text-gold">20分</td>
+                                <td class="py-2 text-center"><span class="text-amber-400">🟡 强势板块</span></td>
+                            </tr>
+                            <tr class="border-b border-border/50">
+                                <td class="py-2 font-medium">通信</td>
+                                <td class="py-2 text-center">1只</td>
+                                <td class="py-2 text-center">2只</td>
+                                <td class="py-2 text-center font-mono text-amber-400">15分</td>
+                                <td class="py-2 text-center"><span class="text-green-400">🟢 一般活跃</span></td>
+                            </tr>
+                            <tr>
+                                <td class="py-2 font-medium">房地产</td>
+                                <td class="py-2 text-center">0只</td>
+                                <td class="py-2 text-center">2只</td>
+                                <td class="py-2 text-center font-mono text-gray-400">5分</td>
+                                <td class="py-2 text-center"><span class="text-gray-400">⚪ 弱势</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- 超预期首板铁律 -->
+            <div class="glass rounded-lg p-5">
+                <h2 class="text-lg font-bold mb-4 flex items-center gap-2 text-red-400">
+                    <i class="fas fa-gavel"></i>
+                    超预期首板铁律（必执行）
+                </h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+                    <div class="bg-red-500/10 border border-red-500/20 rounded p-3">
+                        <div class="text-red-400 font-bold text-sm mb-1">1. 只做纯首板</div>
+                        <div class="text-xs text-gray-300">近2日无涨停记录（已剔前日涨停股）</div>
+                    </div>
+                    <div class="bg-red-500/10 border border-red-500/20 rounded p-3">
+                        <div class="text-red-400 font-bold text-sm mb-1">2. 只等回封</div>
+                        <div class="text-xs text-gray-300">已涨停标的等开板补量回封，不打半路</div>
+                    </div>
+                    <div class="bg-red-500/10 border border-red-500/20 rounded p-3">
+                        <div class="text-red-400 font-bold text-sm mb-1">3. 板块必配</div>
+                        <div class="text-xs text-gray-300">无板块支撑（同题材<3家涨停）直接剔除</div>
+                    </div>
+                    <div class="bg-amber-500/10 border border-amber-500/20 rounded p-3">
+                        <div class="text-amber-400 font-bold text-sm mb-1">4. 次日必出</div>
+                        <div class="text-xs text-gray-300">无论盈亏，次日开盘即止盈止损（不格局）</div>
+                    </div>
+                    <div class="bg-amber-500/10 border border-amber-500/20 rounded p-3">
+                        <div class="text-amber-400 font-bold text-sm mb-1">5. 仓位严控</div>
+                        <div class="text-xs text-gray-300">首板总仓位≤1成，单标≤0.5成</div>
+                    </div>
+                    <div class="bg-green-500/10 border border-green-500/20 rounded p-3">
+                        <div class="text-green-400 font-bold text-sm mb-1">6. 五维评分≥70</div>
+                        <div class="text-xs text-gray-300">低于70分直接剔除，不做不合格标的</div>
+                    </div>
+                </div>
+                <div class="mt-4 bg-card rounded p-3 text-center">
+                    <div class="text-xs text-gray-500">数据源: 问财API + 金融数据Skills | 生成时间: 09:42:47 | V4.0问财五维评分</div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+
+        <!-- 游资复盘内容 -->
+        <div id="content-youthu" class="tab-content hidden">
+            <div class="glass rounded-lg p-5 mb-5">
+                <h2 class="text-lg font-bold mb-4 flex items-center gap-2 text-gold">
+                    <i class="fas fa-dragon"></i>
+                    顶级游资复盘 · 只抓3个东西
+                </h2>
+                <div class="bg-gold/10 border border-gold/20 rounded-lg p-4 mb-4">
+                    <div class="text-gold font-bold text-lg mb-2">💡 核心逻辑</div>
+                    <div class="text-sm text-gray-300">① 情绪周期 → ② 龙头是谁 → ③ 明天怎么玩</div>
+                </div>
+            </div>
+
+            <!-- 指数环境 -->
+            <div class="glass rounded-lg p-5 mb-5">
+                <h2 class="text-lg font-bold mb-4 flex items-center gap-2 text-cyan-400">
+                    <i class="fas fa-chart-line"></i>
+                    一、指数环境
+                </h2>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-4">
+                    <div class="bg-card rounded p-3"><div class="text-xs text-gray-400">上证指数</div><div class="text-xl font-bold font-mono limit-down">-1.02%</div><div class="text-xs text-gray-500">震荡下跌</div></div>
+                    <div class="bg-card rounded p-3"><div class="text-xs text-gray-400">深成指</div><div class="text-xl font-bold font-mono limit-down">-1.17%</div><div class="text-xs text-gray-500">震荡下跌</div></div>
+                    <div class="bg-card rounded p-3"><div class="text-xs text-gray-400">创业板指</div><div class="text-xl font-bold font-mono limit-down">-0.56%</div><div class="text-xs text-gray-500">跌幅较小</div></div>
+                    <div class="bg-card rounded p-3"><div class="text-xs text-gray-400">科创50</div><div class="text-xl font-bold font-mono limit-down">-1.67%</div><div class="text-xs text-gray-500">大跌</div></div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-3 mb-3">
+                    <div class="bg-card rounded p-3"><div class="text-xs text-gray-400">成交额</div><div class="text-xl font-bold font-mono text-amber-400">~4,227亿</div><div class="text-xs text-amber-500/70">缩量 ⚠️</div></div>
+                    <div class="bg-card rounded p-3"><div class="text-xs text-gray-400">市场风格</div><div class="text-xl font-bold font-mono text-gold">题材行情</div><div class="text-xs text-gray-500">机器人/氟化工</div></div>
+                </div>
+                <div class="bg-red-500/10 border border-red-500/20 rounded p-3 text-center">
+                    <span class="text-red-400 font-bold">🔴 缩量下跌 → 弱势整理，多头观望</span>
+                </div>
+            </div>
+
+            <!-- 市场情绪 -->
+            <div class="glass rounded-lg p-5 mb-5">
+                <h2 class="text-lg font-bold mb-4 flex items-center gap-2 text-red-400">
+                    <i class="fas fa-fire-alt"></i>
+                    二、市场情绪（短线最核心）
+                </h2>
+                <div class="grid grid-cols-2 md:grid-cols-5 gap-3 mb-4">
+                    <div class="bg-card rounded p-3 text-center"><div class="text-xs text-gray-400">涨停数</div><div class="text-xl font-bold font-mono text-gold">72只</div><div class="text-xs text-gray-500">非ST 54</div></div>
+                    <div class="bg-card rounded p-3 text-center"><div class="text-xs text-gray-400">跌停数</div><div class="text-xl font-bold font-mono text-green-400">11只</div><div class="text-xs text-gray-500">正常</div></div>
+                    <div class="bg-card rounded p-3 text-center"><div class="text-xs text-gray-400">炸板率</div><div class="text-xl font-bold font-mono text-red-400">偏高</div><div class="text-xs text-gray-500">京能电力36炸</div></div>
+                    <div class="bg-card rounded p-3 text-center"><div class="text-xs text-gray-400">连板高度</div><div class="text-xl font-bold font-mono text-gold">6板</div><div class="text-xs text-gray-500">蒙娜丽莎</div></div>
+                    <div class="bg-card rounded p-3 text-center"><div class="text-xs text-gray-400">连板数量</div><div class="text-xl font-bold font-mono text-amber-400">6只</div><div class="text-xs text-gray-500">一般</div></div>
+                </div>
+                <div class="bg-amber-500/10 border border-amber-500/20 rounded p-3 text-center mb-3">
+                    <div class="text-amber-400 font-bold text-lg mb-1">🔥 情绪周期：分歧阶段</div>
+                    <div class="text-sm text-gray-400">指数全线收跌，但涨停72只维持，情绪未崩溃。中位板风险大（昨日今溢价仅41.2%，断板股近6成）</div>
+                </div>
+                <div class="grid grid-cols-3 md:grid-cols-7 gap-2 text-xs">
+                    <div class="bg-card rounded p-2 text-center text-gray-500">冰点</div>
+                    <div class="bg-card rounded p-2 text-center text-gray-500">修复</div>
+                    <div class="bg-card rounded p-2 text-center text-gray-500">弱修复</div>
+                    <div class="bg-card rounded p-2 text-center text-gray-500">主升</div>
+                    <div class="bg-card rounded p-2 text-center text-gray-500">高潮</div>
+                    <div class="bg-gold/20 rounded p-2 text-center text-gold font-bold border border-gold/30">🔥分歧</div>
+                    <div class="bg-card rounded p-2 text-center text-gray-500">退潮</div>
+                </div>
+            </div>
+
+            <!-- 连板梯队 -->
+            <div class="glass rounded-lg p-5 mb-5">
+                <h2 class="text-lg font-bold mb-4 flex items-center gap-2 text-gold">
+                    <i class="fas fa-layer-group"></i>
+                    三、连板梯队（龙头核心）
+                </h2>
+                <div class="space-y-3 mb-4">
+                    <div class="bg-card rounded-lg p-4 border border-gold/30 pulse-gold">
+                        <div class="flex items-center justify-between mb-2">
+                            <div class="flex items-center gap-3">
+                                <span class="text-2xl font-bold text-gold">6板</span>
+                                <span class="font-bold text-lg">蒙娜丽莎</span>
+                                <span class="text-gray-400 font-mono">002918</span>
+                            </div>
+                            <span class="text-xs bg-amber-500/20 text-amber-400 px-2 py-1 rounded">⚠️ 烂板4炸+交易所关注</span>
+                        </div>
+                        <div class="text-sm text-gray-300">先进陶瓷+地产链 | <span class="text-gold">空间龙</span></div>
+                    </div>
+                    <div class="bg-card rounded-lg p-4 border border-gold/20">
+                        <div class="flex items-center justify-between mb-2">
+                            <div class="flex items-center gap-3">
+                                <span class="text-2xl font-bold text-gold">5板</span>
+                                <span class="font-bold text-lg">利仁科技</span>
+                                <span class="text-gray-400 font-mono">001259</span>
+                            </div>
+                            <span class="text-xs bg-green-500/20 text-green-400 px-2 py-1 rounded">✅ 一字板/无量</span>
+                        </div>
+                        <div class="text-sm text-gray-300">小家电+股份转让</div>
+                    </div>
+                    <div class="bg-card rounded-lg p-4 border border-gold/20">
+                        <div class="flex items-center justify-between mb-2">
+                            <div class="flex items-center gap-3">
+                                <span class="text-2xl font-bold text-gold">3板</span>
+                                <span class="font-bold text-lg">威龙股份</span>
+                                <span class="text-gray-400 font-mono">603779</span>
+                            </div>
+                            <span class="text-xs bg-green-500/20 text-green-400 px-2 py-1 rounded">✅ 一字板/复牌</span>
+                        </div>
+                        <div class="text-sm text-gray-300">淄博国资+葡萄酒</div>
+                    </div>
+                    <div class="bg-card rounded-lg p-4 border border-red-500/30">
+                        <div class="flex items-center justify-between mb-2">
+                            <div class="flex items-center gap-3">
+                                <span class="text-2xl font-bold text-gold">3板</span>
+                                <span class="font-bold text-lg">京能电力</span>
+                                <span class="text-gray-400 font-mono">600578</span>
+                            </div>
+                            <span class="text-xs bg-red-500/20 text-red-400 px-2 py-1 rounded">❌ 烂板36炸</span>
+                        </div>
+                        <div class="text-sm text-gray-300">风光火储+北京国资 | <span class="text-red-400">烂板王</span></div>
+                    </div>
+                    <div class="bg-card rounded-lg p-4 border border-amber-500/20">
+                        <div class="flex items-center justify-between mb-2">
+                            <div class="flex items-center gap-3">
+                                <span class="text-2xl font-bold text-gold">2板</span>
+                                <span class="font-bold text-lg">北自科技</span>
+                                <span class="text-gray-400 font-mono">603082</span>
+                            </div>
+                            <span class="text-xs bg-amber-500/20 text-amber-400 px-2 py-1 rounded">⚠️ 开板1炸</span>
+                        </div>
+                        <div class="text-sm text-gray-300">人形机器人+拟收购</div>
+                    </div>
+                    <div class="bg-card rounded-lg p-4 border border-amber-500/20">
+                        <div class="flex items-center justify-between mb-2">
+                            <div class="flex items-center gap-3">
+                                <span class="text-2xl font-bold text-gold">2板</span>
+                                <span class="font-bold text-lg">和远气体</span>
+                                <span class="text-gray-400 font-mono">002971</span>
+                            </div>
+                            <span class="text-xs bg-amber-500/20 text-amber-400 px-2 py-1 rounded">⚠️ 开板2炸</span>
+                        </div>
+                        <div class="text-sm text-gray-300">电子特气+硅基新材料</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 热点题材结构 -->
+            <div class="glass rounded-lg p-5 mb-5">
+                <h2 class="text-lg font-bold mb-4 flex items-center gap-2 text-red-400">
+                    <i class="fas fa-fire"></i>
+                    四、热点题材结构
+                </h2>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-xs">
+                        <thead>
+                            <tr class="text-gray-400 border-b border-border">
+                                <th class="pb-2 text-left">题材</th>
+                                <th class="pb-2 text-center">涨停数</th>
+                                <th class="pb-2 text-left">核心股</th>
+                                <th class="pb-2 text-center">梯队</th>
+                                <th class="pb-2 text-center">持续性</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-gray-300">
+                            <tr class="border-b border-border/50">
+                                <td class="py-2 font-bold text-red-400">机器人/人形机器人</td>
+                                <td class="py-2 text-center font-mono text-gold">18只</td>
+                                <td class="py-2">巨轮智能、雷赛智能、三丰智能</td>
+                                <td class="py-2 text-center"><span class="text-green-400">完整</span></td>
+                                <td class="py-2 text-center"><span class="text-red-400">🔥🔥🔥 主升</span></td>
+                            </tr>
+                            <tr class="border-b border-border/50">
+                                <td class="py-2 font-bold text-orange-400">氟化工/化学原料</td>
+                                <td class="py-2 text-center font-mono text-gold">10只</td>
+                                <td class="py-2">中欣氟材、多氟多、金石资源</td>
+                                <td class="py-2 text-center"><span class="text-green-400">完整</span></td>
+                                <td class="py-2 text-center"><span class="text-orange-400">🔥🔥🔥 次强</span></td>
+                            </tr>
+                            <tr class="border-b border-border/50">
+                                <td class="py-2 font-bold text-amber-400">大消费</td>
+                                <td class="py-2 text-center font-mono">8只</td>
+                                <td class="py-2">蒙娜丽莎、利仁科技、威龙股份</td>
+                                <td class="py-2 text-center"><span class="text-green-400">完整</span></td>
+                                <td class="py-2 text-center"><span class="text-amber-400">🔥🔥 强势</span></td>
+                            </tr>
+                            <tr class="border-b border-border/50">
+                                <td class="py-2 font-bold text-green-400">半导体/芯片</td>
+                                <td class="py-2 text-center font-mono">5只</td>
+                                <td class="py-2">中巨芯、柏诚股份、江化微</td>
+                                <td class="py-2 text-center"><span class="text-red-400">断层</span></td>
+                                <td class="py-2 text-center"><span class="text-green-400">🔥🔥 分化</span></td>
+                            </tr>
+                            <tr class="border-b border-border/50">
+                                <td class="py-2 font-bold text-blue-400">汽车/零部件</td>
+                                <td class="py-2 text-center font-mono">5只</td>
+                                <td class="py-2">东风科技、通达电气、新坐标</td>
+                                <td class="py-2 text-center"><span class="text-green-400">完整</span></td>
+                                <td class="py-2 text-center"><span class="text-blue-400">🔥 活跃</span></td>
+                            </tr>
+                            <tr>
+                                <td class="py-2 font-bold text-gray-400">电力/能源</td>
+                                <td class="py-2 text-center font-mono">3只</td>
+                                <td class="py-2">大唐发电、京能电力</td>
+                                <td class="py-2 text-center"><span class="text-red-400">断层</span></td>
+                                <td class="py-2 text-center"><span class="text-gray-400">🟡 脉冲</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="mt-3 bg-card rounded p-3">
+                    <div class="text-xs text-gray-300">
+                        <span class="text-gold font-bold">分析：</span>
+                        <span class="text-gray-400">主线题材：机器人/人形机器人（18只涨停，主力净流入+45亿）| 次主线：氟化工/化学原料（10只涨停，氢氟酸涨价驱动）| 轮动题材：大消费（蒙娜丽莎6板带动的地产链+家电+食品）</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 核心龙头股 -->
+            <div class="glass rounded-lg p-5 mb-5">
+                <h2 class="text-lg font-bold mb-4 flex items-center gap-2 text-gold">
+                    <i class="fas fa-crown"></i>
+                    五、核心龙头股
+                </h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-3 mb-4">
+                    <div class="bg-card rounded-lg p-4 border border-gold/30">
+                        <div class="flex items-center gap-2 mb-2">
+                            <span class="text-gold font-bold">空间龙</span>
+                            <span class="text-amber-400">⭐⭐⭐⭐⭐</span>
+                        </div>
+                        <div class="font-bold text-lg">蒙娜丽莎 <span class="text-gray-400 font-mono">002918</span></div>
+                        <div class="text-xs text-gray-400">6板/烂板4炸 | 监管风险极大</div>
+                    </div>
+                    <div class="bg-card rounded-lg p-4 border border-red-400/20">
+                        <div class="flex items-center gap-2 mb-2">
+                            <span class="text-red-400 font-bold">题材龙</span>
+                            <span class="text-amber-400">⭐⭐⭐⭐</span>
+                        </div>
+                        <div class="font-bold text-lg">巨轮智能 <span class="text-gray-400 font-mono">002031</span></div>
+                        <div class="text-xs text-gray-400">人形机器人+减速器 | 一进二风向标</div>
+                    </div>
+                    <div class="bg-card rounded-lg p-4 border border-amber-400/20">
+                        <div class="flex items-center gap-2 mb-2">
+                            <span class="text-amber-400 font-bold">趋势龙</span>
+                            <span class="text-amber-400">⭐⭐⭐⭐</span>
+                        </div>
+                        <div class="font-bold text-lg">利仁科技 <span class="text-gray-400 font-mono">001259</span></div>
+                        <div class="text-xs text-gray-400">5板一字/无量 | 注意开板风险</div>
+                    </div>
+                    <div class="bg-card rounded-lg p-4 border border-cyan-400/20">
+                        <div class="flex items-center gap-2 mb-2">
+                            <span class="text-cyan-400 font-bold">中军</span>
+                            <span class="text-amber-400">⭐⭐⭐</span>
+                        </div>
+                        <div class="font-bold text-lg">多氟多 <span class="text-gray-400 font-mono">002407</span></div>
+                        <div class="text-xs text-gray-400">氟化工身位龙 | 一进二风向标</div>
+                    </div>
+                </div>
+                <div class="bg-amber-500/10 border border-amber-500/20 rounded p-3">
+                    <div class="text-amber-400 text-sm font-bold mb-1">⚠️ 观察要点</div>
+                    <div class="text-xs text-gray-300">龙头加速（利仁科技缩量一字）| 出现分歧（蒙娜丽莎放量换手4炸、京能电力36炸）| 可能断板（蒙娜丽莎监管压力累积）</div>
+                </div>
+            </div>
+
+            <!-- 赚钱效应+亏钱效应 -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-5">
+                <div class="glass rounded-lg p-5">
+                    <h2 class="text-lg font-bold mb-4 flex items-center gap-2 text-green-400">
+                        <i class="fas fa-arrow-trend-up"></i>
+                        六、赚钱效应
+                    </h2>
+                    <div class="space-y-2 text-xs">
+                        <div class="bg-card rounded p-3">
+                            <div class="text-gray-300 font-bold mb-1">打板</div>
+                            <div class="text-gray-400">首板溢价弱（昨日今溢价仅41.2%）| 连板溢价一般（高标延续，中位板风险大）</div>
+                        </div>
+                        <div class="bg-card rounded p-3">
+                            <div class="text-gray-300 font-bold mb-1">低吸</div>
+                            <div class="text-gray-400">龙头分歧低吸 → 成功率中（大唐发电早盘-2.3%后反包涨停）</div>
+                        </div>
+                        <div class="bg-card rounded p-3">
+                            <div class="text-gray-300 font-bold mb-1">趋势</div>
+                            <div class="text-gray-400">趋势股赚钱效应一般（指数全线收跌）</div>
+                        </div>
+                    </div>
+                    <div class="mt-3 bg-gold/10 border border-gold/20 rounded p-2">
+                        <div class="text-xs text-gold">💡 最赚钱模式：机器人/氟化工早盘硬板 + 大唐发电分歧反包</div>
+                    </div>
+                </div>
+                <div class="glass rounded-lg p-5">
+                    <h2 class="text-lg font-bold mb-4 flex items-center gap-2 text-red-400">
+                        <i class="fas fa-arrow-trend-down"></i>
+                        七、亏钱效应
+                    </h2>
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-xs">
+                            <thead>
+                                <tr class="text-gray-400 border-b border-border">
+                                    <th class="pb-2 text-left">股票</th>
+                                    <th class="pb-2 text-left">亏钱原因</th>
+                                    <th class="pb-2 text-center">幅度</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-gray-300">
+                                <tr class="border-b border-border/50">
+                                    <td class="py-2">京能电力</td>
+                                    <td class="py-2">36次炸板烂板王</td>
+                                    <td class="py-2 text-center text-red-400">封板质量极差</td>
+                                </tr>
+                                <tr class="border-b border-border/50">
+                                    <td class="py-2">昨日80只涨停</td>
+                                    <td class="py-2">47只绿盘</td>
+                                    <td class="py-2 text-center text-red-400">断板率58.8%</td>
+                                </tr>
+                                <tr class="border-b border-border/50">
+                                    <td class="py-2">露笑科技</td>
+                                    <td class="py-2">无量骗炮后下跌</td>
+                                    <td class="py-2 text-center text-red-400">-6.96%</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-2">瑞玛精密</td>
+                                    <td class="py-2">无量骗炮后下跌</td>
+                                    <td class="py-2 text-center text-red-400">-6.96%</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="mt-3 bg-red-500/10 border border-red-500/20 rounded p-2">
+                        <div class="text-xs text-red-400">🔴 最容易亏钱：中位板接力（昨日80只涨停仅7只续涨停）</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 资金风格+板块轮动 -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-5">
+                <div class="glass rounded-lg p-5">
+                    <h2 class="text-lg font-bold mb-4 flex items-center gap-2 text-cyan-400">
+                        <i class="fas fa-wallet"></i>
+                        八、资金风格
+                    </h2>
+                    <div class="space-y-3">
+                        <div class="bg-card rounded p-3">
+                            <div class="flex justify-between mb-1">
+                                <span class="text-gold font-bold">游资</span>
+                                <span class="text-green-400">活跃</span>
+                            </div>
+                            <div class="text-xs text-gray-400">机器人/氟化工题材炒作，高标抱团</div>
+                        </div>
+                        <div class="bg-card rounded p-3">
+                            <div class="flex justify-between mb-1">
+                                <span class="text-cyan-400 font-bold">机构</span>
+                                <span class="text-gray-400">观望</span>
+                            </div>
+                            <div class="text-xs text-gray-400">指数全线收跌，机构未大规模入场</div>
+                        </div>
+                        <div class="bg-card rounded p-3">
+                            <div class="flex justify-between mb-1">
+                                <span class="text-blue-400 font-bold">北向资金</span>
+                                <span class="text-gray-400">流出/观望</span>
+                            </div>
+                            <div class="text-xs text-gray-400">指数弱势，外资谨慎</div>
+                        </div>
+                    </div>
+                    <div class="mt-3 text-xs text-gold">游资主导题材炒作，机构观望。资金集中在机器人+氟化工两条线，其他板块失血。</div>
+                </div>
+                <div class="glass rounded-lg p-5">
+                    <h2 class="text-lg font-bold mb-4 flex items-center gap-2 text-amber-400">
+                        <i class="fas fa-sync-alt"></i>
+                        九、板块轮动（近5日）
+                    </h2>
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-xs">
+                            <thead>
+                                <tr class="text-gray-400 border-b border-border">
+                                    <th class="pb-2 text-left">日期</th>
+                                    <th class="pb-2 text-left">主线题材</th>
+                                    <th class="pb-2 text-center">强度</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-gray-300">
+                                <tr class="border-b border-border/50"><td class="py-2">5/11</td><td class="py-2">电力/算电协同</td><td class="py-2 text-center"><span class="text-red-400">🔥🔥🔥</span></td></tr>
+                                <tr class="border-b border-border/50"><td class="py-2">5/12</td><td class="py-2">光通信/CPO</td><td class="py-2 text-center"><span class="text-red-400">🔥🔥🔥</span></td></tr>
+                                <tr class="border-b border-border/50"><td class="py-2">5/13</td><td class="py-2">电力+电子</td><td class="py-2 text-center"><span class="text-red-400">🔥🔥🔥</span></td></tr>
+                                <tr class="border-b border-border/50"><td class="py-2">5/14</td><td class="py-2">大消费</td><td class="py-2 text-center"><span class="text-amber-400">🔥🔥</span></td></tr>
+                                <tr><td class="py-2 font-bold">今日</td><td class="py-2 font-bold text-gold">机器人+氟化工</td><td class="py-2 text-center"><span class="text-red-400">🔥🔥🔥</span></td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="mt-3 text-xs text-amber-400">✅ 主线切换（从电力→光通信→机器人/氟化工）</div>
+                </div>
+            </div>
+
+            <!-- 市场信号 -->
+            <div class="glass rounded-lg p-5 mb-5">
+                <h2 class="text-lg font-bold mb-4 flex items-center gap-2 text-amber-400">
+                    <i class="fas fa-bell"></i>
+                    十、市场信号
+                </h2>
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-3">
+                    <div class="bg-green-500/10 border border-green-500/20 rounded p-3">
+                        <div class="text-green-400 font-bold text-sm">✅ 新题材启动</div>
+                        <div class="text-xs text-gray-400 mt-1">机器人/人形机器人爆发（18只涨停）</div>
+                    </div>
+                    <div class="bg-amber-500/10 border border-amber-500/20 rounded p-3">
+                        <div class="text-amber-400 font-bold text-sm">⚠️ 龙头首次分歧</div>
+                        <div class="text-xs text-gray-400 mt-1">蒙娜丽莎6板烂板4炸</div>
+                    </div>
+                    <div class="bg-gray-700/30 border border-gray-600/20 rounded p-3">
+                        <div class="text-gray-400 font-bold text-sm">— 龙头断板</div>
+                        <div class="text-xs text-gray-500 mt-1">暂无</div>
+                    </div>
+                    <div class="bg-gray-700/30 border border-gray-600/20 rounded p-3">
+                        <div class="text-gray-400 font-bold text-sm">— 高标集体崩盘</div>
+                        <div class="text-xs text-gray-500 mt-1">暂无</div>
+                    </div>
+                    <div class="bg-gray-700/30 border border-gray-600/20 rounded p-3">
+                        <div class="text-gray-400 font-bold text-sm">— 情绪冰点</div>
+                        <div class="text-xs text-gray-500 mt-1">暂无</div>
+                    </div>
+                    <div class="bg-gray-700/30 border border-gray-600/20 rounded p-3">
+                        <div class="text-gray-400 font-bold text-sm">— 地天板/天地板</div>
+                        <div class="text-xs text-gray-500 mt-1">暂无</div>
+                    </div>
+                </div>
+                <div class="mt-3 bg-amber-500/10 border border-amber-500/20 rounded p-3">
+                    <div class="text-amber-400 text-sm font-bold mb-1">⚠️ 信号解读</div>
+                    <div class="text-xs text-gray-300">机器人新主线启动，但高标开始分歧。蒙娜丽莎烂板+京能电力36炸是情绪转弱信号。明日若蒙娜丽莎断板，需警惕退潮风险。</div>
+                </div>
+            </div>
+
+            <!-- 次日推演 -->
+            <div class="glass rounded-lg p-5 mb-5">
+                <h2 class="text-lg font-bold mb-4 flex items-center gap-2 text-gold">
+                    <i class="fas fa-chess-knight"></i>
+                    十一、次日推演（最重要！）
+                </h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-3 mb-4">
+                    <div class="bg-card rounded p-3"><div class="text-xs text-gray-400">修复概率</div><div class="text-2xl font-bold font-mono text-green-400">20%</div><div class="text-xs text-gray-500">蒙娜丽莎弱转强封7板+机器人持续</div></div>
+                    <div class="bg-gold/10 rounded p-3 border border-gold/20"><div class="text-xs text-gold">分歧概率</div><div class="text-2xl font-bold font-mono text-gold">60%</div><div class="text-xs text-amber-400">蒙娜丽莎断板+中位板大面</div></div>
+                    <div class="bg-card rounded p-3"><div class="text-xs text-gray-400">退潮概率</div><div class="text-2xl font-bold font-mono text-red-400">20%</div><div class="text-xs text-gray-500">蒙娜丽莎跌停+高位集体崩盘</div></div>
+                </div>
+                <h3 class="text-sm font-bold text-gold mb-3">重点观察清单</h3>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-xs">
+                        <thead>
+                            <tr class="text-gray-400 border-b border-border">
+                                <th class="pb-2 text-left">观察项</th>
+                                <th class="pb-2 text-left">预期</th>
+                                <th class="pb-2 text-left">如果发生</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-gray-300">
+                            <tr class="border-b border-border/50"><td class="py-2">蒙娜丽莎是否晋级7板</td><td class="py-2">否</td><td class="py-2">晋级→情绪超预期；断板→分歧确认</td></tr>
+                            <tr class="border-b border-border/50"><td class="py-2">机器人是否持续</td><td class="py-2">是</td><td class="py-2">持续→主线确认；分化→一日游</td></tr>
+                            <tr class="border-b border-border/50"><td class="py-2">高位股是否崩盘</td><td class="py-2">否</td><td class="py-2">崩盘→退潮开始</td></tr>
+                            <tr><td class="py-2">量能是否维持</td><td class="py-2">否</td><td class="py-2">缩量→情绪退潮</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- 明日交易计划 -->
+            <div class="glass rounded-lg p-5 mb-5">
+                <h2 class="text-lg font-bold mb-4 flex items-center gap-2 text-gold">
+                    <i class="fas fa-scroll"></i>
+                    十二、明日交易计划
+                </h2>
+                <div class="mb-4">
+                    <div class="text-sm text-gray-300 mb-2"><span class="text-gold font-bold">计划模式：</span> 晋级打板（一进二）</div>
+                </div>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-sm">
+                        <thead>
+                            <tr class="text-gray-400 text-xs border-b border-border">
+                                <th class="pb-2 text-left">标的</th>
+                                <th class="pb-2 text-left">买点条件</th>
+                                <th class="pb-2 text-center">仓位</th>
+                                <th class="pb-2 text-center">止损位</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-xs">
+                            <tr class="border-b border-border/50"><td class="py-2 font-medium">巨轮智能</td><td class="py-2">放量分歧回封</td><td class="py-2 text-center">≤10%</td><td class="py-2 text-center text-red-400">-5%</td></tr>
+                            <tr class="border-b border-border/50"><td class="py-2 font-medium">多氟多</td><td class="py-2">放量分歧回封</td><td class="py-2 text-center">≤10%</td><td class="py-2 text-center text-red-400">-5%</td></tr>
+                            <tr class="border-b border-border/50"><td class="py-2 font-medium">中欣氟材</td><td class="py-2">若开板分歧转一致</td><td class="py-2 text-center">≤10%</td><td class="py-2 text-center text-red-400">-5%</td></tr>
+                            <tr><td class="py-2 font-medium">威龙股份</td><td class="py-2">若开板分歧转一致</td><td class="py-2 text-center">≤10%</td><td class="py-2 text-center text-red-400">-5%</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="mt-4 grid grid-cols-2 md:grid-cols-4 gap-2">
+                    <div class="bg-red-500/10 border border-red-500/20 rounded p-2 text-center text-xs"><div class="text-red-400 font-bold">单票≤10%</div></div>
+                    <div class="bg-red-500/10 border border-red-500/20 rounded p-2 text-center text-xs"><div class="text-red-400 font-bold">总仓≤30%</div></div>
+                    <div class="bg-red-500/10 border border-red-500/20 rounded p-2 text-center text-xs"><div class="text-red-400 font-bold">不及预期立即止损</div></div>
+                    <div class="bg-red-500/10 border border-red-500/20 rounded p-2 text-center text-xs"><div class="text-red-400 font-bold">禁止计划外交易</div></div>
+                </div>
+            </div>
+
+            <!-- 市场总结 -->
+            <div class="glass rounded-lg p-5">
+                <h2 class="text-lg font-bold mb-4 flex items-center gap-2 text-gold">
+                    <i class="fas fa-quote-left"></i>
+                    十四、市场总结
+                </h2>
+                <div class="bg-gold/10 border border-gold/20 rounded-lg p-4 mb-4">
+                    <div class="text-gold font-bold text-sm mb-2">💡 一句话总结今日市场</div>
+                    <div class="text-sm text-gray-300">指数全线收跌但情绪未崩，机器人/氟化工双主线爆发，高标开始分歧（蒙娜丽莎烂板4炸+京能电力36炸），明日分歧概率大，去弱留强。</div>
+                </div>
+                <div class="bg-card rounded p-3 mb-3">
+                    <div class="text-gold font-bold text-sm mb-1">▸ 明日核心策略</div>
+                    <div class="text-sm text-gray-300">只做一进二（巨轮智能/多氟多），回避6板以上高标，总仓≤3成。</div>
+                </div>
+                <div class="bg-red-500/10 border border-red-500/20 rounded p-3">
+                    <div class="text-red-400 font-bold text-sm mb-1">🔴 风险提示</div>
+                    <div class="text-xs text-gray-300">蒙娜丽莎6板+交易所关注+烂板4炸，严禁参与。京能电力36炸烂板王，明日低开概率极高。指数弱势，缩量环境下追高风险大。</div>
+                </div>
+                <div class="mt-4 text-center text-xs text-gray-600">
+                    🔥 <strong>顶级游资只问3个问题：</strong> ①现在什么情绪周期？②龙头是谁？③明天资金去哪？<br/>
+                    <span class="text-gold">答案：①分歧阶段 | ②蒙娜丽莎（空间龙）+ 巨轮智能（题材龙） | ③机器人一进二 + 氟化工补涨</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- 历史归档 -->
+        <div id="content-history" class="tab-content hidden">
+            <div class="glass rounded-lg p-8 text-center">
+                <i class="fas fa-archive text-4xl text-gray-600 mb-4"></i>
+                <h3 class="text-lg font-bold text-gray-400 mb-2">历史归档</h3>
+                <p class="text-sm text-gray-500">每日复盘数据将自动归档于此</p>
+                <p class="text-xs text-gray-600 mt-4">当前仅展示 2026-05-15 数据</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- 底部 -->
+    <footer class="border-t border-border mt-8 py-6 text-center">
+        <div class="text-xs text-gray-500">
+            <p>超黄体系 · 每日复盘网站</p>
+            <p class="mt-1">数据来源: 问财CLI + 脚本A V10.2 + 新浪财经 | Generated by Kimi Claw</p>
+            <p class="mt-1 text-gray-600">⚠️ 数据为第三方估算，仅供学习交流，不构成投资建议</p>
+        </div>
+    </footer>
+
+    <script>
+        // Tab切换
+        function switchTab(tab) {
+            document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
+            document.querySelectorAll('.tab-btn').forEach(el => {
+                el.classList.remove('text-gold', 'border-gold');
+                el.classList.add('text-gray-400', 'border-transparent');
+            });
+            document.getElementById('content-' + tab).classList.remove('hidden');
+            document.getElementById('tab-' + tab).classList.remove('text-gray-400', 'border-transparent');
+            document.getElementById('tab-' + tab).classList.add('text-gold', 'border-gold');
+            
+            if (tab === 'review') {
+                setTimeout(initCharts, 100);
+            }
+        }
+
+        // 图表初始化
+        function initCharts() {
+            // 板块强度图
+            const sectorChart = echarts.init(document.getElementById('sectorChart'));
+            sectorChart.setOption({
+                backgroundColor: 'transparent',
+                grid: { left: '3%', right: '4%', bottom: '3%', top: '3%', containLabel: true },
+                xAxis: { type: 'value', axisLine: { lineStyle: { color: '#374151' } }, axisLabel: { color: '#9ca3af', fontSize: 10 }, splitLine: { lineStyle: { color: '#1f2937' } } },
+                yAxis: { type: 'category', data: ['新材料','文化传媒','电力/能源','半导体','大消费','氟化工','机器人'], axisLine: { lineStyle: { color: '#374151' } }, axisLabel: { color: '#e2e8f0', fontSize: 11 } },
+                series: [{
+                    type: 'bar',
+                    data: [
+                        { value: 9.6, itemStyle: { color: '#6b7280' } },
+                        { value: 9.6, itemStyle: { color: '#6b7280' } },
+                        { value: 9.6, itemStyle: { color: '#f59e0b' } },
+                        { value: 16.0, itemStyle: { color: '#22c55e' } },
+                        { value: 25.6, itemStyle: { color: '#f59e0b' } },
+                        { value: 32.0, itemStyle: { color: '#f97316' } },
+                        { value: 57.6, itemStyle: { color: '#ef4444' } }
+                    ],
+                    barWidth: '60%',
+                    label: { show: true, position: 'right', color: '#e2e8f0', fontSize: 10, formatter: '{c}分' }
+                }]
+            });
+
+            // 涨停时间分布图
+            const timeChart = echarts.init(document.getElementById('timeChart'));
+            timeChart.setOption({
+                backgroundColor: 'transparent',
+                grid: { left: '3%', right: '4%', bottom: '3%', top: '10%', containLabel: true },
+                xAxis: { type: 'category', data: ['09:25一字', '09:30-10:00', '10:00-11:30', '13:00-14:00', '14:00-15:00'], axisLine: { lineStyle: { color: '#374151' } }, axisLabel: { color: '#9ca3af', fontSize: 10 } },
+                yAxis: { type: 'value', axisLine: { lineStyle: { color: '#374151' } }, axisLabel: { color: '#9ca3af', fontSize: 10 }, splitLine: { lineStyle: { color: '#1f2937' } } },
+                series: [{
+                    type: 'bar',
+                    data: [
+                        { value: 8, itemStyle: { color: '#fbbf24' } },
+                        { value: 42, itemStyle: { color: '#ef4444' } },
+                        { value: 14, itemStyle: { color: '#f59e0b' } },
+                        { value: 6, itemStyle: { color: '#22c55e' } },
+                        { value: 2, itemStyle: { color: '#6b7280' } }
+                    ],
+                    barWidth: '50%',
+                    label: { show: true, position: 'top', color: '#e2e8f0', fontSize: 10, formatter: '{c}只' }
+                }]
+            });
+        }
+
+        // 响应式
+        window.addEventListener('resize', () => {
+            const sectorChart = echarts.getInstanceByDom(document.getElementById('sectorChart'));
+            const timeChart = echarts.getInstanceByDom(document.getElementById('timeChart'));
+            if (sectorChart) sectorChart.resize();
+            if (timeChart) timeChart.resize();
+        });
+    </script>
+</body>
+</html>

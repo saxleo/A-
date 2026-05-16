@@ -3,68 +3,815 @@
   "marketTemp": "分歧",
   "marketTempColor": "amber",
   "stats": {
-    "limitUp": 72,
-    "limitDown": 11,
+    "limitUp": 71,
+    "limitDown": 21,
     "maxBoard": 6,
     "maxBoardStock": "蒙娜丽莎",
-    "volumeChange": "",
-    "volumeChangeNum": 0,
+    "volumeChange": "缩量",
+    "volumeChangeNum": -984,
     "shIndex": 4135.39,
-    "shChange": -1.02,
+    "shChange": 0.12,
     "szIndex": 15561.37,
     "szChange": -1.17
   },
+  "wind": {
+    "usMarkets": [
+      {
+        "name": "道指",
+        "change": -0.14,
+        "note": ""
+      },
+      {
+        "name": "纳指",
+        "change": 1.2,
+        "note": ""
+      },
+      {
+        "name": "标普500",
+        "change": 0.58,
+        "note": ""
+      }
+    ],
+    "techStocks": [
+      {
+        "name": "英伟达",
+        "change": 2.3
+      },
+      {
+        "name": "美光科技",
+        "change": 4.83
+      },
+      {
+        "name": "谷歌",
+        "change": 3.95
+      },
+      {
+        "name": "Meta",
+        "change": 2.15
+      }
+    ],
+    "chinaConcepts": [
+      {
+        "name": "纳斯达克中国金龙指数",
+        "change": 3.89
+      },
+      {
+        "name": "金山云",
+        "change": 17.05
+      }
+    ],
+    "focusSectors": [
+      {
+        "name": "光通信/CPO",
+        "stocks": [
+          {
+            "name": "Coherent",
+            "change": 7.95
+          }
+        ],
+        "summary": "AI算力需求驱动，光模块产业链持续高景气"
+      }
+    ],
+    "policies": [
+      {
+        "date": "2026-05-15",
+        "event": "央行开展3000亿元买断式逆回购（6个月期）",
+        "source": "央行公告",
+        "sector": "流动性",
+        "timing": "⚠️常态化操作"
+      },
+      {
+        "date": "2026-05-14",
+        "event": "农业农村部修订《生猪产能综合调控实施方案》",
+        "source": "农业农村部",
+        "sector": "养殖",
+        "timing": "✅今日生效"
+      },
+      {
+        "date": "2026-05-14",
+        "event": "蒙娜丽莎风险提示：参股公司并非英伟达供应商",
+        "source": "公司公告",
+        "sector": "半导体",
+        "timing": "⚠️高标风险"
+      },
+      {
+        "date": "2026-05-14",
+        "event": "可川科技风险提示：股价严重偏离市场",
+        "source": "公司公告",
+        "sector": "半导体",
+        "timing": "⚠️高标风险"
+      },
+      {
+        "date": "2026-05-14",
+        "event": "大唐发电7天6板后断板（跌2.31%）",
+        "source": "市场数据",
+        "sector": "电力",
+        "timing": "🔴高标承压"
+      }
+    ],
+    "yesterdaySectors": [
+      {
+        "name": "**大消费**",
+        "limitUpCount": "7只",
+        "leader": "蒙娜丽莎5板",
+        "note": "养殖政策催化，华统股份/天邦食品等昨日已涨停"
+      },
+      {
+        "name": "**半导体**",
+        "limitUpCount": "5只",
+        "leader": "可川科技3板",
+        "note": "外围科技股大涨映射，但高标有风险提示"
+      },
+      {
+        "name": "**机器人**",
+        "limitUpCount": "4只",
+        "leader": "—",
+        "note": "持续性待观察"
+      },
+      {
+        "name": "**周期/有色/化工**",
+        "limitUpCount": "4只",
+        "leader": "—",
+        "note": "环氧丙烷涨价（泰和新材）"
+      }
+    ],
+    "mainLine": {
+      "prediction": "光通信/CPO**",
+      "confidence": "",
+      "logic": [
+        "外围：美股光通信大涨（Coherent+7.95%，康宁+4.21%），纳指+1.2%创历史新高",
+        "中概股金龙指数+3.89%，金山云+17%，科技情绪全面回暖",
+        "电力板块高标断板，资金可能切换至科技线  **预判强度**：🔥🔥 强  **["
+      ],
+      "validation": "",
+      "alternative": "电力/能源（触发条件：竞价电力一字板≥3只且光通信一字板<2只）"
+    }
+  },
   "morning": {
-    "emotion": "⚠️分歧",
-    "position": "总仓≤3成，单标≤1成",
+    "emotion": "⚠️分歧**",
+    "position": "总仓≤3成，单标≤1成**",
     "sectors": [
-      {"name": "周期/有色/化工", "limitUpCount": 1, "leader": "中欣氟材", "status": "一般活跃"},
-      {"name": "大消费", "limitUpCount": 1, "leader": "金富科技", "status": "一般活跃"},
-      {"name": "电力/能源", "limitUpCount": 1, "leader": "利仁科技", "status": "一般活跃"}
+      {
+        "name": "**周期/有色/化工**",
+        "limitUpCount": "1只",
+        "leader": "中欣氟材(1板)",
+        "mid": "中欣氟材",
+        "status": "🔴 一般活跃"
+      },
+      {
+        "name": "**大消费**",
+        "limitUpCount": "1只",
+        "leader": "金富科技(1板)",
+        "mid": "金富科技",
+        "status": "🔴 一般活跃"
+      },
+      {
+        "name": "**电力/能源**",
+        "limitUpCount": "1只",
+        "leader": "利仁科技(1板)",
+        "mid": "利仁科技",
+        "status": "🔴 一般活跃"
+      },
+      {
+        "name": "**大消费**",
+        "limitUpCount": "7只",
+        "leader": "71.4%",
+        "mid": "57.1%",
+        "status": "+5.60%"
+      },
+      {
+        "name": "**新能源**",
+        "limitUpCount": "2只",
+        "leader": "100.0%",
+        "mid": "0.0%",
+        "status": "+1.62%"
+      },
+      {
+        "name": "**汽车**",
+        "limitUpCount": "1只",
+        "leader": "100.0%",
+        "mid": "0.0%",
+        "status": "+4.48%"
+      }
     ],
     "modeA": [
-      {"name": "蒙娜丽莎", "code": "002918", "boards": 5, "sector": "大消费-先进陶瓷", "match": "预期7.0%，实际+9.98% ✅超预期", "risk": "🟡交易所关注"},
-      {"name": "威龙股份", "code": "603779", "boards": 2, "sector": "大消费-淄博国资入主", "match": "预期7.0%，实际+9.98% ✅超预期", "risk": "-"},
-      {"name": "金富科技", "code": "003018", "boards": 1, "sector": "大消费-液冷并购", "match": "预期7.0%，实际+10.01% ✅超预期", "risk": "-"},
-      {"name": "天富能源", "code": "600509", "boards": 1, "sector": "电力/能源-电力", "match": "预期6.0%，实际+6.49% ✅超预期", "risk": "-"}
+      {
+        "name": "蒙娜丽莎",
+        "code": "002918",
+        "boards": "5天5板",
+        "match": "预期7.0%，实际+9.98% ✅超预期，量能✅达标"
+      },
+      {
+        "name": "威龙股份",
+        "code": "603779",
+        "boards": "2天2板",
+        "match": "预期7.0%，实际+9.98% ✅超预期，量能✅达标"
+      },
+      {
+        "name": "金富科技",
+        "code": "003018",
+        "boards": "1天1板",
+        "match": "预期7.0%，实际+10.01% ✅超预期，量能✅达标"
+      },
+      {
+        "name": "天富能源",
+        "code": "600509",
+        "boards": "1天1板",
+        "match": "预期6.0%，实际+6.49% ✅超预期，量能✅达标"
+      }
     ],
     "modeB": [
-      {"name": "华升股份", "code": "600156", "boards": 2, "sector": "液冷服务器", "match": "预期7.0%，实际+4.86% ➖符合"},
-      {"name": "晶升股份", "code": "688478", "boards": 1, "sector": "半导体", "match": "预期6.0%，实际+4.88% ➖符合"},
-      {"name": "中利集团", "code": "002309", "boards": 1, "sector": "光伏储能", "match": "预期7.0%，实际+4.45% ➖符合"}
+      {
+        "name": "华升股份",
+        "code": "600156",
+        "match": "预期7.0%，实际+4.86% ➖符合，量能✅达标"
+      },
+      {
+        "name": "晶升股份",
+        "code": "688478",
+        "match": "预期6.0%，实际+4.88% ➖符合，量能✅达标"
+      },
+      {
+        "name": "中利集团",
+        "code": "002309",
+        "match": "预期7.0%，实际+4.45% ➖符合，量能✅达标"
+      }
     ],
     "modeC": [
-      {"name": "利仁科技", "code": "001259", "reason": "无量高开骗炮"},
-      {"name": "京能电力", "code": "600578", "reason": "无量高开骗炮"},
-      {"name": "露笑科技", "code": "002617", "reason": "无量高开骗炮"},
-      {"name": "瑞玛精密", "code": "002976", "reason": "无量高开骗炮"},
-      {"name": "星德胜", "code": "603344", "reason": "无量高开骗炮"}
+      {
+        "name": "利仁科技",
+        "code": "001259",
+        "reason": "无量高开骗炮",
+        "risk": "⚪需观察"
+      },
+      {
+        "name": "京能电力",
+        "code": "600578",
+        "reason": "无量高开骗炮",
+        "risk": "10日-"
+      },
+      {
+        "name": "露笑科技",
+        "code": "002617",
+        "reason": "无量高开骗炮",
+        "risk": "10日-"
+      },
+      {
+        "name": "瑞玛精密",
+        "code": "002976",
+        "reason": "无量高开骗炮",
+        "risk": "10日-"
+      },
+      {
+        "name": "星德胜",
+        "code": "603344",
+        "reason": "无量高开骗炮",
+        "risk": "10日-"
+      }
+    ]
+  },
+  "noon": {
+    "indices": [],
+    "sectors": [
+      {
+        "name": "🔥🔥🔥 机器人/减速器（超级主线）",
+        "limitUpCount": "",
+        "fundFlow": "",
+        "change": "",
+        "representatives": "",
+        "drivers": ""
+      },
+      {
+        "name": "🔥🔥🔥 氟化工/化学原料（强势）",
+        "limitUpCount": "",
+        "fundFlow": "",
+        "change": "",
+        "representatives": "",
+        "drivers": ""
+      },
+      {
+        "name": "🔥🔥 半导体/芯片（强势）",
+        "limitUpCount": "",
+        "fundFlow": "",
+        "change": "",
+        "representatives": "",
+        "drivers": ""
+      },
+      {
+        "name": "🔥🔥 消费电子（强势）",
+        "limitUpCount": "",
+        "fundFlow": "",
+        "change": "",
+        "representatives": "",
+        "drivers": ""
+      },
+      {
+        "name": "🔥🔥 白色家电（活跃）",
+        "limitUpCount": "",
+        "fundFlow": "",
+        "change": "",
+        "representatives": "",
+        "drivers": ""
+      },
+      {
+        "name": "🔥 通用设备/机械设备（活跃）",
+        "limitUpCount": "",
+        "fundFlow": "",
+        "change": "",
+        "representatives": "",
+        "drivers": ""
+      },
+      {
+        "name": "🔥 电力/能源（分化）",
+        "limitUpCount": "",
+        "fundFlow": "",
+        "change": "",
+        "representatives": "",
+        "drivers": ""
+      },
+      {
+        "name": "🔥 文化传媒（活跃）",
+        "limitUpCount": "",
+        "fundFlow": "",
+        "change": "",
+        "representatives": "",
+        "drivers": ""
+      },
+      {
+        "name": "🔥 通信服务（活跃）",
+        "limitUpCount": "",
+        "fundFlow": "",
+        "change": "",
+        "representatives": "",
+        "drivers": ""
+      },
+      {
+        "name": "🔥 煤炭/周期（防御）",
+        "limitUpCount": "",
+        "fundFlow": "",
+        "change": "",
+        "representatives": "",
+        "drivers": ""
+      }
+    ],
+    "news": [
+      {
+        "time": "12:03",
+        "content": "**华为哈勃入股弥尔光半导体**",
+        "sector": "半导体",
+        "importance": "⭐⭐⭐"
+      },
+      {
+        "time": "12:02",
+        "content": "午评：创业板指探底回升涨0.57%，机器人概念股大涨",
+        "sector": "全局/机器人",
+        "importance": "⭐⭐⭐"
+      },
+      {
+        "time": "11:47",
+        "content": "半日涨停71只、跌停21只；氟化工/减速器/电机概念走强",
+        "sector": "全局",
+        "importance": "⭐⭐⭐"
+      },
+      {
+        "time": "11:47",
+        "content": "连板股：大唐发电8天7板，蒙娜丽莎6连板，利仁科技5连板",
+        "sector": "高标",
+        "importance": "⭐⭐⭐"
+      },
+      {
+        "time": "11:42",
+        "content": "TD COWEN将博通目标价从405美元上调至500美元",
+        "sector": "美股/半导体",
+        "importance": "⭐⭐"
+      },
+      {
+        "time": "11:35",
+        "content": "马斯克：特朗普访华对中美关系具有建设性意义",
+        "sector": "外交/全局",
+        "importance": "⭐"
+      },
+      {
+        "time": "11:31",
+        "content": "百度智能云沈抖：去年支持超2000万辆L2级辅助驾驶新车交付",
+        "sector": "AI/自动驾驶",
+        "importance": "⭐⭐"
+      },
+      {
+        "time": "11:26",
+        "content": "海南自贸概念异动拉升，海汽集团涨停",
+        "sector": "海南自贸",
+        "importance": "⭐"
+      },
+      {
+        "time": "11:24",
+        "content": "港股存储概念股震荡上行，大普微涨超10%创新高",
+        "sector": "存储芯片",
+        "importance": "⭐⭐"
+      },
+      {
+        "time": "11:20",
+        "content": "新能源车开启涨价潮，蔚来特斯拉比亚迪纷纷调价",
+        "sector": "新能源",
+        "importance": "⭐⭐"
+      }
+    ],
+    "verification": []
+  },
+  "firstboard": {
+    "topStocks": [
+      {
+        "rank": 1,
+        "name": "泰晶科技",
+        "code": "603738",
+        "score": 98,
+        "rating": "",
+        "dimensions": {},
+        "strategy": ""
+      },
+      {
+        "rank": 2,
+        "name": "万通发展",
+        "code": "600246",
+        "score": 76,
+        "rating": "",
+        "dimensions": {},
+        "strategy": ""
+      },
+      {
+        "rank": 3,
+        "name": "红豆股份",
+        "code": "600400",
+        "score": 73,
+        "rating": "",
+        "dimensions": {},
+        "strategy": ""
+      },
+      {
+        "rank": 4,
+        "name": "江化微",
+        "code": "603078",
+        "score": 71,
+        "rating": "",
+        "dimensions": {},
+        "strategy": ""
+      },
+      {
+        "rank": 5,
+        "name": "中巨芯",
+        "code": "688549",
+        "score": 60,
+        "rating": "",
+        "dimensions": {},
+        "strategy": ""
+      }
+    ],
+    "sectorOverview": [
+      {
+        "name": "电子",
+        "yiZi": "1只",
+        "before942": "6只",
+        "score": "25分",
+        "heat": "🟡 强势板块"
+      },
+      {
+        "name": "基础化工",
+        "yiZi": "2只",
+        "before942": "6只",
+        "score": "25分",
+        "heat": "🟡 强势板块"
+      },
+      {
+        "name": "机械设备",
+        "yiZi": "1只",
+        "before942": "3只",
+        "score": "20分",
+        "heat": "🟡 强势板块"
+      },
+      {
+        "name": "轻工制造",
+        "yiZi": "1只",
+        "before942": "4只",
+        "score": "20分",
+        "heat": "🟡 强势板块"
+      },
+      {
+        "name": "通信",
+        "yiZi": "1只",
+        "before942": "2只",
+        "score": "15分",
+        "heat": "🟢 一般活跃"
+      },
+      {
+        "name": "汽车",
+        "yiZi": "1只",
+        "before942": "1只",
+        "score": "15分",
+        "heat": "🟢 一般活跃"
+      },
+      {
+        "name": "石油石化",
+        "yiZi": "1只",
+        "before942": "1只",
+        "score": "15分",
+        "heat": "🟢 一般活跃"
+      },
+      {
+        "name": "社会服务",
+        "yiZi": "1只",
+        "before942": "1只",
+        "score": "15分",
+        "heat": "🟢 一般活跃"
+      },
+      {
+        "name": "食品饮料",
+        "yiZi": "1只",
+        "before942": "1只",
+        "score": "15分",
+        "heat": "🟢 一般活跃"
+      },
+      {
+        "name": "家用电器",
+        "yiZi": "1只",
+        "before942": "1只",
+        "score": "15分",
+        "heat": "🟢 一般活跃"
+      },
+      {
+        "name": "房地产",
+        "yiZi": "0只",
+        "before942": "2只",
+        "score": "5分",
+        "heat": "⚪ 弱势"
+      },
+      {
+        "name": "医药生物",
+        "yiZi": "0只",
+        "before942": "1只",
+        "score": "5分",
+        "heat": "⚪ 弱势"
+      },
+      {
+        "name": "纺织服饰",
+        "yiZi": "0只",
+        "before942": "1只",
+        "score": "5分",
+        "heat": "⚪ 弱势"
+      },
+      {
+        "name": "传媒",
+        "yiZi": "0只",
+        "before942": "2只",
+        "score": "5分",
+        "heat": "⚪ 弱势"
+      },
+      {
+        "name": "建筑材料",
+        "yiZi": "0只",
+        "before942": "1只",
+        "score": "5分",
+        "heat": "⚪ 弱势"
+      }
+    ],
+    "rules": [
+      {
+        "title": "只做纯首板",
+        "content": "近2日无涨停记录（已剔前日涨停股）"
+      },
+      {
+        "title": "只等回封",
+        "content": "已涨停标的等开板补量回封，不打半路"
+      },
+      {
+        "title": "板块必配",
+        "content": "无板块支撑（当日同题材<3家涨停）直接剔除"
+      },
+      {
+        "title": "次日必出",
+        "content": "无论盈亏，次日开盘即止盈止损（不格局）"
+      },
+      {
+        "title": "仓位严控",
+        "content": "首板总仓位≤1成，单标≤0.5成"
+      }
     ]
   },
   "review": {
-    "emotion": "中性偏弱",
+    "emotion": "",
     "emotionScore": 50,
-    "yesterdayPremium": 41.2,
-    "continueLimitUpRate": 8.8,
+    "yesterdayPremium": 0,
     "boards": [
-      {"code": "002918", "name": "蒙娜丽莎", "boards": 6, "sector": "大消费", "firstTime": "09:25", "openTimes": 4, "status": "烂板", "seal": 0.63},
-      {"code": "001259", "name": "利仁科技", "boards": 5, "sector": "大消费", "firstTime": "09:25", "openTimes": 0, "status": "一字板", "seal": 2.81},
-      {"code": "603779", "name": "威龙股份", "boards": 3, "sector": "大消费", "firstTime": "09:25", "openTimes": 0, "status": "一字板", "seal": 3.68},
-      {"code": "600578", "name": "京能电力", "boards": 3, "sector": "电力/能源", "firstTime": "", "openTimes": 36, "status": "大烂板", "seal": 0.24}
+      {
+        "boards": "5板",
+        "name": "+1板",
+        "sector": "🟢 高度突破",
+        "status": ""
+      }
     ],
     "sectors": [
-      {"name": "机器人/人形机器人", "limitUpCount": 18, "attackScore": 57.6, "status": "最强"},
-      {"name": "氟化工/化学原料", "limitUpCount": 10, "attackScore": 32.0, "status": "次强"},
-      {"name": "大消费", "limitUpCount": 8, "attackScore": 25.6, "status": "强势"},
-      {"name": "半导体/芯片", "limitUpCount": 5, "attackScore": 16.0, "status": "分化"}
+      {
+        "name": "**72只**",
+        "limitUpCount": "80只",
+        "attackScore": "-8只",
+        "status": "🟡 小幅退潮"
+      },
+      {
+        "name": "非ST涨停",
+        "limitUpCount": "54只",
+        "attackScore": "—",
+        "status": "—"
+      },
+      {
+        "name": "一字板",
+        "limitUpCount": "6只",
+        "attackScore": "—",
+        "status": "—"
+      },
+      {
+        "name": "昨日80只涨停",
+        "limitUpCount": "80只",
+        "attackScore": "续涨停7只(8.8%) / 红盘26只 / 绿盘47只",
+        "status": ""
+      },
+      {
+        "name": "跌停数",
+        "limitUpCount": "11只",
+        "attackScore": "",
+        "status": "连板高度"
+      }
     ],
-    "modeAHit": {"hit": 2, "miss": 2, "rate": 50.0},
-    "modeCHit": {"hit": 3, "miss": 2, "rate": 60.0},
+    "modeAHit": {
+      "hit": 0,
+      "miss": 0,
+      "rate": 0.0
+    },
+    "modeCHit": {
+      "hit": 0,
+      "miss": 0,
+      "rate": 0.0
+    },
     "tomorrow": [
-      {"tier": "6进7", "name": "蒙娜丽莎", "today": "6板，烂板4炸", "prediction": "监管压力极大", "strategy": "🚫严禁参与"},
-      {"tier": "5进6", "name": "利仁科技", "today": "5板，一字", "prediction": "无量，注意开板", "strategy": "⚠️观望"},
-      {"tier": "3进4", "name": "威龙股份", "today": "3板，一字", "prediction": "复牌+国资，有故事", "strategy": "🟡若分歧转一致可观察"},
-      {"tier": "3进4", "name": "京能电力", "today": "3板，36炸", "prediction": "烂板王，出货信号", "strategy": "🚫严禁参与"}
-    ]
+      {
+        "tier": "**情绪指数**: 🟡 **中性偏弱（50/100）** — 指数全线收跌，但涨停数维持72只，情绪未崩溃\n\n> **ST板块说明**: ST今日约18只涨停，占涨停总数25%，不列入主线梯队分析\n\n---\n\n### 昨日今溢价（问财跨日统计）",
+        "name": "昨日涨停股",
+        "today": "今日数量",
+        "prediction": "今日表现分布",
+        "strategy": ""
+      },
+      {
+        "tier": "**昨日今溢价率**: ~41.2%（33/80），续涨停率仅8.8%，**情绪分化严重，中位板风险大**\n\n---\n\n## 二、连板梯队分析（已剔除ST股）\n\n### 2.1 高度板表格",
+        "name": "连板",
+        "today": "标的",
+        "prediction": "题材",
+        "strategy": "超级主题"
+      },
+      {
+        "tier": "梯队",
+        "name": "标的",
+        "today": "今日状态",
+        "prediction": "明日预判",
+        "strategy": "策略"
+      },
+      {
+        "tier": "**6进7**",
+        "name": "蒙娜丽莎",
+        "today": "6板，烂板4炸",
+        "prediction": "监管压力极大",
+        "strategy": "🚫严禁参与"
+      },
+      {
+        "tier": "**5进6**",
+        "name": "利仁科技",
+        "today": "5板，一字",
+        "prediction": "无量，注意开板",
+        "strategy": "⚠️观望，不主动"
+      },
+      {
+        "tier": "**3进4**",
+        "name": "威龙股份",
+        "today": "3板，一字",
+        "prediction": "复牌+国资，有故事",
+        "strategy": "🟡若分歧转一致可观察"
+      },
+      {
+        "tier": "**3进4**",
+        "name": "京能电力",
+        "today": "3板，36炸",
+        "prediction": "烂板王，出货信号",
+        "strategy": "🚫严禁参与"
+      },
+      {
+        "tier": "**2进3**",
+        "name": "北自科技",
+        "today": "2板，机器人",
+        "prediction": "机器人身位龙",
+        "strategy": "🟡若板块持续可观察"
+      },
+      {
+        "tier": "**2进3**",
+        "name": "和远气体",
+        "today": "2板，电子特气",
+        "prediction": "半导体材料",
+        "strategy": "🟡若板块回流可观察"
+      },
+      {
+        "tier": "板块身位龙，关注一进二",
+        "name": "",
+        "today": "巨轮智能",
+        "prediction": "机器人+减速器",
+        "strategy": "硬板"
+      }
+    ],
+    "riskPoints": []
+  },
+  "youthu": {
+    "indices": [
+      {
+        "name": "创业板指",
+        "change": "-0.56",
+        "note": "跌幅较小"
+      }
+    ],
+    "emotion": {
+      "limitUp": 0,
+      "limitDown": 0,
+      "maxBoard": 0
+    },
+    "boards": [
+      {
+        "boards": "6板",
+        "name": "蒙娜丽莎(002918)",
+        "sector": "先进陶瓷+地产链",
+        "status": "空间龙/烂板4炸"
+      },
+      {
+        "boards": "5板",
+        "name": "利仁科技(001259)",
+        "sector": "小家电+股份转让",
+        "status": "一字板/无量"
+      },
+      {
+        "boards": "3板",
+        "name": "威龙股份(603779)",
+        "sector": "淄博国资+葡萄酒",
+        "status": "一字板/复牌"
+      },
+      {
+        "boards": "3板",
+        "name": "京能电力(600578)",
+        "sector": "风光火储+北京国资",
+        "status": "**烂板36炸**"
+      },
+      {
+        "boards": "2板",
+        "name": "北自科技(603082)",
+        "sector": "人形机器人+拟收购",
+        "status": "开板1炸"
+      },
+      {
+        "boards": "2板",
+        "name": "和远气体(002971)",
+        "sector": "电子特气+硅基新材料",
+        "status": "开板2炸"
+      }
+    ],
+    "sectors": [],
+    "coreLeaders": [
+      {
+        "role": "空间龙",
+        "name": "蒙娜丽莎(002918)",
+        "recognition": "⭐⭐⭐⭐⭐",
+        "status": "6板/烂板4炸",
+        "expectation": "监管风险极大"
+      },
+      {
+        "role": "题材龙",
+        "name": "巨轮智能(002031)",
+        "recognition": "⭐⭐⭐⭐",
+        "status": "人形机器人+减速器",
+        "expectation": "一进二风向标"
+      },
+      {
+        "role": "趋势龙",
+        "name": "利仁科技(001259)",
+        "recognition": "⭐⭐⭐⭐",
+        "status": "5板一字/无量",
+        "expectation": "注意开板风险"
+      },
+      {
+        "role": "中军",
+        "name": "多氟多(002407)",
+        "recognition": "⭐⭐⭐",
+        "status": "氟化工身位龙",
+        "expectation": "一进二风向标"
+      }
+    ],
+    "profitEffect": [],
+    "lossEffect": [],
+    "fundStyle": {},
+    "rotation": [],
+    "signals": [],
+    "tomorrowPlan": [],
+    "summary": ""
   }
 }
