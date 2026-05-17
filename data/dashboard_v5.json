@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-05-17T22:21:57.004619",
-  "total": 142,
-  "success": 142,
+  "timestamp": "2026-05-17T23:28:30.516636",
+  "total": 141,
+  "success": 141,
   "has_fund_flow": 0,
   "sector_data": {
     "AI芯片/GPU": [
@@ -42,7 +42,7 @@
           "ask_vol5": 8
         },
         "book_diff": 1401872.0,
-        "timestamp": "2026-05-17T22:21:56.805827",
+        "timestamp": "2026-05-17T23:28:30.314562",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -89,7 +89,7 @@
           "ask_vol5": 15
         },
         "book_diff": -2320539.0,
-        "timestamp": "2026-05-17T22:21:56.805946",
+        "timestamp": "2026-05-17T23:28:30.314681",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -136,7 +136,7 @@
           "ask_vol5": 35
         },
         "book_diff": -1373163.0,
-        "timestamp": "2026-05-17T22:21:56.806062",
+        "timestamp": "2026-05-17T23:28:30.314809",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -183,7 +183,7 @@
           "ask_vol5": 8
         },
         "book_diff": 27195657.0,
-        "timestamp": "2026-05-17T22:21:56.805557",
+        "timestamp": "2026-05-17T23:28:30.314273",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -230,7 +230,7 @@
           "ask_vol5": 26
         },
         "book_diff": 12907315.0,
-        "timestamp": "2026-05-17T22:21:56.805708",
+        "timestamp": "2026-05-17T23:28:30.314424",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -279,7 +279,7 @@
           "ask_vol5": 18
         },
         "book_diff": -2065050.0,
-        "timestamp": "2026-05-17T22:21:56.806725",
+        "timestamp": "2026-05-17T23:28:30.315545",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -326,7 +326,7 @@
           "ask_vol5": 6
         },
         "book_diff": 12340197.0,
-        "timestamp": "2026-05-17T22:21:56.806620",
+        "timestamp": "2026-05-17T23:28:30.315426",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -373,7 +373,7 @@
           "ask_vol5": 313
         },
         "book_diff": -1909614.0,
-        "timestamp": "2026-05-17T22:21:56.806512",
+        "timestamp": "2026-05-17T23:28:30.315314",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -420,7 +420,7 @@
           "ask_vol5": 15
         },
         "book_diff": 58322890.0,
-        "timestamp": "2026-05-17T22:21:56.806284",
+        "timestamp": "2026-05-17T23:28:30.315027",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -467,7 +467,7 @@
           "ask_vol5": 19
         },
         "book_diff": 29751325.0,
-        "timestamp": "2026-05-17T22:21:56.806170",
+        "timestamp": "2026-05-17T23:28:30.314916",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -514,7 +514,7 @@
           "ask_vol5": 98
         },
         "book_diff": 25439991.0,
-        "timestamp": "2026-05-17T22:21:56.806393",
+        "timestamp": "2026-05-17T23:28:30.315182",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -563,7 +563,7 @@
           "ask_vol5": 17
         },
         "book_diff": -2999483.0,
-        "timestamp": "2026-05-17T22:21:56.807327",
+        "timestamp": "2026-05-17T23:28:30.316088",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -610,7 +610,7 @@
           "ask_vol5": 15
         },
         "book_diff": 816865.0,
-        "timestamp": "2026-05-17T22:21:56.806986",
+        "timestamp": "2026-05-17T23:28:30.315764",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -657,7 +657,7 @@
           "ask_vol5": 33
         },
         "book_diff": 4982361.0,
-        "timestamp": "2026-05-17T22:21:56.807104",
+        "timestamp": "2026-05-17T23:28:30.315873",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -704,7 +704,7 @@
           "ask_vol5": 32
         },
         "book_diff": -2232768.0,
-        "timestamp": "2026-05-17T22:21:56.807211",
+        "timestamp": "2026-05-17T23:28:30.315980",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -751,7 +751,7 @@
           "ask_vol5": 7
         },
         "book_diff": 27520337.0,
-        "timestamp": "2026-05-17T22:21:56.806833",
+        "timestamp": "2026-05-17T23:28:30.315659",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -800,7 +800,7 @@
           "ask_vol5": 122
         },
         "book_diff": 4789847.0,
-        "timestamp": "2026-05-17T22:21:56.807436",
+        "timestamp": "2026-05-17T23:28:30.316194",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -847,7 +847,7 @@
           "ask_vol5": 4
         },
         "book_diff": -119302.0,
-        "timestamp": "2026-05-17T22:21:56.807771",
+        "timestamp": "2026-05-17T23:28:30.316522",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -894,7 +894,7 @@
           "ask_vol5": 30
         },
         "book_diff": -76354.0,
-        "timestamp": "2026-05-17T22:21:56.807561",
+        "timestamp": "2026-05-17T23:28:30.316305",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -941,7 +941,7 @@
           "ask_vol5": 11
         },
         "book_diff": -1793401.0,
-        "timestamp": "2026-05-17T22:21:56.807872",
+        "timestamp": "2026-05-17T23:28:30.316629",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -988,7 +988,7 @@
           "ask_vol5": 12
         },
         "book_diff": 226849.0,
-        "timestamp": "2026-05-17T22:21:56.807668",
+        "timestamp": "2026-05-17T23:28:30.316410",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -1037,7 +1037,7 @@
           "ask_vol5": 5
         },
         "book_diff": 966456.0,
-        "timestamp": "2026-05-17T22:21:56.808089",
+        "timestamp": "2026-05-17T23:28:30.316841",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -1084,7 +1084,7 @@
           "ask_vol5": 14
         },
         "book_diff": 30281828.0,
-        "timestamp": "2026-05-17T22:21:56.807977",
+        "timestamp": "2026-05-17T23:28:30.316735",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -1131,7 +1131,7 @@
           "ask_vol5": 30
         },
         "book_diff": 12595610.0,
-        "timestamp": "2026-05-17T22:21:56.808194",
+        "timestamp": "2026-05-17T23:28:30.316948",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -1178,7 +1178,7 @@
           "ask_vol5": 191
         },
         "book_diff": 6305957.0,
-        "timestamp": "2026-05-17T22:21:56.808528",
+        "timestamp": "2026-05-17T23:28:30.317275",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -1225,7 +1225,7 @@
           "ask_vol5": 61
         },
         "book_diff": 5245522.0,
-        "timestamp": "2026-05-17T22:21:56.808305",
+        "timestamp": "2026-05-17T23:28:30.317054",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -1272,7 +1272,7 @@
           "ask_vol5": 78
         },
         "book_diff": 7149672.0,
-        "timestamp": "2026-05-17T22:21:56.808412",
+        "timestamp": "2026-05-17T23:28:30.317163",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -1321,7 +1321,7 @@
           "ask_vol5": 26
         },
         "book_diff": -97440941.0,
-        "timestamp": "2026-05-17T22:21:56.808848",
+        "timestamp": "2026-05-17T23:28:30.317601",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -1368,7 +1368,7 @@
           "ask_vol5": 2
         },
         "book_diff": 16947426.0,
-        "timestamp": "2026-05-17T22:21:56.808743",
+        "timestamp": "2026-05-17T23:28:30.317496",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -1415,7 +1415,7 @@
           "ask_vol5": 1
         },
         "book_diff": 3573263.0,
-        "timestamp": "2026-05-17T22:21:56.809055",
+        "timestamp": "2026-05-17T23:28:30.317822",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -1462,7 +1462,7 @@
           "ask_vol5": 16
         },
         "book_diff": -11302800.0,
-        "timestamp": "2026-05-17T22:21:56.808639",
+        "timestamp": "2026-05-17T23:28:30.317385",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -1509,7 +1509,7 @@
           "ask_vol5": 13
         },
         "book_diff": -36358580.0,
-        "timestamp": "2026-05-17T22:21:56.808951",
+        "timestamp": "2026-05-17T23:28:30.317714",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -1558,7 +1558,7 @@
           "ask_vol5": 7
         },
         "book_diff": -23881379.0,
-        "timestamp": "2026-05-17T22:21:56.809378",
+        "timestamp": "2026-05-17T23:28:30.318135",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -1605,7 +1605,7 @@
           "ask_vol5": 72
         },
         "book_diff": 10978660.0,
-        "timestamp": "2026-05-17T22:21:56.809273",
+        "timestamp": "2026-05-17T23:28:30.318033",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -1652,7 +1652,7 @@
           "ask_vol5": 2
         },
         "book_diff": -2728181.0,
-        "timestamp": "2026-05-17T22:21:56.809812",
+        "timestamp": "2026-05-17T23:28:30.318572",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -1699,7 +1699,7 @@
           "ask_vol5": 94
         },
         "book_diff": -3886774.0,
-        "timestamp": "2026-05-17T22:21:56.809163",
+        "timestamp": "2026-05-17T23:28:30.317930",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -1746,7 +1746,7 @@
           "ask_vol5": 1
         },
         "book_diff": -2910065.0,
-        "timestamp": "2026-05-17T22:21:56.809490",
+        "timestamp": "2026-05-17T23:28:30.318247",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -1793,7 +1793,7 @@
           "ask_vol5": 1
         },
         "book_diff": -497862.0,
-        "timestamp": "2026-05-17T22:21:56.809915",
+        "timestamp": "2026-05-17T23:28:30.318675",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -1840,7 +1840,7 @@
           "ask_vol5": 52
         },
         "book_diff": -5761083.0,
-        "timestamp": "2026-05-17T22:21:56.809597",
+        "timestamp": "2026-05-17T23:28:30.318352",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -1887,7 +1887,7 @@
           "ask_vol5": 4
         },
         "book_diff": 505082.0,
-        "timestamp": "2026-05-17T22:21:56.809709",
+        "timestamp": "2026-05-17T23:28:30.318469",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -1936,7 +1936,7 @@
           "ask_vol5": 226
         },
         "book_diff": -12117985.0,
-        "timestamp": "2026-05-17T22:21:56.810122",
+        "timestamp": "2026-05-17T23:28:30.318888",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -1983,7 +1983,7 @@
           "ask_vol5": 2
         },
         "book_diff": -1721478.0,
-        "timestamp": "2026-05-17T22:21:56.810018",
+        "timestamp": "2026-05-17T23:28:30.318784",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -2030,7 +2030,7 @@
           "ask_vol5": 18
         },
         "book_diff": -2338707.0,
-        "timestamp": "2026-05-17T22:21:56.810446",
+        "timestamp": "2026-05-17T23:28:30.319199",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -2077,7 +2077,7 @@
           "ask_vol5": 3
         },
         "book_diff": 9193517.0,
-        "timestamp": "2026-05-17T22:21:56.810343",
+        "timestamp": "2026-05-17T23:28:30.319098",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -2124,7 +2124,7 @@
           "ask_vol5": 4
         },
         "book_diff": -2593908.0,
-        "timestamp": "2026-05-17T22:21:56.810230",
+        "timestamp": "2026-05-17T23:28:30.318994",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -2173,7 +2173,7 @@
           "ask_vol5": 1
         },
         "book_diff": 419996.0,
-        "timestamp": "2026-05-17T22:21:56.810666",
+        "timestamp": "2026-05-17T23:28:30.319416",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -2220,7 +2220,7 @@
           "ask_vol5": 15
         },
         "book_diff": -1572811.0,
-        "timestamp": "2026-05-17T22:21:56.810986",
+        "timestamp": "2026-05-17T23:28:30.319742",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -2267,7 +2267,7 @@
           "ask_vol5": 644
         },
         "book_diff": -11295150.0,
-        "timestamp": "2026-05-17T22:21:56.810774",
+        "timestamp": "2026-05-17T23:28:30.319531",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -2314,7 +2314,7 @@
           "ask_vol5": 35
         },
         "book_diff": 14068639.0,
-        "timestamp": "2026-05-17T22:21:56.810559",
+        "timestamp": "2026-05-17T23:28:30.319312",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -2361,7 +2361,7 @@
           "ask_vol5": 2
         },
         "book_diff": 3810013.0,
-        "timestamp": "2026-05-17T22:21:56.810878",
+        "timestamp": "2026-05-17T23:28:30.319639",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -2410,7 +2410,7 @@
           "ask_vol5": 89
         },
         "book_diff": 2106285.0,
-        "timestamp": "2026-05-17T22:21:56.877986",
+        "timestamp": "2026-05-17T23:28:30.388538",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -2457,7 +2457,7 @@
           "ask_vol5": 36
         },
         "book_diff": -24047010.0,
-        "timestamp": "2026-05-17T22:21:56.877744",
+        "timestamp": "2026-05-17T23:28:30.388274",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -2504,7 +2504,7 @@
           "ask_vol5": 612
         },
         "book_diff": 61190126.0,
-        "timestamp": "2026-05-17T22:21:56.878110",
+        "timestamp": "2026-05-17T23:28:30.388650",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -2551,7 +2551,7 @@
           "ask_vol5": 137
         },
         "book_diff": -1644588.0,
-        "timestamp": "2026-05-17T22:21:56.878218",
+        "timestamp": "2026-05-17T23:28:30.388757",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -2598,7 +2598,7 @@
           "ask_vol5": 47
         },
         "book_diff": 4787082.0,
-        "timestamp": "2026-05-17T22:21:56.877869",
+        "timestamp": "2026-05-17T23:28:30.388406",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -2647,7 +2647,7 @@
           "ask_vol5": 9
         },
         "book_diff": 25908009.0,
-        "timestamp": "2026-05-17T22:21:56.878331",
+        "timestamp": "2026-05-17T23:28:30.388865",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -2694,7 +2694,7 @@
           "ask_vol5": 83
         },
         "book_diff": 1425272.0,
-        "timestamp": "2026-05-17T22:21:56.878757",
+        "timestamp": "2026-05-17T23:28:30.389188",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -2741,7 +2741,7 @@
           "ask_vol5": 1100
         },
         "book_diff": -2988474.0,
-        "timestamp": "2026-05-17T22:21:56.878864",
+        "timestamp": "2026-05-17T23:28:30.389298",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -2788,7 +2788,7 @@
           "ask_vol5": 2368
         },
         "book_diff": -6731410.0,
-        "timestamp": "2026-05-17T22:21:56.878648",
+        "timestamp": "2026-05-17T23:28:30.389084",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -2835,7 +2835,7 @@
           "ask_vol5": 65
         },
         "book_diff": -10615068.0,
-        "timestamp": "2026-05-17T22:21:56.878520",
+        "timestamp": "2026-05-17T23:28:30.388970",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -2884,7 +2884,7 @@
           "ask_vol5": 675
         },
         "book_diff": -123273483.0,
-        "timestamp": "2026-05-17T22:21:56.878969",
+        "timestamp": "2026-05-17T23:28:30.389402",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -2931,7 +2931,7 @@
           "ask_vol5": 120
         },
         "book_diff": 2700982.0,
-        "timestamp": "2026-05-17T22:21:56.879295",
+        "timestamp": "2026-05-17T23:28:30.389733",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -2978,7 +2978,7 @@
           "ask_vol5": 2509
         },
         "book_diff": -10232725.0,
-        "timestamp": "2026-05-17T22:21:56.879184",
+        "timestamp": "2026-05-17T23:28:30.389630",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -3025,7 +3025,7 @@
           "ask_vol5": 79
         },
         "book_diff": 35856620.0,
-        "timestamp": "2026-05-17T22:21:56.879077",
+        "timestamp": "2026-05-17T23:28:30.389523",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -3072,7 +3072,7 @@
           "ask_vol5": 17
         },
         "book_diff": -2493952.0,
-        "timestamp": "2026-05-17T22:21:56.879400",
+        "timestamp": "2026-05-17T23:28:30.389838",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -3121,7 +3121,7 @@
           "ask_vol5": 182
         },
         "book_diff": -13725344.0,
-        "timestamp": "2026-05-17T22:21:56.879619",
+        "timestamp": "2026-05-17T23:28:30.390043",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -3168,7 +3168,7 @@
           "ask_vol5": 2
         },
         "book_diff": -2175475.0,
-        "timestamp": "2026-05-17T22:21:56.879729",
+        "timestamp": "2026-05-17T23:28:30.390150",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -3215,7 +3215,7 @@
           "ask_vol5": 1
         },
         "book_diff": 10951596.0,
-        "timestamp": "2026-05-17T22:21:56.879515",
+        "timestamp": "2026-05-17T23:28:30.389940",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -3262,7 +3262,7 @@
           "ask_vol5": 127
         },
         "book_diff": -3182643.0,
-        "timestamp": "2026-05-17T22:21:56.879938",
+        "timestamp": "2026-05-17T23:28:30.390366",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -3309,7 +3309,7 @@
           "ask_vol5": 229
         },
         "book_diff": -21371226.0,
-        "timestamp": "2026-05-17T22:21:56.880044",
+        "timestamp": "2026-05-17T23:28:30.390479",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -3356,7 +3356,7 @@
           "ask_vol5": 3
         },
         "book_diff": 595223.0,
-        "timestamp": "2026-05-17T22:21:56.879834",
+        "timestamp": "2026-05-17T23:28:30.390259",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -3405,7 +3405,7 @@
           "ask_vol5": 5
         },
         "book_diff": -1703292.0,
-        "timestamp": "2026-05-17T22:21:56.880588",
+        "timestamp": "2026-05-17T23:28:30.391007",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -3452,7 +3452,7 @@
           "ask_vol5": 48
         },
         "book_diff": -134101.0,
-        "timestamp": "2026-05-17T22:21:56.880152",
+        "timestamp": "2026-05-17T23:28:30.390588",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -3499,7 +3499,7 @@
           "ask_vol5": 285
         },
         "book_diff": -6435773.0,
-        "timestamp": "2026-05-17T22:21:56.880696",
+        "timestamp": "2026-05-17T23:28:30.391115",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -3546,7 +3546,7 @@
           "ask_vol5": 3
         },
         "book_diff": -1827364.0,
-        "timestamp": "2026-05-17T22:21:56.880368",
+        "timestamp": "2026-05-17T23:28:30.390802",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -3593,7 +3593,7 @@
           "ask_vol5": 6
         },
         "book_diff": 215192.0,
-        "timestamp": "2026-05-17T22:21:56.880479",
+        "timestamp": "2026-05-17T23:28:30.390904",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -3640,7 +3640,7 @@
           "ask_vol5": 890
         },
         "book_diff": -3333538.0,
-        "timestamp": "2026-05-17T22:21:56.880263",
+        "timestamp": "2026-05-17T23:28:30.390699",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -3689,7 +3689,7 @@
           "ask_vol5": 1
         },
         "book_diff": -1187006.0,
-        "timestamp": "2026-05-17T22:21:56.881124",
+        "timestamp": "2026-05-17T23:28:30.391589",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -3736,7 +3736,7 @@
           "ask_vol5": 37
         },
         "book_diff": -6067147.0,
-        "timestamp": "2026-05-17T22:21:56.880805",
+        "timestamp": "2026-05-17T23:28:30.391226",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -3783,7 +3783,7 @@
           "ask_vol5": 5
         },
         "book_diff": -1081300.0,
-        "timestamp": "2026-05-17T22:21:56.880908",
+        "timestamp": "2026-05-17T23:28:30.391336",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -3830,7 +3830,7 @@
           "ask_vol5": 2
         },
         "book_diff": 1892235.0,
-        "timestamp": "2026-05-17T22:21:56.881016",
+        "timestamp": "2026-05-17T23:28:30.391440",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -3879,7 +3879,7 @@
           "ask_vol5": 6
         },
         "book_diff": 11912872.0,
-        "timestamp": "2026-05-17T22:21:56.881231",
+        "timestamp": "2026-05-17T23:28:30.391732",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -3926,7 +3926,7 @@
           "ask_vol5": 60
         },
         "book_diff": -37748235.0,
-        "timestamp": "2026-05-17T22:21:56.881734",
+        "timestamp": "2026-05-17T23:28:30.392153",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -3973,7 +3973,7 @@
           "ask_vol5": 48
         },
         "book_diff": 1784261.0,
-        "timestamp": "2026-05-17T22:21:56.881598",
+        "timestamp": "2026-05-17T23:28:30.392051",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -4020,7 +4020,7 @@
           "ask_vol5": 24
         },
         "book_diff": -1782044.0,
-        "timestamp": "2026-05-17T22:21:56.881446",
+        "timestamp": "2026-05-17T23:28:30.391947",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -4067,7 +4067,7 @@
           "ask_vol5": 152
         },
         "book_diff": -3755795.0,
-        "timestamp": "2026-05-17T22:21:56.881343",
+        "timestamp": "2026-05-17T23:28:30.391843",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -4114,7 +4114,7 @@
           "ask_vol5": 7
         },
         "book_diff": 4261216.0,
-        "timestamp": "2026-05-17T22:21:56.881845",
+        "timestamp": "2026-05-17T23:28:30.392271",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -4163,7 +4163,7 @@
           "ask_vol5": 14
         },
         "book_diff": -166937.0,
-        "timestamp": "2026-05-17T22:21:56.882163",
+        "timestamp": "2026-05-17T23:28:30.392598",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -4210,7 +4210,7 @@
           "ask_vol5": 62
         },
         "book_diff": -464406.0,
-        "timestamp": "2026-05-17T22:21:56.882276",
+        "timestamp": "2026-05-17T23:28:30.392701",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -4257,7 +4257,7 @@
           "ask_vol5": 7
         },
         "book_diff": 2236306.0,
-        "timestamp": "2026-05-17T22:21:56.882057",
+        "timestamp": "2026-05-17T23:28:30.392493",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -4304,7 +4304,7 @@
           "ask_vol5": 3
         },
         "book_diff": 627006.0,
-        "timestamp": "2026-05-17T22:21:56.882383",
+        "timestamp": "2026-05-17T23:28:30.392810",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -4351,7 +4351,7 @@
           "ask_vol5": 67
         },
         "book_diff": -349202.0,
-        "timestamp": "2026-05-17T22:21:56.882497",
+        "timestamp": "2026-05-17T23:28:30.392915",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -4398,7 +4398,7 @@
           "ask_vol5": 50
         },
         "book_diff": 133614.0,
-        "timestamp": "2026-05-17T22:21:56.881954",
+        "timestamp": "2026-05-17T23:28:30.392378",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -4447,7 +4447,7 @@
           "ask_vol5": 324
         },
         "book_diff": 11059459.0,
-        "timestamp": "2026-05-17T22:21:56.882921",
+        "timestamp": "2026-05-17T23:28:30.393344",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -4494,7 +4494,7 @@
           "ask_vol5": 306
         },
         "book_diff": -1722035.0,
-        "timestamp": "2026-05-17T22:21:56.882819",
+        "timestamp": "2026-05-17T23:28:30.393234",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -4541,7 +4541,7 @@
           "ask_vol5": 134
         },
         "book_diff": 1606582.0,
-        "timestamp": "2026-05-17T22:21:56.882606",
+        "timestamp": "2026-05-17T23:28:30.393017",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -4588,7 +4588,7 @@
           "ask_vol5": 36
         },
         "book_diff": 198370.0,
-        "timestamp": "2026-05-17T22:21:56.882715",
+        "timestamp": "2026-05-17T23:28:30.393121",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -4635,7 +4635,7 @@
           "ask_vol5": 133
         },
         "book_diff": 742395.0,
-        "timestamp": "2026-05-17T22:21:56.883027",
+        "timestamp": "2026-05-17T23:28:30.393460",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -4684,7 +4684,7 @@
           "ask_vol5": 352
         },
         "book_diff": -1180185.0,
-        "timestamp": "2026-05-17T22:21:56.949713",
+        "timestamp": "2026-05-17T23:28:30.461854",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -4731,7 +4731,7 @@
           "ask_vol5": 12
         },
         "book_diff": -3155585.0,
-        "timestamp": "2026-05-17T22:21:56.949476",
+        "timestamp": "2026-05-17T23:28:30.461620",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -4778,7 +4778,7 @@
           "ask_vol5": 126
         },
         "book_diff": 3082751.0,
-        "timestamp": "2026-05-17T22:21:56.949604",
+        "timestamp": "2026-05-17T23:28:30.461745",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -4825,7 +4825,7 @@
           "ask_vol5": 11
         },
         "book_diff": 793146.0,
-        "timestamp": "2026-05-17T22:21:56.883130",
+        "timestamp": "2026-05-17T23:28:30.393567",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -4872,7 +4872,7 @@
           "ask_vol5": 13
         },
         "book_diff": 6048984.0,
-        "timestamp": "2026-05-17T22:21:56.883236",
+        "timestamp": "2026-05-17T23:28:30.393670",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -4921,7 +4921,7 @@
           "ask_vol5": 3
         },
         "book_diff": 1202709.0,
-        "timestamp": "2026-05-17T22:21:56.949923",
+        "timestamp": "2026-05-17T23:28:30.462063",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -4968,7 +4968,7 @@
           "ask_vol5": 10
         },
         "book_diff": 1953878.0,
-        "timestamp": "2026-05-17T22:21:56.949818",
+        "timestamp": "2026-05-17T23:28:30.461960",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -5015,7 +5015,7 @@
           "ask_vol5": 85
         },
         "book_diff": 5018011.0,
-        "timestamp": "2026-05-17T22:21:56.950135",
+        "timestamp": "2026-05-17T23:28:30.462281",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -5062,7 +5062,7 @@
           "ask_vol5": 17
         },
         "book_diff": 1318824.0,
-        "timestamp": "2026-05-17T22:21:56.950246",
+        "timestamp": "2026-05-17T23:28:30.462386",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -5109,7 +5109,7 @@
           "ask_vol5": 135
         },
         "book_diff": 101287.0,
-        "timestamp": "2026-05-17T22:21:56.950030",
+        "timestamp": "2026-05-17T23:28:30.462170",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -5158,7 +5158,7 @@
           "ask_vol5": 198
         },
         "book_diff": -14438271.0,
-        "timestamp": "2026-05-17T22:21:56.950794",
+        "timestamp": "2026-05-17T23:28:30.462933",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -5205,7 +5205,7 @@
           "ask_vol5": 87
         },
         "book_diff": 316121.0,
-        "timestamp": "2026-05-17T22:21:56.950475",
+        "timestamp": "2026-05-17T23:28:30.462614",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -5252,7 +5252,7 @@
           "ask_vol5": 30
         },
         "book_diff": 47918.0,
-        "timestamp": "2026-05-17T22:21:56.950360",
+        "timestamp": "2026-05-17T23:28:30.462508",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -5299,7 +5299,7 @@
           "ask_vol5": 35
         },
         "book_diff": 5595622.0,
-        "timestamp": "2026-05-17T22:21:56.950587",
+        "timestamp": "2026-05-17T23:28:30.462722",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -5346,7 +5346,7 @@
           "ask_vol5": 211
         },
         "book_diff": 3192853.0,
-        "timestamp": "2026-05-17T22:21:56.950691",
+        "timestamp": "2026-05-17T23:28:30.462825",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -5395,7 +5395,7 @@
           "ask_vol5": 1
         },
         "book_diff": 831559.0,
-        "timestamp": "2026-05-17T22:21:56.951214",
+        "timestamp": "2026-05-17T23:28:30.463354",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -5442,7 +5442,7 @@
           "ask_vol5": 8
         },
         "book_diff": 387814.0,
-        "timestamp": "2026-05-17T22:21:56.951328",
+        "timestamp": "2026-05-17T23:28:30.463470",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -5489,7 +5489,7 @@
           "ask_vol5": 8
         },
         "book_diff": 231614.0,
-        "timestamp": "2026-05-17T22:21:56.950895",
+        "timestamp": "2026-05-17T23:28:30.463037",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -5536,7 +5536,7 @@
           "ask_vol5": 193
         },
         "book_diff": -787845.0,
-        "timestamp": "2026-05-17T22:21:56.951005",
+        "timestamp": "2026-05-17T23:28:30.463140",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -5583,7 +5583,7 @@
           "ask_vol5": 124
         },
         "book_diff": -71712.0,
-        "timestamp": "2026-05-17T22:21:56.951111",
+        "timestamp": "2026-05-17T23:28:30.463249",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -5632,7 +5632,7 @@
           "ask_vol5": 125
         },
         "book_diff": -1358054.0,
-        "timestamp": "2026-05-17T22:21:56.951563",
+        "timestamp": "2026-05-17T23:28:30.463692",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -5679,7 +5679,7 @@
           "ask_vol5": 1
         },
         "book_diff": -339903.0,
-        "timestamp": "2026-05-17T22:21:56.951671",
+        "timestamp": "2026-05-17T23:28:30.463799",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -5726,54 +5726,7 @@
           "ask_vol5": 70
         },
         "book_diff": -3081823.0,
-        "timestamp": "2026-05-17T22:21:56.951444",
-        "main_force": 0,
-        "retail": 0,
-        "super": 0,
-        "large": 0,
-        "medium": 0,
-        "little": 0,
-        "has_fund_flow": false,
-        "fund_flow_time": ""
-      },
-      {
-        "code": "300750",
-        "name": "宁德时代",
-        "sector": "设备+整车/应用",
-        "price": 423.6,
-        "open": 428.08,
-        "high": 431.5,
-        "low": 421.0,
-        "last_close": 427.0,
-        "volume": 297048,
-        "amount": 12638150656.0,
-        "change_pct": -0.8,
-        "bids": {
-          "bid1": 423.58,
-          "bid_vol1": 1,
-          "bid2": 423.52,
-          "bid_vol2": 2,
-          "bid3": 423.51,
-          "bid_vol3": 3,
-          "bid4": 423.5,
-          "bid_vol4": 82,
-          "bid5": 423.49,
-          "bid_vol5": 3
-        },
-        "asks": {
-          "ask1": 423.6,
-          "ask_vol1": 15,
-          "ask2": 423.61,
-          "ask_vol2": 4,
-          "ask3": 423.62,
-          "ask_vol3": 1,
-          "ask4": 423.63,
-          "ask_vol4": 2,
-          "ask5": 423.65000000000003,
-          "ask_vol5": 3
-        },
-        "book_diff": 2794835.0,
-        "timestamp": "2026-05-17T22:21:56.951877",
+        "timestamp": "2026-05-17T23:28:30.463581",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -5820,7 +5773,7 @@
           "ask_vol5": 9
         },
         "book_diff": 6754923.0,
-        "timestamp": "2026-05-17T22:21:56.951774",
+        "timestamp": "2026-05-17T23:28:30.463905",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -5869,7 +5822,7 @@
           "ask_vol5": 18
         },
         "book_diff": 2052545.0,
-        "timestamp": "2026-05-17T22:21:56.952403",
+        "timestamp": "2026-05-17T23:28:30.464429",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -5916,7 +5869,7 @@
           "ask_vol5": 49
         },
         "book_diff": 1650821.0,
-        "timestamp": "2026-05-17T22:21:56.951982",
+        "timestamp": "2026-05-17T23:28:30.464008",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -5963,7 +5916,7 @@
           "ask_vol5": 54
         },
         "book_diff": -951283.0,
-        "timestamp": "2026-05-17T22:21:56.952295",
+        "timestamp": "2026-05-17T23:28:30.464326",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -6010,7 +5963,7 @@
           "ask_vol5": 30
         },
         "book_diff": 5788912.0,
-        "timestamp": "2026-05-17T22:21:56.952187",
+        "timestamp": "2026-05-17T23:28:30.464217",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -6057,7 +6010,7 @@
           "ask_vol5": 54
         },
         "book_diff": 5769308.0,
-        "timestamp": "2026-05-17T22:21:56.952084",
+        "timestamp": "2026-05-17T23:28:30.464109",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -6106,7 +6059,7 @@
           "ask_vol5": 497
         },
         "book_diff": 4248173.0,
-        "timestamp": "2026-05-17T22:21:56.952521",
+        "timestamp": "2026-05-17T23:28:30.464546",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -6153,7 +6106,7 @@
           "ask_vol5": 29
         },
         "book_diff": -100168.0,
-        "timestamp": "2026-05-17T22:21:56.952666",
+        "timestamp": "2026-05-17T23:28:30.464698",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -6200,7 +6153,7 @@
           "ask_vol5": 91
         },
         "book_diff": -259043.0,
-        "timestamp": "2026-05-17T22:21:56.952875",
+        "timestamp": "2026-05-17T23:28:30.464916",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -6247,7 +6200,7 @@
           "ask_vol5": 13
         },
         "book_diff": 33535771.0,
-        "timestamp": "2026-05-17T22:21:56.952770",
+        "timestamp": "2026-05-17T23:28:30.464814",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -6296,7 +6249,7 @@
           "ask_vol5": 1109
         },
         "book_diff": -108896556.0,
-        "timestamp": "2026-05-17T22:21:56.952978",
+        "timestamp": "2026-05-17T23:28:30.465019",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -6343,7 +6296,7 @@
           "ask_vol5": 10
         },
         "book_diff": 601555.0,
-        "timestamp": "2026-05-17T22:21:56.953085",
+        "timestamp": "2026-05-17T23:28:30.465121",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -6390,7 +6343,7 @@
           "ask_vol5": 13
         },
         "book_diff": 95875.0,
-        "timestamp": "2026-05-17T22:21:56.953187",
+        "timestamp": "2026-05-17T23:28:30.465233",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -6437,7 +6390,7 @@
           "ask_vol5": 6
         },
         "book_diff": 586099.0,
-        "timestamp": "2026-05-17T22:21:56.953297",
+        "timestamp": "2026-05-17T23:28:30.465339",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -6484,7 +6437,7 @@
           "ask_vol5": 5
         },
         "book_diff": -633063.0,
-        "timestamp": "2026-05-17T22:21:56.953402",
+        "timestamp": "2026-05-17T23:28:30.465443",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -6533,7 +6486,7 @@
           "ask_vol5": 0
         },
         "book_diff": 28237253.0,
-        "timestamp": "2026-05-17T22:21:56.953836",
+        "timestamp": "2026-05-17T23:28:30.465878",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -6580,7 +6533,7 @@
           "ask_vol5": 137
         },
         "book_diff": 86863.0,
-        "timestamp": "2026-05-17T22:21:56.953625",
+        "timestamp": "2026-05-17T23:28:30.465659",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -6627,7 +6580,7 @@
           "ask_vol5": 40
         },
         "book_diff": 2263579.0,
-        "timestamp": "2026-05-17T22:21:56.953940",
+        "timestamp": "2026-05-17T23:28:30.465981",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -6674,7 +6627,7 @@
           "ask_vol5": 933
         },
         "book_diff": 19662668.0,
-        "timestamp": "2026-05-17T22:21:56.953732",
+        "timestamp": "2026-05-17T23:28:30.465771",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -6721,7 +6674,7 @@
           "ask_vol5": 164
         },
         "book_diff": 13148364.0,
-        "timestamp": "2026-05-17T22:21:56.953514",
+        "timestamp": "2026-05-17T23:28:30.465556",
         "main_force": 0,
         "retail": 0,
         "super": 0,
@@ -6771,7 +6724,7 @@
         "ask_vol5": 8
       },
       "book_diff": 27195657.0,
-      "timestamp": "2026-05-17T22:21:56.805557",
+      "timestamp": "2026-05-17T23:28:30.314273",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -6818,7 +6771,7 @@
         "ask_vol5": 26
       },
       "book_diff": 12907315.0,
-      "timestamp": "2026-05-17T22:21:56.805708",
+      "timestamp": "2026-05-17T23:28:30.314424",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -6865,7 +6818,7 @@
         "ask_vol5": 8
       },
       "book_diff": 1401872.0,
-      "timestamp": "2026-05-17T22:21:56.805827",
+      "timestamp": "2026-05-17T23:28:30.314562",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -6912,7 +6865,7 @@
         "ask_vol5": 15
       },
       "book_diff": -2320539.0,
-      "timestamp": "2026-05-17T22:21:56.805946",
+      "timestamp": "2026-05-17T23:28:30.314681",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -6959,7 +6912,7 @@
         "ask_vol5": 35
       },
       "book_diff": -1373163.0,
-      "timestamp": "2026-05-17T22:21:56.806062",
+      "timestamp": "2026-05-17T23:28:30.314809",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -7006,7 +6959,7 @@
         "ask_vol5": 19
       },
       "book_diff": 29751325.0,
-      "timestamp": "2026-05-17T22:21:56.806170",
+      "timestamp": "2026-05-17T23:28:30.314916",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -7053,7 +7006,7 @@
         "ask_vol5": 15
       },
       "book_diff": 58322890.0,
-      "timestamp": "2026-05-17T22:21:56.806284",
+      "timestamp": "2026-05-17T23:28:30.315027",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -7100,7 +7053,7 @@
         "ask_vol5": 98
       },
       "book_diff": 25439991.0,
-      "timestamp": "2026-05-17T22:21:56.806393",
+      "timestamp": "2026-05-17T23:28:30.315182",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -7147,7 +7100,7 @@
         "ask_vol5": 313
       },
       "book_diff": -1909614.0,
-      "timestamp": "2026-05-17T22:21:56.806512",
+      "timestamp": "2026-05-17T23:28:30.315314",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -7194,7 +7147,7 @@
         "ask_vol5": 6
       },
       "book_diff": 12340197.0,
-      "timestamp": "2026-05-17T22:21:56.806620",
+      "timestamp": "2026-05-17T23:28:30.315426",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -7241,7 +7194,7 @@
         "ask_vol5": 18
       },
       "book_diff": -2065050.0,
-      "timestamp": "2026-05-17T22:21:56.806725",
+      "timestamp": "2026-05-17T23:28:30.315545",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -7288,7 +7241,7 @@
         "ask_vol5": 7
       },
       "book_diff": 27520337.0,
-      "timestamp": "2026-05-17T22:21:56.806833",
+      "timestamp": "2026-05-17T23:28:30.315659",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -7335,7 +7288,7 @@
         "ask_vol5": 15
       },
       "book_diff": 816865.0,
-      "timestamp": "2026-05-17T22:21:56.806986",
+      "timestamp": "2026-05-17T23:28:30.315764",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -7382,7 +7335,7 @@
         "ask_vol5": 33
       },
       "book_diff": 4982361.0,
-      "timestamp": "2026-05-17T22:21:56.807104",
+      "timestamp": "2026-05-17T23:28:30.315873",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -7429,7 +7382,7 @@
         "ask_vol5": 32
       },
       "book_diff": -2232768.0,
-      "timestamp": "2026-05-17T22:21:56.807211",
+      "timestamp": "2026-05-17T23:28:30.315980",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -7476,7 +7429,7 @@
         "ask_vol5": 17
       },
       "book_diff": -2999483.0,
-      "timestamp": "2026-05-17T22:21:56.807327",
+      "timestamp": "2026-05-17T23:28:30.316088",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -7523,7 +7476,7 @@
         "ask_vol5": 122
       },
       "book_diff": 4789847.0,
-      "timestamp": "2026-05-17T22:21:56.807436",
+      "timestamp": "2026-05-17T23:28:30.316194",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -7570,7 +7523,7 @@
         "ask_vol5": 30
       },
       "book_diff": -76354.0,
-      "timestamp": "2026-05-17T22:21:56.807561",
+      "timestamp": "2026-05-17T23:28:30.316305",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -7617,7 +7570,7 @@
         "ask_vol5": 12
       },
       "book_diff": 226849.0,
-      "timestamp": "2026-05-17T22:21:56.807668",
+      "timestamp": "2026-05-17T23:28:30.316410",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -7664,7 +7617,7 @@
         "ask_vol5": 4
       },
       "book_diff": -119302.0,
-      "timestamp": "2026-05-17T22:21:56.807771",
+      "timestamp": "2026-05-17T23:28:30.316522",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -7711,7 +7664,7 @@
         "ask_vol5": 11
       },
       "book_diff": -1793401.0,
-      "timestamp": "2026-05-17T22:21:56.807872",
+      "timestamp": "2026-05-17T23:28:30.316629",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -7758,7 +7711,7 @@
         "ask_vol5": 14
       },
       "book_diff": 30281828.0,
-      "timestamp": "2026-05-17T22:21:56.807977",
+      "timestamp": "2026-05-17T23:28:30.316735",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -7805,7 +7758,7 @@
         "ask_vol5": 5
       },
       "book_diff": 966456.0,
-      "timestamp": "2026-05-17T22:21:56.808089",
+      "timestamp": "2026-05-17T23:28:30.316841",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -7852,7 +7805,7 @@
         "ask_vol5": 30
       },
       "book_diff": 12595610.0,
-      "timestamp": "2026-05-17T22:21:56.808194",
+      "timestamp": "2026-05-17T23:28:30.316948",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -7899,7 +7852,7 @@
         "ask_vol5": 61
       },
       "book_diff": 5245522.0,
-      "timestamp": "2026-05-17T22:21:56.808305",
+      "timestamp": "2026-05-17T23:28:30.317054",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -7946,7 +7899,7 @@
         "ask_vol5": 78
       },
       "book_diff": 7149672.0,
-      "timestamp": "2026-05-17T22:21:56.808412",
+      "timestamp": "2026-05-17T23:28:30.317163",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -7993,7 +7946,7 @@
         "ask_vol5": 191
       },
       "book_diff": 6305957.0,
-      "timestamp": "2026-05-17T22:21:56.808528",
+      "timestamp": "2026-05-17T23:28:30.317275",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -8040,7 +7993,7 @@
         "ask_vol5": 16
       },
       "book_diff": -11302800.0,
-      "timestamp": "2026-05-17T22:21:56.808639",
+      "timestamp": "2026-05-17T23:28:30.317385",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -8087,7 +8040,7 @@
         "ask_vol5": 2
       },
       "book_diff": 16947426.0,
-      "timestamp": "2026-05-17T22:21:56.808743",
+      "timestamp": "2026-05-17T23:28:30.317496",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -8134,7 +8087,7 @@
         "ask_vol5": 26
       },
       "book_diff": -97440941.0,
-      "timestamp": "2026-05-17T22:21:56.808848",
+      "timestamp": "2026-05-17T23:28:30.317601",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -8181,7 +8134,7 @@
         "ask_vol5": 13
       },
       "book_diff": -36358580.0,
-      "timestamp": "2026-05-17T22:21:56.808951",
+      "timestamp": "2026-05-17T23:28:30.317714",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -8228,7 +8181,7 @@
         "ask_vol5": 1
       },
       "book_diff": 3573263.0,
-      "timestamp": "2026-05-17T22:21:56.809055",
+      "timestamp": "2026-05-17T23:28:30.317822",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -8275,7 +8228,7 @@
         "ask_vol5": 94
       },
       "book_diff": -3886774.0,
-      "timestamp": "2026-05-17T22:21:56.809163",
+      "timestamp": "2026-05-17T23:28:30.317930",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -8322,7 +8275,7 @@
         "ask_vol5": 72
       },
       "book_diff": 10978660.0,
-      "timestamp": "2026-05-17T22:21:56.809273",
+      "timestamp": "2026-05-17T23:28:30.318033",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -8369,7 +8322,7 @@
         "ask_vol5": 7
       },
       "book_diff": -23881379.0,
-      "timestamp": "2026-05-17T22:21:56.809378",
+      "timestamp": "2026-05-17T23:28:30.318135",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -8416,7 +8369,7 @@
         "ask_vol5": 1
       },
       "book_diff": -2910065.0,
-      "timestamp": "2026-05-17T22:21:56.809490",
+      "timestamp": "2026-05-17T23:28:30.318247",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -8463,7 +8416,7 @@
         "ask_vol5": 52
       },
       "book_diff": -5761083.0,
-      "timestamp": "2026-05-17T22:21:56.809597",
+      "timestamp": "2026-05-17T23:28:30.318352",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -8510,7 +8463,7 @@
         "ask_vol5": 4
       },
       "book_diff": 505082.0,
-      "timestamp": "2026-05-17T22:21:56.809709",
+      "timestamp": "2026-05-17T23:28:30.318469",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -8557,7 +8510,7 @@
         "ask_vol5": 2
       },
       "book_diff": -2728181.0,
-      "timestamp": "2026-05-17T22:21:56.809812",
+      "timestamp": "2026-05-17T23:28:30.318572",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -8604,7 +8557,7 @@
         "ask_vol5": 1
       },
       "book_diff": -497862.0,
-      "timestamp": "2026-05-17T22:21:56.809915",
+      "timestamp": "2026-05-17T23:28:30.318675",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -8651,7 +8604,7 @@
         "ask_vol5": 2
       },
       "book_diff": -1721478.0,
-      "timestamp": "2026-05-17T22:21:56.810018",
+      "timestamp": "2026-05-17T23:28:30.318784",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -8698,7 +8651,7 @@
         "ask_vol5": 226
       },
       "book_diff": -12117985.0,
-      "timestamp": "2026-05-17T22:21:56.810122",
+      "timestamp": "2026-05-17T23:28:30.318888",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -8745,7 +8698,7 @@
         "ask_vol5": 4
       },
       "book_diff": -2593908.0,
-      "timestamp": "2026-05-17T22:21:56.810230",
+      "timestamp": "2026-05-17T23:28:30.318994",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -8792,7 +8745,7 @@
         "ask_vol5": 3
       },
       "book_diff": 9193517.0,
-      "timestamp": "2026-05-17T22:21:56.810343",
+      "timestamp": "2026-05-17T23:28:30.319098",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -8839,7 +8792,7 @@
         "ask_vol5": 18
       },
       "book_diff": -2338707.0,
-      "timestamp": "2026-05-17T22:21:56.810446",
+      "timestamp": "2026-05-17T23:28:30.319199",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -8886,7 +8839,7 @@
         "ask_vol5": 35
       },
       "book_diff": 14068639.0,
-      "timestamp": "2026-05-17T22:21:56.810559",
+      "timestamp": "2026-05-17T23:28:30.319312",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -8933,7 +8886,7 @@
         "ask_vol5": 1
       },
       "book_diff": 419996.0,
-      "timestamp": "2026-05-17T22:21:56.810666",
+      "timestamp": "2026-05-17T23:28:30.319416",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -8980,7 +8933,7 @@
         "ask_vol5": 644
       },
       "book_diff": -11295150.0,
-      "timestamp": "2026-05-17T22:21:56.810774",
+      "timestamp": "2026-05-17T23:28:30.319531",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -9027,7 +8980,7 @@
         "ask_vol5": 2
       },
       "book_diff": 3810013.0,
-      "timestamp": "2026-05-17T22:21:56.810878",
+      "timestamp": "2026-05-17T23:28:30.319639",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -9074,7 +9027,7 @@
         "ask_vol5": 15
       },
       "book_diff": -1572811.0,
-      "timestamp": "2026-05-17T22:21:56.810986",
+      "timestamp": "2026-05-17T23:28:30.319742",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -9121,7 +9074,7 @@
         "ask_vol5": 36
       },
       "book_diff": -24047010.0,
-      "timestamp": "2026-05-17T22:21:56.877744",
+      "timestamp": "2026-05-17T23:28:30.388274",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -9168,7 +9121,7 @@
         "ask_vol5": 47
       },
       "book_diff": 4787082.0,
-      "timestamp": "2026-05-17T22:21:56.877869",
+      "timestamp": "2026-05-17T23:28:30.388406",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -9215,7 +9168,7 @@
         "ask_vol5": 89
       },
       "book_diff": 2106285.0,
-      "timestamp": "2026-05-17T22:21:56.877986",
+      "timestamp": "2026-05-17T23:28:30.388538",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -9262,7 +9215,7 @@
         "ask_vol5": 612
       },
       "book_diff": 61190126.0,
-      "timestamp": "2026-05-17T22:21:56.878110",
+      "timestamp": "2026-05-17T23:28:30.388650",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -9309,7 +9262,7 @@
         "ask_vol5": 137
       },
       "book_diff": -1644588.0,
-      "timestamp": "2026-05-17T22:21:56.878218",
+      "timestamp": "2026-05-17T23:28:30.388757",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -9356,7 +9309,7 @@
         "ask_vol5": 9
       },
       "book_diff": 25908009.0,
-      "timestamp": "2026-05-17T22:21:56.878331",
+      "timestamp": "2026-05-17T23:28:30.388865",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -9403,7 +9356,7 @@
         "ask_vol5": 65
       },
       "book_diff": -10615068.0,
-      "timestamp": "2026-05-17T22:21:56.878520",
+      "timestamp": "2026-05-17T23:28:30.388970",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -9450,7 +9403,7 @@
         "ask_vol5": 2368
       },
       "book_diff": -6731410.0,
-      "timestamp": "2026-05-17T22:21:56.878648",
+      "timestamp": "2026-05-17T23:28:30.389084",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -9497,7 +9450,7 @@
         "ask_vol5": 83
       },
       "book_diff": 1425272.0,
-      "timestamp": "2026-05-17T22:21:56.878757",
+      "timestamp": "2026-05-17T23:28:30.389188",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -9544,7 +9497,7 @@
         "ask_vol5": 1100
       },
       "book_diff": -2988474.0,
-      "timestamp": "2026-05-17T22:21:56.878864",
+      "timestamp": "2026-05-17T23:28:30.389298",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -9591,7 +9544,7 @@
         "ask_vol5": 675
       },
       "book_diff": -123273483.0,
-      "timestamp": "2026-05-17T22:21:56.878969",
+      "timestamp": "2026-05-17T23:28:30.389402",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -9638,7 +9591,7 @@
         "ask_vol5": 79
       },
       "book_diff": 35856620.0,
-      "timestamp": "2026-05-17T22:21:56.879077",
+      "timestamp": "2026-05-17T23:28:30.389523",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -9685,7 +9638,7 @@
         "ask_vol5": 2509
       },
       "book_diff": -10232725.0,
-      "timestamp": "2026-05-17T22:21:56.879184",
+      "timestamp": "2026-05-17T23:28:30.389630",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -9732,7 +9685,7 @@
         "ask_vol5": 120
       },
       "book_diff": 2700982.0,
-      "timestamp": "2026-05-17T22:21:56.879295",
+      "timestamp": "2026-05-17T23:28:30.389733",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -9779,7 +9732,7 @@
         "ask_vol5": 17
       },
       "book_diff": -2493952.0,
-      "timestamp": "2026-05-17T22:21:56.879400",
+      "timestamp": "2026-05-17T23:28:30.389838",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -9826,7 +9779,7 @@
         "ask_vol5": 1
       },
       "book_diff": 10951596.0,
-      "timestamp": "2026-05-17T22:21:56.879515",
+      "timestamp": "2026-05-17T23:28:30.389940",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -9873,7 +9826,7 @@
         "ask_vol5": 182
       },
       "book_diff": -13725344.0,
-      "timestamp": "2026-05-17T22:21:56.879619",
+      "timestamp": "2026-05-17T23:28:30.390043",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -9920,7 +9873,7 @@
         "ask_vol5": 2
       },
       "book_diff": -2175475.0,
-      "timestamp": "2026-05-17T22:21:56.879729",
+      "timestamp": "2026-05-17T23:28:30.390150",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -9967,7 +9920,7 @@
         "ask_vol5": 3
       },
       "book_diff": 595223.0,
-      "timestamp": "2026-05-17T22:21:56.879834",
+      "timestamp": "2026-05-17T23:28:30.390259",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -10014,7 +9967,7 @@
         "ask_vol5": 127
       },
       "book_diff": -3182643.0,
-      "timestamp": "2026-05-17T22:21:56.879938",
+      "timestamp": "2026-05-17T23:28:30.390366",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -10061,7 +10014,7 @@
         "ask_vol5": 229
       },
       "book_diff": -21371226.0,
-      "timestamp": "2026-05-17T22:21:56.880044",
+      "timestamp": "2026-05-17T23:28:30.390479",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -10108,7 +10061,7 @@
         "ask_vol5": 48
       },
       "book_diff": -134101.0,
-      "timestamp": "2026-05-17T22:21:56.880152",
+      "timestamp": "2026-05-17T23:28:30.390588",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -10155,7 +10108,7 @@
         "ask_vol5": 890
       },
       "book_diff": -3333538.0,
-      "timestamp": "2026-05-17T22:21:56.880263",
+      "timestamp": "2026-05-17T23:28:30.390699",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -10202,7 +10155,7 @@
         "ask_vol5": 3
       },
       "book_diff": -1827364.0,
-      "timestamp": "2026-05-17T22:21:56.880368",
+      "timestamp": "2026-05-17T23:28:30.390802",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -10249,7 +10202,7 @@
         "ask_vol5": 6
       },
       "book_diff": 215192.0,
-      "timestamp": "2026-05-17T22:21:56.880479",
+      "timestamp": "2026-05-17T23:28:30.390904",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -10296,7 +10249,7 @@
         "ask_vol5": 5
       },
       "book_diff": -1703292.0,
-      "timestamp": "2026-05-17T22:21:56.880588",
+      "timestamp": "2026-05-17T23:28:30.391007",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -10343,7 +10296,7 @@
         "ask_vol5": 285
       },
       "book_diff": -6435773.0,
-      "timestamp": "2026-05-17T22:21:56.880696",
+      "timestamp": "2026-05-17T23:28:30.391115",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -10390,7 +10343,7 @@
         "ask_vol5": 37
       },
       "book_diff": -6067147.0,
-      "timestamp": "2026-05-17T22:21:56.880805",
+      "timestamp": "2026-05-17T23:28:30.391226",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -10437,7 +10390,7 @@
         "ask_vol5": 5
       },
       "book_diff": -1081300.0,
-      "timestamp": "2026-05-17T22:21:56.880908",
+      "timestamp": "2026-05-17T23:28:30.391336",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -10484,7 +10437,7 @@
         "ask_vol5": 2
       },
       "book_diff": 1892235.0,
-      "timestamp": "2026-05-17T22:21:56.881016",
+      "timestamp": "2026-05-17T23:28:30.391440",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -10531,7 +10484,7 @@
         "ask_vol5": 1
       },
       "book_diff": -1187006.0,
-      "timestamp": "2026-05-17T22:21:56.881124",
+      "timestamp": "2026-05-17T23:28:30.391589",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -10578,7 +10531,7 @@
         "ask_vol5": 6
       },
       "book_diff": 11912872.0,
-      "timestamp": "2026-05-17T22:21:56.881231",
+      "timestamp": "2026-05-17T23:28:30.391732",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -10625,7 +10578,7 @@
         "ask_vol5": 152
       },
       "book_diff": -3755795.0,
-      "timestamp": "2026-05-17T22:21:56.881343",
+      "timestamp": "2026-05-17T23:28:30.391843",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -10672,7 +10625,7 @@
         "ask_vol5": 24
       },
       "book_diff": -1782044.0,
-      "timestamp": "2026-05-17T22:21:56.881446",
+      "timestamp": "2026-05-17T23:28:30.391947",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -10719,7 +10672,7 @@
         "ask_vol5": 48
       },
       "book_diff": 1784261.0,
-      "timestamp": "2026-05-17T22:21:56.881598",
+      "timestamp": "2026-05-17T23:28:30.392051",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -10766,7 +10719,7 @@
         "ask_vol5": 60
       },
       "book_diff": -37748235.0,
-      "timestamp": "2026-05-17T22:21:56.881734",
+      "timestamp": "2026-05-17T23:28:30.392153",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -10813,7 +10766,7 @@
         "ask_vol5": 7
       },
       "book_diff": 4261216.0,
-      "timestamp": "2026-05-17T22:21:56.881845",
+      "timestamp": "2026-05-17T23:28:30.392271",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -10860,7 +10813,7 @@
         "ask_vol5": 50
       },
       "book_diff": 133614.0,
-      "timestamp": "2026-05-17T22:21:56.881954",
+      "timestamp": "2026-05-17T23:28:30.392378",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -10907,7 +10860,7 @@
         "ask_vol5": 7
       },
       "book_diff": 2236306.0,
-      "timestamp": "2026-05-17T22:21:56.882057",
+      "timestamp": "2026-05-17T23:28:30.392493",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -10954,7 +10907,7 @@
         "ask_vol5": 14
       },
       "book_diff": -166937.0,
-      "timestamp": "2026-05-17T22:21:56.882163",
+      "timestamp": "2026-05-17T23:28:30.392598",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -11001,7 +10954,7 @@
         "ask_vol5": 62
       },
       "book_diff": -464406.0,
-      "timestamp": "2026-05-17T22:21:56.882276",
+      "timestamp": "2026-05-17T23:28:30.392701",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -11048,7 +11001,7 @@
         "ask_vol5": 3
       },
       "book_diff": 627006.0,
-      "timestamp": "2026-05-17T22:21:56.882383",
+      "timestamp": "2026-05-17T23:28:30.392810",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -11095,7 +11048,7 @@
         "ask_vol5": 67
       },
       "book_diff": -349202.0,
-      "timestamp": "2026-05-17T22:21:56.882497",
+      "timestamp": "2026-05-17T23:28:30.392915",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -11142,7 +11095,7 @@
         "ask_vol5": 134
       },
       "book_diff": 1606582.0,
-      "timestamp": "2026-05-17T22:21:56.882606",
+      "timestamp": "2026-05-17T23:28:30.393017",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -11189,7 +11142,7 @@
         "ask_vol5": 36
       },
       "book_diff": 198370.0,
-      "timestamp": "2026-05-17T22:21:56.882715",
+      "timestamp": "2026-05-17T23:28:30.393121",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -11236,7 +11189,7 @@
         "ask_vol5": 306
       },
       "book_diff": -1722035.0,
-      "timestamp": "2026-05-17T22:21:56.882819",
+      "timestamp": "2026-05-17T23:28:30.393234",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -11283,7 +11236,7 @@
         "ask_vol5": 324
       },
       "book_diff": 11059459.0,
-      "timestamp": "2026-05-17T22:21:56.882921",
+      "timestamp": "2026-05-17T23:28:30.393344",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -11330,7 +11283,7 @@
         "ask_vol5": 133
       },
       "book_diff": 742395.0,
-      "timestamp": "2026-05-17T22:21:56.883027",
+      "timestamp": "2026-05-17T23:28:30.393460",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -11377,7 +11330,7 @@
         "ask_vol5": 11
       },
       "book_diff": 793146.0,
-      "timestamp": "2026-05-17T22:21:56.883130",
+      "timestamp": "2026-05-17T23:28:30.393567",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -11424,7 +11377,7 @@
         "ask_vol5": 13
       },
       "book_diff": 6048984.0,
-      "timestamp": "2026-05-17T22:21:56.883236",
+      "timestamp": "2026-05-17T23:28:30.393670",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -11471,7 +11424,7 @@
         "ask_vol5": 12
       },
       "book_diff": -3155585.0,
-      "timestamp": "2026-05-17T22:21:56.949476",
+      "timestamp": "2026-05-17T23:28:30.461620",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -11518,7 +11471,7 @@
         "ask_vol5": 126
       },
       "book_diff": 3082751.0,
-      "timestamp": "2026-05-17T22:21:56.949604",
+      "timestamp": "2026-05-17T23:28:30.461745",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -11565,7 +11518,7 @@
         "ask_vol5": 352
       },
       "book_diff": -1180185.0,
-      "timestamp": "2026-05-17T22:21:56.949713",
+      "timestamp": "2026-05-17T23:28:30.461854",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -11612,7 +11565,7 @@
         "ask_vol5": 10
       },
       "book_diff": 1953878.0,
-      "timestamp": "2026-05-17T22:21:56.949818",
+      "timestamp": "2026-05-17T23:28:30.461960",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -11659,7 +11612,7 @@
         "ask_vol5": 3
       },
       "book_diff": 1202709.0,
-      "timestamp": "2026-05-17T22:21:56.949923",
+      "timestamp": "2026-05-17T23:28:30.462063",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -11706,7 +11659,7 @@
         "ask_vol5": 135
       },
       "book_diff": 101287.0,
-      "timestamp": "2026-05-17T22:21:56.950030",
+      "timestamp": "2026-05-17T23:28:30.462170",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -11753,7 +11706,7 @@
         "ask_vol5": 85
       },
       "book_diff": 5018011.0,
-      "timestamp": "2026-05-17T22:21:56.950135",
+      "timestamp": "2026-05-17T23:28:30.462281",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -11800,7 +11753,7 @@
         "ask_vol5": 17
       },
       "book_diff": 1318824.0,
-      "timestamp": "2026-05-17T22:21:56.950246",
+      "timestamp": "2026-05-17T23:28:30.462386",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -11847,7 +11800,7 @@
         "ask_vol5": 30
       },
       "book_diff": 47918.0,
-      "timestamp": "2026-05-17T22:21:56.950360",
+      "timestamp": "2026-05-17T23:28:30.462508",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -11894,7 +11847,7 @@
         "ask_vol5": 87
       },
       "book_diff": 316121.0,
-      "timestamp": "2026-05-17T22:21:56.950475",
+      "timestamp": "2026-05-17T23:28:30.462614",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -11941,7 +11894,7 @@
         "ask_vol5": 35
       },
       "book_diff": 5595622.0,
-      "timestamp": "2026-05-17T22:21:56.950587",
+      "timestamp": "2026-05-17T23:28:30.462722",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -11988,7 +11941,7 @@
         "ask_vol5": 211
       },
       "book_diff": 3192853.0,
-      "timestamp": "2026-05-17T22:21:56.950691",
+      "timestamp": "2026-05-17T23:28:30.462825",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -12035,7 +11988,7 @@
         "ask_vol5": 198
       },
       "book_diff": -14438271.0,
-      "timestamp": "2026-05-17T22:21:56.950794",
+      "timestamp": "2026-05-17T23:28:30.462933",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -12082,7 +12035,7 @@
         "ask_vol5": 8
       },
       "book_diff": 231614.0,
-      "timestamp": "2026-05-17T22:21:56.950895",
+      "timestamp": "2026-05-17T23:28:30.463037",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -12129,7 +12082,7 @@
         "ask_vol5": 193
       },
       "book_diff": -787845.0,
-      "timestamp": "2026-05-17T22:21:56.951005",
+      "timestamp": "2026-05-17T23:28:30.463140",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -12176,7 +12129,7 @@
         "ask_vol5": 124
       },
       "book_diff": -71712.0,
-      "timestamp": "2026-05-17T22:21:56.951111",
+      "timestamp": "2026-05-17T23:28:30.463249",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -12223,7 +12176,7 @@
         "ask_vol5": 1
       },
       "book_diff": 831559.0,
-      "timestamp": "2026-05-17T22:21:56.951214",
+      "timestamp": "2026-05-17T23:28:30.463354",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -12270,7 +12223,7 @@
         "ask_vol5": 8
       },
       "book_diff": 387814.0,
-      "timestamp": "2026-05-17T22:21:56.951328",
+      "timestamp": "2026-05-17T23:28:30.463470",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -12317,7 +12270,7 @@
         "ask_vol5": 70
       },
       "book_diff": -3081823.0,
-      "timestamp": "2026-05-17T22:21:56.951444",
+      "timestamp": "2026-05-17T23:28:30.463581",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -12364,7 +12317,7 @@
         "ask_vol5": 125
       },
       "book_diff": -1358054.0,
-      "timestamp": "2026-05-17T22:21:56.951563",
+      "timestamp": "2026-05-17T23:28:30.463692",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -12411,7 +12364,7 @@
         "ask_vol5": 1
       },
       "book_diff": -339903.0,
-      "timestamp": "2026-05-17T22:21:56.951671",
+      "timestamp": "2026-05-17T23:28:30.463799",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -12458,54 +12411,7 @@
         "ask_vol5": 9
       },
       "book_diff": 6754923.0,
-      "timestamp": "2026-05-17T22:21:56.951774",
-      "main_force": 0,
-      "retail": 0,
-      "super": 0,
-      "large": 0,
-      "medium": 0,
-      "little": 0,
-      "has_fund_flow": false,
-      "fund_flow_time": ""
-    },
-    "300750": {
-      "code": "300750",
-      "name": "宁德时代",
-      "sector": "设备+整车/应用",
-      "price": 423.6,
-      "open": 428.08,
-      "high": 431.5,
-      "low": 421.0,
-      "last_close": 427.0,
-      "volume": 297048,
-      "amount": 12638150656.0,
-      "change_pct": -0.8,
-      "bids": {
-        "bid1": 423.58,
-        "bid_vol1": 1,
-        "bid2": 423.52,
-        "bid_vol2": 2,
-        "bid3": 423.51,
-        "bid_vol3": 3,
-        "bid4": 423.5,
-        "bid_vol4": 82,
-        "bid5": 423.49,
-        "bid_vol5": 3
-      },
-      "asks": {
-        "ask1": 423.6,
-        "ask_vol1": 15,
-        "ask2": 423.61,
-        "ask_vol2": 4,
-        "ask3": 423.62,
-        "ask_vol3": 1,
-        "ask4": 423.63,
-        "ask_vol4": 2,
-        "ask5": 423.65000000000003,
-        "ask_vol5": 3
-      },
-      "book_diff": 2794835.0,
-      "timestamp": "2026-05-17T22:21:56.951877",
+      "timestamp": "2026-05-17T23:28:30.463905",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -12552,7 +12458,7 @@
         "ask_vol5": 49
       },
       "book_diff": 1650821.0,
-      "timestamp": "2026-05-17T22:21:56.951982",
+      "timestamp": "2026-05-17T23:28:30.464008",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -12599,7 +12505,7 @@
         "ask_vol5": 54
       },
       "book_diff": 5769308.0,
-      "timestamp": "2026-05-17T22:21:56.952084",
+      "timestamp": "2026-05-17T23:28:30.464109",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -12646,7 +12552,7 @@
         "ask_vol5": 30
       },
       "book_diff": 5788912.0,
-      "timestamp": "2026-05-17T22:21:56.952187",
+      "timestamp": "2026-05-17T23:28:30.464217",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -12693,7 +12599,7 @@
         "ask_vol5": 54
       },
       "book_diff": -951283.0,
-      "timestamp": "2026-05-17T22:21:56.952295",
+      "timestamp": "2026-05-17T23:28:30.464326",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -12740,7 +12646,7 @@
         "ask_vol5": 18
       },
       "book_diff": 2052545.0,
-      "timestamp": "2026-05-17T22:21:56.952403",
+      "timestamp": "2026-05-17T23:28:30.464429",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -12787,7 +12693,7 @@
         "ask_vol5": 497
       },
       "book_diff": 4248173.0,
-      "timestamp": "2026-05-17T22:21:56.952521",
+      "timestamp": "2026-05-17T23:28:30.464546",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -12834,7 +12740,7 @@
         "ask_vol5": 29
       },
       "book_diff": -100168.0,
-      "timestamp": "2026-05-17T22:21:56.952666",
+      "timestamp": "2026-05-17T23:28:30.464698",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -12881,7 +12787,7 @@
         "ask_vol5": 13
       },
       "book_diff": 33535771.0,
-      "timestamp": "2026-05-17T22:21:56.952770",
+      "timestamp": "2026-05-17T23:28:30.464814",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -12928,7 +12834,7 @@
         "ask_vol5": 91
       },
       "book_diff": -259043.0,
-      "timestamp": "2026-05-17T22:21:56.952875",
+      "timestamp": "2026-05-17T23:28:30.464916",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -12975,7 +12881,7 @@
         "ask_vol5": 1109
       },
       "book_diff": -108896556.0,
-      "timestamp": "2026-05-17T22:21:56.952978",
+      "timestamp": "2026-05-17T23:28:30.465019",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -13022,7 +12928,7 @@
         "ask_vol5": 10
       },
       "book_diff": 601555.0,
-      "timestamp": "2026-05-17T22:21:56.953085",
+      "timestamp": "2026-05-17T23:28:30.465121",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -13069,7 +12975,7 @@
         "ask_vol5": 13
       },
       "book_diff": 95875.0,
-      "timestamp": "2026-05-17T22:21:56.953187",
+      "timestamp": "2026-05-17T23:28:30.465233",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -13116,7 +13022,7 @@
         "ask_vol5": 6
       },
       "book_diff": 586099.0,
-      "timestamp": "2026-05-17T22:21:56.953297",
+      "timestamp": "2026-05-17T23:28:30.465339",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -13163,7 +13069,7 @@
         "ask_vol5": 5
       },
       "book_diff": -633063.0,
-      "timestamp": "2026-05-17T22:21:56.953402",
+      "timestamp": "2026-05-17T23:28:30.465443",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -13210,7 +13116,7 @@
         "ask_vol5": 164
       },
       "book_diff": 13148364.0,
-      "timestamp": "2026-05-17T22:21:56.953514",
+      "timestamp": "2026-05-17T23:28:30.465556",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -13257,7 +13163,7 @@
         "ask_vol5": 137
       },
       "book_diff": 86863.0,
-      "timestamp": "2026-05-17T22:21:56.953625",
+      "timestamp": "2026-05-17T23:28:30.465659",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -13304,7 +13210,7 @@
         "ask_vol5": 933
       },
       "book_diff": 19662668.0,
-      "timestamp": "2026-05-17T22:21:56.953732",
+      "timestamp": "2026-05-17T23:28:30.465771",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -13351,7 +13257,7 @@
         "ask_vol5": 0
       },
       "book_diff": 28237253.0,
-      "timestamp": "2026-05-17T22:21:56.953836",
+      "timestamp": "2026-05-17T23:28:30.465878",
       "main_force": 0,
       "retail": 0,
       "super": 0,
@@ -13398,7 +13304,7 @@
         "ask_vol5": 40
       },
       "book_diff": 2263579.0,
-      "timestamp": "2026-05-17T22:21:56.953940",
+      "timestamp": "2026-05-17T23:28:30.465981",
       "main_force": 0,
       "retail": 0,
       "super": 0,
