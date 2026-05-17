@@ -40,7 +40,7 @@ echo "[$(date '+%H:%M:%S')] 开始更新..." >> "$LOG_FILE"
 
 # 1. 抓取数据
 cd "$WORKSPACE" || exit 1
-python3 script_v5.py --no-baidu >> "$LOG_FILE" 2>&1
+python3 script_v5.py >> "$LOG_FILE" 2>&1
 FETCH_EXIT=$?
 
 if [ $FETCH_EXIT -ne 0 ]; then
