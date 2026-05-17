@@ -120,8 +120,8 @@
   gap: 16px;
   margin-bottom: 24px;
 }
-@media (max-width: 1024px) { .dash-theme-grid { grid-template-columns: repeat(2, 1fr); } }
-@media (max-width: 640px) { .dash-theme-grid { grid-template-columns: 1fr; } }
+@media (max-width: 1024px) { .dash-theme-grid { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 640px) { .dash-theme-grid { grid-template-columns: repeat(3, 1fr); gap: 10px; } }
 
 .dash-theme-card {
   background: var(--dash-card); border: 1px solid var(--dash-border); border-radius: 12px;
@@ -2337,9 +2337,25 @@ function dashRenderThemes() {
     // 按平均涨幅排序主题
     const sortedThemes = Object.entries(themes).sort((a,b) => b[1].avg - a[1].avg);
     
+    // 强制置顶3大热门主题：AI算力、光通信/CPO、半导体/先进封装
+    const pinned = ['AI算力', '光通信/CPO', '半导体/先进封装'];
+    const pinnedThemes = [];
+    const otherThemes = [];
+    for (const t of sortedThemes) {
+        if (pinned.includes(t[0])) pinnedThemes.push(t);
+        else otherThemes.push(t);
+    }
+    // 按pinned顺序排列，其余按涨幅排序
+    const finalOrder = [];
+    for (const name of pinned) {
+        const found = pinnedThemes.find(t => t[0] === name);
+        if (found) finalOrder.push(found);
+    }
+    finalOrder.push(...otherThemes);
+    
     // 渲染3×3网格
     let gridHtml = '';
-    for (const [themeName, t] of sortedThemes) {
+    for (const [themeName, t] of finalOrder) {
         const [tagText, tagClass] = dashStatusTag(parseFloat(t.avg));
         const avgColor = t.avg >= 0 ? 'var(--dash-up)' : 'var(--dash-down)';
         const mainColor = (t.hasFf > 0 ? t.totalMain : t.totalBook) >= 0 ? 'var(--dash-up)' : 'var(--dash-down)';
