@@ -269,25 +269,25 @@
     <!-- 主内容 -->
     <main class="pt-16 pb-8 px-4 max-w-7xl mx-auto">
         <!-- 核心数据卡片 -->
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-6">
+        <div id="statsCards" class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-6">
             <div class="glass rounded-lg p-4 card-glow card-shadow">
                 <div class="text-xs text-gray-400 mb-1 tracking-wide">涨停数</div>
-                <div class="data-highlight limit-up">72<span class="text-xs text-gray-500 ml-1 font-sans font-normal">只</span></div>
+                <div id="statLimitUp" class="data-highlight limit-up">72<span class="text-xs text-gray-500 ml-1 font-sans font-normal">只</span></div>
                 <div class="text-xs text-gray-500 mt-1">非ST: 54只</div>
             </div>
             <div class="glass rounded-lg p-4 card-glow card-shadow">
                 <div class="text-xs text-gray-400 mb-1 tracking-wide">跌停数</div>
-                <div class="data-highlight limit-down">11<span class="text-xs text-gray-500 ml-1 font-sans font-normal">只</span></div>
+                <div id="statLimitDown" class="data-highlight limit-down">11<span class="text-xs text-gray-500 ml-1 font-sans font-normal">只</span></div>
             </div>
             <div class="glass rounded-lg p-4 card-glow card-shadow">
                 <div class="text-xs text-gray-400 mb-1 tracking-wide">最高连板</div>
-                <div class="data-highlight text-gold">6<span class="text-xs text-gray-500 ml-1 font-sans font-normal">板</span></div>
-                <div class="text-xs text-gray-500 mt-1">蒙娜丽莎</div>
+                <div id="statMaxBoard" class="data-highlight text-gold">6<span class="text-xs text-gray-500 ml-1 font-sans font-normal">板</span></div>
+                <div id="statMaxBoardStock" class="text-xs text-gray-500 mt-1">蒙娜丽莎</div>
             </div>
             <div class="glass rounded-lg p-4 card-glow card-shadow">
                 <div class="text-xs text-gray-400 mb-1 tracking-wide">上证涨跌</div>
-                <div class="data-highlight limit-down">-1.02<span class="text-xs text-gray-500 ml-1 font-sans font-normal">%</span></div>
-                <div class="text-xs text-gray-500 mt-1">4,135.39</div>
+                <div id="statShChange" class="data-highlight limit-down">-1.02<span class="text-xs text-gray-500 ml-1 font-sans font-normal">%</span></div>
+                <div id="statShIndex" class="text-xs text-gray-500 mt-1">4,135.39</div>
             </div>
         </div>
 
@@ -2615,18 +2615,243 @@ function switchTab(tabName) {
     }
 }
 
+// ===== JSON驱动报告加载 =====
+const API_BASE = 'data/';
+let reportData = null;
+
+async function loadReportData(date) {
+    try {
+        const resp = await fetch(`${API_BASE}${date}.json?t=${Date.now()}`);
+        if (!resp.ok) { console.warn('No JSON for', date, resp.status); return null; }
+        return await resp.json();
+    } catch (e) {
+        console.warn('JSON加载失败，使用静态HTML保底', e);
+        return null;
+    }
+}
+
+function fmtNum(n) { return n == null ? '-' : n.toLocaleString('en-US', {maximumFractionDigits: 2}); }
+function fmtPct(n) { return n == null ? '-' : (n > 0 ? '+' : '') + n.toFixed(2); }
+
+function renderStats(stats) {
+    if (!stats) return;
+    const el = id => document.getElementById(id);
+    const set = (id, v) => { const e = el(id); if (e) e.textContent = v; };
+    const setHtml = (id, v) => { const e = el(id); if (e) e.innerHTML = v; };
+
+    if (stats.limitUp != null) setHtml('statLimitUp', `${stats.limitUp}<span class="text-xs text-gray-500 ml-1 font-sans font-normal">只</span>`);
+    if (stats.limitDown != null) setHtml('statLimitDown', `${stats.limitDown}<span class="text-xs text-gray-500 ml-1 font-sans font-normal">只</span>`);
+    if (stats.maxBoard != null) {
+        setHtml('statMaxBoard', `${stats.maxBoard}<span class="text-xs text-gray-500 ml-1 font-sans font-normal">板</span>`);
+        set('statMaxBoardStock', stats.maxBoardStock || '');
+    }
+    if (stats.shChange != null) {
+        const shEl = el('statShChange');
+        if (shEl) {
+            shEl.className = `data-highlight ${stats.shChange >= 0 ? 'limit-up' : 'limit-down'}`;
+            setHtml('statShChange', `${fmtPct(stats.shChange)}<span class="text-xs text-gray-500 ml-1 font-sans font-normal">%</span>`);
+        }
+    }
+    if (stats.shIndex != null) set('statShIndex', fmtNum(stats.shIndex));
+
+    // 市场温度
+    const tempEl = document.getElementById('marketTemp');
+    if (tempEl && stats.shChange != null) {
+        const chg = stats.shChange;
+        let text = '⚠️ 分歧', cls = 'bg-amber-500/20 text-amber-400 border-amber-500/30';
+        if (chg >= 1) { text = '🔥 强'; cls = 'bg-red-500/20 text-red-400 border-red-500/30'; }
+        else if (chg <= -1) { text = '❄️ 冰'; cls = 'bg-green-500/20 text-green-400 border-green-500/30'; }
+        else if (chg > 0) { text = '🟢 偏暖'; cls = 'bg-emerald-500/20 text-emerald-400 border-emerald-500/30'; }
+        else if (chg < 0) { text = '🔴 偏冷'; cls = 'bg-rose-500/20 text-rose-400 border-rose-500/30'; }
+        tempEl.className = `px-3 py-1 rounded text-xs font-medium border ${cls}`;
+        tempEl.textContent = text;
+    }
+}
+
+// --- 风向早报 ---
+function renderWind(data) {
+    if (!data || !data.wind) return;
+    const w = data.wind;
+    const container = document.getElementById('content-wind');
+    if (!container || !w.usMarkets.length) return; // 没数据就保持静态
+
+    // 外围市场卡片
+    const usMap = {};
+    w.usMarkets.forEach(m => { usMap[m.name] = m; });
+    const usCards = container.querySelector('.grid.grid-cols-1.md\\:grid-cols-3');
+    if (usCards) {
+        const names = {'道指':'道指','纳指':'纳指','标普500':'标普500'};
+        usCards.querySelectorAll('.bg-card').forEach(card => {
+            const label = card.querySelector('.text-xs')?.textContent || '';
+            const name = label.split('（')[0].trim();
+            const m = usMap[name];
+            if (!m) return;
+            const val = card.querySelector('.text-xl');
+            if (val) {
+                val.className = `text-xl font-bold font-mono ${m.change >= 0 ? 'limit-up' : 'limit-down'}`;
+                val.textContent = (m.change >= 0 ? '+' : '') + m.change.toFixed(2) + '%';
+            }
+        });
+    }
+    // 热门科技股
+    const techMap = {};
+    (w.techStocks || []).forEach(t => { techMap[t.name] = t.change; });
+    const techDivs = container.querySelectorAll('.grid.grid-cols-2.md\\:grid-cols-4 .flex.justify-between');
+    techDivs.forEach(div => {
+        const name = div.querySelector('span')?.textContent?.trim();
+        const chg = techMap[name];
+        if (chg == null) return;
+        const sp = div.querySelector('.font-mono');
+        if (sp) { sp.className = `font-mono ${chg >= 0 ? 'limit-up' : 'limit-down'}`; sp.textContent = (chg >= 0 ? '+' : '') + chg.toFixed(2) + '%'; }
+    });
+    // 中概股
+    const cnMap = {};
+    (w.chinaConcepts || []).forEach(c => { cnMap[c.name] = c.change; });
+    const cnDivs = container.querySelectorAll('.grid.grid-cols-2.md\\:grid-cols-3 .flex.justify-between');
+    cnDivs.forEach(div => {
+        const name = div.querySelector('span')?.textContent?.trim();
+        const chg = cnMap[name];
+        if (chg == null) return;
+        const sp = div.querySelector('.font-mono');
+        if (sp) { sp.className = `font-mono ${chg >= 0 ? 'limit-up' : 'limit-down'}`; sp.textContent = (chg >= 0 ? '+' : '') + chg.toFixed(2) + '%'; }
+    });
+}
+
+// --- 早盘策略 ---
+function renderMorning(data) {
+    if (!data || !data.morning) return;
+    const m = data.morning;
+    const container = document.getElementById('content-morning');
+    if (!container) return;
+    // 情绪仓位
+    const headers = container.querySelectorAll('h2, h3');
+    // 简单策略：如果JSON有modeA数据，在Mode A区块前插入动态表格
+    if (m.modeA && m.modeA.length) {
+        // 找到Mode A区块
+        let modeASection = null;
+        container.querySelectorAll('h3, h4').forEach(h => {
+            if (h.textContent.includes('Mode A')) modeASection = h;
+        });
+        if (modeASection) {
+            // 移除已有的动态表格避免重复
+            const existing = modeASection.parentElement?.querySelector('.json-dynamic-table');
+            if (existing) existing.remove();
+            let html = '<table class="w-full text-xs json-dynamic-table mb-4"><thead><tr class="text-gray-400 border-b border-border"><th class="pb-2 text-left">标的</th><th class="pb-2">连板</th><th class="pb-2">体系匹配</th></tr></thead><tbody>';
+            m.modeA.forEach(s => {
+                html += `<tr class="table-row-alt border-b border-border/50"><td class="py-2 font-medium">${s.name}（${s.code}）</td><td class="py-2 text-center">${s.boards}</td><td class="py-2 text-gold">${s.match}</td></tr>`;
+            });
+            html += '</tbody></table>';
+            const div = document.createElement('div');
+            div.innerHTML = html;
+            modeASection.insertAdjacentElement('afterend', div.firstElementChild);
+        }
+    }
+}
+
+// --- 午间小结 ---
+function renderNoon(data) {
+    if (!data || !data.noon) return;
+    const n = data.noon;
+    const container = document.getElementById('content-noon');
+    if (!container) return;
+    // 指数表格更新
+    const tables = container.querySelectorAll('table');
+    tables.forEach(t => {
+        const firstTh = t.querySelector('th')?.textContent || '';
+        if (firstTh.includes('指数') || firstTh.includes('名称')) {
+            // 尝试更新指数行
+            t.querySelectorAll('tbody tr').forEach(tr => {
+                const name = tr.querySelector('td')?.textContent?.trim();
+                const idx = n.indices.find(i => i.name === name);
+                if (idx) {
+                    const tds = tr.querySelectorAll('td');
+                    if (tds[1]) tds[1].textContent = idx.value;
+                    if (tds[2]) { tds[2].textContent = idx.change + '%'; tds[2].className = `py-2 font-mono ${parseFloat(idx.change) >= 0 ? 'limit-up' : 'limit-down'}`; }
+                }
+            });
+        }
+    });
+}
+
+// --- 首板策略 ---
+function renderFirstBoard(data) {
+    if (!data || !data.firstboard) return;
+    const fb = data.firstboard;
+    const container = document.getElementById('content-firstboard');
+    if (!container || !fb.topStocks || !fb.topStocks.length) return;
+    // 保持静态Top5不动，JSON数据作为补充
+}
+
+// --- 深度复盘 ---
+function renderReview(data) {
+    if (!data || !data.review) return;
+    const r = data.review;
+    const container = document.getElementById('content-review');
+    if (!container) return;
+    // 情绪周期文本更新
+    const emoMatch = container.innerHTML.match(/情绪周期[：:]\s*(.+?)(?:<|\n)/);
+}
+
+// --- 游资复盘 ---
+function renderYouthu(data) {
+    if (!data || !data.youthu) return;
+}
+
+async function loadDate(date) {
+    console.log('Loading reports for', date);
+    reportData = await loadReportData(date);
+    if (reportData) {
+        renderStats(reportData.stats);
+        renderWind(reportData);
+        renderMorning(reportData);
+        renderNoon(reportData);
+        renderFirstBoard(reportData);
+        renderReview(reportData);
+        renderYouthu(reportData);
+        console.log('✅ JSON loaded for', date);
+    } else {
+        console.log('ℹ️ Using static HTML fallback for', date);
+        // 恢复静态默认值
+        renderStats({
+            limitUp: 72, limitDown: 11, maxBoard: 6, maxBoardStock: '蒙娜丽莎',
+            shChange: -1.02, shIndex: 4135.39
+        });
+    }
+}
+
 // ===== 初始化 =====
 document.addEventListener('DOMContentLoaded', () => {
-    // 填充日期选择器
+    // 加载可用日期列表
     const dateSel = document.getElementById('dateSelector');
-    const now = new Date();
-    const weekdays = ['周日','周一','周二','周三','周四','周五','周六'];
-    const todayStr = `${now.getFullYear()}-${String(now.getMonth()+1).padStart(2,'0')}-${String(now.getDate()).padStart(2,'0')}`;
-    const option = document.createElement('option');
-    option.value = todayStr;
-    option.textContent = `${todayStr} ${weekdays[now.getDay()]}`;
-    dateSel.appendChild(option);
-    dateSel.value = todayStr;
+    fetch('data/dates.json?t=' + Date.now())
+        .then(r => r.json())
+        .then(dates => {
+            dateSel.innerHTML = '';
+            dates.forEach(d => {
+                const opt = document.createElement('option');
+                opt.value = d;
+                opt.textContent = d;
+                dateSel.appendChild(opt);
+            });
+            if (dates.length > 0) {
+                dateSel.value = dates[0];
+                loadDate(dates[0]);
+            }
+        })
+        .catch(() => {
+            // fallback: 只显示今天，加载今天的JSON（如果有）
+            const now = new Date();
+            const todayStr = `${now.getFullYear()}-${String(now.getMonth()+1).padStart(2,'0')}-${String(now.getDate()).padStart(2,'0')}`;
+            dateSel.innerHTML = '';
+            const opt = document.createElement('option');
+            opt.value = todayStr;
+            opt.textContent = todayStr;
+            dateSel.appendChild(opt);
+            dateSel.value = todayStr;
+            loadDate(todayStr);
+        });
+
+    dateSel.addEventListener('change', (e) => loadDate(e.target.value));
     
     dashLoadData();
     document.addEventListener('keydown', e => { if (e.key === 'Escape') dashCloseModal(); });
