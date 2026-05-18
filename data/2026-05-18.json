@@ -1,0 +1,609 @@
+{
+  "date": "2026-05-18",
+  "marketTemp": "分歧",
+  "marketTempColor": "amber",
+  "stats": {
+    "limitUp": 72,
+    "limitDown": 11,
+    "maxBoard": 6,
+    "maxBoardStock": "蒙娜丽莎",
+    "volumeChange": "缩量",
+    "volumeChangeNum": -984,
+    "shIndex": 4100.0,
+    "shChange": -0.2,
+    "szIndex": 15561.37,
+    "szChange": -1.17,
+    "cyIndex": 2050.45,
+    "cyChange": -0.5
+  },
+  "wind": {
+    "usMarkets": [],
+    "techStocks": [],
+    "chinaConcepts": [],
+    "focusSectors": [],
+    "policies": [],
+    "yesterdaySectors": [],
+    "mainLine": {
+      "prediction": "",
+      "confidence": "",
+      "logic": [],
+      "validation": "",
+      "alternative": ""
+    }
+  },
+  "morning": {
+    "emotion": "⚠️分歧**",
+    "position": "总仓≤3成，单标≤1成**",
+    "sectors": [
+      {
+        "name": "**半导体**",
+        "limitUpCount": "1只",
+        "leader": "弘信电子(1板)",
+        "mid": "弘信电子",
+        "status": "🔴 一般活跃"
+      },
+      {
+        "name": "**大消费**",
+        "limitUpCount": "1只",
+        "leader": "合百集团(1板)",
+        "mid": "合百集团",
+        "status": "🔴 一般活跃"
+      },
+      {
+        "name": "**新能源**",
+        "limitUpCount": "1只",
+        "leader": "上峰水泥(1板)",
+        "mid": "上峰水泥",
+        "status": "🔴 一般活跃"
+      },
+      {
+        "name": "**大消费**",
+        "limitUpCount": "8只",
+        "leader": "75.0%",
+        "mid": "37.5%",
+        "status": "+4.28%"
+      },
+      {
+        "name": "**机器人**",
+        "limitUpCount": "14只",
+        "leader": "71.4%",
+        "mid": "7.1%",
+        "status": "+2.00%"
+      },
+      {
+        "name": "**涨价概念**",
+        "limitUpCount": "3只",
+        "leader": "100.0%",
+        "mid": "0.0%",
+        "status": "+4.95%"
+      }
+    ],
+    "modeA": [
+      {
+        "name": "威龙股份",
+        "code": "603779",
+        "boards": "3天3板",
+        "match": "预期9.9%，实际+9.98% ✅超预期，量能✅达标"
+      },
+      {
+        "name": "北自科技",
+        "code": "603082",
+        "boards": "2天2板",
+        "match": "预期6.0%，实际+10.00% ✅超预期，量能✅达标"
+      },
+      {
+        "name": "中锐股份",
+        "code": "002374",
+        "boards": "1天1板",
+        "match": "预期6.0%，实际+10.14% ✅超预期，量能✅达标"
+      },
+      {
+        "name": "中欣氟材",
+        "code": "002915",
+        "boards": "1天1板",
+        "match": "预期9.9%，实际+9.95% ✅超预期，量能✅达标"
+      }
+    ],
+    "modeB": [
+      {
+        "name": "奇精机械",
+        "code": "603677",
+        "match": "预期4.5%，实际+3.93% ➖符合，量能🟡接近"
+      },
+      {
+        "name": "雷赛智能",
+        "code": "002979",
+        "match": "预期4.5%，实际+2.99% ➖符合，量能🟡接近"
+      },
+      {
+        "name": "华新精科",
+        "code": "603370",
+        "match": "预期4.5%，实际+2.12% ➖符合，量能🟡接近"
+      }
+    ],
+    "modeC": [
+      {
+        "name": "柏诚股份",
+        "code": "601133",
+        "reason": "无量高开骗炮",
+        "risk": "10日-"
+      },
+      {
+        "name": "通达电气",
+        "code": "603390",
+        "reason": "无量高开骗炮",
+        "risk": "10日-"
+      },
+      {
+        "name": "粤 传 媒",
+        "code": "002181",
+        "reason": "无量高开骗炮",
+        "risk": "10日-"
+      },
+      {
+        "name": "傲农生物",
+        "code": "603363",
+        "reason": "无量高开骗炮",
+        "risk": "10日-"
+      },
+      {
+        "name": "尚纬股份",
+        "code": "603333",
+        "reason": "无量高开骗炮",
+        "risk": "10日-"
+      },
+      {
+        "name": "利仁科技",
+        "code": "001259",
+        "reason": "+10.00%",
+        "risk": "496.8%"
+      }
+    ]
+  },
+  "noon": {
+    "indices": [],
+    "sectors": [
+      {
+        "name": "🔥🔥🔥 芯片/半导体（超级主线）",
+        "limitUpCount": "",
+        "fundFlow": "",
+        "change": "",
+        "representatives": "",
+        "drivers": ""
+      },
+      {
+        "name": "🔥🔥🔥 光通信/CPO（强势）",
+        "limitUpCount": "",
+        "fundFlow": "",
+        "change": "",
+        "representatives": "",
+        "drivers": ""
+      },
+      {
+        "name": "🔥🔥🔥 5G/通信基建（强势）",
+        "limitUpCount": "",
+        "fundFlow": "",
+        "change": "",
+        "representatives": "",
+        "drivers": ""
+      },
+      {
+        "name": "🔥🔥 算力/数据中心（活跃）",
+        "limitUpCount": "",
+        "fundFlow": "",
+        "change": "",
+        "representatives": "",
+        "drivers": ""
+      },
+      {
+        "name": "🔥🔥 电力/能源（活跃）",
+        "limitUpCount": "",
+        "fundFlow": "",
+        "change": "",
+        "representatives": "",
+        "drivers": ""
+      },
+      {
+        "name": "🔥🔥 华为概念（活跃）",
+        "limitUpCount": "",
+        "fundFlow": "",
+        "change": "",
+        "representatives": "",
+        "drivers": ""
+      },
+      {
+        "name": "🔥 新能源/储能（活跃）",
+        "limitUpCount": "",
+        "fundFlow": "",
+        "change": "",
+        "representatives": "",
+        "drivers": ""
+      },
+      {
+        "name": "🔥 家电/大消费（活跃）",
+        "limitUpCount": "",
+        "fundFlow": "",
+        "change": "",
+        "representatives": "",
+        "drivers": ""
+      },
+      {
+        "name": "🔥 化工/涨价概念（早盘活跃）",
+        "limitUpCount": "",
+        "fundFlow": "",
+        "change": "",
+        "representatives": "",
+        "drivers": ""
+      },
+      {
+        "name": "🔥 军工（早盘活跃，午后观察）",
+        "limitUpCount": "",
+        "fundFlow": "",
+        "change": "",
+        "representatives": "",
+        "drivers": ""
+      }
+    ],
+    "news": [
+      {
+        "time": "12:20",
+        "content": "⏰ 定时提醒：制作午间风向小结V7.3版",
+        "sector": "—",
+        "importance": ""
+      },
+      {
+        "time": "12:11",
+        "content": "水利部启动水利抗震救灾调度指挥机制",
+        "sector": "水利/基建",
+        "importance": ""
+      },
+      {
+        "time": "12:05",
+        "content": "国家统计局：1—4月份我国高技术产品出口额同比增长27.6% 明显快于全部出口额",
+        "sector": "半导体/科技出口",
+        "importance": ""
+      },
+      {
+        "time": "12:02",
+        "content": "恒生指数午盘跌1.35% 恒生科技指数跌2.08%",
+        "sector": "港股/外围",
+        "importance": ""
+      },
+      {
+        "time": "11:58",
+        "content": "[消息] 评分5",
+        "sector": "—",
+        "importance": ""
+      },
+      {
+        "time": "11:48",
+        "content": "[消息] 评分5",
+        "sector": "—",
+        "importance": ""
+      },
+      {
+        "time": "11:38",
+        "content": "【玩转ETF】该类ETF连续两周申赎净流入第一；中国电信推出系列试商用Token套餐 [A股]",
+        "sector": "电信/算力",
+        "importance": ""
+      },
+      {
+        "time": "11:26",
+        "content": "国内商品期货开盘多数下跌 沪银跌超9%",
+        "sector": "期货/白银",
+        "importance": ""
+      },
+      {
+        "time": "11:13",
+        "content": "[消息] 评分5",
+        "sector": "—",
+        "importance": ""
+      },
+      {
+        "time": "11:05",
+        "content": "[消息] 评分3",
+        "sector": "—",
+        "importance": ""
+      },
+      {
+        "time": "10:48",
+        "content": "[消息] 评分3",
+        "sector": "—",
+        "importance": ""
+      },
+      {
+        "time": "10:35",
+        "content": "[消息] 评分5",
+        "sector": "—",
+        "importance": ""
+      },
+      {
+        "time": "10:22",
+        "content": "[消息] 评分3",
+        "sector": "—",
+        "importance": ""
+      },
+      {
+        "time": "10:08",
+        "content": "[消息] 评分3",
+        "sector": "—",
+        "importance": ""
+      },
+      {
+        "time": "09:55",
+        "content": "[消息] 评分3",
+        "sector": "—",
+        "importance": ""
+      },
+      {
+        "time": "09:42",
+        "content": "[消息] 评分3",
+        "sector": "—",
+        "importance": ""
+      },
+      {
+        "time": "09:28",
+        "content": "[消息] 评分3",
+        "sector": "—",
+        "importance": ""
+      },
+      {
+        "time": "09:15",
+        "content": "[消息] 评分3",
+        "sector": "—",
+        "importance": ""
+      },
+      {
+        "time": "09:05",
+        "content": "🔴 [消息] 评分13",
+        "sector": "—",
+        "importance": ""
+      },
+      {
+        "time": "08:56",
+        "content": "[消息] 评分19 2025年我国北斗时空产业总体产值超1.3万亿 [A股]",
+        "sector": "北斗/军工",
+        "importance": ""
+      },
+      {
+        "time": "08:47",
+        "content": "两市融资余额减少57.62亿元",
+        "sector": "资金面",
+        "importance": ""
+      },
+      {
+        "time": "08:35",
+        "content": "[消息] 评分5",
+        "sector": "—",
+        "importance": ""
+      },
+      {
+        "time": "08:22",
+        "content": "[消息] 评分3",
+        "sector": "—",
+        "importance": ""
+      },
+      {
+        "time": "08:08",
+        "content": "[消息] 评分3",
+        "sector": "—",
+        "importance": ""
+      },
+      {
+        "time": "09:48",
+        "content": "**华工科技首板**：800G/1.6T光模块+硅光芯片自研，谷歌核心供应商",
+        "sector": "光通信",
+        "importance": ""
+      },
+      {
+        "time": "09:25",
+        "content": "**利仁科技6板一字板**：死亡爆量496.8%量能比，风险极高",
+        "sector": "小家电",
+        "importance": ""
+      }
+    ],
+    "verification": []
+  },
+  "firstboard": {
+    "topStocks": [
+      {
+        "rank": 1,
+        "name": "上峰水泥",
+        "code": "000672",
+        "score": 78,
+        "rating": "",
+        "dimensions": {},
+        "strategy": ""
+      },
+      {
+        "rank": 2,
+        "name": "深科技",
+        "code": "000021",
+        "score": 70,
+        "rating": "",
+        "dimensions": {},
+        "strategy": ""
+      },
+      {
+        "rank": 3,
+        "name": "合肥城建",
+        "code": "002208",
+        "score": 58,
+        "rating": "",
+        "dimensions": {},
+        "strategy": ""
+      },
+      {
+        "rank": 4,
+        "name": "朗迪集团",
+        "code": "603726",
+        "score": 56,
+        "rating": "",
+        "dimensions": {},
+        "strategy": ""
+      }
+    ],
+    "sectorOverview": [
+      {
+        "name": "电子",
+        "yiZi": "1只",
+        "before942": "5只",
+        "score": "25分",
+        "heat": "🟡 强势板块"
+      },
+      {
+        "name": "公用事业",
+        "yiZi": "1只",
+        "before942": "3只",
+        "score": "20分",
+        "heat": "🟡 强势板块"
+      },
+      {
+        "name": "计算机",
+        "yiZi": "1只",
+        "before942": "3只",
+        "score": "20分",
+        "heat": "🟡 强势板块"
+      },
+      {
+        "name": "家用电器",
+        "yiZi": "1只",
+        "before942": "4只",
+        "score": "20分",
+        "heat": "🟡 强势板块"
+      },
+      {
+        "name": "机械设备",
+        "yiZi": "1只",
+        "before942": "3只",
+        "score": "20分",
+        "heat": "🟡 强势板块"
+      },
+      {
+        "name": "建筑材料",
+        "yiZi": "1只",
+        "before942": "1只",
+        "score": "15分",
+        "heat": "🟢 一般活跃"
+      },
+      {
+        "name": "商贸零售",
+        "yiZi": "1只",
+        "before942": "1只",
+        "score": "15分",
+        "heat": "🟢 一般活跃"
+      },
+      {
+        "name": "食品饮料",
+        "yiZi": "1只",
+        "before942": "1只",
+        "score": "15分",
+        "heat": "🟢 一般活跃"
+      },
+      {
+        "name": "房地产",
+        "yiZi": "1只",
+        "before942": "1只",
+        "score": "15分",
+        "heat": "🟢 一般活跃"
+      },
+      {
+        "name": "基础化工",
+        "yiZi": "0只",
+        "before942": "3只",
+        "score": "10分",
+        "heat": "🟢 一般活跃"
+      },
+      {
+        "name": "综合",
+        "yiZi": "0只",
+        "before942": "1只",
+        "score": "5分",
+        "heat": "⚪ 弱势"
+      },
+      {
+        "name": "国防军工",
+        "yiZi": "0只",
+        "before942": "1只",
+        "score": "5分",
+        "heat": "⚪ 弱势"
+      },
+      {
+        "name": "传媒",
+        "yiZi": "0只",
+        "before942": "2只",
+        "score": "5分",
+        "heat": "⚪ 弱势"
+      },
+      {
+        "name": "建筑装饰",
+        "yiZi": "0只",
+        "before942": "2只",
+        "score": "5分",
+        "heat": "⚪ 弱势"
+      },
+      {
+        "name": "轻工制造",
+        "yiZi": "0只",
+        "before942": "1只",
+        "score": "5分",
+        "heat": "⚪ 弱势"
+      }
+    ],
+    "rules": [
+      {
+        "title": "只做纯首板",
+        "content": "近2日无涨停记录（已剔前日涨停股）"
+      },
+      {
+        "title": "只等回封",
+        "content": "已涨停标的等开板补量回封，不打半路"
+      },
+      {
+        "title": "板块必配",
+        "content": "无板块支撑（当日同题材<3家涨停）直接剔除"
+      },
+      {
+        "title": "次日必出",
+        "content": "无论盈亏，次日开盘即止盈止损（不格局）"
+      },
+      {
+        "title": "仓位严控",
+        "content": "首板总仓位≤1成，单标≤0.5成"
+      }
+    ]
+  },
+  "review": {
+    "emotion": "",
+    "emotionScore": 50,
+    "yesterdayPremium": 0,
+    "boards": [],
+    "sectors": [],
+    "modeAHit": {
+      "hit": 0,
+      "miss": 0,
+      "rate": 0.0
+    },
+    "modeCHit": {
+      "hit": 0,
+      "miss": 0,
+      "rate": 0.0
+    },
+    "tomorrow": [],
+    "riskPoints": []
+  },
+  "youthu": {
+    "indices": [],
+    "emotion": {},
+    "boards": [],
+    "sectors": [],
+    "coreLeaders": [],
+    "profitEffect": [],
+    "lossEffect": [],
+    "fundStyle": {},
+    "rotation": [],
+    "signals": [],
+    "tomorrowPlan": [],
+    "summary": ""
+  }
+}
