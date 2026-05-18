@@ -78,9 +78,53 @@
         "status": "+4.95%"
       }
     ],
-    "modeA": [],
+    "modeA": [
+      {
+        "name": "威龙股份",
+        "code": "603779",
+        "boards": "3天3板",
+        "match": "大消费-淄博国资入主 | tradeable_pool补充"
+      },
+      {
+        "name": "北自科技",
+        "code": "603082",
+        "boards": "2天2板",
+        "match": "机器人-人形机器人 | tradeable_pool补充"
+      },
+      {
+        "name": "中锐股份",
+        "code": "002374",
+        "boards": "1天1板",
+        "match": "大消费-防伪瓶盖 | tradeable_pool补充"
+      },
+      {
+        "name": "中欣氟材",
+        "code": "002915",
+        "boards": "1天1板",
+        "match": "周期/有色/化工-氢氟酸涨价 | tradeable_pool补充"
+      }
+    ],
     "modeB": [],
-    "modeC": []
+    "modeC": [
+      {
+        "name": "柏诚股份",
+        "code": "601133",
+        "reason": "❌无量",
+        "risk": "-"
+      },
+      {
+        "name": "通达电气",
+        "code": "603390",
+        "reason": "❌无量",
+        "risk": "-"
+      },
+      {
+        "name": "粤 传 媒",
+        "code": "002181",
+        "reason": "❌无量",
+        "risk": "-"
+      }
+    ]
   },
   "noon": {
     "indices": [],
