@@ -2494,10 +2494,19 @@ function dashOpenStock(code) {
     document.getElementById('dashModalTitle').innerHTML = `<span>${s.name}</span><span style="color:var(--dash-muted);font-size:14px;margin-left:8px">${s.code}</span><span style="color:${s.change_pct >= 0 ? 'var(--dash-up)' : 'var(--dash-down)'};margin-left:12px;font-size:16px">${s.change_pct >= 0 ? '+' : ''}${s.change_pct.toFixed(2)}%</span>`;
     
     const amp = s.high && s.low && s.last_close ? ((s.high - s.low) / s.last_close * 100).toFixed(2) : '-';
+    
+    // V5.1: 分时均价线(VWAP)展示
+    const vwap = s.vwap || 0;
+    const vwapDiff = vwap > 0 && s.price > 0 ? ((s.price - vwap) / vwap * 100).toFixed(2) : null;
+    const vwapColor = vwapDiff > 0 ? 'var(--dash-up)' : (vwapDiff < 0 ? 'var(--dash-down)' : '');
+    const vwapArrow = vwapDiff > 0 ? '▲' : (vwapDiff < 0 ? '▼' : '');
+    
     let infoHtml = '';
     const fields = [
         ['现价', s.price.toFixed(2), ''],
         ['涨跌', `${s.change_pct >= 0 ? '+' : ''}${s.change_pct.toFixed(2)}%`, s.change_pct >= 0 ? 'var(--dash-up)' : 'var(--dash-down)'],
+        ['分时均价', vwap > 0 ? vwap.toFixed(2) : '-', ''],
+        ['均差', vwapDiff !== null ? `${vwapArrow} ${Math.abs(vwapDiff)}%` : '-', vwapColor],
         ['开盘', s.open.toFixed(2), ''],
         ['最高', s.high.toFixed(2), ''],
         ['最低', s.low.toFixed(2), ''],
@@ -2638,6 +2647,29 @@ function dashDrawKline(s) {
         // 价格数值（点上方）
         ctx.fillStyle = color; ctx.font = 'bold 11px sans-serif';
         ctx.fillText(c.val.toFixed(2), c.x, c.y - 12);
+    }
+    
+    // V5.1: 分时均价线(VWAP)参考线
+    if (s.vwap > 0) {
+        const vwapY = y(s.vwap);
+        const vwapColor = s.price >= s.vwap ? 'rgba(239,68,68,0.6)' : 'rgba(34,197,94,0.6)';
+        ctx.strokeStyle = vwapColor; ctx.setLineDash([6, 3]); ctx.lineWidth = 1.5;
+        ctx.beginPath(); ctx.moveTo(0, vwapY); ctx.lineTo(w, vwapY); ctx.stroke(); ctx.setLineDash([]);
+        
+        ctx.fillStyle = vwapColor; ctx.font = '10px sans-serif'; ctx.textAlign = 'right';
+        ctx.fillText('均价 ' + s.vwap.toFixed(2), w - 4, vwapY - 4);
+        
+        // 如果现价和均价差距大，在中间画连接线
+        if (s.price > 0 && Math.abs(s.price - s.vwap) / s.vwap > 0.005) {
+            const lastC = coords[coords.length - 1];
+            ctx.strokeStyle = vwapColor; ctx.setLineDash([2, 4]); ctx.lineWidth = 1;
+            ctx.beginPath(); ctx.moveTo(lastC.x, lastC.y); ctx.lineTo(lastC.x, vwapY); ctx.stroke(); ctx.setLineDash([]);
+            
+            const gap = ((s.price - s.vwap) / s.vwap * 100).toFixed(2);
+            const gapSign = s.price >= s.vwap ? '+' : '';
+            ctx.fillStyle = vwapColor; ctx.font = 'bold 10px sans-serif'; ctx.textAlign = 'left';
+            ctx.fillText(`${gapSign}${gap}%`, lastC.x + 8, (lastC.y + vwapY) / 2);
+        }
     }
     
     // 涨跌幅标注（现价）
