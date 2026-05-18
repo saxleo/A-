@@ -32,9 +32,52 @@
     }
   },
   "morning": {
-    "emotion": "",
-    "position": "",
-    "sectors": [],
+    "emotion": "⚠️分歧**",
+    "position": "总仓≤3成，单标≤1成**",
+    "sectors": [
+      {
+        "name": "**半导体**",
+        "limitUpCount": "1只",
+        "leader": "弘信电子(1板)",
+        "mid": "弘信电子",
+        "status": "🔴 一般活跃"
+      },
+      {
+        "name": "**大消费**",
+        "limitUpCount": "1只",
+        "leader": "合百集团(1板)",
+        "mid": "合百集团",
+        "status": "🔴 一般活跃"
+      },
+      {
+        "name": "**新能源**",
+        "limitUpCount": "1只",
+        "leader": "上峰水泥(1板)",
+        "mid": "上峰水泥",
+        "status": "🔴 一般活跃"
+      },
+      {
+        "name": "**大消费**",
+        "limitUpCount": "8只",
+        "leader": "75.0%",
+        "mid": "37.5%",
+        "status": "+4.28%"
+      },
+      {
+        "name": "**机器人**",
+        "limitUpCount": "14只",
+        "leader": "71.4%",
+        "mid": "7.1%",
+        "status": "+2.00%"
+      },
+      {
+        "name": "**涨价概念**",
+        "limitUpCount": "3只",
+        "leader": "100.0%",
+        "mid": "0.0%",
+        "status": "+4.95%"
+      }
+    ],
     "modeA": [],
     "modeB": [],
     "modeC": []
