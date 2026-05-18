@@ -257,7 +257,7 @@
             </div>
             <div class="flex items-center gap-4">
                 <select id="dateSelector" class="bg-card border border-border rounded px-3 py-1.5 text-sm focus:outline-none focus:border-gold">
-                    <option value="2026-05-15">2026-05-15 周五</option>
+                    <!-- 动态填充 -->
                 </select>
                 <div id="marketTemp" class="px-3 py-1 rounded text-xs font-medium bg-amber-500/20 text-amber-400 border border-amber-500/30">
                     ⚠️ 分歧
@@ -2051,7 +2051,7 @@
                 <i class="fas fa-archive text-4xl text-gray-600 mb-4"></i>
                 <h3 class="text-lg font-bold text-gray-400 mb-2">历史归档</h3>
                 <p class="text-sm text-gray-500">每日复盘数据将自动归档于此</p>
-                <p class="text-xs text-gray-600 mt-4">当前仅展示 2026-05-15 数据</p>
+                <p class="text-xs text-gray-600 mt-4" id="dashDataNote">当前仅展示实时数据</p>
             </div>
         </div>
     
@@ -2617,6 +2617,17 @@ function switchTab(tabName) {
 
 // ===== 初始化 =====
 document.addEventListener('DOMContentLoaded', () => {
+    // 填充日期选择器
+    const dateSel = document.getElementById('dateSelector');
+    const now = new Date();
+    const weekdays = ['周日','周一','周二','周三','周四','周五','周六'];
+    const todayStr = `${now.getFullYear()}-${String(now.getMonth()+1).padStart(2,'0')}-${String(now.getDate()).padStart(2,'0')}`;
+    const option = document.createElement('option');
+    option.value = todayStr;
+    option.textContent = `${todayStr} ${weekdays[now.getDay()]}`;
+    dateSel.appendChild(option);
+    dateSel.value = todayStr;
+    
     dashLoadData();
     document.addEventListener('keydown', e => { if (e.key === 'Escape') dashCloseModal(); });
 });
