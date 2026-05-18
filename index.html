@@ -2723,27 +2723,88 @@ function renderMorning(data) {
     const m = data.morning;
     const container = document.getElementById('content-morning');
     if (!container) return;
-    // 情绪仓位
-    const headers = container.querySelectorAll('h2, h3');
-    // 简单策略：如果JSON有modeA数据，在Mode A区块前插入动态表格
-    if (m.modeA && m.modeA.length) {
-        // 找到Mode A区块
-        let modeASection = null;
-        container.querySelectorAll('h3, h4').forEach(h => {
-            if (h.textContent.includes('Mode A')) modeASection = h;
+    
+    // 更新情绪定位文本
+    if (m.emotion) {
+        container.querySelectorAll('h2, h3, h4').forEach(h => {
+            if (h.textContent.includes('情绪定位') && h.nextElementSibling) {
+                const badge = h.nextElementSibling.querySelector('.text-red-400.font-bold, .text-amber-400.font-bold, .text-green-400.font-bold');
+                if (badge) badge.textContent = '🌡️ 情绪定位：' + m.emotion;
+            }
         });
-        if (modeASection) {
-            // 移除已有的动态表格避免重复
-            const existing = modeASection.parentElement?.querySelector('.json-dynamic-table');
+    }
+    
+    // 如果JSON有modeA数据，在Mode A区块插入/覆盖动态表格
+    // 先找Mode A的h2标题
+    let modeASection = null;
+    container.querySelectorAll('h2, h3, h4').forEach(h => {
+        if (h.textContent.includes('Mode A')) modeASection = h;
+    });
+    if (modeASection && m.modeA && m.modeA.length) {
+        // 找到Mode A区块的父容器（glass卡片），清空旧的space-y-3内容，插入动态表格
+        const card = modeASection.closest('.glass');
+        if (card) {
+            // 移除旧的动态表格（如果存在）
+            const existing = card.querySelector('.json-dynamic-modea');
             if (existing) existing.remove();
-            let html = '<table class="w-full text-xs json-dynamic-table mb-4"><thead><tr class="text-gray-400 border-b border-border"><th class="pb-2 text-left">标的</th><th class="pb-2">连板</th><th class="pb-2">体系匹配</th></tr></thead><tbody>';
+            
+            let html = '<div class="json-dynamic-modea space-y-3">';
             m.modeA.forEach(s => {
-                html += `<tr class="table-row-alt border-b border-border/50"><td class="py-2 font-medium">${s.name}（${s.code}）</td><td class="py-2 text-center">${s.boards}</td><td class="py-2 text-gold">${s.match}</td></tr>`;
+                html += `<div class="bg-card rounded-lg p-4 border border-gold/20">
+                    <div class="flex items-start justify-between mb-2">
+                        <div>
+                            <span class="text-gold font-bold text-lg">${s.name}</span>
+                            <span class="text-gray-400 text-sm ml-2">${s.code}</span>
+                            <span class="text-xs bg-gold/20 text-gold px-2 py-0.5 rounded ml-2">${s.boards}</span>
+                        </div>
+                        <span class="text-xs bg-gold/20 text-gold px-2 py-1 rounded">✅ 超预期</span>
+                    </div>
+                    <div class="text-xs text-gray-400">${s.match}</div>
+                </div>`;
             });
-            html += '</tbody></table>';
+            html += '</div>';
             const div = document.createElement('div');
             div.innerHTML = html;
-            modeASection.insertAdjacentElement('afterend', div.firstElementChild);
+            // 插入到h2后面，或替换现有的space-y-3
+            const oldList = modeASection.nextElementSibling;
+            if (oldList && oldList.classList.contains('space-y-3')) {
+                oldList.style.display = 'none'; // 隐藏旧的，保留作为fallback
+                oldList.insertAdjacentElement('afterend', div.firstElementChild);
+            } else {
+                modeASection.insertAdjacentElement('afterend', div.firstElementChild);
+            }
+        }
+    }
+    
+    // Mode C 表格覆盖
+    let modeCSection = null;
+    container.querySelectorAll('h2, h3, h4').forEach(h => {
+        if (h.textContent.includes('Mode C')) modeCSection = h;
+    });
+    if (modeCSection && m.modeC && m.modeC.length) {
+        const card = modeCSection.closest('.glass');
+        if (card) {
+            const existing = card.querySelector('.json-dynamic-modec');
+            if (existing) existing.remove();
+            let html = '<div class="json-dynamic-modec overflow-x-auto"><table class="w-full text-sm"><thead><tr class="text-gray-400 text-xs border-b border-border"><th class="pb-2 text-left">名称</th><th class="pb-2 text-left">代码</th><th class="pb-2 text-left">禁止理由</th><th class="pb-2 text-left">风险</th></tr></thead><tbody>';
+            m.modeC.forEach(s => {
+                html += `<tr class="table-row-alt border-b border-border/50">
+                    <td class="py-2 text-red-400 font-medium">${s.name}</td>
+                    <td class="py-2 font-mono text-gray-400">${s.code}</td>
+                    <td class="py-2 text-gray-300">${s.reason}</td>
+                    <td class="py-2 text-gray-400">${s.risk || '-'}</td>
+                </tr>`;
+            });
+            html += '</tbody></table></div>';
+            const div = document.createElement('div');
+            div.innerHTML = html;
+            const oldTable = modeCSection.nextElementSibling;
+            if (oldTable && oldTable.classList.contains('overflow-x-auto')) {
+                oldTable.style.display = 'none';
+                oldTable.insertAdjacentElement('afterend', div.firstElementChild);
+            } else {
+                modeCSection.insertAdjacentElement('afterend', div.firstElementChild);
+            }
         }
     }
 }
