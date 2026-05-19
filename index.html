@@ -2843,12 +2843,47 @@ function renderMorning(data) {
     
     // 更新情绪定位文本
     if (m.emotion) {
-        container.querySelectorAll('h2, h3, h4').forEach(h => {
-            if (h.textContent.includes('情绪定位') && h.nextElementSibling) {
-                const badge = h.nextElementSibling.querySelector('.text-red-400.font-bold, .text-amber-400.font-bold, .text-green-400.font-bold');
+        const emotionH2 = Array.from(container.querySelectorAll('h2')).find(h => h.textContent.includes('情绪定位'));
+        if (emotionH2) {
+            const parent = emotionH2.closest('.glass');
+            if (parent) {
+                // 更新统计数字
+                if (m.emotionStats) {
+                    const statItems = parent.querySelectorAll('.grid > div');
+                    const stats = m.emotionStats;
+                    statItems.forEach(item => {
+                        const label = item.querySelector('.text-xs.text-gray-400, .text-xs.text-gray-500');
+                        const val = item.querySelector('.text-xl, .text-2xl, .text-lg');
+                        if (!label || !val) return;
+                        const text = label.textContent.trim();
+                        if (text.includes('高开率') && stats.highOpenRate !== undefined) val.textContent = stats.highOpenRate;
+                        if (text.includes('一字板') && stats.yzCount !== undefined) val.textContent = stats.yzCount + '只';
+                        if (text.includes('量能达标') && stats.energyHit !== undefined) val.textContent = stats.energyHit;
+                        if (text.includes('涨停家数') && stats.bidLimitUp !== undefined) val.textContent = stats.bidLimitUp + '家';
+                    });
+                }
+                // 更新情绪定位文字
+                const badge = parent.querySelector('.text-red-400.font-bold, .text-amber-400.font-bold, .text-green-400.font-bold');
                 if (badge) badge.textContent = '🌡️ 情绪定位：' + m.emotion;
             }
-        });
+        }
+    }
+    
+    // 更新板块强度实况表格
+    const sectorTable = Array.from(container.querySelectorAll('.glass')).find(el => el.textContent.includes('板块强度实况'));
+    if (sectorTable && m.sectors && m.sectors.length) {
+        const tbody = sectorTable.querySelector('tbody');
+        if (tbody) {
+            tbody.innerHTML = m.sectors.map((s, i) => `
+                <tr class="table-row-alt border-b border-border/50">
+                    <td class="py-3 font-bold text-gold">TOP${i+1}</td>
+                    <td class="py-3 font-medium">${s.name ? s.name.replace(/\*\*/g, '') : ''}</td>
+                    <td class="py-3 text-center font-mono">${s.limitUpCount || '-'}</td>
+                    <td class="py-3">${s.leader || s.maxBoard || '-'}</td>
+                    <td class="py-3"><span class="${s.status && s.status.includes('🔥🔥') ? 'text-gold' : 'text-amber-400'}">${s.status || '-'}</span></td>
+                </tr>
+            `).join('');
+        }
     }
     
     // 如果JSON有modeA数据，在Mode A区块插入/覆盖动态表格
