@@ -3167,7 +3167,7 @@ function renderWind(data) {
 
     // 更新昨日涨停板块回顾
     if (w.yesterdaySectors && w.yesterdaySectors.length > 0) {
-        const yesterdaySection = container.querySelector('[class*="昨日涨停"]')?.closest('.glass');
+        const yesterdaySection = Array.from(container.querySelectorAll('h2')).find(h => h.textContent.includes('昨日涨停'))?.closest('.glass');
         if (yesterdaySection) {
             const table = yesterdaySection.querySelector('table');
             if (table) {
@@ -3177,7 +3177,7 @@ function renderWind(data) {
                         <tr class="table-row-alt border-b border-border/50">
                             <td class="py-2 font-bold">${s.name || ''}</td>
                             <td class="py-2">${s.limitUpCount || ''}</td>
-                            <td class="py-2">${s.maxBoard || ''}</td>
+                            <td class="py-2">${s.leader || ''}</td>
                             <td class="py-2 text-gray-400">${s.note || ''}</td>
                         </tr>
                     `).join('');
