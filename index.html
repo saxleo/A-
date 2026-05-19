@@ -2405,6 +2405,8 @@ function dashRenderSectors() {
         const hasFf = s.stocks.filter(x => x.has_fund_flow).length;
         const displayVal = hasEst ? est : (hasFf > 0 ? main : book);
         const mainColor = displayVal >= 0 ? 'var(--dash-up)' : 'var(--dash-down)';
+        const avgColor = avg >= 0 ? 'var(--dash-up)' : 'var(--dash-down)';
+        const top = s.stocks.sort((a,b) => b.change_pct - a.change_pct)[0];
         
         html += `<div class="dash-sector-card" onclick="dashGoToSector('${s.name}')">
             <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
