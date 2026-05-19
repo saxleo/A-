@@ -3,9 +3,9 @@
   "marketTemp": "分歧",
   "marketTempColor": "amber",
   "stats": {
-    "limitUp": 72,
+    "limitUp": 3,
     "limitDown": 11,
-    "maxBoard": 6,
+    "maxBoard": 7,
     "maxBoardStock": "蒙娜丽莎",
     "volumeChange": "缩量",
     "volumeChangeNum": -984,
@@ -21,41 +21,41 @@
     "techStocks": [
       {
         "name": "英伟达",
-        "change": -1.33
+        "change": -0.36
       },
       {
         "name": "苹果",
-        "change": -0.8
+        "change": 0.66
       },
       {
         "name": "微软",
-        "change": 0.38
+        "change": 0.52
       },
       {
         "name": "特斯拉",
-        "change": -2.9
+        "change": -1.71
       },
       {
         "name": "谷歌",
-        "change": -0.05
+        "change": -1.2
       },
       {
         "name": "Meta",
-        "change": -0.49
+        "change": -0.63
       }
     ],
     "chinaConcepts": [
       {
         "name": "京东",
-        "change": -1.28
+        "change": 1.65
       },
       {
         "name": "拼多多",
-        "change": -0.9
+        "change": 0.6
       },
       {
         "name": "哔哩哔哩",
-        "change": 2.94
+        "change": -2.09
       }
     ],
     "focusSectors": [],
@@ -404,10 +404,84 @@
   },
   "review": {
     "emotion": "",
-    "emotionScore": 50,
+    "emotionScore": 70,
     "yesterdayPremium": 0,
-    "boards": [],
-    "sectors": [],
+    "boards": [
+      {
+        "boards": "5板",
+        "name": "**+2板**",
+        "sector": "🟢 高度突破",
+        "status": ""
+      },
+      {
+        "boards": "0",
+        "name": "7板高度极限，股权转让题材持续性弱",
+        "sector": "",
+        "status": "**5进6**"
+      },
+      {
+        "boards": "0",
+        "name": "4板后分歧概率高",
+        "sector": "",
+        "status": "**2进3**"
+      },
+      {
+        "boards": "1",
+        "name": "21:07",
+        "sector": "**56**",
+        "status": "长江存储IPO辅导，估值1600亿，国产3D NAND第一股"
+      },
+      {
+        "boards": "2",
+        "name": "—",
+        "sector": "**17**",
+        "status": "政策类电报"
+      },
+      {
+        "boards": "3",
+        "name": "21:09",
+        "sector": "**9**",
+        "status": "美国国债收益率持续攀升"
+      }
+    ],
+    "sectors": [
+      {
+        "name": "若干",
+        "limitUpCount": "5只",
+        "attackScore": "—",
+        "status": "🟡 正常"
+      },
+      {
+        "name": "**回避**，不接力",
+        "limitUpCount": "0",
+        "attackScore": "7板高度极限，股权转让题材持续性弱",
+        "status": ""
+      },
+      {
+        "name": "**回避**，不接力",
+        "limitUpCount": "0",
+        "attackScore": "4板后分歧概率高",
+        "status": ""
+      },
+      {
+        "name": "",
+        "limitUpCount": "1",
+        "attackScore": "21:07",
+        "status": "**56**"
+      },
+      {
+        "name": "",
+        "limitUpCount": "2",
+        "attackScore": "—",
+        "status": "**17**"
+      },
+      {
+        "name": "",
+        "limitUpCount": "3",
+        "attackScore": "21:09",
+        "status": "**9**"
+      }
+    ],
     "modeAHit": {
       "hit": 0,
       "miss": 0,
@@ -422,17 +496,305 @@
     "riskPoints": []
   },
   "youthu": {
-    "indices": [],
+    "indices": [
+      {
+        "name": "上证指数",
+        "change": "4169.54",
+        "note": "**+0.92%**"
+      },
+      {
+        "name": "创业板指",
+        "change": "3908.44",
+        "note": "**-0.16%**"
+      }
+    ],
     "emotion": {},
-    "boards": [],
-    "sectors": [],
-    "coreLeaders": [],
+    "boards": [
+      {
+        "boards": "7板",
+        "name": "利仁科技",
+        "sector": "001259",
+        "status": "股份转让+小家电+露营经济"
+      },
+      {
+        "boards": "5板",
+        "name": "威龙股份",
+        "sector": "603779",
+        "status": "淄博国资入主+葡萄酒+白兰地"
+      },
+      {
+        "boards": "4板",
+        "name": "北自科技",
+        "sector": "603082",
+        "status": "人形机器人+智能物流+拟收购+央企"
+      },
+      {
+        "boards": "3板",
+        "name": "金海高科",
+        "sector": "603311",
+        "status": "控制权变更+复牌+空气过滤"
+      },
+      {
+        "boards": "3板",
+        "name": "达实智能",
+        "sector": "002421",
+        "status": "液冷服务器+机器人+AIoT+AI应用"
+      },
+      {
+        "boards": "2板",
+        "name": "弘信电子",
+        "sector": "300657",
+        "status": "Token工厂+昇腾集群+算力租赁(20cm)"
+      },
+      {
+        "boards": "2板",
+        "name": "合肥城建",
+        "sector": "002208",
+        "status": "间接投资长鑫科技+地产+合肥国资"
+      },
+      {
+        "boards": "2板",
+        "name": "嘉环科技",
+        "sector": "603206",
+        "status": "AI算力+华为合作+训推一体机"
+      },
+      {
+        "boards": "2板",
+        "name": "电科数字",
+        "sector": "600850",
+        "status": "AI算力+商业航天+央企"
+      },
+      {
+        "boards": "2板",
+        "name": "海星股份",
+        "sector": "603115",
+        "status": "AI服务器电极箔+全球市占率第一"
+      },
+      {
+        "boards": "2板",
+        "name": "艾华集团",
+        "sector": "603989",
+        "status": "AI算力上游+铝电解电容"
+      },
+      {
+        "boards": "2板",
+        "name": "诚邦股份",
+        "sector": "603316",
+        "status": "存储芯片+定增扩产+业绩暴增"
+      },
+      {
+        "boards": "2板",
+        "name": "合百集团",
+        "sector": "000417",
+        "status": "间接投资长鑫科技+合肥国资"
+      },
+      {
+        "boards": "2板",
+        "name": "三孚股份",
+        "sector": "603938",
+        "status": "存储上游+光纤材料+硅产品"
+      },
+      {
+        "boards": "2板",
+        "name": "辽宁能源",
+        "sector": "600758",
+        "status": "电力+煤炭+国企"
+      },
+      {
+        "boards": "2板",
+        "name": "贵州燃气",
+        "sector": "600903",
+        "status": "页岩气+天然气+贵州国资"
+      },
+      {
+        "boards": "2板",
+        "name": "川润股份",
+        "sector": "002272",
+        "status": "液冷服务器+定增扩产+风电"
+      },
+      {
+        "boards": "2板",
+        "name": "伟时电子",
+        "sector": "605218",
+        "status": "MiniLED车载背光+VR+减持终止"
+      },
+      {
+        "boards": "2板",
+        "name": "宝鼎科技",
+        "sector": "002552",
+        "status": "PCB铜箔+黄金采选+业绩大增"
+      }
+    ],
+    "sectors": [
+      {
+        "name": "7板 | 利仁科技",
+        "limitUpCount": "001259",
+        "core": "股份转让+小家电+露营经济",
+        "ladder": "🔥一字",
+        "status": "09:30:36"
+      },
+      {
+        "name": "5板 | 威龙股份",
+        "limitUpCount": "603779",
+        "core": "淄博国资入主+葡萄酒+白兰地",
+        "ladder": "🔥一字",
+        "status": "09:25:00"
+      },
+      {
+        "name": "4板 | 北自科技",
+        "limitUpCount": "603082",
+        "core": "人形机器人+智能物流+拟收购+央企",
+        "ladder": "🔥秒板",
+        "status": "09:30:01"
+      },
+      {
+        "name": "3板 | 金海高科",
+        "limitUpCount": "603311",
+        "core": "控制权变更+复牌+空气过滤",
+        "ladder": "🟡T字",
+        "status": "09:47→14:18"
+      },
+      {
+        "name": "3板 | 达实智能",
+        "limitUpCount": "002421",
+        "core": "液冷服务器+机器人+AIoT+AI应用",
+        "ladder": "🔥一字",
+        "status": "09:25:00"
+      },
+      {
+        "name": "2板 | 弘信电子",
+        "limitUpCount": "300657",
+        "core": "Token工厂+昇腾集群+算力租赁(20cm)",
+        "ladder": "🔥秒板",
+        "status": "09:37:45"
+      },
+      {
+        "name": "2板 | 合肥城建",
+        "limitUpCount": "002208",
+        "core": "间接投资长鑫科技+地产+合肥国资",
+        "ladder": "🟡放量",
+        "status": "09:36→13:59"
+      },
+      {
+        "name": "2板 | 嘉环科技",
+        "limitUpCount": "603206",
+        "core": "AI算力+华为合作+训推一体机",
+        "ladder": "🔥秒板",
+        "status": "09:37:00"
+      },
+      {
+        "name": "2板 | 电科数字",
+        "limitUpCount": "600850",
+        "core": "AI算力+商业航天+央企",
+        "ladder": "🟡换手",
+        "status": "09:52→10:21"
+      },
+      {
+        "name": "2板 | 海星股份",
+        "limitUpCount": "603115",
+        "core": "AI服务器电极箔+全球市占率第一",
+        "ladder": "🟡换手",
+        "status": "10:31"
+      },
+      {
+        "name": "2板 | 艾华集团",
+        "limitUpCount": "603989",
+        "core": "AI算力上游+铝电解电容",
+        "ladder": "🟡换手",
+        "status": "10:38"
+      },
+      {
+        "name": "2板 | 诚邦股份",
+        "limitUpCount": "603316",
+        "core": "存储芯片+定增扩产+业绩暴增",
+        "ladder": "🟡换手",
+        "status": "09:49"
+      },
+      {
+        "name": "2板 | 合百集团",
+        "limitUpCount": "000417",
+        "core": "间接投资长鑫科技+合肥国资",
+        "ladder": "🔥一字",
+        "status": "09:25:00"
+      },
+      {
+        "name": "2板 | 三孚股份",
+        "limitUpCount": "603938",
+        "core": "存储上游+光纤材料+硅产品",
+        "ladder": "🟡换手",
+        "status": "09:39"
+      },
+      {
+        "name": "2板 | 辽宁能源",
+        "limitUpCount": "600758",
+        "core": "电力+煤炭+国企",
+        "ladder": "🟡换手",
+        "status": "10:05"
+      },
+      {
+        "name": "2板 | 贵州燃气",
+        "limitUpCount": "600903",
+        "core": "页岩气+天然气+贵州国资",
+        "ladder": "🟡换手",
+        "status": "09:31→10:07"
+      },
+      {
+        "name": "2板 | 川润股份",
+        "limitUpCount": "002272",
+        "core": "液冷服务器+定增扩产+风电",
+        "ladder": "🟡换手",
+        "status": "09:36"
+      },
+      {
+        "name": "2板 | 伟时电子",
+        "limitUpCount": "605218",
+        "core": "MiniLED车载背光+VR+减持终止",
+        "ladder": "🔥秒板",
+        "status": "09:42"
+      },
+      {
+        "name": "2板 | 宝鼎科技",
+        "limitUpCount": "002552",
+        "core": "PCB铜箔+黄金采选+业绩大增",
+        "ladder": "🔥秒板",
+        "status": "09:35:39"
+      }
+    ],
+    "coreLeaders": [
+      {
+        "role": "**题材龙-大消费**",
+        "name": "威龙股份",
+        "recognition": "5板，淄博国资入主",
+        "status": "🔥 一字加速",
+        "expectation": ""
+      },
+      {
+        "role": "**题材龙-算力**",
+        "name": "弘信电子",
+        "recognition": "2板20cm，Token工厂",
+        "status": "🔥 弹性龙",
+        "expectation": ""
+      }
+    ],
     "profitEffect": [],
     "lossEffect": [],
     "fundStyle": {},
     "rotation": [],
     "signals": [],
-    "tomorrowPlan": [],
+    "tomorrowPlan": [
+      {
+        "name": "利仁科技7板、威龙股份5板、北自科技4板",
+        "condition": "",
+        "position": "**20cm弹性**",
+        "stopLoss": "✅ 极强"
+      },
+      {
+        "name": "**反思**：\n- **Mode A 2/4命中**（已知部分），威龙股份、合百集团命中\n- **Mode C 5/5拦截失败**——这是今天的最大教训！早盘策略将\"无量高开\"判定为骗炮，但这些标的在当天情绪强势背景下全部成功连板。\n- **原因**：情绪强势日，竞价量能阈值过于保守。在分歧转一致的情绪周期中，资金对高标一致性看好，即使竞价量不足，开盘后也迅速封板。\n- **改进**：情绪定位\"分歧\"但实际开盘走成\"一致\"，说明竞价数据在情绪拐点日有滞后性。需要在9:30开盘后补充开盘5分钟量能数据来修正判断。\n\n### 改进计划\n\n1. **情绪周期校准**：竞价\"分歧\"数据≠开盘情绪，需增加开盘后5分钟涨跌停数据修正\n2. **量比阈值动态调整**：情绪强势日放宽量比要求（从10%→5%）\n3. **高标一致性判断**：高标身位龙在情绪回暖日，即使无量也应纳入观察而非直接禁止\n\n---\n\n## 十四、市场总结\n\n> **一句话总结**：半导体暴力回流带科创50大V反转，利仁科技7板拓高标但京能电力炸板预警分化，明天看高标是否断板、半导体能否持续。\n\n### 情绪周期定位\n\n**当前位置**：**一致期末期 → 分化初期**\n\n- 利仁科技7板、威龙股份5板，高度还在拓展\n- 但京能电力4进5炸板、联讯仪器大跌，中位股和容量股已现负反馈\n- 半导体/算力强势回流，电力开始分化\n- **明天大概率是高标分化、低位补涨的一天**\n\n### 明日核心三问\n\n1. **情绪周期**：一致期还能持续吗？→ 看利仁科技是否8板\n2. **龙头是谁**：光迅科技（趋势）+ 利仁科技（连板）+ 弘信电子（弹性）\n3. **明天去哪**：半导体上游物料（MLCC/SOI/电容）+ 算力20cm弹性 + 低位一进二\n\n---\n\n## 附录：数据来源",
+        "condition": "数据类型",
+        "position": "来源",
+        "stopLoss": ""
+      }
+    ],
     "summary": ""
   }
 }
