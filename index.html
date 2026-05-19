@@ -2951,13 +2951,372 @@ function renderNoon(data) {
     });
 }
 
+// --- 早盘策略 ---
+function renderMorning(data) {
+    if (!data || !data.morning) return;
+    const m = data.morning;
+    const container = document.getElementById('content-morning');
+    if (!container) return;
+
+    // 更新情绪定位统计
+    if (m.emotion) {
+        const e = m.emotion;
+        const statItems = container.querySelectorAll('.grid.grid-cols-2.md\\:grid-cols-4 > div, .grid.grid-cols-4 > div');
+        statItems.forEach(item => {
+            const label = item.querySelector('.text-xs.text-gray-400');
+            const val = item.querySelector('.text-xl, .text-2xl, .text-lg');
+            if (!label || !val) return;
+            const text = label.textContent.trim();
+            if (text.includes('高开率') && e.highOpenRate !== undefined) val.textContent = e.highOpenRate + '%';
+            if (text.includes('一字板') && e.yzCount !== undefined) val.textContent = e.yzCount + '只';
+            if (text.includes('量能达标') && e.energyHit !== undefined) val.textContent = e.energyHit;
+            if (text.includes('涨停家数') && e.bidLimitUp !== undefined) val.textContent = e.bidLimitUp + '家';
+        });
+        // 情绪定位文字
+        const emotionText = container.querySelector('.text-amber-400.font-bold, .text-red-400.font-bold');
+        if (emotionText && e.emotionText) {
+            emotionText.textContent = e.emotionText;
+        }
+        // 仓位建议
+        const positionText = container.querySelector('.text-gray-300.text-sm');
+        if (positionText && e.position) {
+            positionText.textContent = e.position;
+        }
+    }
+
+    // 更新板块强度实况表格
+    if (m.sectors && m.sectors.length > 0) {
+        const tables = container.querySelectorAll('table');
+        const sectorTable = Array.from(tables).find(t => {
+            const th = t.querySelector('th');
+            return th && th.textContent.includes('板块');
+        });
+        if (sectorTable) {
+            const tbody = sectorTable.querySelector('tbody');
+            if (tbody) {
+                tbody.innerHTML = m.sectors.map((s, i) => `
+                    <tr class="table-row-alt border-b border-border/50">
+                        <td class="py-2 text-center font-bold text-gold">TOP${i+1}</td>
+                        <td class="py-2 font-bold">${s.name || ''}</td>
+                        <td class="py-2">${s.limitUpCount || '-'}</td>
+                        <td class="py-2">${s.maxBoard || '-'}</td>
+                        <td class="py-2">${s.status || '-'}</td>
+                    </tr>
+                `).join('');
+            }
+        }
+    }
+
+    // 更新 Mode A
+    if (m.modeA && m.modeA.length > 0) {
+        const modeASection = container.querySelector('[class*="Mode A"]')?.closest('.glass');
+        if (modeASection) {
+            const cards = modeASection.querySelectorAll('.bg-card.rounded-lg');
+            m.modeA.forEach((item, i) => {
+                if (cards[i]) {
+                    const nameEl = cards[i].querySelector('.font-bold.text-lg, .font-bold.text-base');
+                    if (nameEl) nameEl.textContent = item.name || '';
+                    const codeEl = cards[i].querySelector('.font-mono.text-gray-400');
+                    if (codeEl) codeEl.textContent = item.code || '';
+                    const boardEl = cards[i].querySelector('.rounded.bg-');
+                    if (boardEl && item.boards) boardEl.textContent = item.boards;
+                    // 状态标签
+                    const tags = cards[i].querySelectorAll('.text-green-400, .text-amber-400');
+                    tags.forEach(tag => {
+                        if (tag.textContent.includes('预期') && item.status) {
+                            tag.textContent = item.status;
+                        }
+                    });
+                }
+            });
+        }
+    }
+
+    // 更新 Mode B
+    if (m.modeB && m.modeB.length > 0) {
+        const modeBSection = container.querySelector('[class*="Mode B"]')?.closest('.glass');
+        if (modeBSection) {
+            const cards = modeBSection.querySelectorAll('.bg-card');
+            m.modeB.forEach((item, i) => {
+                if (cards[i]) {
+                    const nameEl = cards[i].querySelector('.font-bold');
+                    if (nameEl) nameEl.textContent = item.name || '';
+                    const descEl = cards[i].querySelector('.text-xs.text-gray-400');
+                    if (descEl && item.desc) descEl.textContent = item.desc;
+                }
+            });
+        }
+    }
+
+    // 更新 Mode C 表格
+    if (m.modeC && m.modeC.length > 0) {
+        const modeCSection = container.querySelector('[class*="Mode C"]')?.closest('.glass');
+        if (modeCSection) {
+            const table = modeCSection.querySelector('table');
+            if (table) {
+                const tbody = table.querySelector('tbody');
+                if (tbody) {
+                    tbody.innerHTML = m.modeC.map(item => `
+                        <tr class="table-row-alt border-b border-border/50">
+                            <td class="py-2 font-bold">${item.name || ''}</td>
+                            <td class="py-2 font-mono">${item.code || ''}</td>
+                            <td class="py-2">${item.reason || ''}</td>
+                            <td class="py-2">${item.risk || ''}</td>
+                        </tr>
+                    `).join('');
+                }
+            }
+        }
+    }
+}
+
+// --- 风向早报 ---
+function renderWind(data) {
+    if (!data || !data.wind) return;
+    const w = data.wind;
+    const container = document.getElementById('content-wind');
+    if (!container) return;
+
+    // 更新外围映射
+    if (w.overseas && w.overseas.length > 0) {
+        const overseasSection = container.querySelector('[class*="外围映射"]')?.closest('.glass');
+        if (overseasSection) {
+            const items = overseasSection.querySelectorAll('.grid > div');
+            w.overseas.forEach((item, i) => {
+                if (items[i]) {
+                    const nameEl = items[i].querySelector('.text-xs, .text-sm');
+                    const valEl = items[i].querySelector('.text-xl, .text-lg');
+                    if (nameEl) nameEl.textContent = item.name || '';
+                    if (valEl) {
+                        const sign = item.change > 0 ? '+' : '';
+                        valEl.textContent = sign + item.change + '%';
+                    }
+                }
+            });
+        }
+    }
+
+    // 更新政策风向表格
+    if (w.policies && w.policies.length > 0) {
+        const policySection = container.querySelector('[class*="政策风向"]')?.closest('.glass');
+        if (policySection) {
+            const table = policySection.querySelector('table');
+            if (table) {
+                const tbody = table.querySelector('tbody');
+                if (tbody) {
+                    tbody.innerHTML = w.policies.map(p => `
+                        <tr class="table-row-alt border-b border-border/50">
+                            <td class="py-2 text-center text-gray-400">${p.date || ''}</td>
+                            <td class="py-2 font-medium">${p.title || ''}</td>
+                            <td class="py-2">${p.source || ''}</td>
+                            <td class="py-2">${p.sector || ''}</td>
+                            <td class="py-2 text-center">${p.status || ''}</td>
+                        </tr>
+                    `).join('');
+                }
+            }
+        }
+    }
+
+    // 更新唯一主线
+    if (w.mainTheme) {
+        const mainSection = container.querySelector('[class*="唯一主线"]')?.closest('.glass');
+        if (mainSection) {
+            const titleEl = mainSection.querySelector('.text-lg.font-bold, .text-xl');
+            if (titleEl) titleEl.textContent = '预判今日NO.1：' + w.mainTheme;
+        }
+    }
+
+    // 更新昨日涨停板块回顾
+    if (w.yesterdaySectors && w.yesterdaySectors.length > 0) {
+        const yesterdaySection = container.querySelector('[class*="昨日涨停"]')?.closest('.glass');
+        if (yesterdaySection) {
+            const table = yesterdaySection.querySelector('table');
+            if (table) {
+                const tbody = table.querySelector('tbody');
+                if (tbody) {
+                    tbody.innerHTML = w.yesterdaySectors.map(s => `
+                        <tr class="table-row-alt border-b border-border/50">
+                            <td class="py-2 font-bold">${s.name || ''}</td>
+                            <td class="py-2">${s.limitUpCount || ''}</td>
+                            <td class="py-2">${s.maxBoard || ''}</td>
+                            <td class="py-2 text-gray-400">${s.note || ''}</td>
+                        </tr>
+                    `).join('');
+                }
+            }
+        }
+    }
+}
+
 // --- 首板策略 ---
 function renderFirstBoard(data) {
     if (!data || !data.firstboard) return;
     const fb = data.firstboard;
     const container = document.getElementById('content-firstboard');
-    if (!container || !fb.topStocks || !fb.topStocks.length) return;
-    // 保持静态Top5不动，JSON数据作为补充
+    if (!container) return;
+
+    // 更新Top1-2详情
+    if (fb.topStocks && fb.topStocks.length > 0) {
+        const stockCards = container.querySelectorAll('.glass.rounded-lg');
+        fb.topStocks.forEach((stock, i) => {
+            if (stockCards[i]) {
+                const nameEl = stockCards[i].querySelector('.font-bold.text-lg, .font-bold.text-xl');
+                if (nameEl) nameEl.textContent = stock.name || '';
+                const codeEl = stockCards[i].querySelector('.font-mono');
+                if (codeEl) codeEl.textContent = stock.code || '';
+                const scoreEl = stockCards[i].querySelector('.text-gold, .text-amber-400');
+                if (scoreEl && stock.score) scoreEl.textContent = stock.score + '分';
+                // 更新板块标签
+                const sectorEl = stockCards[i].querySelector('.text-xs.bg-blue-500\\/20, .text-xs.text-blue-400');
+                if (sectorEl && stock.sector) sectorEl.textContent = stock.sector;
+            }
+        });
+    }
+
+    // 更新Top3-5概览表格
+    if (fb.topStocks && fb.topStocks.length > 2) {
+        const tables = container.querySelectorAll('table');
+        const top35Table = tables[1]; // 第二个表格是Top3-5概览
+        if (top35Table) {
+            const tbody = top35Table.querySelector('tbody');
+            if (tbody) {
+                tbody.innerHTML = fb.topStocks.slice(2, 5).map((s, i) => `
+                    <tr class="table-row-alt border-b border-border/50">
+                        <td class="py-2 text-center font-bold">Top ${i+3}</td>
+                        <td class="py-2 font-bold">${s.name || ''} <span class="font-mono text-gray-400">${s.code || ''}</span></td>
+                        <td class="py-2">${s.sector || ''}</td>
+                        <td class="py-2 text-center font-bold">${s.score || ''}</td>
+                        <td class="py-2 text-center">${s.rating || ''}</td>
+                    </tr>
+                `).join('');
+            }
+        }
+    }
+
+    // 更新板块强度总览表格
+    if (fb.sectors && fb.sectors.length > 0) {
+        const sectorSection = container.querySelector('[class*="板块强度总览"]')?.closest('.glass');
+        if (sectorSection) {
+            const table = sectorSection.querySelector('table');
+            if (table) {
+                const tbody = table.querySelector('tbody');
+                if (tbody) {
+                    tbody.innerHTML = fb.sectors.map(s => `
+                        <tr class="table-row-alt border-b border-border/50">
+                            <td class="py-2 font-bold">${s.name || ''}</td>
+                            <td class="py-2">${s.yzCount || '0只'}</td>
+                            <td class="py-2">${s.earlyLimitUp || ''}</td>
+                            <td class="py-2">${s.score || ''}</td>
+                            <td class="py-2">${s.status || ''}</td>
+                        </tr>
+                    `).join('');
+                }
+            }
+        }
+    }
+}
+
+// --- 午间小结 ---
+function renderNoon(data) {
+    if (!data || !data.noon) return;
+    const n = data.noon;
+    const container = document.getElementById('content-noon');
+    if (!container) return;
+
+    // 更新大盘概况指数卡片
+    if (n.indices && n.indices.length > 0) {
+        const idxSection = container.querySelector('[class*="大盘概况"]')?.closest('.glass');
+        if (idxSection) {
+            const cards = idxSection.querySelectorAll('.grid > div');
+            n.indices.forEach((idx, i) => {
+                if (cards[i]) {
+                    const nameEl = cards[i].querySelector('.text-xs.text-gray-400');
+                    const valEl = cards[i].querySelector('.text-xl, .text-2xl');
+                    const noteEl = cards[i].querySelectorAll('.text-xs')[1];
+                    if (nameEl) nameEl.textContent = idx.name || '';
+                    if (valEl) {
+                        const sign = idx.change > 0 ? '+' : '';
+                        valEl.textContent = sign + idx.change + '%';
+                        valEl.className = valEl.className.replace('limit-up', '').replace('limit-down', '');
+                        valEl.classList.add(idx.change >= 0 ? 'limit-up' : 'limit-down');
+                    }
+                    if (noteEl && idx.note) noteEl.textContent = idx.note;
+                }
+            });
+        }
+    }
+
+    // 更新市场情绪文字
+    if (n.emotion) {
+        const emotionSection = idxSection || container;
+        const emotionText = emotionSection.querySelector('.text-amber-400.font-bold');
+        if (emotionText && n.emotion.text) {
+            emotionText.textContent = n.emotion.text;
+        }
+    }
+
+    // 更新板块强度排名
+    if (n.sectors && n.sectors.length > 0) {
+        const sectorSection = container.querySelector('[class*="板块强度排名"]')?.closest('.glass');
+        if (sectorSection) {
+            const sectorCards = sectorSection.querySelectorAll('.bg-card.rounded-lg');
+            n.sectors.forEach((s, i) => {
+                if (sectorCards[i]) {
+                    const rankEl = sectorCards[i].querySelector('.text-red-400, .text-orange-400, .text-amber-400');
+                    const nameEl = sectorCards[i].querySelector('.font-bold');
+                    const changeEl = sectorCards[i].querySelector('.text-gold');
+                    const descEl = sectorCards[i].querySelector('.text-xs.text-gray-400');
+                    if (rankEl) rankEl.textContent = 'TOP' + (i+1);
+                    if (nameEl) nameEl.textContent = s.name || '';
+                    if (changeEl) changeEl.textContent = (s.change > 0 ? '+' : '') + s.change + '%';
+                    if (descEl && s.desc) descEl.textContent = s.desc;
+                }
+            });
+        }
+    }
+
+    // 更新资讯表格
+    if (n.news && n.news.length > 0) {
+        const newsSection = container.querySelector('[class*="午间核心资讯"]')?.closest('.glass');
+        if (newsSection) {
+            const table = newsSection.querySelector('table');
+            if (table) {
+                const tbody = table.querySelector('tbody');
+                if (tbody) {
+                    tbody.innerHTML = n.news.map(item => `
+                        <tr class="table-row-alt border-b border-border/50">
+                            <td class="py-2 text-center text-gray-400">${item.time || ''}</td>
+                            <td class="py-2 font-medium">${item.content || ''}</td>
+                            <td class="py-2">${item.sector || ''}</td>
+                            <td class="py-2 text-center">${item.importance || ''}</td>
+                        </tr>
+                    `).join('');
+                }
+            }
+        }
+    }
+
+    // 更新早盘策略验证表格
+    if (n.validation && n.validation.length > 0) {
+        const valSection = container.querySelector('[class*="早盘策略验证"]')?.closest('.glass');
+        if (valSection) {
+            const table = valSection.querySelector('table');
+            if (table) {
+                const tbody = table.querySelector('tbody');
+                if (tbody) {
+                    tbody.innerHTML = n.validation.map(v => `
+                        <tr class="table-row-alt border-b border-border/50">
+                            <td class="py-2 font-bold">${v.item || ''}</td>
+                            <td class="py-2 text-gray-300">${v.prediction || ''}</td>
+                            <td class="py-2 text-gray-300">${v.actual || ''}</td>
+                            <td class="py-2 text-center">${v.result || ''}</td>
+                        </tr>
+                    `).join('');
+                }
+            }
+        }
+    }
 }
 
 // --- 深度复盘 ---
