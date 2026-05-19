@@ -2147,23 +2147,7 @@
             if (e.key === 'd' || e.key === 'D') { document.getElementById('dateSelector').focus(); }
         });
         // Tab切换
-        function switchTab(tab) {
-            document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
-            document.querySelectorAll('.tab-btn').forEach(el => {
-                el.classList.remove('text-gold', 'border-gold');
-                el.classList.add('text-gray-400', 'border-transparent');
-            });
-            document.getElementById('content-' + tab).classList.remove('hidden');
-            document.getElementById('tab-' + tab).classList.remove('text-gray-400', 'border-transparent');
-            document.getElementById('tab-' + tab).classList.add('text-gold', 'border-gold');
-            if (tab === 'review') {
-                setTimeout(initCharts, 100);
-            }
-        }
-        // 默认激活第一个tab
-        window.addEventListener('DOMContentLoaded', () => {
-            switchTab('wind');
-        });
+
 
         // 图表初始化
         function initCharts() {
@@ -2717,21 +2701,36 @@ async function dashLoadData() {
 
 // ===== Tab切换改造 =====
 function switchTab(tabName) {
-    document.querySelectorAll('.tab-content').forEach(el => el.style.display = 'none');
+    document.querySelectorAll('.tab-content').forEach(el => {
+        el.style.display = 'none';
+        el.classList.add('hidden');
+    });
     document.querySelectorAll('.tab-btn').forEach(btn => {
         btn.classList.remove('text-gold', 'border-gold');
         btn.classList.add('text-gray-400', 'border-transparent');
     });
-    document.getElementById('content-' + tabName).style.display = 'block';
+    const contentEl = document.getElementById('content-' + tabName);
+    if (contentEl) {
+        contentEl.style.display = 'block';
+        contentEl.classList.remove('hidden');
+    }
     const activeBtn = document.getElementById('tab-' + tabName);
-    activeBtn.classList.remove('text-gray-400', 'border-transparent');
-    activeBtn.classList.add('text-gold', 'border-gold');
+    if (activeBtn) {
+        activeBtn.classList.remove('text-gray-400', 'border-transparent');
+        activeBtn.classList.add('text-gold', 'border-gold');
+    }
     if (tabName === 'sector' && (!dashData.raw_data || Object.keys(dashData.raw_data).length === 0)) {
         dashLoadData();
     }
+    if (tabName === 'review') {
+        setTimeout(initCharts, 100);
+    }
 }
 
-// ===== JSON驱动报告加载 =====
+// 默认激活第一个tab
+window.addEventListener('DOMContentLoaded', () => {
+    switchTab('wind');
+});
 const API_BASE = 'data/';
 let reportData = null;
 
