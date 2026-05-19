@@ -2451,8 +2451,6 @@ function dashRenderStockTable() {
         const s = stocks[i];
         const pctColor = s.change_pct >= 0 ? 'var(--dash-up)' : 'var(--dash-down)';
         const estColor = (s.est_net || 0) >= 0 ? 'var(--dash-up)' : 'var(--dash-down)';
-        const estColor = (s.est_net || 0) >= 0 ? 'var(--dash-up)' : 'var(--dash-down)';
-        const estColor = (s.est_net || 0) >= 0 ? 'var(--dash-up)' : 'var(--dash-down)';
         const mainColor = (s.main_force || 0) >= 0 ? 'var(--dash-up)' : 'var(--dash-down)';
         const bookColor = (s.book_diff || 0) >= 0 ? 'var(--dash-up)' : 'var(--dash-down)';
         const isF = dashIsFav(s.code);
