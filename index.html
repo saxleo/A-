@@ -2400,10 +2400,11 @@ function dashRenderSectors() {
         const main = s.stocks.reduce((a,b) => a + (b.main_force || 0), 0);
         const book = s.stocks.reduce((a,b) => a + (b.book_diff || 0), 0);
         const est = s.stocks.reduce((a,b) => a + (b.est_net || 0), 0);
+        const hasMainForce = s.stocks.filter(x => x.main_force !== undefined).length > 0;
         const hasEst = s.stocks.filter(x => x.est_net !== undefined).length > 0;
         const up = s.stocks.filter(x => x.change_pct > 0).length;
         const hasFf = s.stocks.filter(x => x.has_fund_flow).length;
-        const displayVal = hasEst ? est : (hasFf > 0 ? main : book);
+        const displayVal = hasMainForce ? main : (hasEst ? est : (hasFf > 0 ? main : book));
         const mainColor = displayVal >= 0 ? 'var(--dash-up)' : 'var(--dash-down)';
         const avgColor = avg >= 0 ? 'var(--dash-up)' : 'var(--dash-down)';
         const top = s.stocks.sort((a,b) => b.change_pct - a.change_pct)[0];
@@ -2414,7 +2415,7 @@ function dashRenderSectors() {
                 <div style="font-size:13px;color:${avgColor};font-family:'JetBrains Mono',monospace;font-weight:700">${avg >= 0 ? '+' : ''}${avg}%</div>
             </div>
             <div style="display:flex;gap:16px;margin-bottom:12px;font-size:13px">
-                <div><span style="font-size:11px;color:var(--dash-muted)">${hasEst ? '估主力净流' : (hasFf > 0 ? '主力净流入' : '盘口差')}</span><br/><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:${mainColor}">${dashFmtm(displayVal)}</span></div>
+                <div><span style="font-size:11px;color:var(--dash-muted)">${hasMainForce ? '主力净流入' : (hasEst ? '估主力净流' : (hasFf > 0 ? '主力净流入' : '盘口差'))}</span><br/><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:${mainColor}">${dashFmtm(displayVal)}</span></div>
                 <div><span style="font-size:11px;color:var(--dash-muted)">上涨</span><br/><span style="font-weight:700">${up}/${s.stocks.length}</span></div>
                 <div><span style="font-size:11px;color:var(--dash-muted)">成交额</span><br/><span style="font-family:'JetBrains Mono',monospace">${dashFmtm(s.stocks.reduce((a,b) => a + b.amount, 0))}</span></div>
             </div>
@@ -2452,6 +2453,7 @@ function dashRenderStockTable() {
     for (let i = 0; i < stocks.length; i++) {
         const s = stocks[i];
         const pctColor = s.change_pct >= 0 ? 'var(--dash-up)' : 'var(--dash-down)';
+        const mainForceColor = (s.main_force || 0) >= 0 ? 'var(--dash-up)' : 'var(--dash-down)';
         const estColor = (s.est_net || 0) >= 0 ? 'var(--dash-up)' : 'var(--dash-down)';
         const mainColor = (s.main_force || 0) >= 0 ? 'var(--dash-up)' : 'var(--dash-down)';
         const bookColor = (s.book_diff || 0) >= 0 ? 'var(--dash-up)' : 'var(--dash-down)';
@@ -2463,7 +2465,7 @@ function dashRenderStockTable() {
             <td><div class="name-cell"><span>${s.name}</span><span class="code-txt">${s.code}</span></div></td>
             <td class="mono price">${s.price.toFixed(2)}</td>
             <td class="mono change" style="color:${pctColor}">${s.change_pct >= 0 ? '+' : ''}${s.change_pct.toFixed(2)}%</td>
-            <td class="mono amount" style="color:${estColor}">${s.est_net !== undefined ? dashFmtm(s.est_net) + ' (估)' : (s.has_fund_flow ? dashFmtm(s.main_force) : '-')}</td>
+            <td class="mono amount" style="color:${mainForceColor}">${s.main_force !== undefined ? dashFmtm(s.main_force) : (s.est_net !== undefined ? dashFmtm(s.est_net) + ' (估)' : (s.has_fund_flow ? dashFmtm(s.main_force) : '-'))}</td>
             <td class="mono amount" style="color:${bookColor}">${dashFmtm(s.book_diff || 0)}</td>
             <td class="mono amount">${dashFmtm(s.amount)}</td>
             <td class="mono amount">${amp}%</td>
@@ -2964,13 +2966,213 @@ function renderReview(data) {
     const r = data.review;
     const container = document.getElementById('content-review');
     if (!container) return;
-    // 情绪周期文本更新
-    const emoMatch = container.innerHTML.match(/情绪周期[：:]\s*(.+?)(?:<|\n)/);
+
+    // 1. 情绪周期定位 - 更新顶部4个统计卡片
+    const statCards = container.querySelector('.grid.grid-cols-2.md\\:grid-cols-4');
+    if (statCards) {
+        const cards = statCards.querySelectorAll('.bg-card');
+        if (cards.length >= 4) {
+            // 涨停数
+            const limitUpEl = cards[0].querySelector('.text-xl');
+            if (limitUpEl) limitUpEl.textContent = (data.stats?.limitUp ?? '—') + '只';
+            // 连板高度
+            const maxBoardEl = cards[1].querySelector('.text-xl');
+            if (maxBoardEl) maxBoardEl.textContent = (data.stats?.maxBoard ?? '—') + '板';
+            // 昨日今溢价
+            const premiumEl = cards[2].querySelector('.text-xl');
+            if (premiumEl) premiumEl.textContent = (r.yesterdayPremium ?? '—') + '%';
+            // 成交额
+            const volEl = cards[3].querySelector('.text-xl');
+            if (volEl) volEl.textContent = (data.stats?.volumeChangeNum ?? '—') + '亿';
+        }
+    }
+
+    // 情绪评分
+    const emotionBadge = container.querySelector('.bg-amber-500\\/10, .bg-green-500\\/10, .bg-red-500\\/10');
+    if (emotionBadge && r.emotionScore) {
+        let text = '⚠️ 分歧', cls = 'bg-amber-500/10 border-amber-500/20 text-amber-400';
+        if (r.emotionScore >= 80) { text = '🔥 高潮'; cls = 'bg-red-500/10 border-red-500/20 text-red-400'; }
+        else if (r.emotionScore >= 60) { text = '🔥 一致'; cls = 'bg-orange-500/10 border-orange-500/20 text-orange-400'; }
+        else if (r.emotionScore <= 30) { text = '❄️ 冰点'; cls = 'bg-blue-500/10 border-blue-500/20 text-blue-400'; }
+        else if (r.emotionScore <= 50) { text = '⚠️ 分歧'; cls = 'bg-amber-500/10 border-amber-500/20 text-amber-400'; }
+        emotionBadge.className = cls + ' rounded p-3 text-center';
+        emotionBadge.innerHTML = `<span class="${cls.split(' ').pop()} font-bold text-lg">${text}（${r.emotionScore}/100）</span>`;
+    }
+
+    // 2. 连板梯队 - 重建内容
+    const boardsContainer = container.querySelector('h2:has(.fa-layer-group)')?.closest('.glass')?.querySelector('.space-y-3');
+    if (boardsContainer && r.boards && r.boards.length) {
+        // 清空旧的，重建
+        boardsContainer.innerHTML = '';
+        r.boards.forEach(b => {
+            const name = b.name?.replace(/\*\*/g, '') || '—';
+            const boards = b.boards || '';
+            const sector = b.sector || '';
+            const status = b.status || '';
+            if (!boards && !name) return;
+            const div = document.createElement('div');
+            div.className = 'bg-card rounded-lg p-4 border border-gold/20';
+            div.innerHTML = `
+                <div class="flex items-center justify-between mb-2">
+                    <div class="flex items-center gap-3">
+                        <span class="text-2xl font-bold text-gold">${boards}</span>
+                        <span class="font-bold text-lg">${name}</span>
+                        <span class="text-xs text-gray-400">${sector}</span>
+                    </div>
+                    <span class="text-xs bg-amber-500/20 text-amber-400 px-2 py-1 rounded">${status || '⚠️'}</span>
+                </div>
+            `;
+            boardsContainer.appendChild(div);
+        });
+    }
+
+    // 3. 板块效应 - 重建
+    const sectorContainer = container.querySelector('h2:has(.fa-fire-alt)')?.closest('.glass');
+    if (sectorContainer && r.sectors && r.sectors.length) {
+        const grid = sectorContainer.querySelector('.grid.grid-cols-2.md\\:grid-cols-4');
+        if (grid) {
+            grid.innerHTML = '';
+            r.sectors.forEach(s => {
+                const name = s.name?.replace(/\*\*/g, '') || '';
+                if (!name) return;
+                const div = document.createElement('div');
+                div.className = 'bg-card rounded p-2 text-center border-t-2 border-gold/50';
+                div.innerHTML = `
+                    <div class="text-gold font-bold">${name}</div>
+                    <div class="text-gray-400">${s.limitUpCount || ''} | ${s.attackScore || '—'}分</div>
+                `;
+                grid.appendChild(div);
+            });
+        }
+    }
+
+    // 4. 实盘回顾 - Mode A/C 命中率
+    const modeAHit = container.querySelector('h3:contains(Mode A)')?.closest('.bg-card');
+    if (modeAHit && r.modeAHit && r.modeAHit.rate > 0) {
+        const bar = modeAHit.querySelector('.bg-gold');
+        if (bar) bar.style.width = r.modeAHit.rate + '%';
+        const text = modeAHit.querySelector('.font-bold.text-gold');
+        if (text) text.textContent = `命中率: ${r.modeAHit.rate}%`;
+    }
+    const modeCHit = container.querySelector('h3:contains(Mode C)')?.closest('.bg-card');
+    if (modeCHit && r.modeCHit && r.modeCHit.rate > 0) {
+        const bar = modeCHit.querySelector('.bg-gold');
+        if (bar) bar.style.width = r.modeCHit.rate + '%';
+        const text = modeCHit.querySelector('.font-bold.text-gold');
+        if (text) text.textContent = `拦截率: ${r.modeCHit.rate}%`;
+    }
 }
 
 // --- 游资复盘 ---
 function renderYouthu(data) {
     if (!data || !data.youthu) return;
+    const y = data.youthu;
+    const container = document.getElementById('content-youthu');
+    if (!container) return;
+
+    // 1. 指数环境
+    const idxGrid = container.querySelector('h2:has(.fa-chart-line)')?.closest('.glass')?.querySelector('.grid.grid-cols-2.md\\:grid-cols-4');
+    if (idxGrid && y.indices && y.indices.length) {
+        const idxMap = {};
+        y.indices.forEach(i => { idxMap[i.name] = i; });
+        idxGrid.querySelectorAll('.bg-card').forEach(card => {
+            const name = card.querySelector('.text-xs')?.textContent?.trim();
+            const idx = idxMap[name];
+            if (idx) {
+                const valEl = card.querySelector('.text-xl');
+                const noteEl = card.querySelector('.text-xs.text-gray-500');
+                if (valEl) {
+                    const chg = parseFloat(idx.change);
+                    valEl.className = `text-xl font-bold font-mono ${chg >= 0 ? 'limit-up' : 'limit-down'}`;
+                    valEl.textContent = (chg >= 0 ? '+' : '') + chg.toFixed(2) + '%';
+                }
+                if (noteEl) noteEl.textContent = idx.note || '';
+            }
+        });
+    }
+
+    // 2. 市场情绪 - 更新顶部5个统计
+    const emotionGrid = container.querySelector('h2:has(.fa-fire-alt)')?.closest('.glass')?.querySelector('.grid.grid-cols-2.md\\:grid-cols-5');
+    if (emotionGrid) {
+        const cards = emotionGrid.querySelectorAll('.bg-card');
+        // 涨停数
+        if (cards[0]) cards[0].querySelector('.text-xl').textContent = (data.stats?.limitUp ?? '—') + '只';
+        // 跌停数
+        if (cards[1]) cards[1].querySelector('.text-xl').textContent = (data.stats?.limitDown ?? '—') + '只';
+        // 连板高度
+        if (cards[3]) cards[3].querySelector('.text-xl').textContent = (data.stats?.maxBoard ?? '—') + '板';
+        // 连板数量（从 boards 数组长度推算）
+        if (cards[4] && y.boards) cards[4].querySelector('.text-xl').textContent = y.boards.length + '只';
+    }
+
+    // 3. 连板梯队 - 重建
+    const boardsContainer = container.querySelector('h2:has(.fa-layer-group)')?.closest('.glass')?.querySelector('.space-y-3');
+    if (boardsContainer && y.boards && y.boards.length) {
+        boardsContainer.innerHTML = '';
+        y.boards.forEach(b => {
+            const name = b.name?.replace(/\*\*/g, '') || '—';
+            const boards = b.boards || '';
+            const sector = b.sector || '';
+            const status = b.status || '';
+            if (!boards && !name) return;
+            const div = document.createElement('div');
+            div.className = 'bg-card rounded-lg p-4 border border-gold/20';
+            div.innerHTML = `
+                <div class="flex items-center justify-between mb-2">
+                    <div class="flex items-center gap-3">
+                        <span class="text-2xl font-bold text-gold">${boards}</span>
+                        <span class="font-bold text-lg">${name}</span>
+                        <span class="text-gray-400 font-mono">${sector}</span>
+                    </div>
+                    <span class="text-xs bg-amber-500/20 text-amber-400 px-2 py-1 rounded">${status || '⚠️'}</span>
+                </div>
+            `;
+            boardsContainer.appendChild(div);
+        });
+    }
+
+    // 4. 热点题材 - 重建表格
+    const sectorTable = container.querySelector('h2:has(.fa-fire)')?.closest('.glass')?.querySelector('tbody');
+    if (sectorTable && y.sectors && y.sectors.length) {
+        sectorTable.innerHTML = '';
+        y.sectors.forEach(s => {
+            const name = s.name?.replace(/\*\*/g, '').replace(/\d+板 \| /, '') || '';
+            if (!name) return;
+            const tr = document.createElement('tr');
+            tr.className = 'table-row-alt border-b border-border/50';
+            tr.innerHTML = `
+                <td class="py-2 font-bold text-gold">${name}</td>
+                <td class="py-2 text-center font-mono text-gold">${s.limitUpCount || ''}</td>
+                <td class="py-2">${s.core || ''}</td>
+                <td class="py-2 text-center">${s.ladder || ''}</td>
+                <td class="py-2 text-center">${s.status || ''}</td>
+            `;
+            sectorTable.appendChild(tr);
+        });
+    }
+
+    // 5. 核心龙头 - 重建
+    const leaderGrid = container.querySelector('h2:has(.fa-crown)')?.closest('.glass')?.querySelector('.grid');
+    if (leaderGrid && y.coreLeaders && y.coreLeaders.length) {
+        leaderGrid.innerHTML = '';
+        y.coreLeaders.forEach(l => {
+            const role = l.role?.replace(/\*\*/g, '') || '';
+            const name = l.name?.replace(/\*\*/g, '') || '';
+            const status = l.status?.replace(/\*\*/g, '') || '';
+            if (!name) return;
+            const div = document.createElement('div');
+            div.className = 'bg-card rounded-lg p-4 border border-gold/30';
+            div.innerHTML = `
+                <div class="flex items-center gap-2 mb-2">
+                    <span class="text-gold font-bold">${role}</span>
+                </div>
+                <div class="font-bold text-lg">${name}</div>
+                <div class="text-xs text-gray-400">${l.recognition || ''}</div>
+                <div class="text-xs text-amber-400 mt-1">${status}</div>
+            `;
+            leaderGrid.appendChild(div);
+        });
+    }
 }
 
 async function loadDate(date) {
