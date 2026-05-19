@@ -21,41 +21,41 @@
     "techStocks": [
       {
         "name": "英伟达",
-        "change": -0.36
+        "change": -1.66
       },
       {
         "name": "苹果",
-        "change": 0.66
+        "change": 0.05
       },
       {
         "name": "微软",
-        "change": 0.52
+        "change": 0.6
       },
       {
         "name": "特斯拉",
-        "change": -1.71
+        "change": -3.11
       },
       {
         "name": "谷歌",
-        "change": -1.2
+        "change": -1.23
       },
       {
         "name": "Meta",
-        "change": -0.63
+        "change": -0.2
       }
     ],
     "chinaConcepts": [
       {
         "name": "京东",
-        "change": 1.65
+        "change": 1.55
       },
       {
         "name": "拼多多",
-        "change": 0.6
+        "change": 1.1
       },
       {
         "name": "哔哩哔哩",
-        "change": -2.09
+        "change": -0.99
       }
     ],
     "focusSectors": [],
