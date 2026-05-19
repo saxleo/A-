@@ -3,18 +3,18 @@
   "marketTemp": "分歧",
   "marketTempColor": "amber",
   "stats": {
-    "limitUp": 20,
+    "limitUp": 120,
     "limitDown": 11,
     "maxBoard": 7,
-    "maxBoardStock": "蒙娜丽莎",
+    "maxBoardStock": "利仁科技",
     "volumeChange": "缩量",
     "volumeChangeNum": -984,
     "shIndex": 4135.39,
-    "shChange": 0.02,
+    "shChange": 0.92,
     "szIndex": 15561.37,
-    "szChange": -0.78,
+    "szChange": 0.26,
     "cyIndex": 2050.45,
-    "cyChange": -1.21
+    "cyChange": -0.16
   },
   "wind": {
     "usMarkets": [
@@ -32,41 +32,41 @@
     "techStocks": [
       {
         "name": "英伟达",
-        "change": -0.89
+        "change": -0.47
       },
       {
         "name": "苹果",
-        "change": -0.17
+        "change": -0.14
       },
       {
         "name": "微软",
-        "change": -0.32
+        "change": 0.01
       },
       {
         "name": "特斯拉",
-        "change": -3.44
+        "change": -2.95
       },
       {
         "name": "谷歌",
-        "change": -1.91
+        "change": -1.88
       },
       {
         "name": "Meta",
-        "change": -0.72
+        "change": -0.77
       }
     ],
     "chinaConcepts": [
       {
         "name": "京东",
-        "change": 1.95
+        "change": 2.01
       },
       {
         "name": "拼多多",
-        "change": 1.06
+        "change": 0.95
       },
       {
         "name": "哔哩哔哩",
-        "change": -0.05
+        "change": -0.48
       }
     ],
     "focusSectors": [],
