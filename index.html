@@ -2793,26 +2793,27 @@ function renderWind(data) {
     if (!data || !data.wind) return;
     const w = data.wind;
     const container = document.getElementById('content-wind');
-    if (!container || !w.usMarkets.length) return; // 没数据就保持静态
+    if (!container) return;
 
-    // 外围市场卡片
-    const usMap = {};
-    w.usMarkets.forEach(m => { usMap[m.name] = m; });
-    const usCards = container.querySelector('.grid.grid-cols-1.md\\:grid-cols-3');
-    if (usCards) {
-        const names = {'道指':'道指','纳指':'纳指','标普500':'标普500'};
-        usCards.querySelectorAll('.bg-card').forEach(card => {
-            const label = card.querySelector('.text-xs')?.textContent || '';
-            const name = label.split('（')[0].trim();
-            const m = usMap[name];
-            if (!m) return;
-            const val = card.querySelector('.text-xl');
-            if (val) {
-                val.className = `text-xl font-bold font-mono ${m.change >= 0 ? 'limit-up' : 'limit-down'}`;
-                val.textContent = (m.change >= 0 ? '+' : '') + m.change.toFixed(2) + '%';
-            }
-        });
+    // 更新外围映射
+    if (w.usMarkets && w.usMarkets.length > 0) {
+        const overseasSection = Array.from(container.querySelectorAll('h2')).find(h => h.textContent.includes('外围映射'))?.closest('.glass');
+        if (overseasSection) {
+            const items = overseasSection.querySelectorAll('.grid > div');
+            w.usMarkets.forEach((item, i) => {
+                if (items[i]) {
+                    const nameEl = items[i].querySelector('.text-xs, .text-sm');
+                    const valEl = items[i].querySelector('.text-xl, .text-lg');
+                    if (nameEl) nameEl.textContent = item.name || '';
+                    if (valEl) {
+                        const sign = item.change > 0 ? '+' : '';
+                        valEl.textContent = sign + item.change + '%';
+                    }
+                }
+            });
+        }
     }
+
     // 热门科技股
     const techMap = {};
     (w.techStocks || []).forEach(t => { techMap[t.name] = t.change; });
@@ -2835,6 +2836,58 @@ function renderWind(data) {
         const sp = div.querySelector('.font-mono');
         if (sp) { sp.className = `font-mono ${chg >= 0 ? 'limit-up' : 'limit-down'}`; sp.textContent = (chg >= 0 ? '+' : '') + chg.toFixed(2) + '%'; }
     });
+
+    // 更新政策风向
+    if (w.policies && w.policies.length > 0) {
+        const policySection = Array.from(container.querySelectorAll('h2')).find(h => h.textContent.includes('政策风向'))?.closest('.glass');
+        if (policySection) {
+            const table = policySection.querySelector('table');
+            if (table) {
+                const tbody = table.querySelector('tbody');
+                if (tbody) {
+                    tbody.innerHTML = w.policies.map(p => `
+                        <tr class="table-row-alt border-b border-border/50">
+                            <td class="py-2 text-center text-gray-400">${p.date || ''}</td>
+                            <td class="py-2 font-medium">${p.event || ''}</td>
+                            <td class="py-2">${p.source || ''}</td>
+                            <td class="py-2">${p.sector || ''}</td>
+                            <td class="py-2 text-center">${p.timing || ''}</td>
+                        </tr>
+                    `).join('');
+                }
+            }
+        }
+    }
+
+    // 更新唯一主线
+    if (w.mainLine) {
+        const mainSection = Array.from(container.querySelectorAll('h2')).find(h => h.textContent.includes('唯一主线'))?.closest('.glass');
+        if (mainSection) {
+            const titleEl = mainSection.querySelector('.text-lg.font-bold, .text-xl');
+            if (titleEl) titleEl.textContent = '预判今日NO.1：' + (w.mainLine.prediction || '');
+        }
+    }
+
+    // 更新昨日涨停板块回顾
+    if (w.yesterdaySectors && w.yesterdaySectors.length > 0) {
+        const yesterdaySection = Array.from(container.querySelectorAll('h2')).find(h => h.textContent.includes('昨日涨停'))?.closest('.glass');
+        if (yesterdaySection) {
+            const table = yesterdaySection.querySelector('table');
+            if (table) {
+                const tbody = table.querySelector('tbody');
+                if (tbody) {
+                    tbody.innerHTML = w.yesterdaySectors.map(s => `
+                        <tr class="table-row-alt border-b border-border/50">
+                            <td class="py-2 font-bold">${s.name || ''}</td>
+                            <td class="py-2">${s.limitUpCount || ''}</td>
+                            <td class="py-2">${s.leader || ''}</td>
+                            <td class="py-2 text-gray-400">${s.note || ''}</td>
+                        </tr>
+                    `).join('');
+                }
+            }
+        }
+    }
 }
 
 // --- 早盘策略 ---
