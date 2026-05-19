@@ -3,14 +3,14 @@
   "marketTemp": "分歧",
   "marketTempColor": "amber",
   "stats": {
-    "limitUp": 3,
+    "limitUp": 120,
     "limitDown": 11,
     "maxBoard": 7,
-    "maxBoardStock": "蒙娜丽莎",
+    "maxBoardStock": "利仁科技",
     "volumeChange": "缩量",
-    "volumeChangeNum": -984,
-    "shIndex": 4135.39,
-    "shChange": 0.02,
+    "volumeChangeNum": 29100,
+    "shIndex": 4169.54,
+    "shChange": 0.92,
     "szIndex": 15561.37,
     "szChange": -0.78,
     "cyIndex": 2050.45,
@@ -403,93 +403,147 @@
     ]
   },
   "review": {
-    "emotion": "",
+    "emotion": "偏强",
     "emotionScore": 70,
-    "yesterdayPremium": 0,
+    "yesterdayPremium": 20.2,
     "boards": [
       {
+        "boards": "7板",
+        "name": "利仁科技",
+        "sector": "大消费",
+        "status": "市场总龙"
+      },
+      {
         "boards": "5板",
-        "name": "**+2板**",
-        "sector": "🟢 高度突破",
-        "status": ""
+        "name": "威龙股份",
+        "sector": "大消费",
+        "status": "硬板"
       },
       {
-        "boards": "0",
-        "name": "7板高度极限，股权转让题材持续性弱",
-        "sector": "",
-        "status": "**5进6**"
+        "boards": "4板",
+        "name": "北自科技",
+        "sector": "机器人",
+        "status": "硬板"
       },
       {
-        "boards": "0",
-        "name": "4板后分歧概率高",
-        "sector": "",
-        "status": "**2进3**"
+        "boards": "2板",
+        "name": ":---",
+        "sector": ":---:",
+        "status": ":---"
       },
       {
-        "boards": "1",
-        "name": "21:07",
-        "sector": "**56**",
-        "status": "长江存储IPO辅导，估值1600亿，国产3D NAND第一股"
+        "boards": "2板",
+        "name": "嘉环科技",
+        "sector": "算力",
+        "status": "2连板"
       },
       {
-        "boards": "2",
-        "name": "—",
-        "sector": "**17**",
-        "status": "政策类电报"
+        "boards": "2板",
+        "name": "弘信电子",
+        "sector": "算力",
+        "status": "2连板"
       },
       {
-        "boards": "3",
-        "name": "21:09",
-        "sector": "**9**",
-        "status": "美国国债收益率持续攀升"
+        "boards": "2板",
+        "name": "电科数字",
+        "sector": "华为昇腾",
+        "status": "2连板"
+      },
+      {
+        "boards": "2板",
+        "name": "彩讯股份",
+        "sector": "华为昇腾",
+        "status": "20CM"
+      },
+      {
+        "boards": "2板",
+        "name": "创新医疗",
+        "sector": "华为昇腾",
+        "status": "首板/连板"
+      },
+      {
+        "boards": "2板",
+        "name": "东方国信",
+        "sector": "华为昇腾",
+        "status": "首板/连板"
+      },
+      {
+        "boards": "2板",
+        "name": "耐科装备",
+        "sector": "半导体",
+        "status": "20CM涨停创历史新高"
+      },
+      {
+        "boards": "2板",
+        "name": "立昂微",
+        "sector": "半导体",
+        "status": "涨停"
+      },
+      {
+        "boards": "2板",
+        "name": "沪硅产业",
+        "sector": "半导体",
+        "status": "涨停"
+      },
+      {
+        "boards": "2板",
+        "name": "圣晖集成",
+        "sector": "半导体",
+        "status": "涨停"
       }
     ],
     "sectors": [
       {
-        "name": "若干",
+        "name": "电力/能源",
+        "limitUpCount": "15只",
+        "attackScore": "55",
+        "status": "最强"
+      },
+      {
+        "name": "🟠 半导体/芯片",
+        "limitUpCount": "12只",
+        "attackScore": "48",
+        "status": "次强"
+      },
+      {
+        "name": "华为昇腾/算力",
+        "limitUpCount": "10只",
+        "attackScore": "40",
+        "status": "新主线"
+      },
+      {
+        "name": "🟢 机器人",
+        "limitUpCount": "8只",
+        "attackScore": "32",
+        "status": "持续"
+      },
+      {
+        "name": "🔵 光通信/CPO",
+        "limitUpCount": "6只",
+        "attackScore": "24",
+        "status": "午后启动"
+      },
+      {
+        "name": "⚫ 大消费",
         "limitUpCount": "5只",
-        "attackScore": "—",
-        "status": "🟡 正常"
+        "attackScore": "20",
+        "status": "🟡 龙头带动"
       },
       {
-        "name": "**回避**，不接力",
-        "limitUpCount": "0",
-        "attackScore": "7板高度极限，股权转让题材持续性弱",
-        "status": ""
-      },
-      {
-        "name": "**回避**，不接力",
-        "limitUpCount": "0",
-        "attackScore": "4板后分歧概率高",
-        "status": ""
-      },
-      {
-        "name": "",
-        "limitUpCount": "1",
-        "attackScore": "21:07",
-        "status": "**56**"
-      },
-      {
-        "name": "",
-        "limitUpCount": "2",
-        "attackScore": "—",
-        "status": "**17**"
-      },
-      {
-        "name": "",
-        "limitUpCount": "3",
-        "attackScore": "21:09",
-        "status": "**9**"
+        "name": "🟤 物理AI/信创",
+        "limitUpCount": "3只",
+        "attackScore": "12",
+        "status": "🟡 新启动"
       }
     ],
     "modeAHit": {
-      "hit": 0,
+      "hit": 4,
       "miss": 0,
-      "rate": 0.0
+      "rate": 100.0
     },
     "modeCHit": {
       "hit": 0,
-      "miss": 0,
+      "miss": 5,
       "rate": 0.0
     },
     "tomorrow": [],
@@ -499,16 +553,24 @@
     "indices": [
       {
         "name": "上证指数",
-        "change": "4169.54",
+        "change": "+0.92",
         "note": "**+0.92%**"
       },
       {
+        "name": "深证成指",
+        "change": "+0.26",
+        "note": "**+0.26%**"
+      },
+      {
         "name": "创业板指",
-        "change": "3908.44",
+        "change": "-0.16",
         "note": "**-0.16%**"
       }
     ],
-    "emotion": {},
+    "emotion": {
+      "limitUp": 90,
+      "limitDown": 8
+    },
     "boards": [
       {
         "boards": "7板",
@@ -795,6 +857,6 @@
         "stopLoss": ""
       }
     ],
-    "summary": ""
+    "summary": "半导体暴力回流带科创50大V反转，利仁科技7板拓高标但京能电力炸板预警分化，明天看高标是否断板、半导体能否持续。"
   }
 }
