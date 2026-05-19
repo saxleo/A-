@@ -1,0 +1,438 @@
+{
+  "date": "2026-05-19",
+  "marketTemp": "分歧",
+  "marketTempColor": "amber",
+  "stats": {
+    "limitUp": 72,
+    "limitDown": 11,
+    "maxBoard": 6,
+    "maxBoardStock": "蒙娜丽莎",
+    "volumeChange": "缩量",
+    "volumeChangeNum": -984,
+    "shIndex": 4135.39,
+    "shChange": 0.02,
+    "szIndex": 15561.37,
+    "szChange": -0.78,
+    "cyIndex": 2050.45,
+    "cyChange": -1.21
+  },
+  "wind": {
+    "usMarkets": [],
+    "techStocks": [
+      {
+        "name": "英伟达",
+        "change": -1.33
+      },
+      {
+        "name": "苹果",
+        "change": -0.8
+      },
+      {
+        "name": "微软",
+        "change": 0.38
+      },
+      {
+        "name": "特斯拉",
+        "change": -2.9
+      },
+      {
+        "name": "谷歌",
+        "change": -0.05
+      },
+      {
+        "name": "Meta",
+        "change": -0.49
+      }
+    ],
+    "chinaConcepts": [
+      {
+        "name": "京东",
+        "change": -1.28
+      },
+      {
+        "name": "拼多多",
+        "change": -0.9
+      },
+      {
+        "name": "哔哩哔哩",
+        "change": 2.94
+      }
+    ],
+    "focusSectors": [],
+    "policies": [],
+    "yesterdaySectors": [],
+    "mainLine": {
+      "prediction": "",
+      "confidence": "",
+      "logic": [],
+      "validation": "",
+      "alternative": ""
+    }
+  },
+  "morning": {
+    "emotion": "⚠️分歧**",
+    "position": "总仓≤3成，单标≤1成**",
+    "sectors": [
+      {
+        "name": "**大消费**",
+        "limitUpCount": "3只",
+        "leader": "威龙股份(1板)",
+        "mid": "景兴纸业",
+        "status": "🔴 一般活跃"
+      },
+      {
+        "name": "**半导体**",
+        "limitUpCount": "1只",
+        "leader": "达实智能(1板)",
+        "mid": "达实智能",
+        "status": "🔴 一般活跃"
+      },
+      {
+        "name": "**信创/数据要素**",
+        "limitUpCount": "1只",
+        "leader": "100.0%",
+        "mid": "100.0%",
+        "status": "+9.52%"
+      },
+      {
+        "name": "**液冷服务器**",
+        "limitUpCount": "2只",
+        "leader": "100.0%",
+        "mid": "50.0%",
+        "status": "+5.30%"
+      },
+      {
+        "name": "**大消费**",
+        "limitUpCount": "7只",
+        "leader": "85.7%",
+        "mid": "42.9%",
+        "status": "+5.39%"
+      }
+    ],
+    "modeA": [
+      {
+        "name": "威龙股份",
+        "code": "603779",
+        "boards": "4天4板",
+        "match": "预期9.9%，实际+9.99% ✅超预期，量能✅达标"
+      },
+      {
+        "name": "合百集团",
+        "code": "000417",
+        "boards": "1天1板",
+        "match": "预期9.9%，实际+10.04% ✅超预期，量能✅达标"
+      },
+      {
+        "name": "索辰科技",
+        "code": "688507",
+        "boards": "1天1板",
+        "match": "预期7.0%，实际+9.52% ✅超预期，量能🟡接近"
+      },
+      {
+        "name": "立新能源",
+        "code": "001258",
+        "boards": "1天1板",
+        "match": "预期6.0%，实际+8.57% ✅超预期，量能✅达标"
+      }
+    ],
+    "modeB": [],
+    "modeC": [
+      {
+        "name": "利仁科技",
+        "code": "001259",
+        "reason": "无量高开骗炮",
+        "risk": "🟡交易所关注"
+      },
+      {
+        "name": "北自科技",
+        "code": "603082",
+        "reason": "无量高开骗炮",
+        "risk": "⚪需观察"
+      },
+      {
+        "name": "达实智能",
+        "code": "002421",
+        "reason": "无量高开骗炮",
+        "risk": "10日-"
+      },
+      {
+        "name": "宝鼎科技",
+        "code": "002552",
+        "reason": "无量高开骗炮",
+        "risk": "10日-"
+      },
+      {
+        "name": "贵州燃气",
+        "code": "600903",
+        "reason": "无量高开骗炮",
+        "risk": "10日-"
+      },
+      {
+        "name": "合肥城建",
+        "code": "002208",
+        "reason": "+2.89%",
+        "risk": "262.1%"
+      }
+    ]
+  },
+  "noon": {
+    "indices": [],
+    "sectors": [],
+    "news": [
+      {
+        "time": "12:26",
+        "content": "杭州1宗宅地溢价15.69%成交",
+        "sector": "房地产",
+        "importance": "1"
+      },
+      {
+        "time": "12:21",
+        "content": "俄总统新闻秘书：俄中元首每次会晤都给双边关系注入动力",
+        "sector": "外交",
+        "importance": "3"
+      },
+      {
+        "time": "12:19",
+        "content": "古巴国家主席：美国对古巴人民实施的集体惩罚是种族灭绝行为",
+        "sector": "外交",
+        "importance": "3"
+      },
+      {
+        "time": "12:13",
+        "content": "独家\\",
+        "sector": "龙湖提前兑付15.54亿元公司债 年内到期境内债券仅余10亿",
+        "importance": "房地产"
+      },
+      {
+        "time": "12:12",
+        "content": "以色列海法发生枪击事件 一名男子受伤",
+        "sector": "地缘",
+        "importance": "3"
+      },
+      {
+        "time": "12:12",
+        "content": "**【研选•行业数据】工控行业已经历三年多下行周期，当前需求复苏超预期，有望开启新一轮上行周期**",
+        "sector": "**工控/工业母机**",
+        "importance": "**18**"
+      },
+      {
+        "time": "12:12",
+        "content": "阿根廷卫生团队抵达乌斯怀亚调查汉坦病毒",
+        "sector": "医药",
+        "importance": "3"
+      }
+    ],
+    "verification": []
+  },
+  "firstboard": {
+    "topStocks": [
+      {
+        "rank": 1,
+        "name": "天创时尚",
+        "code": "603608",
+        "score": 74,
+        "rating": "",
+        "dimensions": {},
+        "strategy": ""
+      },
+      {
+        "rank": 2,
+        "name": "灿勤科技",
+        "code": "688182",
+        "score": 56,
+        "rating": "",
+        "dimensions": {},
+        "strategy": ""
+      },
+      {
+        "rank": 3,
+        "name": "尚纬股份",
+        "code": "603333",
+        "score": 56,
+        "rating": "",
+        "dimensions": {},
+        "strategy": ""
+      },
+      {
+        "rank": 4,
+        "name": "风华高科",
+        "code": "000636",
+        "score": 54,
+        "rating": "",
+        "dimensions": {},
+        "strategy": ""
+      },
+      {
+        "rank": 5,
+        "name": "南威软件",
+        "code": "603636",
+        "score": 54,
+        "rating": "",
+        "dimensions": {},
+        "strategy": ""
+      }
+    ],
+    "sectorOverview": [
+      {
+        "name": "计算机",
+        "yiZi": "1只",
+        "before942": "5只",
+        "score": "25分",
+        "heat": "🟡 强势板块"
+      },
+      {
+        "name": "轻工制造",
+        "yiZi": "2只",
+        "before942": "3只",
+        "score": "20分",
+        "heat": "🟡 强势板块"
+      },
+      {
+        "name": "公用事业",
+        "yiZi": "1只",
+        "before942": "3只",
+        "score": "20分",
+        "heat": "🟡 强势板块"
+      },
+      {
+        "name": "机械设备",
+        "yiZi": "1只",
+        "before942": "3只",
+        "score": "20分",
+        "heat": "🟡 强势板块"
+      },
+      {
+        "name": "商贸零售",
+        "yiZi": "1只",
+        "before942": "1只",
+        "score": "15分",
+        "heat": "🟢 一般活跃"
+      },
+      {
+        "name": "电子",
+        "yiZi": "0只",
+        "before942": "5只",
+        "score": "15分",
+        "heat": "🟢 一般活跃"
+      },
+      {
+        "name": "石油石化",
+        "yiZi": "1只",
+        "before942": "2只",
+        "score": "15分",
+        "heat": "🟢 一般活跃"
+      },
+      {
+        "name": "食品饮料",
+        "yiZi": "1只",
+        "before942": "2只",
+        "score": "15分",
+        "heat": "🟢 一般活跃"
+      },
+      {
+        "name": "房地产",
+        "yiZi": "0只",
+        "before942": "3只",
+        "score": "10分",
+        "heat": "🟢 一般活跃"
+      },
+      {
+        "name": "通信",
+        "yiZi": "0只",
+        "before942": "3只",
+        "score": "10分",
+        "heat": "🟢 一般活跃"
+      },
+      {
+        "name": "家用电器",
+        "yiZi": "0只",
+        "before942": "1只",
+        "score": "5分",
+        "heat": "⚪ 弱势"
+      },
+      {
+        "name": "环保",
+        "yiZi": "0只",
+        "before942": "1只",
+        "score": "5分",
+        "heat": "⚪ 弱势"
+      },
+      {
+        "name": "纺织服饰",
+        "yiZi": "0只",
+        "before942": "1只",
+        "score": "5分",
+        "heat": "⚪ 弱势"
+      },
+      {
+        "name": "建筑装饰",
+        "yiZi": "0只",
+        "before942": "1只",
+        "score": "5分",
+        "heat": "⚪ 弱势"
+      },
+      {
+        "name": "医药生物",
+        "yiZi": "0只",
+        "before942": "1只",
+        "score": "5分",
+        "heat": "⚪ 弱势"
+      }
+    ],
+    "rules": [
+      {
+        "title": "只做纯首板",
+        "content": "近2日无涨停记录（已剔前日涨停股）"
+      },
+      {
+        "title": "只等回封",
+        "content": "已涨停标的等开板补量回封，不打半路"
+      },
+      {
+        "title": "板块必配",
+        "content": "无板块支撑（当日同题材<3家涨停）直接剔除"
+      },
+      {
+        "title": "次日必出",
+        "content": "无论盈亏，次日开盘即止盈止损（不格局）"
+      },
+      {
+        "title": "仓位严控",
+        "content": "首板总仓位≤1成，单标≤0.5成"
+      }
+    ]
+  },
+  "review": {
+    "emotion": "",
+    "emotionScore": 50,
+    "yesterdayPremium": 0,
+    "boards": [],
+    "sectors": [],
+    "modeAHit": {
+      "hit": 0,
+      "miss": 0,
+      "rate": 0.0
+    },
+    "modeCHit": {
+      "hit": 0,
+      "miss": 0,
+      "rate": 0.0
+    },
+    "tomorrow": [],
+    "riskPoints": []
+  },
+  "youthu": {
+    "indices": [],
+    "emotion": {},
+    "boards": [],
+    "sectors": [],
+    "coreLeaders": [],
+    "profitEffect": [],
+    "lossEffect": [],
+    "fundStyle": {},
+    "rotation": [],
+    "signals": [],
+    "tomorrowPlan": [],
+    "summary": ""
+  }
+}
