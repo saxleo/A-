@@ -2,7 +2,7 @@
   "timestamp": "2026-05-29T15:00:00",
   "total": 139,
   "success": 139,
-  "has_fund_flow": 12,
+  "has_fund_flow": 1,
   "sector_data": {
     "AI芯片/GPU": [
       {
@@ -9301,17 +9301,17 @@
       },
       "book_diff": -19421185.0,
       "timestamp": "2026-05-31T19:44:59.002268",
-      "main_force": 0,
+      "main_force": 0.07,
       "super": 0,
       "large": 0,
       "medium": 0,
       "small": 0,
-      "main_ratio": 0,
-      "main_pct": 0,
+      "main_ratio": 748.24,
+      "main_pct": 7.4824,
       "chg_5d": 0,
       "chg_20d": 0,
       "mf_5d": 0,
-      "has_fund_flow": false,
+      "has_fund_flow": true,
       "fund_flow_time": ""
     },
     "301205": {
