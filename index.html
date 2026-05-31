@@ -2507,8 +2507,10 @@ function dashOpenStock(code) {
         ['成交额', dashFmtm(s.amount), ''],
         ['盘口差', dashFmtm(s.book_diff || 0), (s.book_diff || 0) >= 0 ? 'var(--dash-up)' : 'var(--dash-down)'],
         ['主力净流', s.has_fund_flow ? dashFmtm(s.main_force) : '-', (s.main_force || 0) >= 0 ? 'var(--dash-up)' : 'var(--dash-down)'],
-        ['超大单', s.has_fund_flow ? dashFmtm(s.super) : '-', (s.super || 0) >= 0 ? 'var(--dash-up)' : 'var(--dash-down)'],
-        ['大单', s.has_fund_flow ? dashFmtm(s.large) : '-', (s.large || 0) >= 0 ? 'var(--dash-up)' : 'var(--dash-down)'],
+        ['5日主力净流', s.has_fund_flow && s.mf_5d ? dashFmtm(s.mf_5d) : '-', (s.mf_5d || 0) >= 0 ? 'var(--dash-up)' : 'var(--dash-down)'],
+        ['主力增仓占比', s.has_fund_flow && s.main_pct ? s.main_pct.toFixed(2) + '%' : '-', (s.main_pct || 0) >= 0 ? 'var(--dash-up)' : 'var(--dash-down)'],
+        ['5日涨幅', s.chg_5d ? (s.chg_5d >= 0 ? '+' : '') + s.chg_5d.toFixed(2) + '%' : '-', (s.chg_5d || 0) >= 0 ? 'var(--dash-up)' : 'var(--dash-down)'],
+        ['20日涨幅', s.chg_20d ? (s.chg_20d >= 0 ? '+' : '') + s.chg_20d.toFixed(2) + '%' : '-', (s.chg_20d || 0) >= 0 ? 'var(--dash-up)' : 'var(--dash-down)'],
         ['振幅', `${amp}%`, ''],
         ['所属', s.sector, '']
     ];
