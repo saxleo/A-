@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-06-02T21:58:18.976985",
-  "total": 121,
-  "success": 121,
-  "has_fund_flow": 118,
+  "timestamp": "2026-06-02T23:09:43.013059",
+  "total": 101,
+  "success": 101,
+  "has_fund_flow": 100,
   "sector_data": {
     "AI芯片/GPU": [
       {
@@ -43,7 +43,7 @@
           "ask_vol5": 2
         },
         "book_diff": -8190247.0,
-        "timestamp": "2026-06-02T21:55:58.671590",
+        "timestamp": "2026-06-02T23:09:25.212248",
         "main_force": 975022995.9,
         "super": 0,
         "large": 0,
@@ -51,11 +51,11 @@
         "small": 0,
         "main_ratio": 0,
         "main_pct": 0,
-        "chg_5d": -7.86,
+        "chg_5d": 0,
         "chg_20d": 0,
-        "mf_5d": -5202251750.0,
+        "mf_5d": 0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:08"
+        "fund_flow_time": "23:09:31"
       },
       {
         "code": "688041",
@@ -95,7 +95,7 @@
           "ask_vol5": 14
         },
         "book_diff": 16554750.0,
-        "timestamp": "2026-06-02T21:55:58.671774",
+        "timestamp": "2026-06-02T23:09:25.212399",
         "main_force": 27081145.51,
         "super": 0,
         "large": 0,
@@ -103,11 +103,11 @@
         "small": 0,
         "main_ratio": 0,
         "main_pct": 0,
-        "chg_5d": -16.9,
+        "chg_5d": 0,
         "chg_20d": 0,
-        "mf_5d": -5573130070.0,
+        "mf_5d": 0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:08"
+        "fund_flow_time": "23:09:31"
       },
       {
         "code": "688262",
@@ -147,7 +147,7 @@
           "ask_vol5": 5
         },
         "book_diff": 1402530.0,
-        "timestamp": "2026-06-02T21:55:58.672132",
+        "timestamp": "2026-06-02T23:09:25.212775",
         "main_force": -6114358.96,
         "super": 0,
         "large": 0,
@@ -155,11 +155,11 @@
         "small": 0,
         "main_ratio": 0,
         "main_pct": 0,
-        "chg_5d": -11.33,
+        "chg_5d": 0,
         "chg_20d": 0,
-        "mf_5d": -96815169.0,
+        "mf_5d": 0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:08"
+        "fund_flow_time": "23:09:31"
       },
       {
         "code": "300474",
@@ -199,7 +199,7 @@
           "ask_vol5": 9
         },
         "book_diff": 2857452.0,
-        "timestamp": "2026-06-02T21:55:58.671894",
+        "timestamp": "2026-06-02T23:09:25.212520",
         "main_force": -29923957.51,
         "super": 0,
         "large": 0,
@@ -207,11 +207,11 @@
         "small": 0,
         "main_ratio": 0,
         "main_pct": 0,
-        "chg_5d": -13.48,
+        "chg_5d": 0,
         "chg_20d": 0,
-        "mf_5d": -208484206.0,
+        "mf_5d": 0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:08"
+        "fund_flow_time": "23:09:31"
       },
       {
         "code": "688047",
@@ -251,7 +251,7 @@
           "ask_vol5": 3
         },
         "book_diff": 2464987.0,
-        "timestamp": "2026-06-02T21:55:58.672016",
+        "timestamp": "2026-06-02T23:09:25.212655",
         "main_force": -113181446.51,
         "super": 0,
         "large": 0,
@@ -259,11 +259,11 @@
         "small": 0,
         "main_ratio": 0,
         "main_pct": 0,
-        "chg_5d": -12.26,
+        "chg_5d": 0,
         "chg_20d": 0,
-        "mf_5d": -613322944.0,
+        "mf_5d": 0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:08"
+        "fund_flow_time": "23:09:31"
       }
     ],
     "AI服务器": [
@@ -305,7 +305,7 @@
           "ask_vol5": 731
         },
         "book_diff": 14075406.0,
-        "timestamp": "2026-06-02T21:55:58.672358",
+        "timestamp": "2026-06-02T23:09:25.212995",
         "main_force": 3544494945.9,
         "super": 0,
         "large": 0,
@@ -313,11 +313,11 @@
         "small": 0,
         "main_ratio": 0,
         "main_pct": 0,
-        "chg_5d": 14.33,
+        "chg_5d": 0,
         "chg_20d": 0,
-        "mf_5d": 5949916500.0,
+        "mf_5d": 0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:08"
+        "fund_flow_time": "23:09:31"
       },
       {
         "code": "000977",
@@ -357,60 +357,8 @@
           "ask_vol5": 189
         },
         "book_diff": 7279950.0,
-        "timestamp": "2026-06-02T21:55:58.672247",
-        "main_force": -13548690.0,
-        "super": 0,
-        "large": 0,
-        "medium": 0,
-        "small": 0,
-        "main_ratio": 0,
-        "main_pct": 0,
-        "chg_5d": -5.3,
-        "chg_20d": -8.7,
-        "mf_5d": 0,
-        "has_fund_flow": true,
-        "fund_flow_time": ""
-      },
-      {
-        "code": "000938",
-        "name": "紫光股份",
-        "sector": "AI服务器",
-        "price": 28.21,
-        "open": 28.29,
-        "high": 28.69,
-        "low": 27.650000000000002,
-        "last_close": 27.84,
-        "volume": 1501290,
-        "amount": 4233144320.0,
-        "vwap": 28.2,
-        "change_pct": 1.33,
-        "bids": {
-          "bid1": 28.21,
-          "bid_vol1": 751,
-          "bid2": 28.2,
-          "bid_vol2": 3472,
-          "bid3": 28.19,
-          "bid_vol3": 4395,
-          "bid4": 28.18,
-          "bid_vol4": 1824,
-          "bid5": 28.17,
-          "bid_vol5": 815
-        },
-        "asks": {
-          "ask1": 28.22,
-          "ask_vol1": 353,
-          "ask2": 28.23,
-          "ask_vol2": 422,
-          "ask3": 28.240000000000002,
-          "ask_vol3": 223,
-          "ask4": 28.25,
-          "ask_vol4": 663,
-          "ask5": 28.26,
-          "ask_vol5": 29
-        },
-        "book_diff": 26962850.0,
-        "timestamp": "2026-06-02T21:55:58.672573",
-        "main_force": 0,
+        "timestamp": "2026-06-02T23:09:25.212885",
+        "main_force": 160356212.8,
         "super": 0,
         "large": 0,
         "medium": 0,
@@ -420,8 +368,8 @@
         "chg_5d": 0,
         "chg_20d": 0,
         "mf_5d": 0,
-        "has_fund_flow": false,
-        "fund_flow_time": ""
+        "has_fund_flow": true,
+        "fund_flow_time": "23:09:31"
       },
       {
         "code": "603019",
@@ -461,7 +409,7 @@
           "ask_vol5": 44
         },
         "book_diff": 4304709.0,
-        "timestamp": "2026-06-02T21:55:58.672466",
+        "timestamp": "2026-06-02T23:09:25.213109",
         "main_force": 41161167.71,
         "super": 0,
         "large": 0,
@@ -474,58 +422,6 @@
         "mf_5d": -1585671060.0,
         "has_fund_flow": true,
         "fund_flow_time": "21:56:08"
-      },
-      {
-        "code": "000628",
-        "name": "高新发展",
-        "sector": "AI服务器",
-        "price": 53.76,
-        "open": 56.480000000000004,
-        "high": 57.68,
-        "low": 53.0,
-        "last_close": 56.45,
-        "volume": 115551,
-        "amount": 637355200.0,
-        "vwap": 55.16,
-        "change_pct": -4.77,
-        "bids": {
-          "bid1": 53.75,
-          "bid_vol1": 32,
-          "bid2": 53.74,
-          "bid_vol2": 2,
-          "bid3": 53.72,
-          "bid_vol3": 15,
-          "bid4": 53.71,
-          "bid_vol4": 11,
-          "bid5": 53.7,
-          "bid_vol5": 11
-        },
-        "asks": {
-          "ask1": 53.76,
-          "ask_vol1": 175,
-          "ask2": 53.78,
-          "ask_vol2": 12,
-          "ask3": 53.79,
-          "ask_vol3": 9,
-          "ask4": 53.800000000000004,
-          "ask_vol4": 88,
-          "ask5": 53.81,
-          "ask_vol5": 56
-        },
-        "book_diff": -1447044.0,
-        "timestamp": "2026-06-02T21:55:58.672704",
-        "main_force": 0,
-        "super": 0,
-        "large": 0,
-        "medium": 0,
-        "small": 0,
-        "main_ratio": 0,
-        "main_pct": 0,
-        "chg_5d": 0,
-        "chg_20d": 0,
-        "mf_5d": 0,
-        "has_fund_flow": false,
-        "fund_flow_time": ""
       }
     ],
     "液冷散热": [
@@ -567,7 +463,7 @@
           "ask_vol5": 4
         },
         "book_diff": 2234597.0,
-        "timestamp": "2026-06-02T21:55:58.672927",
+        "timestamp": "2026-06-02T23:09:25.213337",
         "main_force": 8871359.75,
         "super": 0,
         "large": 0,
@@ -575,11 +471,11 @@
         "small": 0,
         "main_ratio": 0,
         "main_pct": 0,
-        "chg_5d": -11.45,
+        "chg_5d": 0,
         "chg_20d": 0,
-        "mf_5d": -335960369.0,
+        "mf_5d": 0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:12"
+        "fund_flow_time": "23:09:31"
       },
       {
         "code": "002837",
@@ -619,7 +515,7 @@
           "ask_vol5": 51
         },
         "book_diff": 5948011.0,
-        "timestamp": "2026-06-02T21:55:58.672816",
+        "timestamp": "2026-06-02T23:09:25.213225",
         "main_force": 5048970.68,
         "super": 0,
         "large": 0,
@@ -627,11 +523,11 @@
         "small": 0,
         "main_ratio": 0,
         "main_pct": 0,
-        "chg_5d": -10.83,
+        "chg_5d": 0,
         "chg_20d": 0,
-        "mf_5d": -2108358512.0,
+        "mf_5d": 0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:12"
+        "fund_flow_time": "23:09:31"
       },
       {
         "code": "300499",
@@ -671,7 +567,7 @@
           "ask_vol5": 84
         },
         "book_diff": -1131160.0,
-        "timestamp": "2026-06-02T21:55:58.673040",
+        "timestamp": "2026-06-02T23:09:25.213446",
         "main_force": -39132513.53,
         "super": 0,
         "large": 0,
@@ -683,7 +579,7 @@
         "chg_20d": 0,
         "mf_5d": -472588955.0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:12"
+        "fund_flow_time": "23:05:31"
       },
       {
         "code": "603269",
@@ -723,7 +619,7 @@
           "ask_vol5": 63
         },
         "book_diff": 552974.0,
-        "timestamp": "2026-06-02T21:55:58.673255",
+        "timestamp": "2026-06-02T23:09:25.213684",
         "main_force": -25209669.06,
         "super": 0,
         "large": 0,
@@ -735,7 +631,7 @@
         "chg_20d": 0,
         "mf_5d": -11966167.7,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:12"
+        "fund_flow_time": "23:05:31"
       },
       {
         "code": "000811",
@@ -775,7 +671,7 @@
           "ask_vol5": 29
         },
         "book_diff": 4145999.0,
-        "timestamp": "2026-06-02T21:55:58.673148",
+        "timestamp": "2026-06-02T23:09:25.213561",
         "main_force": -64849320.24,
         "super": 0,
         "large": 0,
@@ -829,7 +725,7 @@
           "ask_vol5": 56
         },
         "book_diff": -4165996.0,
-        "timestamp": "2026-06-02T21:55:58.673584",
+        "timestamp": "2026-06-02T23:09:25.214008",
         "main_force": 34688449.2,
         "super": 0,
         "large": 0,
@@ -841,7 +737,7 @@
         "chg_20d": 0,
         "mf_5d": 77311390.0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:12"
+        "fund_flow_time": "23:05:31"
       },
       {
         "code": "002475",
@@ -881,7 +777,7 @@
           "ask_vol5": 148
         },
         "book_diff": -50705316.0,
-        "timestamp": "2026-06-02T21:55:58.673713",
+        "timestamp": "2026-06-02T23:09:25.214126",
         "main_force": 760594003.0,
         "super": 0,
         "large": 0,
@@ -893,7 +789,7 @@
         "chg_20d": 0,
         "mf_5d": 1640275070.0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:12"
+        "fund_flow_time": "23:05:31"
       },
       {
         "code": "300913",
@@ -933,7 +829,7 @@
           "ask_vol5": 11
         },
         "book_diff": 2294743.0,
-        "timestamp": "2026-06-02T21:55:58.673822",
+        "timestamp": "2026-06-02T23:09:25.214240",
         "main_force": -23767311.72,
         "super": 0,
         "large": 0,
@@ -941,11 +837,11 @@
         "small": 0,
         "main_ratio": 0,
         "main_pct": 0,
-        "chg_5d": 12.52,
+        "chg_5d": 0,
         "chg_20d": 0,
-        "mf_5d": 43485727.0,
+        "mf_5d": 0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:12"
+        "fund_flow_time": "23:05:31"
       },
       {
         "code": "300563",
@@ -985,7 +881,7 @@
           "ask_vol5": 4
         },
         "book_diff": 357385.0,
-        "timestamp": "2026-06-02T21:55:58.673476",
+        "timestamp": "2026-06-02T23:09:25.213899",
         "main_force": -7278011.0,
         "super": 0,
         "large": 0,
@@ -997,7 +893,7 @@
         "chg_20d": 0,
         "mf_5d": 19064838.9,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:12"
+        "fund_flow_time": "23:05:31"
       },
       {
         "code": "002130",
@@ -1037,7 +933,7 @@
           "ask_vol5": 189
         },
         "book_diff": 3209933.0,
-        "timestamp": "2026-06-02T21:55:58.673366",
+        "timestamp": "2026-06-02T23:09:25.213793",
         "main_force": -78558751.15,
         "super": 0,
         "large": 0,
@@ -1049,7 +945,7 @@
         "chg_20d": 0,
         "mf_5d": 105032083.0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:12"
+        "fund_flow_time": "23:05:31"
       }
     ],
     "算力租赁/IDC": [
@@ -1091,7 +987,7 @@
           "ask_vol5": 248
         },
         "book_diff": -13587708.0,
-        "timestamp": "2026-06-02T21:55:58.674253",
+        "timestamp": "2026-06-02T23:09:25.214562",
         "main_force": -3037932.67,
         "super": 0,
         "large": 0,
@@ -1099,115 +995,11 @@
         "small": 0,
         "main_ratio": 0,
         "main_pct": 0,
-        "chg_5d": 0,
+        "chg_5d": -0.75,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": -266042047.2,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:17"
-      },
-      {
-        "code": "300738",
-        "name": "奥飞数据",
-        "sector": "算力租赁/IDC",
-        "price": 22.03,
-        "open": 21.86,
-        "high": 22.05,
-        "low": 20.87,
-        "last_close": 21.72,
-        "volume": 569110,
-        "amount": 1224818304.0,
-        "vwap": 21.52,
-        "change_pct": 1.43,
-        "bids": {
-          "bid1": 22.03,
-          "bid_vol1": 2169,
-          "bid2": 22.02,
-          "bid_vol2": 358,
-          "bid3": 22.01,
-          "bid_vol3": 75,
-          "bid4": 22.0,
-          "bid_vol4": 341,
-          "bid5": 21.990000000000002,
-          "bid_vol5": 194
-        },
-        "asks": {
-          "ask1": 22.04,
-          "ask_vol1": 680,
-          "ask2": 22.05,
-          "ask_vol2": 683,
-          "ask3": 22.06,
-          "ask_vol3": 457,
-          "ask4": 22.07,
-          "ask_vol4": 198,
-          "ask5": 22.080000000000002,
-          "ask_vol5": 227
-        },
-        "book_diff": 1957425.0,
-        "timestamp": "2026-06-02T21:55:58.674148",
-        "main_force": 44591182.33,
-        "super": 0,
-        "large": 0,
-        "medium": 0,
-        "small": 0,
-        "main_ratio": 0,
-        "main_pct": 0,
-        "chg_5d": 0,
-        "chg_20d": 0,
-        "mf_5d": 0,
-        "has_fund_flow": true,
-        "fund_flow_time": "21:56:17"
-      },
-      {
-        "code": "300383",
-        "name": "光环新网",
-        "sector": "算力租赁/IDC",
-        "price": 13.530000000000001,
-        "open": 13.6,
-        "high": 13.72,
-        "low": 13.05,
-        "last_close": 13.49,
-        "volume": 643576,
-        "amount": 862712128.0,
-        "vwap": 13.4,
-        "change_pct": 0.3,
-        "bids": {
-          "bid1": 13.52,
-          "bid_vol1": 900,
-          "bid2": 13.51,
-          "bid_vol2": 567,
-          "bid3": 13.5,
-          "bid_vol3": 720,
-          "bid4": 13.49,
-          "bid_vol4": 603,
-          "bid5": 13.48,
-          "bid_vol5": 629
-        },
-        "asks": {
-          "ask1": 13.530000000000001,
-          "ask_vol1": 651,
-          "ask2": 13.540000000000001,
-          "ask_vol2": 321,
-          "ask3": 13.55,
-          "ask_vol3": 746,
-          "ask4": 13.56,
-          "ask_vol4": 358,
-          "ask5": 13.57,
-          "ask_vol5": 127
-        },
-        "book_diff": 1632102.0,
-        "timestamp": "2026-06-02T21:55:58.674359",
-        "main_force": -22527811.46,
-        "super": 0,
-        "large": 0,
-        "medium": 0,
-        "small": 0,
-        "main_ratio": 0,
-        "main_pct": 0,
-        "chg_5d": 0,
-        "chg_20d": 0,
-        "mf_5d": 0,
-        "has_fund_flow": true,
-        "fund_flow_time": "21:56:17"
+        "fund_flow_time": "23:05:36"
       },
       {
         "code": "002929",
@@ -1247,7 +1039,7 @@
           "ask_vol5": 22
         },
         "book_diff": 2764231.0,
-        "timestamp": "2026-06-02T21:55:58.674041",
+        "timestamp": "2026-06-02T23:09:25.214457",
         "main_force": -77926455.61,
         "super": 0,
         "large": 0,
@@ -1255,11 +1047,11 @@
         "small": 0,
         "main_ratio": 0,
         "main_pct": 0,
-        "chg_5d": 0,
+        "chg_5d": -18.56,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": -674362247.0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:17"
+        "fund_flow_time": "23:05:31"
       },
       {
         "code": "002229",
@@ -1299,7 +1091,7 @@
           "ask_vol5": 187
         },
         "book_diff": 2694257.0,
-        "timestamp": "2026-06-02T21:55:58.674476",
+        "timestamp": "2026-06-02T23:09:25.214693",
         "main_force": -3137416.57,
         "super": 0,
         "large": 0,
@@ -1307,11 +1099,11 @@
         "small": 0,
         "main_ratio": 0,
         "main_pct": 0,
-        "chg_5d": 0,
+        "chg_5d": 0.57,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 183574310.2,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:17"
+        "fund_flow_time": "23:05:36"
       },
       {
         "code": "300442",
@@ -1351,7 +1143,7 @@
           "ask_vol5": 73
         },
         "book_diff": -2347661.0,
-        "timestamp": "2026-06-02T21:55:58.673936",
+        "timestamp": "2026-06-02T23:09:25.214349",
         "main_force": -108204262.17,
         "super": 0,
         "large": 0,
@@ -1359,11 +1151,11 @@
         "small": 0,
         "main_ratio": 0,
         "main_pct": 0,
-        "chg_5d": 0,
+        "chg_5d": -9.86,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": -1312362540.0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:17"
+        "fund_flow_time": "23:05:31"
       },
       {
         "code": "603629",
@@ -1403,7 +1195,7 @@
           "ask_vol5": 23
         },
         "book_diff": 7444320.0,
-        "timestamp": "2026-06-02T21:55:58.674587",
+        "timestamp": "2026-06-02T23:09:25.214804",
         "main_force": -1197785408.4,
         "super": 0,
         "large": 0,
@@ -1411,11 +1203,11 @@
         "small": 0,
         "main_ratio": 0,
         "main_pct": 0,
-        "chg_5d": 0,
+        "chg_5d": -7.8,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": -1631698542.0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:17"
+        "fund_flow_time": "23:05:36"
       }
     ],
     "存力/HBM存储": [
@@ -1457,7 +1249,7 @@
           "ask_vol5": 2
         },
         "book_diff": 519229.0,
-        "timestamp": "2026-06-02T21:55:58.674819",
+        "timestamp": "2026-06-02T23:09:25.215019",
         "main_force": -536660215.27,
         "super": 0,
         "large": 0,
@@ -1465,11 +1257,11 @@
         "small": 0,
         "main_ratio": 0,
         "main_pct": 0,
-        "chg_5d": 0,
+        "chg_5d": -3.43,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": -917788310.0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:17"
+        "fund_flow_time": "23:05:36"
       },
       {
         "code": "688008",
@@ -1509,7 +1301,7 @@
           "ask_vol5": 10
         },
         "book_diff": 22680075.0,
-        "timestamp": "2026-06-02T21:55:58.675040",
+        "timestamp": "2026-06-02T23:09:25.215242",
         "main_force": -93871708.57,
         "super": 0,
         "large": 0,
@@ -1561,7 +1353,7 @@
           "ask_vol5": 4
         },
         "book_diff": -42723123.0,
-        "timestamp": "2026-06-02T21:55:58.674928",
+        "timestamp": "2026-06-02T23:09:25.215126",
         "main_force": 345664963.43,
         "super": 0,
         "large": 0,
@@ -1569,11 +1361,11 @@
         "small": 0,
         "main_ratio": 0,
         "main_pct": 0,
-        "chg_5d": 0,
+        "chg_5d": -9.79,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": -5263762100.0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:17"
+        "fund_flow_time": "23:05:36"
       },
       {
         "code": "688525",
@@ -1613,7 +1405,7 @@
           "ask_vol5": 32
         },
         "book_diff": 39470663.0,
-        "timestamp": "2026-06-02T21:55:58.674708",
+        "timestamp": "2026-06-02T23:09:25.214912",
         "main_force": -536941322.25,
         "super": 0,
         "large": 0,
@@ -1665,7 +1457,7 @@
           "ask_vol5": 20
         },
         "book_diff": 20967162.0,
-        "timestamp": "2026-06-02T21:55:58.675145",
+        "timestamp": "2026-06-02T23:09:25.215354",
         "main_force": -135091139.52,
         "super": 0,
         "large": 0,
@@ -1673,14 +1465,66 @@
         "small": 0,
         "main_ratio": 0,
         "main_pct": 0,
-        "chg_5d": 0,
+        "chg_5d": -4.9,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": -985594310.0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:22"
+        "fund_flow_time": "23:05:36"
       }
     ],
     "光模块/CPO/光引擎": [
+      {
+        "code": "600487",
+        "name": "亨通光电",
+        "sector": "光模块/CPO/光引擎",
+        "price": 83.12,
+        "open": 74.61,
+        "high": 83.12,
+        "low": 74.61,
+        "last_close": 75.56,
+        "volume": 1913933,
+        "amount": 15481292800.0,
+        "vwap": 80.89,
+        "change_pct": 10.01,
+        "bids": {
+          "bid1": 83.12,
+          "bid_vol1": 84837,
+          "bid2": 83.11,
+          "bid_vol2": 837,
+          "bid3": 83.10000000000001,
+          "bid_vol3": 123,
+          "bid4": 83.09,
+          "bid_vol4": 32,
+          "bid5": 83.08,
+          "bid_vol5": 68
+        },
+        "asks": {
+          "ask1": 0.0,
+          "ask_vol1": 0,
+          "ask2": 0.0,
+          "ask_vol2": 0,
+          "ask3": 0.0,
+          "ask_vol3": 0,
+          "ask4": 0.0,
+          "ask_vol4": 0,
+          "ask5": 0.0,
+          "ask_vol5": 0
+        },
+        "book_diff": 713974413.0,
+        "timestamp": "2026-06-02T23:09:25.216013",
+        "main_force": 2812845134.24,
+        "super": 0,
+        "large": 0,
+        "medium": 0,
+        "small": 0,
+        "main_ratio": 0,
+        "main_pct": 0,
+        "chg_5d": 19.75,
+        "chg_20d": 0,
+        "mf_5d": 6647508680.0,
+        "has_fund_flow": true,
+        "fund_flow_time": "23:05:40"
+      },
       {
         "code": "300502",
         "name": "新易盛",
@@ -1719,7 +1563,7 @@
           "ask_vol5": 1
         },
         "book_diff": 3809552.0,
-        "timestamp": "2026-06-02T21:55:58.675355",
+        "timestamp": "2026-06-02T23:09:25.215570",
         "main_force": 1842812517.54,
         "super": 0,
         "large": 0,
@@ -1727,63 +1571,11 @@
         "small": 0,
         "main_ratio": 0,
         "main_pct": 0,
-        "chg_5d": 0,
+        "chg_5d": 6.71,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 789733600.0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:22"
-      },
-      {
-        "code": "301205",
-        "name": "联特科技",
-        "sector": "光模块/CPO/光引擎",
-        "price": 340.02,
-        "open": 318.0,
-        "high": 351.49,
-        "low": 317.3,
-        "last_close": 312.69,
-        "volume": 141514,
-        "amount": 4772110336.0,
-        "vwap": 337.22,
-        "change_pct": 8.74,
-        "bids": {
-          "bid1": 340.01,
-          "bid_vol1": 1,
-          "bid2": 340.0,
-          "bid_vol2": 70,
-          "bid3": 339.99,
-          "bid_vol3": 39,
-          "bid4": 339.90000000000003,
-          "bid_vol4": 1,
-          "bid5": 339.88,
-          "bid_vol5": 5
-        },
-        "asks": {
-          "ask1": 340.02,
-          "ask_vol1": 6,
-          "ask2": 340.1,
-          "ask_vol2": 1,
-          "ask3": 340.11,
-          "ask_vol3": 1,
-          "ask4": 340.13,
-          "ask_vol4": 1,
-          "ask5": 340.18,
-          "ask_vol5": 7
-        },
-        "book_diff": 3399720.0,
-        "timestamp": "2026-06-02T21:55:58.676023",
-        "main_force": 197372747.31,
-        "super": 0,
-        "large": 0,
-        "medium": 0,
-        "small": 0,
-        "main_ratio": 0,
-        "main_pct": 0,
-        "chg_5d": 0,
-        "chg_20d": 0,
-        "mf_5d": 0,
-        "has_fund_flow": true,
-        "fund_flow_time": "21:56:22"
+        "fund_flow_time": "23:05:36"
       },
       {
         "code": "300548",
@@ -1823,7 +1615,7 @@
           "ask_vol5": 602
         },
         "book_diff": -11194696.0,
-        "timestamp": "2026-06-02T21:55:58.675696",
+        "timestamp": "2026-06-02T23:09:25.215908",
         "main_force": -48996518.32,
         "super": 0,
         "large": 0,
@@ -1831,11 +1623,11 @@
         "small": 0,
         "main_ratio": 0,
         "main_pct": 0,
-        "chg_5d": 0,
+        "chg_5d": -0.65,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 1011384070.0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:22"
+        "fund_flow_time": "23:05:40"
       },
       {
         "code": "300394",
@@ -1875,7 +1667,7 @@
           "ask_vol5": 2
         },
         "book_diff": 14212326.0,
-        "timestamp": "2026-06-02T21:55:58.675461",
+        "timestamp": "2026-06-02T23:09:25.215690",
         "main_force": 1478731265.82,
         "super": 0,
         "large": 0,
@@ -1883,63 +1675,11 @@
         "small": 0,
         "main_ratio": 0,
         "main_pct": 0,
-        "chg_5d": 0,
+        "chg_5d": 12.35,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 917896500.0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:22"
-      },
-      {
-        "code": "688205",
-        "name": "德科立",
-        "sector": "光模块/CPO/光引擎",
-        "price": 232.59,
-        "open": 221.99,
-        "high": 234.57,
-        "low": 218.0,
-        "last_close": 220.01,
-        "volume": 89396,
-        "amount": 2043890432.0,
-        "vwap": 228.63,
-        "change_pct": 5.72,
-        "bids": {
-          "bid1": 232.59,
-          "bid_vol1": 21,
-          "bid2": 232.58,
-          "bid_vol2": 2,
-          "bid3": 232.57,
-          "bid_vol3": 3,
-          "bid4": 232.56,
-          "bid_vol4": 118,
-          "bid5": 232.54,
-          "bid_vol5": 17
-        },
-        "asks": {
-          "ask1": 232.6,
-          "ask_vol1": 113,
-          "ask2": 232.62,
-          "ask_vol2": 7,
-          "ask3": 232.65,
-          "ask_vol3": 13,
-          "ask4": 232.66,
-          "ask_vol4": 23,
-          "ask5": 232.69,
-          "ask_vol5": 59
-        },
-        "book_diff": -1257396.0,
-        "timestamp": "2026-06-02T21:55:58.675808",
-        "main_force": -152726056.26,
-        "super": 0,
-        "large": 0,
-        "medium": 0,
-        "small": 0,
-        "main_ratio": 0,
-        "main_pct": 0,
-        "chg_5d": 0,
-        "chg_20d": 0,
-        "mf_5d": 0,
-        "has_fund_flow": true,
-        "fund_flow_time": "21:56:22"
+        "fund_flow_time": "23:05:40"
       },
       {
         "code": "300308",
@@ -1979,7 +1719,7 @@
           "ask_vol5": 2
         },
         "book_diff": 19783675.0,
-        "timestamp": "2026-06-02T21:55:58.675251",
+        "timestamp": "2026-06-02T23:09:25.215464",
         "main_force": 1125853767.81,
         "super": 0,
         "large": 0,
@@ -1987,11 +1727,11 @@
         "small": 0,
         "main_ratio": 0,
         "main_pct": 0,
-        "chg_5d": 0,
+        "chg_5d": 8.05,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 1337499800.0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:22"
+        "fund_flow_time": "23:05:36"
       },
       {
         "code": "002281",
@@ -2031,7 +1771,7 @@
           "ask_vol5": 25
         },
         "book_diff": 38998104.0,
-        "timestamp": "2026-06-02T21:55:58.675576",
+        "timestamp": "2026-06-02T23:09:25.215801",
         "main_force": 1024793227.42,
         "super": 0,
         "large": 0,
@@ -2039,11 +1779,11 @@
         "small": 0,
         "main_ratio": 0,
         "main_pct": 0,
-        "chg_5d": 0,
+        "chg_5d": 4.06,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 903756680.0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:22"
+        "fund_flow_time": "23:05:40"
       },
       {
         "code": "000988",
@@ -2083,7 +1823,7 @@
           "ask_vol5": 106
         },
         "book_diff": -7405193.0,
-        "timestamp": "2026-06-02T21:55:58.676134",
+        "timestamp": "2026-06-02T23:09:25.216121",
         "main_force": 0,
         "super": 0,
         "large": 0,
@@ -2096,58 +1836,6 @@
         "mf_5d": 0,
         "has_fund_flow": false,
         "fund_flow_time": ""
-      },
-      {
-        "code": "603083",
-        "name": "剑桥科技",
-        "sector": "光模块/CPO/光引擎",
-        "price": 189.85,
-        "open": 187.33,
-        "high": 194.99,
-        "low": 183.0,
-        "last_close": 187.0,
-        "volume": 322554,
-        "amount": 6116024832.0,
-        "vwap": 189.61,
-        "change_pct": 1.52,
-        "bids": {
-          "bid1": 189.85,
-          "bid_vol1": 2,
-          "bid2": 189.84,
-          "bid_vol2": 8,
-          "bid3": 189.83,
-          "bid_vol3": 67,
-          "bid4": 189.82,
-          "bid_vol4": 292,
-          "bid5": 189.81,
-          "bid_vol5": 2
-        },
-        "asks": {
-          "ask1": 189.86,
-          "ask_vol1": 26,
-          "ask2": 189.87,
-          "ask_vol2": 186,
-          "ask3": 189.88,
-          "ask_vol3": 52,
-          "ask4": 189.89000000000001,
-          "ask_vol4": 15,
-          "ask5": 189.9,
-          "ask_vol5": 29
-        },
-        "book_diff": 1194270.0,
-        "timestamp": "2026-06-02T21:55:58.675914",
-        "main_force": 98310540.27,
-        "super": 0,
-        "large": 0,
-        "medium": 0,
-        "small": 0,
-        "main_ratio": 0,
-        "main_pct": 0,
-        "chg_5d": 0,
-        "chg_20d": 0,
-        "mf_5d": 0,
-        "has_fund_flow": true,
-        "fund_flow_time": "21:56:22"
       }
     ],
     "光芯片/硅光/薄膜铌酸锂": [
@@ -2189,7 +1877,7 @@
           "ask_vol5": 1
         },
         "book_diff": 13280519.0,
-        "timestamp": "2026-06-02T21:55:58.676638",
+        "timestamp": "2026-06-02T23:09:25.216561",
         "main_force": 690543989.72,
         "super": 0,
         "large": 0,
@@ -2201,7 +1889,7 @@
         "chg_20d": 0,
         "mf_5d": 1742794620.0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:26"
+        "fund_flow_time": "23:05:40"
       },
       {
         "code": "688498",
@@ -2241,19 +1929,19 @@
           "ask_vol5": 7
         },
         "book_diff": -8449676.0,
-        "timestamp": "2026-06-02T21:55:58.676240",
-        "main_force": 958172707.61,
+        "timestamp": "2026-06-02T23:09:25.216232",
+        "main_force": 157037748.91,
         "super": 0,
         "large": 0,
         "medium": 0,
         "small": 0,
-        "main_ratio": 1030.29,
-        "main_pct": 10.3029,
+        "main_ratio": 0,
+        "main_pct": 0,
         "chg_5d": 15.93,
         "chg_20d": 0,
-        "mf_5d": 2234485790.0,
+        "mf_5d": 1491841140.0,
         "has_fund_flow": true,
-        "fund_flow_time": "18:15:37"
+        "fund_flow_time": "23:05:40"
       },
       {
         "code": "688313",
@@ -2293,19 +1981,19 @@
           "ask_vol5": 4
         },
         "book_diff": -1993627.0,
-        "timestamp": "2026-06-02T21:55:58.676344",
-        "main_force": 269125676.65,
+        "timestamp": "2026-06-02T23:09:25.216341",
+        "main_force": -90282747.87,
         "super": 0,
         "large": 0,
         "medium": 0,
         "small": 0,
-        "main_ratio": 669.35,
-        "main_pct": 6.6935,
+        "main_ratio": 0,
+        "main_pct": 0,
         "chg_5d": -9.69,
         "chg_20d": 0,
-        "mf_5d": -443092500.0,
+        "mf_5d": -1942407210.0,
         "has_fund_flow": true,
-        "fund_flow_time": "18:15:37"
+        "fund_flow_time": "23:05:40"
       },
       {
         "code": "688195",
@@ -2345,7 +2033,7 @@
           "ask_vol5": 2
         },
         "book_diff": 206780.0,
-        "timestamp": "2026-06-02T21:55:58.676768",
+        "timestamp": "2026-06-02T23:09:25.216680",
         "main_force": -78559345.52,
         "super": 0,
         "large": 0,
@@ -2357,7 +2045,7 @@
         "chg_20d": 0,
         "mf_5d": -1876710.0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:26"
+        "fund_flow_time": "23:05:40"
       },
       {
         "code": "688048",
@@ -2397,74 +2085,22 @@
           "ask_vol5": 8
         },
         "book_diff": 4738617.0,
-        "timestamp": "2026-06-02T21:55:58.676482",
-        "main_force": 226745444.24,
-        "super": 0,
-        "large": 0,
-        "medium": 0,
-        "small": 0,
-        "main_ratio": 485.43,
-        "main_pct": 4.8543,
-        "chg_5d": -1.15,
-        "chg_20d": 0,
-        "mf_5d": 545928940.0,
-        "has_fund_flow": true,
-        "fund_flow_time": "18:15:37"
-      }
-    ],
-    "光纤/光器件": [
-      {
-        "code": "600487",
-        "name": "长飞光纤",
-        "sector": "光纤/光器件",
-        "price": 83.12,
-        "open": 74.61,
-        "high": 83.12,
-        "low": 74.61,
-        "last_close": 75.56,
-        "volume": 1913933,
-        "amount": 15481292800.0,
-        "vwap": 80.89,
-        "change_pct": 10.01,
-        "bids": {
-          "bid1": 83.12,
-          "bid_vol1": 84837,
-          "bid2": 83.11,
-          "bid_vol2": 837,
-          "bid3": 83.10000000000001,
-          "bid_vol3": 123,
-          "bid4": 83.09,
-          "bid_vol4": 32,
-          "bid5": 83.08,
-          "bid_vol5": 68
-        },
-        "asks": {
-          "ask1": 0.0,
-          "ask_vol1": 0,
-          "ask2": 0.0,
-          "ask_vol2": 0,
-          "ask3": 0.0,
-          "ask_vol3": 0,
-          "ask4": 0.0,
-          "ask_vol4": 0,
-          "ask5": 0.0,
-          "ask_vol5": 0
-        },
-        "book_diff": 713974413.0,
-        "timestamp": "2026-06-02T21:55:58.676878",
-        "main_force": 2812845134.24,
+        "timestamp": "2026-06-02T23:09:25.216450",
+        "main_force": -7160472.4,
         "super": 0,
         "large": 0,
         "medium": 0,
         "small": 0,
         "main_ratio": 0,
         "main_pct": 0,
-        "chg_5d": 19.75,
+        "chg_5d": -1.15,
         "chg_20d": 0,
-        "mf_5d": 6647508680.0,
+        "mf_5d": 821376990.0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:26"
-      },
+        "fund_flow_time": "23:05:40"
+      }
+    ],
+    "光纤/光器件": [
       {
         "code": "600105",
         "name": "永鼎股份",
@@ -2503,7 +2139,7 @@
           "ask_vol5": 0
         },
         "book_diff": 225432009.0,
-        "timestamp": "2026-06-02T21:55:58.677090",
+        "timestamp": "2026-06-02T23:09:25.216901",
         "main_force": 2008714011.86,
         "super": 0,
         "large": 0,
@@ -2511,11 +2147,11 @@
         "small": 0,
         "main_ratio": 0,
         "main_pct": 0,
-        "chg_5d": 7.22,
+        "chg_5d": 0,
         "chg_20d": 0,
-        "mf_5d": 2735242530.0,
+        "mf_5d": 0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:26"
+        "fund_flow_time": "23:05:45"
       },
       {
         "code": "600522",
@@ -2555,7 +2191,7 @@
           "ask_vol5": 43
         },
         "book_diff": 78694376.0,
-        "timestamp": "2026-06-02T21:55:58.677199",
+        "timestamp": "2026-06-02T23:09:25.217008",
         "main_force": 1896122002.09,
         "super": 0,
         "large": 0,
@@ -2563,11 +2199,11 @@
         "small": 0,
         "main_ratio": 0,
         "main_pct": 0,
-        "chg_5d": 5.95,
+        "chg_5d": 0,
         "chg_20d": 0,
-        "mf_5d": 1247482510.0,
+        "mf_5d": 0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:26"
+        "fund_flow_time": "23:05:45"
       },
       {
         "code": "002491",
@@ -2607,7 +2243,7 @@
           "ask_vol5": 197
         },
         "book_diff": 15776607.0,
-        "timestamp": "2026-06-02T21:55:58.676985",
+        "timestamp": "2026-06-02T23:09:25.216791",
         "main_force": 238204505.06,
         "super": 0,
         "large": 0,
@@ -2615,11 +2251,11 @@
         "small": 0,
         "main_ratio": 0,
         "main_pct": 0,
-        "chg_5d": 15.36,
+        "chg_5d": 0,
         "chg_20d": 0,
-        "mf_5d": 858111844.0,
+        "mf_5d": 0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:26"
+        "fund_flow_time": "23:05:45"
       },
       {
         "code": "600498",
@@ -2659,7 +2295,7 @@
           "ask_vol5": 1887
         },
         "book_diff": -14172655.0,
-        "timestamp": "2026-06-02T21:55:58.741027",
+        "timestamp": "2026-06-02T23:09:25.217119",
         "main_force": 283808263.25,
         "super": 0,
         "large": 0,
@@ -2667,11 +2303,11 @@
         "small": 0,
         "main_ratio": 0,
         "main_pct": 0,
-        "chg_5d": -4.81,
+        "chg_5d": 0,
         "chg_20d": 0,
-        "mf_5d": -536864920.0,
+        "mf_5d": 0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:31"
+        "fund_flow_time": "23:05:45"
       }
     ],
     "晶圆代工/制造": [
@@ -2713,7 +2349,7 @@
           "ask_vol5": 4
         },
         "book_diff": 4824234.0,
-        "timestamp": "2026-06-02T21:55:58.741274",
+        "timestamp": "2026-06-02T23:09:25.217330",
         "main_force": 572080822.02,
         "super": 0,
         "large": 0,
@@ -2721,11 +2357,11 @@
         "small": 0,
         "main_ratio": 0,
         "main_pct": 0,
-        "chg_5d": 1.83,
+        "chg_5d": 0,
         "chg_20d": 0,
-        "mf_5d": -759585570.0,
+        "mf_5d": 0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:31"
+        "fund_flow_time": "23:05:45"
       },
       {
         "code": "600460",
@@ -2765,7 +2401,7 @@
           "ask_vol5": 60
         },
         "book_diff": 13155083.0,
-        "timestamp": "2026-06-02T21:55:58.741631",
+        "timestamp": "2026-06-02T23:09:25.217674",
         "main_force": -67397950.84,
         "super": 0,
         "large": 0,
@@ -2773,11 +2409,11 @@
         "small": 0,
         "main_ratio": 0,
         "main_pct": 0,
-        "chg_5d": -2.57,
+        "chg_5d": 0,
         "chg_20d": 0,
-        "mf_5d": 137054475.0,
+        "mf_5d": 0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:31"
+        "fund_flow_time": "23:05:45"
       },
       {
         "code": "688469",
@@ -2817,7 +2453,7 @@
           "ask_vol5": 1321
         },
         "book_diff": 3196089.0,
-        "timestamp": "2026-06-02T21:55:58.741385",
+        "timestamp": "2026-06-02T23:09:25.217440",
         "main_force": 46692416.42,
         "super": 0,
         "large": 0,
@@ -2825,11 +2461,11 @@
         "small": 0,
         "main_ratio": 0,
         "main_pct": 0,
-        "chg_5d": -7.11,
+        "chg_5d": 0,
         "chg_20d": 0,
-        "mf_5d": -32824376.0,
+        "mf_5d": 0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:31"
+        "fund_flow_time": "23:05:45"
       },
       {
         "code": "688981",
@@ -2869,7 +2505,7 @@
           "ask_vol5": 8
         },
         "book_diff": 35123907.0,
-        "timestamp": "2026-06-02T21:55:58.741160",
+        "timestamp": "2026-06-02T23:09:25.217225",
         "main_force": -241947029.36,
         "super": 0,
         "large": 0,
@@ -2881,7 +2517,7 @@
         "chg_20d": 0,
         "mf_5d": 0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:31"
+        "fund_flow_time": "23:05:45"
       },
       {
         "code": "688249",
@@ -2921,7 +2557,7 @@
           "ask_vol5": 24
         },
         "book_diff": -2279445.0,
-        "timestamp": "2026-06-02T21:55:58.741494",
+        "timestamp": "2026-06-02T23:09:25.217553",
         "main_force": -778005.3,
         "super": 0,
         "large": 0,
@@ -2929,11 +2565,11 @@
         "small": 0,
         "main_ratio": 0,
         "main_pct": 0,
-        "chg_5d": 1.15,
+        "chg_5d": 0,
         "chg_20d": 0,
-        "mf_5d": 227208908.0,
+        "mf_5d": 0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:31"
+        "fund_flow_time": "23:05:45"
       }
     ],
     "先进封装/测试": [
@@ -2975,7 +2611,7 @@
           "ask_vol5": 210
         },
         "book_diff": 38241948.0,
-        "timestamp": "2026-06-02T21:55:58.741856",
+        "timestamp": "2026-06-02T23:09:25.282734",
         "main_force": 615201798.67,
         "super": 0,
         "large": 0,
@@ -2987,7 +2623,7 @@
         "chg_20d": 0,
         "mf_5d": -3311682270.0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:31"
+        "fund_flow_time": "23:05:50"
       },
       {
         "code": "600584",
@@ -3027,7 +2663,7 @@
           "ask_vol5": 332
         },
         "book_diff": 46533019.0,
-        "timestamp": "2026-06-02T21:55:58.741746",
+        "timestamp": "2026-06-02T23:09:25.217783",
         "main_force": -527020657.16,
         "super": 0,
         "large": 0,
@@ -3035,11 +2671,11 @@
         "small": 0,
         "main_ratio": 0,
         "main_pct": 0,
-        "chg_5d": -14.56,
+        "chg_5d": 0,
         "chg_20d": 0,
-        "mf_5d": -7752627600.0,
+        "mf_5d": 0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:31"
+        "fund_flow_time": "23:05:45"
       },
       {
         "code": "688372",
@@ -3079,7 +2715,7 @@
           "ask_vol5": 6
         },
         "book_diff": -712817.0,
-        "timestamp": "2026-06-02T21:55:58.742191",
+        "timestamp": "2026-06-02T23:09:25.283102",
         "main_force": -119115384.73,
         "super": 0,
         "large": 0,
@@ -3091,7 +2727,7 @@
         "chg_20d": 0,
         "mf_5d": -391711462.0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:36"
+        "fund_flow_time": "23:05:50"
       },
       {
         "code": "002185",
@@ -3131,7 +2767,7 @@
           "ask_vol5": 1096
         },
         "book_diff": 61936033.0,
-        "timestamp": "2026-06-02T21:55:58.741970",
+        "timestamp": "2026-06-02T23:09:25.282873",
         "main_force": -99540128.96,
         "super": 0,
         "large": 0,
@@ -3139,11 +2775,11 @@
         "small": 0,
         "main_ratio": 0,
         "main_pct": 0,
-        "chg_5d": 0,
+        "chg_5d": -1.82,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": -4683830960.0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:31"
+        "fund_flow_time": "23:05:50"
       },
       {
         "code": "688403",
@@ -3183,7 +2819,7 @@
           "ask_vol5": 18
         },
         "book_diff": -305781.0,
-        "timestamp": "2026-06-02T21:55:58.742083",
+        "timestamp": "2026-06-02T23:09:25.282989",
         "main_force": 8486422.93,
         "super": 0,
         "large": 0,
@@ -3195,7 +2831,7 @@
         "chg_20d": 0,
         "mf_5d": -44011690.0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:31"
+        "fund_flow_time": "23:05:50"
       }
     ],
     "半导体设备": [
@@ -3237,7 +2873,7 @@
           "ask_vol5": 3
         },
         "book_diff": 1462187.0,
-        "timestamp": "2026-06-02T21:55:58.742636",
+        "timestamp": "2026-06-02T23:09:25.283552",
         "main_force": 149886776.26,
         "super": 0,
         "large": 0,
@@ -3249,7 +2885,7 @@
         "chg_20d": 0,
         "mf_5d": -158601021.0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:36"
+        "fund_flow_time": "23:05:50"
       },
       {
         "code": "688012",
@@ -3289,7 +2925,7 @@
           "ask_vol5": 2
         },
         "book_diff": 451602.0,
-        "timestamp": "2026-06-02T21:55:58.742405",
+        "timestamp": "2026-06-02T23:09:25.283322",
         "main_force": -180902004.64,
         "super": 0,
         "large": 0,
@@ -3301,7 +2937,7 @@
         "chg_20d": 0,
         "mf_5d": -2525987820.0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:36"
+        "fund_flow_time": "23:05:50"
       },
       {
         "code": "002371",
@@ -3341,7 +2977,7 @@
           "ask_vol5": 38
         },
         "book_diff": 18866770.0,
-        "timestamp": "2026-06-02T21:55:58.742298",
+        "timestamp": "2026-06-02T23:09:25.283212",
         "main_force": 218184933.64,
         "super": 0,
         "large": 0,
@@ -3353,7 +2989,7 @@
         "chg_20d": 0,
         "mf_5d": -1893827610.0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:36"
+        "fund_flow_time": "23:05:50"
       },
       {
         "code": "688072",
@@ -3393,7 +3029,7 @@
           "ask_vol5": 2
         },
         "book_diff": 12753601.0,
-        "timestamp": "2026-06-02T21:55:58.742511",
+        "timestamp": "2026-06-02T23:09:25.283431",
         "main_force": 66885584.4,
         "super": 0,
         "large": 0,
@@ -3405,7 +3041,7 @@
         "chg_20d": 0,
         "mf_5d": -1687829060.0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:36"
+        "fund_flow_time": "23:05:50"
       },
       {
         "code": "300604",
@@ -3445,7 +3081,7 @@
           "ask_vol5": 1
         },
         "book_diff": 664210.0,
-        "timestamp": "2026-06-02T21:55:58.742855",
+        "timestamp": "2026-06-02T23:09:25.283789",
         "main_force": 61895506.97,
         "super": 0,
         "large": 0,
@@ -3457,7 +3093,7 @@
         "chg_20d": 0,
         "mf_5d": -2371429340.0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:36"
+        "fund_flow_time": "23:05:50"
       },
       {
         "code": "688361",
@@ -3497,7 +3133,7 @@
           "ask_vol5": 2
         },
         "book_diff": -471616.0,
-        "timestamp": "2026-06-02T21:55:58.742749",
+        "timestamp": "2026-06-02T23:09:25.283679",
         "main_force": 91884194.56,
         "super": 0,
         "large": 0,
@@ -3509,7 +3145,7 @@
         "chg_20d": 0,
         "mf_5d": -442102394.0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:36"
+        "fund_flow_time": "23:05:50"
       }
     ],
     "半导体材料": [
@@ -3551,7 +3187,7 @@
           "ask_vol5": 11
         },
         "book_diff": -418749.0,
-        "timestamp": "2026-06-02T21:55:58.742966",
+        "timestamp": "2026-06-02T23:09:25.283895",
         "main_force": -165196525.64,
         "super": 0,
         "large": 0,
@@ -3563,7 +3199,7 @@
         "chg_20d": 0,
         "mf_5d": -664408000.0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:36"
+        "fund_flow_time": "23:05:54"
       },
       {
         "code": "300054",
@@ -3603,19 +3239,19 @@
           "ask_vol5": 34
         },
         "book_diff": 767644.0,
-        "timestamp": "2026-06-02T21:55:58.743294",
-        "main_force": 54681827.73,
+        "timestamp": "2026-06-02T23:09:25.284212",
+        "main_force": -8460193.04,
         "super": 0,
         "large": 0,
         "medium": 0,
         "small": 0,
-        "main_ratio": 277.57,
-        "main_pct": 2.7757,
+        "main_ratio": 0,
+        "main_pct": 0,
         "chg_5d": -15.22,
         "chg_20d": 0,
-        "mf_5d": -637310510.0,
+        "mf_5d": -1018805790.0,
         "has_fund_flow": true,
-        "fund_flow_time": "18:15:44"
+        "fund_flow_time": "23:05:54"
       },
       {
         "code": "688019",
@@ -3655,7 +3291,7 @@
           "ask_vol5": 2
         },
         "book_diff": 739750.0,
-        "timestamp": "2026-06-02T21:55:58.743185",
+        "timestamp": "2026-06-02T23:09:25.284106",
         "main_force": 87001682.71,
         "super": 0,
         "large": 0,
@@ -3667,7 +3303,7 @@
         "chg_20d": 0,
         "mf_5d": -534744684.0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:36"
+        "fund_flow_time": "23:05:54"
       },
       {
         "code": "300655",
@@ -3707,7 +3343,7 @@
           "ask_vol5": 265
         },
         "book_diff": -1178451.0,
-        "timestamp": "2026-06-02T21:55:58.743504",
+        "timestamp": "2026-06-02T23:09:25.284430",
         "main_force": -31120147.97,
         "super": 0,
         "large": 0,
@@ -3719,7 +3355,7 @@
         "chg_20d": 0,
         "mf_5d": -445337813.0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:40"
+        "fund_flow_time": "23:05:54"
       },
       {
         "code": "688268",
@@ -3759,19 +3395,19 @@
           "ask_vol5": 18
         },
         "book_diff": -1278364.0,
-        "timestamp": "2026-06-02T21:55:58.743399",
-        "main_force": 10105968.48,
+        "timestamp": "2026-06-02T23:09:25.284323",
+        "main_force": -4216230.14,
         "super": 0,
         "large": 0,
         "medium": 0,
         "small": 0,
-        "main_ratio": 100.42999999999999,
-        "main_pct": 1.0043,
+        "main_ratio": 0,
+        "main_pct": 0,
         "chg_5d": -7.03,
         "chg_20d": 0,
-        "mf_5d": -142279953.0,
+        "mf_5d": -383606544.0,
         "has_fund_flow": true,
-        "fund_flow_time": "18:15:44"
+        "fund_flow_time": "23:05:54"
       },
       {
         "code": "688126",
@@ -3811,7 +3447,7 @@
           "ask_vol5": 158
         },
         "book_diff": 8930850.0,
-        "timestamp": "2026-06-02T21:55:58.743074",
+        "timestamp": "2026-06-02T23:09:25.284001",
         "main_force": -308032138.21,
         "super": 0,
         "large": 0,
@@ -3823,7 +3459,7 @@
         "chg_20d": 0,
         "mf_5d": 101415200.0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:36"
+        "fund_flow_time": "23:05:54"
       }
     ],
     "EDA/IP": [
@@ -3865,7 +3501,7 @@
           "ask_vol5": 2
         },
         "book_diff": 1152767.0,
-        "timestamp": "2026-06-02T21:55:58.743879",
+        "timestamp": "2026-06-02T23:09:25.284774",
         "main_force": 394342598.51,
         "super": 0,
         "large": 0,
@@ -3917,7 +3553,7 @@
           "ask_vol5": 68
         },
         "book_diff": -23027.0,
-        "timestamp": "2026-06-02T21:55:58.743763",
+        "timestamp": "2026-06-02T23:09:25.284662",
         "main_force": 4169927.94,
         "super": 0,
         "large": 0,
@@ -3929,7 +3565,7 @@
         "chg_20d": 0,
         "mf_5d": -165016410.0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:40"
+        "fund_flow_time": "23:05:54"
       },
       {
         "code": "301269",
@@ -3969,7 +3605,7 @@
           "ask_vol5": 19
         },
         "book_diff": -1242973.0,
-        "timestamp": "2026-06-02T21:55:58.743629",
+        "timestamp": "2026-06-02T23:09:25.284535",
         "main_force": 52382699.23,
         "super": 0,
         "large": 0,
@@ -3981,7 +3617,7 @@
         "chg_20d": 0,
         "mf_5d": -1046963180.0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:40"
+        "fund_flow_time": "23:05:54"
       },
       {
         "code": "301095",
@@ -4021,19 +3657,19 @@
           "ask_vol5": 1
         },
         "book_diff": 263374.0,
-        "timestamp": "2026-06-02T21:55:58.743987",
-        "main_force": 2648308.0,
+        "timestamp": "2026-06-02T23:09:25.284884",
+        "main_force": -20054735.4,
         "super": 0,
         "large": 0,
         "medium": 0,
         "small": 0,
-        "main_ratio": 47.3,
-        "main_pct": 0.473,
+        "main_ratio": 0,
+        "main_pct": 0,
         "chg_5d": -15.7,
         "chg_20d": 0,
-        "mf_5d": -44150584.0,
+        "mf_5d": -295804390.0,
         "has_fund_flow": true,
-        "fund_flow_time": "18:15:44"
+        "fund_flow_time": "23:05:54"
       }
     ],
     "核心零部件": [
@@ -4075,7 +3711,7 @@
           "ask_vol5": 0
         },
         "book_diff": 124763470.0,
-        "timestamp": "2026-06-02T21:55:58.744658",
+        "timestamp": "2026-06-02T23:09:25.285528",
         "main_force": 468812575.41,
         "super": 0,
         "large": 0,
@@ -4083,11 +3719,11 @@
         "small": 0,
         "main_ratio": 0,
         "main_pct": 0,
-        "chg_5d": 0,
+        "chg_5d": -8.9,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 85833407.0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:45"
+        "fund_flow_time": "23:06:00"
       },
       {
         "code": "688017",
@@ -4127,7 +3763,7 @@
           "ask_vol5": 2
         },
         "book_diff": 5415351.0,
-        "timestamp": "2026-06-02T21:55:58.744093",
+        "timestamp": "2026-06-02T23:09:25.284992",
         "main_force": 114695644.53,
         "super": 0,
         "large": 0,
@@ -4139,7 +3775,7 @@
         "chg_20d": 0,
         "mf_5d": -2030994890.0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:40"
+        "fund_flow_time": "23:06:00"
       },
       {
         "code": "603728",
@@ -4179,7 +3815,7 @@
           "ask_vol5": 18
         },
         "book_diff": 623969.0,
-        "timestamp": "2026-06-02T21:55:58.744314",
+        "timestamp": "2026-06-02T23:09:25.285202",
         "main_force": -3649217.35,
         "super": 0,
         "large": 0,
@@ -4191,7 +3827,7 @@
         "chg_20d": 0,
         "mf_5d": -189947954.0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:40"
+        "fund_flow_time": "23:06:00"
       },
       {
         "code": "603662",
@@ -4231,7 +3867,7 @@
           "ask_vol5": 46
         },
         "book_diff": -2695114.0,
-        "timestamp": "2026-06-02T21:55:58.744421",
+        "timestamp": "2026-06-02T23:09:25.285312",
         "main_force": -2329869.06,
         "super": 0,
         "large": 0,
@@ -4239,11 +3875,11 @@
         "small": 0,
         "main_ratio": 0,
         "main_pct": 0,
-        "chg_5d": 0,
+        "chg_5d": -12.13,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": -171274506.5,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:45"
+        "fund_flow_time": "23:06:00"
       },
       {
         "code": "002472",
@@ -4283,19 +3919,19 @@
           "ask_vol5": 20
         },
         "book_diff": 1738913.0,
-        "timestamp": "2026-06-02T21:55:58.744204",
-        "main_force": 20258006.03,
+        "timestamp": "2026-06-02T23:09:25.285097",
+        "main_force": -15415955.57,
         "super": 0,
         "large": 0,
         "medium": 0,
         "small": 0,
-        "main_ratio": 158.35,
-        "main_pct": 1.5835,
+        "main_ratio": 0,
+        "main_pct": 0,
         "chg_5d": -10.6,
         "chg_20d": 0,
-        "mf_5d": -201702830.0,
+        "mf_5d": -480701499.0,
         "has_fund_flow": true,
-        "fund_flow_time": "18:15:44"
+        "fund_flow_time": "23:06:00"
       },
       {
         "code": "603667",
@@ -4335,7 +3971,7 @@
           "ask_vol5": 106
         },
         "book_diff": 20662543.0,
-        "timestamp": "2026-06-02T21:55:58.744526",
+        "timestamp": "2026-06-02T23:09:25.285423",
         "main_force": -20928640.8,
         "super": 0,
         "large": 0,
@@ -4343,11 +3979,11 @@
         "small": 0,
         "main_ratio": 0,
         "main_pct": 0,
-        "chg_5d": 0,
+        "chg_5d": -20.4,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": -1110938579.0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:45"
+        "fund_flow_time": "23:06:00"
       }
     ],
     "PCB赛道": [
@@ -4389,7 +4025,7 @@
           "ask_vol5": 4
         },
         "book_diff": 23369313.0,
-        "timestamp": "2026-06-02T21:55:58.745118",
+        "timestamp": "2026-06-02T23:09:25.285981",
         "main_force": 589981326.77,
         "super": 0,
         "large": 0,
@@ -4397,11 +4033,11 @@
         "small": 0,
         "main_ratio": 0,
         "main_pct": 0,
-        "chg_5d": 0,
+        "chg_5d": -3.54,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 104094340.0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:45"
+        "fund_flow_time": "23:06:00"
       },
       {
         "code": "002463",
@@ -4441,7 +4077,7 @@
           "ask_vol5": 55
         },
         "book_diff": 11158114.0,
-        "timestamp": "2026-06-02T21:55:58.744780",
+        "timestamp": "2026-06-02T23:09:25.285646",
         "main_force": 821478697.88,
         "super": 0,
         "large": 0,
@@ -4449,11 +4085,11 @@
         "small": 0,
         "main_ratio": 0,
         "main_pct": 0,
-        "chg_5d": 0,
+        "chg_5d": -1.77,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": -1423033070.0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:45"
+        "fund_flow_time": "23:06:00"
       },
       {
         "code": "603228",
@@ -4493,7 +4129,7 @@
           "ask_vol5": 96
         },
         "book_diff": -26922651.0,
-        "timestamp": "2026-06-02T21:55:58.745228",
+        "timestamp": "2026-06-02T23:09:25.286087",
         "main_force": -127832862.43,
         "super": 0,
         "large": 0,
@@ -4505,7 +4141,7 @@
         "chg_20d": 0,
         "mf_5d": 0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:45"
+        "fund_flow_time": "23:06:04"
       },
       {
         "code": "002916",
@@ -4545,7 +4181,7 @@
           "ask_vol5": 20
         },
         "book_diff": 16741832.0,
-        "timestamp": "2026-06-02T21:55:58.744900",
+        "timestamp": "2026-06-02T23:09:25.285762",
         "main_force": 156776499.83,
         "super": 0,
         "large": 0,
@@ -4553,11 +4189,11 @@
         "small": 0,
         "main_ratio": 0,
         "main_pct": 0,
-        "chg_5d": 0,
+        "chg_5d": -4.39,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": -604018500.0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:45"
+        "fund_flow_time": "23:06:00"
       },
       {
         "code": "600183",
@@ -4597,7 +4233,7 @@
           "ask_vol5": 15
         },
         "book_diff": 11734431.0,
-        "timestamp": "2026-06-02T21:55:58.745442",
+        "timestamp": "2026-06-02T23:09:25.286303",
         "main_force": 240594568.46,
         "super": 0,
         "large": 0,
@@ -4609,7 +4245,7 @@
         "chg_20d": 0,
         "mf_5d": 0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:45"
+        "fund_flow_time": "23:06:04"
       },
       {
         "code": "300476",
@@ -4649,7 +4285,7 @@
           "ask_vol5": 24
         },
         "book_diff": -40708119.0,
-        "timestamp": "2026-06-02T21:55:58.745008",
+        "timestamp": "2026-06-02T23:09:25.285870",
         "main_force": -270644899.69,
         "super": 0,
         "large": 0,
@@ -4657,11 +4293,11 @@
         "small": 0,
         "main_ratio": 0,
         "main_pct": 0,
-        "chg_5d": 0,
+        "chg_5d": -11.16,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": -6877904210.0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:45"
+        "fund_flow_time": "23:06:00"
       },
       {
         "code": "301377",
@@ -4701,7 +4337,7 @@
           "ask_vol5": 3
         },
         "book_diff": -69008.0,
-        "timestamp": "2026-06-02T21:55:58.745334",
+        "timestamp": "2026-06-02T23:09:25.286192",
         "main_force": -18801307.07,
         "super": 0,
         "large": 0,
@@ -4713,7 +4349,7 @@
         "chg_20d": 0,
         "mf_5d": 0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:45"
+        "fund_flow_time": "23:06:04"
       }
     ],
     "MLCC赛道": [
@@ -4755,7 +4391,7 @@
           "ask_vol5": 0
         },
         "book_diff": 194857630.0,
-        "timestamp": "2026-06-02T21:55:58.745786",
+        "timestamp": "2026-06-02T23:09:25.286636",
         "main_force": 68655669.78,
         "super": 0,
         "large": 0,
@@ -4767,7 +4403,7 @@
         "chg_20d": 0,
         "mf_5d": 0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:50"
+        "fund_flow_time": "23:06:04"
       },
       {
         "code": "603267",
@@ -4807,7 +4443,7 @@
           "ask_vol5": 0
         },
         "book_diff": 63286028.0,
-        "timestamp": "2026-06-02T21:55:58.745893",
+        "timestamp": "2026-06-02T23:09:25.286755",
         "main_force": 211199503.7,
         "super": 0,
         "large": 0,
@@ -4819,7 +4455,7 @@
         "chg_20d": 0,
         "mf_5d": 0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:50"
+        "fund_flow_time": "23:06:04"
       },
       {
         "code": "000636",
@@ -4859,7 +4495,7 @@
           "ask_vol5": 115
         },
         "book_diff": 18083785.0,
-        "timestamp": "2026-06-02T21:55:58.745548",
+        "timestamp": "2026-06-02T23:09:25.286409",
         "main_force": 153782831.01,
         "super": 0,
         "large": 0,
@@ -4871,7 +4507,7 @@
         "chg_20d": 0,
         "mf_5d": 0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:50"
+        "fund_flow_time": "23:06:04"
       },
       {
         "code": "300726",
@@ -4911,7 +4547,7 @@
           "ask_vol5": 12
         },
         "book_diff": 1061362.0,
-        "timestamp": "2026-06-02T21:55:58.746002",
+        "timestamp": "2026-06-02T23:09:25.286866",
         "main_force": -26982969.14,
         "super": 0,
         "large": 0,
@@ -4923,7 +4559,7 @@
         "chg_20d": 0,
         "mf_5d": 0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:50"
+        "fund_flow_time": "23:06:04"
       },
       {
         "code": "300408",
@@ -4963,7 +4599,7 @@
           "ask_vol5": 7
         },
         "book_diff": -323655.0,
-        "timestamp": "2026-06-02T21:55:58.745669",
+        "timestamp": "2026-06-02T23:09:25.286517",
         "main_force": 362549575.22,
         "super": 0,
         "large": 0,
@@ -4975,62 +4611,10 @@
         "chg_20d": 0,
         "mf_5d": 0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:50"
+        "fund_flow_time": "23:06:04"
       }
     ],
     "火箭+地面设备+材料": [
-      {
-        "code": "688387",
-        "name": "信科移动",
-        "sector": "火箭+地面设备+材料",
-        "price": 15.72,
-        "open": 15.5,
-        "high": 15.99,
-        "low": 14.91,
-        "last_close": 15.27,
-        "volume": 615306,
-        "amount": 947427904.0,
-        "vwap": 15.4,
-        "change_pct": 2.95,
-        "bids": {
-          "bid1": 15.71,
-          "bid_vol1": 96,
-          "bid2": 15.700000000000001,
-          "bid_vol2": 197,
-          "bid3": 15.69,
-          "bid_vol3": 3,
-          "bid4": 15.68,
-          "bid_vol4": 4,
-          "bid5": 15.67,
-          "bid_vol5": 4
-        },
-        "asks": {
-          "ask1": 15.72,
-          "ask_vol1": 562,
-          "ask2": 15.73,
-          "ask_vol2": 419,
-          "ask3": 15.74,
-          "ask_vol3": 592,
-          "ask4": 15.75,
-          "ask_vol4": 695,
-          "ask5": 15.76,
-          "ask_vol5": 1013
-        },
-        "book_diff": -4688119.0,
-        "timestamp": "2026-06-02T21:55:58.746428",
-        "main_force": 52480313.84,
-        "super": 0,
-        "large": 0,
-        "medium": 0,
-        "small": 0,
-        "main_ratio": 0,
-        "main_pct": 0,
-        "chg_5d": 0,
-        "chg_20d": 0,
-        "mf_5d": 0,
-        "has_fund_flow": true,
-        "fund_flow_time": "21:56:50"
-      },
       {
         "code": "002465",
         "name": "海格通信",
@@ -5069,7 +4653,7 @@
           "ask_vol5": 856
         },
         "book_diff": -23820669.0,
-        "timestamp": "2026-06-02T21:55:58.746322",
+        "timestamp": "2026-06-02T23:09:25.286974",
         "main_force": 43200335.16,
         "super": 0,
         "large": 0,
@@ -5081,7 +4665,7 @@
         "chg_20d": 0,
         "mf_5d": 0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:50"
+        "fund_flow_time": "23:06:09"
       },
       {
         "code": "002297",
@@ -5121,112 +4705,8 @@
           "ask_vol5": 1692
         },
         "book_diff": -681072.0,
-        "timestamp": "2026-06-02T21:55:58.746537",
+        "timestamp": "2026-06-02T23:09:25.287084",
         "main_force": -53732096.01,
-        "super": 0,
-        "large": 0,
-        "medium": 0,
-        "small": 0,
-        "main_ratio": 0,
-        "main_pct": 0,
-        "chg_5d": 0,
-        "chg_20d": 0,
-        "mf_5d": 0,
-        "has_fund_flow": true,
-        "fund_flow_time": "21:56:50"
-      },
-      {
-        "code": "600456",
-        "name": "宝钛股份",
-        "sector": "火箭+地面设备+材料",
-        "price": 32.03,
-        "open": 31.94,
-        "high": 32.18,
-        "low": 31.400000000000002,
-        "last_close": 31.93,
-        "volume": 64647,
-        "amount": 205462528.0,
-        "vwap": 31.78,
-        "change_pct": 0.31,
-        "bids": {
-          "bid1": 32.03,
-          "bid_vol1": 32,
-          "bid2": 32.02,
-          "bid_vol2": 27,
-          "bid3": 32.01,
-          "bid_vol3": 135,
-          "bid4": 32.0,
-          "bid_vol4": 105,
-          "bid5": 31.990000000000002,
-          "bid_vol5": 60
-        },
-        "asks": {
-          "ask1": 32.04,
-          "ask_vol1": 540,
-          "ask2": 32.05,
-          "ask_vol2": 255,
-          "ask3": 32.06,
-          "ask_vol3": 100,
-          "ask4": 32.07,
-          "ask_vol4": 110,
-          "ask5": 32.08,
-          "ask_vol5": 5
-        },
-        "book_diff": -2087820.0,
-        "timestamp": "2026-06-02T21:55:58.746214",
-        "main_force": 2705713.72,
-        "super": 0,
-        "large": 0,
-        "medium": 0,
-        "small": 0,
-        "main_ratio": 0,
-        "main_pct": 0,
-        "chg_5d": 0,
-        "chg_20d": 0,
-        "mf_5d": 0,
-        "has_fund_flow": true,
-        "fund_flow_time": "21:56:50"
-      },
-      {
-        "code": "003009",
-        "name": "中天火箭",
-        "sector": "火箭+地面设备+材料",
-        "price": 50.33,
-        "open": 50.85,
-        "high": 50.94,
-        "low": 49.120000000000005,
-        "last_close": 50.83,
-        "volume": 23263,
-        "amount": 116372664.0,
-        "vwap": 50.02,
-        "change_pct": -0.98,
-        "bids": {
-          "bid1": 50.33,
-          "bid_vol1": 12,
-          "bid2": 50.32,
-          "bid_vol2": 11,
-          "bid3": 50.31,
-          "bid_vol3": 72,
-          "bid4": 50.300000000000004,
-          "bid_vol4": 78,
-          "bid5": 50.29,
-          "bid_vol5": 1
-        },
-        "asks": {
-          "ask1": 50.35,
-          "ask_vol1": 79,
-          "ask2": 50.36,
-          "ask_vol2": 20,
-          "ask3": 50.370000000000005,
-          "ask_vol3": 44,
-          "ask4": 50.38,
-          "ask_vol4": 2,
-          "ask5": 50.39,
-          "ask_vol5": 8
-        },
-        "book_diff": 104848.0,
-        "timestamp": "2026-06-02T21:55:58.746108",
-        "main_force": -1786685.5,
         "super": 0,
         "large": 0,
         "medium": 0,
@@ -5279,7 +4759,7 @@
           "ask_vol5": 244
         },
         "book_diff": -2474722.0,
-        "timestamp": "2026-06-02T21:55:58.809441",
+        "timestamp": "2026-06-02T23:09:25.287299",
         "main_force": -102688.44,
         "super": 0,
         "large": 0,
@@ -5287,63 +4767,11 @@
         "small": 0,
         "main_ratio": 0,
         "main_pct": 0,
-        "chg_5d": 5.99,
+        "chg_5d": 0,
         "chg_20d": 0,
-        "mf_5d": -205970508.0,
+        "mf_5d": 0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:54"
-      },
-      {
-        "code": "002167",
-        "name": "东方锆业",
-        "sector": "正负极材料+电解质",
-        "price": 13.39,
-        "open": 13.040000000000001,
-        "high": 13.52,
-        "low": 12.8,
-        "last_close": 13.01,
-        "volume": 419277,
-        "amount": 553076672.0,
-        "vwap": 13.19,
-        "change_pct": 2.92,
-        "bids": {
-          "bid1": 13.38,
-          "bid_vol1": 925,
-          "bid2": 13.370000000000001,
-          "bid_vol2": 1661,
-          "bid3": 13.36,
-          "bid_vol3": 1238,
-          "bid4": 13.35,
-          "bid_vol4": 474,
-          "bid5": 13.34,
-          "bid_vol5": 1332
-        },
-        "asks": {
-          "ask1": 13.39,
-          "ask_vol1": 713,
-          "ask2": 13.4,
-          "ask_vol2": 995,
-          "ask3": 13.41,
-          "ask_vol3": 227,
-          "ask4": 13.42,
-          "ask_vol4": 782,
-          "ask5": 13.43,
-          "ask_vol5": 235
-        },
-        "book_diff": 3564590.0,
-        "timestamp": "2026-06-02T21:55:58.809323",
-        "main_force": 22748117.22,
-        "super": 0,
-        "large": 0,
-        "medium": 0,
-        "small": 0,
-        "main_ratio": 0,
-        "main_pct": 0,
-        "chg_5d": 3.0,
-        "chg_20d": 0,
-        "mf_5d": -52703692.0,
-        "has_fund_flow": true,
-        "fund_flow_time": "21:56:54"
+        "fund_flow_time": "23:06:09"
       },
       {
         "code": "300073",
@@ -5383,7 +4811,7 @@
           "ask_vol5": 22
         },
         "book_diff": 1528147.0,
-        "timestamp": "2026-06-02T21:55:58.809079",
+        "timestamp": "2026-06-02T23:09:25.287194",
         "main_force": -59429353.0,
         "super": 0,
         "large": 0,
@@ -5391,325 +4819,11 @@
         "small": 0,
         "main_ratio": 0,
         "main_pct": 0,
-        "chg_5d": -6.24,
+        "chg_5d": 0,
         "chg_20d": 0,
-        "mf_5d": -165882588.0,
+        "mf_5d": 0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:54"
-      },
-      {
-        "code": "002882",
-        "name": "金龙羽",
-        "sector": "正负极材料+电解质",
-        "price": 22.3,
-        "open": 22.94,
-        "high": 22.97,
-        "low": 22.1,
-        "last_close": 22.95,
-        "volume": 29599,
-        "amount": 66167400.0,
-        "vwap": 22.35,
-        "change_pct": -2.83,
-        "bids": {
-          "bid1": 22.3,
-          "bid_vol1": 210,
-          "bid2": 22.29,
-          "bid_vol2": 10,
-          "bid3": 22.28,
-          "bid_vol3": 13,
-          "bid4": 22.27,
-          "bid_vol4": 56,
-          "bid5": 22.26,
-          "bid_vol5": 42
-        },
-        "asks": {
-          "ask1": 22.31,
-          "ask_vol1": 35,
-          "ask2": 22.32,
-          "ask_vol2": 80,
-          "ask3": 22.330000000000002,
-          "ask_vol3": 37,
-          "ask4": 22.34,
-          "ask_vol4": 55,
-          "ask5": 22.35,
-          "ask_vol5": 22
-        },
-        "book_diff": 226452.0,
-        "timestamp": "2026-06-02T21:55:58.809550",
-        "main_force": -1496344.28,
-        "super": 0,
-        "large": 0,
-        "medium": 0,
-        "small": 0,
-        "main_ratio": 0,
-        "main_pct": 0,
-        "chg_5d": -5.35,
-        "chg_20d": 0,
-        "mf_5d": -8859739.3,
-        "has_fund_flow": true,
-        "fund_flow_time": "21:56:54"
-      },
-      {
-        "code": "688005",
-        "name": "容百科技",
-        "sector": "正负极材料+电解质",
-        "price": 31.740000000000002,
-        "open": 32.94,
-        "high": 33.22,
-        "low": 31.54,
-        "last_close": 32.88,
-        "volume": 223449,
-        "amount": 717144704.0,
-        "vwap": 32.09,
-        "change_pct": -3.47,
-        "bids": {
-          "bid1": 31.73,
-          "bid_vol1": 353,
-          "bid2": 31.720000000000002,
-          "bid_vol2": 55,
-          "bid3": 31.71,
-          "bid_vol3": 112,
-          "bid4": 31.7,
-          "bid_vol4": 221,
-          "bid5": 31.69,
-          "bid_vol5": 158
-        },
-        "asks": {
-          "ask1": 31.740000000000002,
-          "ask_vol1": 26,
-          "ask2": 31.75,
-          "ask_vol2": 54,
-          "ask3": 31.76,
-          "ask_vol3": 92,
-          "ask4": 31.77,
-          "ask_vol4": 71,
-          "ask5": 31.78,
-          "ask_vol5": 49
-        },
-        "book_diff": 1923498.0,
-        "timestamp": "2026-06-02T21:55:58.809210",
-        "main_force": -10934758.96,
-        "super": 0,
-        "large": 0,
-        "medium": 0,
-        "small": 0,
-        "main_ratio": 0,
-        "main_pct": 0,
-        "chg_5d": -3.32,
-        "chg_20d": 0,
-        "mf_5d": -38983542.0,
-        "has_fund_flow": true,
-        "fund_flow_time": "21:56:54"
-      }
-    ],
-    "舰船+军工信息化": [
-      {
-        "code": "000733",
-        "name": "振华科技",
-        "sector": "舰船+军工信息化",
-        "price": 54.1,
-        "open": 50.9,
-        "high": 54.49,
-        "low": 49.800000000000004,
-        "last_close": 50.870000000000005,
-        "volume": 543014,
-        "amount": 2886948352.0,
-        "vwap": 53.17,
-        "change_pct": 6.35,
-        "bids": {
-          "bid1": 54.1,
-          "bid_vol1": 1056,
-          "bid2": 54.09,
-          "bid_vol2": 219,
-          "bid3": 54.08,
-          "bid_vol3": 151,
-          "bid4": 54.07,
-          "bid_vol4": 191,
-          "bid5": 54.06,
-          "bid_vol5": 117
-        },
-        "asks": {
-          "ask1": 54.11,
-          "ask_vol1": 68,
-          "ask2": 54.120000000000005,
-          "ask_vol2": 39,
-          "ask3": 54.13,
-          "ask_vol3": 233,
-          "ask4": 54.14,
-          "ask_vol4": 180,
-          "ask5": 54.15,
-          "ask_vol5": 251
-        },
-        "book_diff": 5205448.0,
-        "timestamp": "2026-06-02T21:55:58.809821",
-        "main_force": 159422250.99,
-        "super": 0,
-        "large": 0,
-        "medium": 0,
-        "small": 0,
-        "main_ratio": 0,
-        "main_pct": 0,
-        "chg_5d": 7.47,
-        "chg_20d": 0,
-        "mf_5d": 79007490.0,
-        "has_fund_flow": true,
-        "fund_flow_time": "21:56:54"
-      },
-      {
-        "code": "600118",
-        "name": "中国卫星",
-        "sector": "舰船+军工信息化",
-        "price": 76.4,
-        "open": 77.2,
-        "high": 77.38,
-        "low": 73.01,
-        "last_close": 76.60000000000001,
-        "volume": 352756,
-        "amount": 2659594496.0,
-        "vwap": 75.39,
-        "change_pct": -0.26,
-        "bids": {
-          "bid1": 76.39,
-          "bid_vol1": 880,
-          "bid2": 76.38,
-          "bid_vol2": 628,
-          "bid3": 76.37,
-          "bid_vol3": 92,
-          "bid4": 76.36,
-          "bid_vol4": 98,
-          "bid5": 76.35000000000001,
-          "bid_vol5": 47
-        },
-        "asks": {
-          "ask1": 76.4,
-          "ask_vol1": 42,
-          "ask2": 76.41,
-          "ask_vol2": 334,
-          "ask3": 76.42,
-          "ask_vol3": 40,
-          "ask4": 76.43,
-          "ask_vol4": 158,
-          "ask5": 76.44,
-          "ask_vol5": 34
-        },
-        "book_diff": 8682617.0,
-        "timestamp": "2026-06-02T21:55:58.809926",
-        "main_force": -176348831.11,
-        "super": 0,
-        "large": 0,
-        "medium": 0,
-        "small": 0,
-        "main_ratio": 0,
-        "main_pct": 0,
-        "chg_5d": -9.63,
-        "chg_20d": 0,
-        "mf_5d": -1592217593.0,
-        "has_fund_flow": true,
-        "fund_flow_time": "21:56:54"
-      },
-      {
-        "code": "600150",
-        "name": "中国船舶",
-        "sector": "舰船+军工信息化",
-        "price": 36.45,
-        "open": 36.63,
-        "high": 36.74,
-        "low": 35.82,
-        "last_close": 36.74,
-        "volume": 747758,
-        "amount": 2715211008.0,
-        "vwap": 36.31,
-        "change_pct": -0.79,
-        "bids": {
-          "bid1": 36.45,
-          "bid_vol1": 2307,
-          "bid2": 36.44,
-          "bid_vol2": 244,
-          "bid3": 36.43,
-          "bid_vol3": 1316,
-          "bid4": 36.42,
-          "bid_vol4": 508,
-          "bid5": 36.410000000000004,
-          "bid_vol5": 79
-        },
-        "asks": {
-          "ask1": 36.46,
-          "ask_vol1": 292,
-          "ask2": 36.47,
-          "ask_vol2": 187,
-          "ask3": 36.480000000000004,
-          "ask_vol3": 368,
-          "ask4": 36.49,
-          "ask_vol4": 101,
-          "ask5": 36.5,
-          "ask_vol5": 415
-        },
-        "book_diff": 11257730.0,
-        "timestamp": "2026-06-02T21:55:58.809675",
-        "main_force": -160589058.5,
-        "super": 0,
-        "large": 0,
-        "medium": 0,
-        "small": 0,
-        "main_ratio": 0,
-        "main_pct": 0,
-        "chg_5d": -5.79,
-        "chg_20d": 0,
-        "mf_5d": -313292190.0,
-        "has_fund_flow": true,
-        "fund_flow_time": "21:56:54"
-      },
-      {
-        "code": "600316",
-        "name": "洪都航空",
-        "sector": "舰船+军工信息化",
-        "price": 28.55,
-        "open": 29.22,
-        "high": 29.22,
-        "low": 28.26,
-        "last_close": 29.17,
-        "volume": 76816,
-        "amount": 219498944.0,
-        "vwap": 28.57,
-        "change_pct": -2.13,
-        "bids": {
-          "bid1": 28.54,
-          "bid_vol1": 38,
-          "bid2": 28.51,
-          "bid_vol2": 7,
-          "bid3": 28.5,
-          "bid_vol3": 51,
-          "bid4": 28.48,
-          "bid_vol4": 55,
-          "bid5": 28.46,
-          "bid_vol5": 7
-        },
-        "asks": {
-          "ask1": 28.55,
-          "ask_vol1": 193,
-          "ask2": 28.560000000000002,
-          "ask_vol2": 6,
-          "ask3": 28.6,
-          "ask_vol3": 20,
-          "ask4": 28.61,
-          "ask_vol4": 1,
-          "ask5": 28.62,
-          "ask_vol5": 111
-        },
-        "book_diff": -495573.0,
-        "timestamp": "2026-06-02T21:55:58.810033",
-        "main_force": -18556574.0,
-        "super": 0,
-        "large": 0,
-        "medium": 0,
-        "small": 0,
-        "main_ratio": 0,
-        "main_pct": 0,
-        "chg_5d": -5.4,
-        "chg_20d": 0,
-        "mf_5d": -96680069.0,
-        "has_fund_flow": true,
-        "fund_flow_time": "21:56:54"
+        "fund_flow_time": "23:06:09"
       }
     ],
     "储能+逆变器": [
@@ -5751,7 +4865,7 @@
           "ask_vol5": 2
         },
         "book_diff": -1416950.0,
-        "timestamp": "2026-06-02T21:55:58.810138",
+        "timestamp": "2026-06-02T23:09:25.287404",
         "main_force": 79089208.39,
         "super": 0,
         "large": 0,
@@ -5759,63 +4873,11 @@
         "small": 0,
         "main_ratio": 0,
         "main_pct": 0,
-        "chg_5d": -3.51,
+        "chg_5d": 0,
         "chg_20d": 0,
-        "mf_5d": -1568464550.0,
+        "mf_5d": 0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:59"
-      },
-      {
-        "code": "300693",
-        "name": "盛弘股份",
-        "sector": "储能+逆变器",
-        "price": 50.410000000000004,
-        "open": 51.230000000000004,
-        "high": 51.5,
-        "low": 48.21,
-        "last_close": 50.94,
-        "volume": 144984,
-        "amount": 720394752.0,
-        "vwap": 49.69,
-        "change_pct": -1.04,
-        "bids": {
-          "bid1": 50.410000000000004,
-          "bid_vol1": 64,
-          "bid2": 50.4,
-          "bid_vol2": 33,
-          "bid3": 50.39,
-          "bid_vol3": 60,
-          "bid4": 50.38,
-          "bid_vol4": 21,
-          "bid5": 50.370000000000005,
-          "bid_vol5": 2
-        },
-        "asks": {
-          "ask1": 50.42,
-          "ask_vol1": 32,
-          "ask2": 50.43,
-          "ask_vol2": 5,
-          "ask3": 50.44,
-          "ask_vol3": 112,
-          "ask4": 50.45,
-          "ask_vol4": 21,
-          "ask5": 50.47,
-          "ask_vol5": 1
-        },
-        "book_diff": 44677.0,
-        "timestamp": "2026-06-02T21:55:58.810566",
-        "main_force": 15487201.31,
-        "super": 0,
-        "large": 0,
-        "medium": 0,
-        "small": 0,
-        "main_ratio": 0,
-        "main_pct": 0,
-        "chg_5d": -9.01,
-        "chg_20d": 0,
-        "mf_5d": -53889312.0,
-        "has_fund_flow": true,
-        "fund_flow_time": "21:56:59"
+        "fund_flow_time": "23:06:09"
       },
       {
         "code": "605117",
@@ -5855,7 +4917,7 @@
           "ask_vol5": 3
         },
         "book_diff": 2965689.0,
-        "timestamp": "2026-06-02T21:55:58.810462",
+        "timestamp": "2026-06-02T23:09:25.287508",
         "main_force": -130836276.85,
         "super": 0,
         "large": 0,
@@ -5867,111 +4929,7 @@
         "chg_20d": 0,
         "mf_5d": -192748080.0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:59"
-      },
-      {
-        "code": "300827",
-        "name": "上能电气",
-        "sector": "储能+逆变器",
-        "price": 32.33,
-        "open": 33.230000000000004,
-        "high": 33.79,
-        "low": 31.52,
-        "last_close": 33.52,
-        "volume": 186352,
-        "amount": 602566336.0,
-        "vwap": 32.33,
-        "change_pct": -3.55,
-        "bids": {
-          "bid1": 32.32,
-          "bid_vol1": 12,
-          "bid2": 32.31,
-          "bid_vol2": 6,
-          "bid3": 32.3,
-          "bid_vol3": 127,
-          "bid4": 32.28,
-          "bid_vol4": 21,
-          "bid5": 32.27,
-          "bid_vol5": 14
-        },
-        "asks": {
-          "ask1": 32.33,
-          "ask_vol1": 317,
-          "ask2": 32.34,
-          "ask_vol2": 43,
-          "ask3": 32.35,
-          "ask_vol3": 240,
-          "ask4": 32.36,
-          "ask_vol4": 197,
-          "ask5": 32.37,
-          "ask_vol5": 16
-        },
-        "book_diff": -2048261.0,
-        "timestamp": "2026-06-02T21:55:58.810252",
-        "main_force": -46668196.57,
-        "super": 0,
-        "large": 0,
-        "medium": 0,
-        "small": 0,
-        "main_ratio": 0,
-        "main_pct": 0,
-        "chg_5d": -10.89,
-        "chg_20d": 0,
-        "mf_5d": -323931703.0,
-        "has_fund_flow": true,
-        "fund_flow_time": "21:56:59"
-      },
-      {
-        "code": "688063",
-        "name": "派能科技",
-        "sector": "储能+逆变器",
-        "price": 63.480000000000004,
-        "open": 66.41,
-        "high": 66.8,
-        "low": 62.52,
-        "last_close": 66.22,
-        "volume": 104095,
-        "amount": 663147520.0,
-        "vwap": 63.71,
-        "change_pct": -4.14,
-        "bids": {
-          "bid1": 63.47,
-          "bid_vol1": 6,
-          "bid2": 63.46,
-          "bid_vol2": 159,
-          "bid3": 63.45,
-          "bid_vol3": 39,
-          "bid4": 63.440000000000005,
-          "bid_vol4": 22,
-          "bid5": 63.42,
-          "bid_vol5": 170
-        },
-        "asks": {
-          "ask1": 63.480000000000004,
-          "ask_vol1": 4,
-          "ask2": 63.49,
-          "ask_vol2": 2,
-          "ask3": 63.5,
-          "ask_vol3": 138,
-          "ask4": 63.53,
-          "ask_vol4": 27,
-          "ask5": 63.54,
-          "ask_vol5": 11
-        },
-        "book_diff": 1356444.0,
-        "timestamp": "2026-06-02T21:55:58.810358",
-        "main_force": -58934407.04,
-        "super": 0,
-        "large": 0,
-        "medium": 0,
-        "small": 0,
-        "main_ratio": 0,
-        "main_pct": 0,
-        "chg_5d": -12.57,
-        "chg_20d": 0,
-        "mf_5d": -171987708.0,
-        "has_fund_flow": true,
-        "fund_flow_time": "21:56:59"
+        "fund_flow_time": "23:06:13"
       }
     ],
     "新型电力系统": [
@@ -6013,7 +4971,7 @@
           "ask_vol5": 0
         },
         "book_diff": -203176530.0,
-        "timestamp": "2026-06-02T21:55:58.810900",
+        "timestamp": "2026-06-02T23:09:25.287849",
         "main_force": 115020940.51,
         "super": 0,
         "large": 0,
@@ -6025,7 +4983,7 @@
         "chg_20d": 0,
         "mf_5d": -334003380.0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:59"
+        "fund_flow_time": "23:06:13"
       },
       {
         "code": "600578",
@@ -6065,7 +5023,7 @@
           "ask_vol5": 2580
         },
         "book_diff": -3926253.0,
-        "timestamp": "2026-06-02T21:55:58.810686",
+        "timestamp": "2026-06-02T23:09:25.287631",
         "main_force": 45449031.25,
         "super": 0,
         "large": 0,
@@ -6077,7 +5035,7 @@
         "chg_20d": 0,
         "mf_5d": -813290571.0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:59"
+        "fund_flow_time": "23:06:13"
       },
       {
         "code": "000767",
@@ -6117,7 +5075,7 @@
           "ask_vol5": 5379
         },
         "book_diff": 6408172.0,
-        "timestamp": "2026-06-02T21:55:58.811117",
+        "timestamp": "2026-06-02T23:09:25.288067",
         "main_force": -771870764.46,
         "super": 0,
         "large": 0,
@@ -6129,7 +5087,7 @@
         "chg_20d": 0,
         "mf_5d": -339471628.0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:59"
+        "fund_flow_time": "23:06:13"
       },
       {
         "code": "600596",
@@ -6169,7 +5127,7 @@
           "ask_vol5": 361
         },
         "book_diff": 4300807.0,
-        "timestamp": "2026-06-02T21:55:58.810794",
+        "timestamp": "2026-06-02T23:09:25.287740",
         "main_force": -21139493.77,
         "super": 0,
         "large": 0,
@@ -6181,7 +5139,7 @@
         "chg_20d": 0,
         "mf_5d": 137818326.0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:59"
+        "fund_flow_time": "23:06:13"
       },
       {
         "code": "600726",
@@ -6221,7 +5179,7 @@
           "ask_vol5": 2883
         },
         "book_diff": -15102436.0,
-        "timestamp": "2026-06-02T21:55:58.811006",
+        "timestamp": "2026-06-02T23:09:25.287958",
         "main_force": -368893365.48,
         "super": 0,
         "large": 0,
@@ -6233,7 +5191,7 @@
         "chg_20d": 0,
         "mf_5d": -119124672.0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:56:59"
+        "fund_flow_time": "23:06:13"
       },
       {
         "code": "000539",
@@ -6273,19 +5231,19 @@
           "ask_vol5": 656
         },
         "book_diff": 39355851.0,
-        "timestamp": "2026-06-02T21:55:58.811397",
+        "timestamp": "2026-06-02T23:09:25.350644",
         "main_force": -202135688.51,
         "super": 0,
         "large": 0,
         "medium": 0,
         "small": 0,
-        "main_ratio": -485.18999999999994,
-        "main_pct": -4.8519,
-        "chg_5d": 39.82,
+        "main_ratio": 0,
+        "main_pct": 0,
+        "chg_5d": 36.88,
         "chg_20d": 0,
-        "mf_5d": 131713474.1,
+        "mf_5d": 149756675.0,
         "has_fund_flow": true,
-        "fund_flow_time": "21:57:03"
+        "fund_flow_time": "23:06:13"
       },
       {
         "code": "600863",
@@ -6325,7 +5283,7 @@
           "ask_vol5": 2266
         },
         "book_diff": 34867034.0,
-        "timestamp": "2026-06-02T21:55:58.811255",
+        "timestamp": "2026-06-02T23:09:25.288177",
         "main_force": -740456172.6,
         "super": 0,
         "large": 0,
@@ -6380,7 +5338,7 @@
         "ask_vol5": 2
       },
       "book_diff": -8190247.0,
-      "timestamp": "2026-06-02T21:55:58.671590",
+      "timestamp": "2026-06-02T23:09:25.212248",
       "main_force": 975022995.9,
       "super": 0,
       "large": 0,
@@ -6388,11 +5346,11 @@
       "small": 0,
       "main_ratio": 0,
       "main_pct": 0,
-      "chg_5d": -7.86,
+      "chg_5d": 0,
       "chg_20d": 0,
-      "mf_5d": -5202251750.0,
+      "mf_5d": 0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:08"
+      "fund_flow_time": "23:09:31"
     },
     "688041": {
       "code": "688041",
@@ -6432,7 +5390,7 @@
         "ask_vol5": 14
       },
       "book_diff": 16554750.0,
-      "timestamp": "2026-06-02T21:55:58.671774",
+      "timestamp": "2026-06-02T23:09:25.212399",
       "main_force": 27081145.51,
       "super": 0,
       "large": 0,
@@ -6440,11 +5398,11 @@
       "small": 0,
       "main_ratio": 0,
       "main_pct": 0,
-      "chg_5d": -16.9,
+      "chg_5d": 0,
       "chg_20d": 0,
-      "mf_5d": -5573130070.0,
+      "mf_5d": 0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:08"
+      "fund_flow_time": "23:09:31"
     },
     "300474": {
       "code": "300474",
@@ -6484,7 +5442,7 @@
         "ask_vol5": 9
       },
       "book_diff": 2857452.0,
-      "timestamp": "2026-06-02T21:55:58.671894",
+      "timestamp": "2026-06-02T23:09:25.212520",
       "main_force": -29923957.51,
       "super": 0,
       "large": 0,
@@ -6492,11 +5450,11 @@
       "small": 0,
       "main_ratio": 0,
       "main_pct": 0,
-      "chg_5d": -13.48,
+      "chg_5d": 0,
       "chg_20d": 0,
-      "mf_5d": -208484206.0,
+      "mf_5d": 0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:08"
+      "fund_flow_time": "23:09:31"
     },
     "688047": {
       "code": "688047",
@@ -6536,7 +5494,7 @@
         "ask_vol5": 3
       },
       "book_diff": 2464987.0,
-      "timestamp": "2026-06-02T21:55:58.672016",
+      "timestamp": "2026-06-02T23:09:25.212655",
       "main_force": -113181446.51,
       "super": 0,
       "large": 0,
@@ -6544,11 +5502,11 @@
       "small": 0,
       "main_ratio": 0,
       "main_pct": 0,
-      "chg_5d": -12.26,
+      "chg_5d": 0,
       "chg_20d": 0,
-      "mf_5d": -613322944.0,
+      "mf_5d": 0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:08"
+      "fund_flow_time": "23:09:31"
     },
     "688262": {
       "code": "688262",
@@ -6588,7 +5546,7 @@
         "ask_vol5": 5
       },
       "book_diff": 1402530.0,
-      "timestamp": "2026-06-02T21:55:58.672132",
+      "timestamp": "2026-06-02T23:09:25.212775",
       "main_force": -6114358.96,
       "super": 0,
       "large": 0,
@@ -6596,11 +5554,11 @@
       "small": 0,
       "main_ratio": 0,
       "main_pct": 0,
-      "chg_5d": -11.33,
+      "chg_5d": 0,
       "chg_20d": 0,
-      "mf_5d": -96815169.0,
+      "mf_5d": 0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:08"
+      "fund_flow_time": "23:09:31"
     },
     "000977": {
       "code": "000977",
@@ -6640,19 +5598,19 @@
         "ask_vol5": 189
       },
       "book_diff": 7279950.0,
-      "timestamp": "2026-06-02T21:55:58.672247",
-      "main_force": -13548690.0,
+      "timestamp": "2026-06-02T23:09:25.212885",
+      "main_force": 160356212.8,
       "super": 0,
       "large": 0,
       "medium": 0,
       "small": 0,
       "main_ratio": 0,
       "main_pct": 0,
-      "chg_5d": -5.3,
-      "chg_20d": -8.7,
+      "chg_5d": 0,
+      "chg_20d": 0,
       "mf_5d": 0,
       "has_fund_flow": true,
-      "fund_flow_time": ""
+      "fund_flow_time": "23:09:31"
     },
     "601138": {
       "code": "601138",
@@ -6692,7 +5650,7 @@
         "ask_vol5": 731
       },
       "book_diff": 14075406.0,
-      "timestamp": "2026-06-02T21:55:58.672358",
+      "timestamp": "2026-06-02T23:09:25.212995",
       "main_force": 3544494945.9,
       "super": 0,
       "large": 0,
@@ -6700,11 +5658,11 @@
       "small": 0,
       "main_ratio": 0,
       "main_pct": 0,
-      "chg_5d": 14.33,
+      "chg_5d": 0,
       "chg_20d": 0,
-      "mf_5d": 5949916500.0,
+      "mf_5d": 0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:08"
+      "fund_flow_time": "23:09:31"
     },
     "603019": {
       "code": "603019",
@@ -6744,7 +5702,7 @@
         "ask_vol5": 44
       },
       "book_diff": 4304709.0,
-      "timestamp": "2026-06-02T21:55:58.672466",
+      "timestamp": "2026-06-02T23:09:25.213109",
       "main_force": 41161167.71,
       "super": 0,
       "large": 0,
@@ -6757,110 +5715,6 @@
       "mf_5d": -1585671060.0,
       "has_fund_flow": true,
       "fund_flow_time": "21:56:08"
-    },
-    "000938": {
-      "code": "000938",
-      "name": "紫光股份",
-      "sector": "AI服务器",
-      "price": 28.21,
-      "open": 28.29,
-      "high": 28.69,
-      "low": 27.650000000000002,
-      "last_close": 27.84,
-      "volume": 1501290,
-      "amount": 4233144320.0,
-      "vwap": 28.2,
-      "change_pct": 1.33,
-      "bids": {
-        "bid1": 28.21,
-        "bid_vol1": 751,
-        "bid2": 28.2,
-        "bid_vol2": 3472,
-        "bid3": 28.19,
-        "bid_vol3": 4395,
-        "bid4": 28.18,
-        "bid_vol4": 1824,
-        "bid5": 28.17,
-        "bid_vol5": 815
-      },
-      "asks": {
-        "ask1": 28.22,
-        "ask_vol1": 353,
-        "ask2": 28.23,
-        "ask_vol2": 422,
-        "ask3": 28.240000000000002,
-        "ask_vol3": 223,
-        "ask4": 28.25,
-        "ask_vol4": 663,
-        "ask5": 28.26,
-        "ask_vol5": 29
-      },
-      "book_diff": 26962850.0,
-      "timestamp": "2026-06-02T21:55:58.672573",
-      "main_force": 0,
-      "super": 0,
-      "large": 0,
-      "medium": 0,
-      "small": 0,
-      "main_ratio": 0,
-      "main_pct": 0,
-      "chg_5d": 0,
-      "chg_20d": 0,
-      "mf_5d": 0,
-      "has_fund_flow": false,
-      "fund_flow_time": ""
-    },
-    "000628": {
-      "code": "000628",
-      "name": "高新发展",
-      "sector": "AI服务器",
-      "price": 53.76,
-      "open": 56.480000000000004,
-      "high": 57.68,
-      "low": 53.0,
-      "last_close": 56.45,
-      "volume": 115551,
-      "amount": 637355200.0,
-      "vwap": 55.16,
-      "change_pct": -4.77,
-      "bids": {
-        "bid1": 53.75,
-        "bid_vol1": 32,
-        "bid2": 53.74,
-        "bid_vol2": 2,
-        "bid3": 53.72,
-        "bid_vol3": 15,
-        "bid4": 53.71,
-        "bid_vol4": 11,
-        "bid5": 53.7,
-        "bid_vol5": 11
-      },
-      "asks": {
-        "ask1": 53.76,
-        "ask_vol1": 175,
-        "ask2": 53.78,
-        "ask_vol2": 12,
-        "ask3": 53.79,
-        "ask_vol3": 9,
-        "ask4": 53.800000000000004,
-        "ask_vol4": 88,
-        "ask5": 53.81,
-        "ask_vol5": 56
-      },
-      "book_diff": -1447044.0,
-      "timestamp": "2026-06-02T21:55:58.672704",
-      "main_force": 0,
-      "super": 0,
-      "large": 0,
-      "medium": 0,
-      "small": 0,
-      "main_ratio": 0,
-      "main_pct": 0,
-      "chg_5d": 0,
-      "chg_20d": 0,
-      "mf_5d": 0,
-      "has_fund_flow": false,
-      "fund_flow_time": ""
     },
     "002837": {
       "code": "002837",
@@ -6900,7 +5754,7 @@
         "ask_vol5": 51
       },
       "book_diff": 5948011.0,
-      "timestamp": "2026-06-02T21:55:58.672816",
+      "timestamp": "2026-06-02T23:09:25.213225",
       "main_force": 5048970.68,
       "super": 0,
       "large": 0,
@@ -6908,11 +5762,11 @@
       "small": 0,
       "main_ratio": 0,
       "main_pct": 0,
-      "chg_5d": -10.83,
+      "chg_5d": 0,
       "chg_20d": 0,
-      "mf_5d": -2108358512.0,
+      "mf_5d": 0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:12"
+      "fund_flow_time": "23:09:31"
     },
     "301018": {
       "code": "301018",
@@ -6952,7 +5806,7 @@
         "ask_vol5": 4
       },
       "book_diff": 2234597.0,
-      "timestamp": "2026-06-02T21:55:58.672927",
+      "timestamp": "2026-06-02T23:09:25.213337",
       "main_force": 8871359.75,
       "super": 0,
       "large": 0,
@@ -6960,11 +5814,11 @@
       "small": 0,
       "main_ratio": 0,
       "main_pct": 0,
-      "chg_5d": -11.45,
+      "chg_5d": 0,
       "chg_20d": 0,
-      "mf_5d": -335960369.0,
+      "mf_5d": 0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:12"
+      "fund_flow_time": "23:09:31"
     },
     "300499": {
       "code": "300499",
@@ -7004,7 +5858,7 @@
         "ask_vol5": 84
       },
       "book_diff": -1131160.0,
-      "timestamp": "2026-06-02T21:55:58.673040",
+      "timestamp": "2026-06-02T23:09:25.213446",
       "main_force": -39132513.53,
       "super": 0,
       "large": 0,
@@ -7016,7 +5870,7 @@
       "chg_20d": 0,
       "mf_5d": -472588955.0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:12"
+      "fund_flow_time": "23:05:31"
     },
     "000811": {
       "code": "000811",
@@ -7056,7 +5910,7 @@
         "ask_vol5": 29
       },
       "book_diff": 4145999.0,
-      "timestamp": "2026-06-02T21:55:58.673148",
+      "timestamp": "2026-06-02T23:09:25.213561",
       "main_force": -64849320.24,
       "super": 0,
       "large": 0,
@@ -7108,7 +5962,7 @@
         "ask_vol5": 63
       },
       "book_diff": 552974.0,
-      "timestamp": "2026-06-02T21:55:58.673255",
+      "timestamp": "2026-06-02T23:09:25.213684",
       "main_force": -25209669.06,
       "super": 0,
       "large": 0,
@@ -7120,7 +5974,7 @@
       "chg_20d": 0,
       "mf_5d": -11966167.7,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:12"
+      "fund_flow_time": "23:05:31"
     },
     "002130": {
       "code": "002130",
@@ -7160,7 +6014,7 @@
         "ask_vol5": 189
       },
       "book_diff": 3209933.0,
-      "timestamp": "2026-06-02T21:55:58.673366",
+      "timestamp": "2026-06-02T23:09:25.213793",
       "main_force": -78558751.15,
       "super": 0,
       "large": 0,
@@ -7172,7 +6026,7 @@
       "chg_20d": 0,
       "mf_5d": 105032083.0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:12"
+      "fund_flow_time": "23:05:31"
     },
     "300563": {
       "code": "300563",
@@ -7212,7 +6066,7 @@
         "ask_vol5": 4
       },
       "book_diff": 357385.0,
-      "timestamp": "2026-06-02T21:55:58.673476",
+      "timestamp": "2026-06-02T23:09:25.213899",
       "main_force": -7278011.0,
       "super": 0,
       "large": 0,
@@ -7224,7 +6078,7 @@
       "chg_20d": 0,
       "mf_5d": 19064838.9,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:12"
+      "fund_flow_time": "23:05:31"
     },
     "688629": {
       "code": "688629",
@@ -7264,7 +6118,7 @@
         "ask_vol5": 56
       },
       "book_diff": -4165996.0,
-      "timestamp": "2026-06-02T21:55:58.673584",
+      "timestamp": "2026-06-02T23:09:25.214008",
       "main_force": 34688449.2,
       "super": 0,
       "large": 0,
@@ -7276,7 +6130,7 @@
       "chg_20d": 0,
       "mf_5d": 77311390.0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:12"
+      "fund_flow_time": "23:05:31"
     },
     "002475": {
       "code": "002475",
@@ -7316,7 +6170,7 @@
         "ask_vol5": 148
       },
       "book_diff": -50705316.0,
-      "timestamp": "2026-06-02T21:55:58.673713",
+      "timestamp": "2026-06-02T23:09:25.214126",
       "main_force": 760594003.0,
       "super": 0,
       "large": 0,
@@ -7328,7 +6182,7 @@
       "chg_20d": 0,
       "mf_5d": 1640275070.0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:12"
+      "fund_flow_time": "23:05:31"
     },
     "300913": {
       "code": "300913",
@@ -7368,7 +6222,7 @@
         "ask_vol5": 11
       },
       "book_diff": 2294743.0,
-      "timestamp": "2026-06-02T21:55:58.673822",
+      "timestamp": "2026-06-02T23:09:25.214240",
       "main_force": -23767311.72,
       "super": 0,
       "large": 0,
@@ -7376,11 +6230,11 @@
       "small": 0,
       "main_ratio": 0,
       "main_pct": 0,
-      "chg_5d": 12.52,
+      "chg_5d": 0,
       "chg_20d": 0,
-      "mf_5d": 43485727.0,
+      "mf_5d": 0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:12"
+      "fund_flow_time": "23:05:31"
     },
     "300442": {
       "code": "300442",
@@ -7420,7 +6274,7 @@
         "ask_vol5": 73
       },
       "book_diff": -2347661.0,
-      "timestamp": "2026-06-02T21:55:58.673936",
+      "timestamp": "2026-06-02T23:09:25.214349",
       "main_force": -108204262.17,
       "super": 0,
       "large": 0,
@@ -7428,11 +6282,11 @@
       "small": 0,
       "main_ratio": 0,
       "main_pct": 0,
-      "chg_5d": 0,
+      "chg_5d": -9.86,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": -1312362540.0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:17"
+      "fund_flow_time": "23:05:31"
     },
     "002929": {
       "code": "002929",
@@ -7472,7 +6326,7 @@
         "ask_vol5": 22
       },
       "book_diff": 2764231.0,
-      "timestamp": "2026-06-02T21:55:58.674041",
+      "timestamp": "2026-06-02T23:09:25.214457",
       "main_force": -77926455.61,
       "super": 0,
       "large": 0,
@@ -7480,63 +6334,11 @@
       "small": 0,
       "main_ratio": 0,
       "main_pct": 0,
-      "chg_5d": 0,
+      "chg_5d": -18.56,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": -674362247.0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:17"
-    },
-    "300738": {
-      "code": "300738",
-      "name": "奥飞数据",
-      "sector": "算力租赁/IDC",
-      "price": 22.03,
-      "open": 21.86,
-      "high": 22.05,
-      "low": 20.87,
-      "last_close": 21.72,
-      "volume": 569110,
-      "amount": 1224818304.0,
-      "vwap": 21.52,
-      "change_pct": 1.43,
-      "bids": {
-        "bid1": 22.03,
-        "bid_vol1": 2169,
-        "bid2": 22.02,
-        "bid_vol2": 358,
-        "bid3": 22.01,
-        "bid_vol3": 75,
-        "bid4": 22.0,
-        "bid_vol4": 341,
-        "bid5": 21.990000000000002,
-        "bid_vol5": 194
-      },
-      "asks": {
-        "ask1": 22.04,
-        "ask_vol1": 680,
-        "ask2": 22.05,
-        "ask_vol2": 683,
-        "ask3": 22.06,
-        "ask_vol3": 457,
-        "ask4": 22.07,
-        "ask_vol4": 198,
-        "ask5": 22.080000000000002,
-        "ask_vol5": 227
-      },
-      "book_diff": 1957425.0,
-      "timestamp": "2026-06-02T21:55:58.674148",
-      "main_force": 44591182.33,
-      "super": 0,
-      "large": 0,
-      "medium": 0,
-      "small": 0,
-      "main_ratio": 0,
-      "main_pct": 0,
-      "chg_5d": 0,
-      "chg_20d": 0,
-      "mf_5d": 0,
-      "has_fund_flow": true,
-      "fund_flow_time": "21:56:17"
+      "fund_flow_time": "23:05:31"
     },
     "603881": {
       "code": "603881",
@@ -7576,7 +6378,7 @@
         "ask_vol5": 248
       },
       "book_diff": -13587708.0,
-      "timestamp": "2026-06-02T21:55:58.674253",
+      "timestamp": "2026-06-02T23:09:25.214562",
       "main_force": -3037932.67,
       "super": 0,
       "large": 0,
@@ -7584,63 +6386,11 @@
       "small": 0,
       "main_ratio": 0,
       "main_pct": 0,
-      "chg_5d": 0,
+      "chg_5d": -0.75,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": -266042047.2,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:17"
-    },
-    "300383": {
-      "code": "300383",
-      "name": "光环新网",
-      "sector": "算力租赁/IDC",
-      "price": 13.530000000000001,
-      "open": 13.6,
-      "high": 13.72,
-      "low": 13.05,
-      "last_close": 13.49,
-      "volume": 643576,
-      "amount": 862712128.0,
-      "vwap": 13.4,
-      "change_pct": 0.3,
-      "bids": {
-        "bid1": 13.52,
-        "bid_vol1": 900,
-        "bid2": 13.51,
-        "bid_vol2": 567,
-        "bid3": 13.5,
-        "bid_vol3": 720,
-        "bid4": 13.49,
-        "bid_vol4": 603,
-        "bid5": 13.48,
-        "bid_vol5": 629
-      },
-      "asks": {
-        "ask1": 13.530000000000001,
-        "ask_vol1": 651,
-        "ask2": 13.540000000000001,
-        "ask_vol2": 321,
-        "ask3": 13.55,
-        "ask_vol3": 746,
-        "ask4": 13.56,
-        "ask_vol4": 358,
-        "ask5": 13.57,
-        "ask_vol5": 127
-      },
-      "book_diff": 1632102.0,
-      "timestamp": "2026-06-02T21:55:58.674359",
-      "main_force": -22527811.46,
-      "super": 0,
-      "large": 0,
-      "medium": 0,
-      "small": 0,
-      "main_ratio": 0,
-      "main_pct": 0,
-      "chg_5d": 0,
-      "chg_20d": 0,
-      "mf_5d": 0,
-      "has_fund_flow": true,
-      "fund_flow_time": "21:56:17"
+      "fund_flow_time": "23:05:36"
     },
     "002229": {
       "code": "002229",
@@ -7680,7 +6430,7 @@
         "ask_vol5": 187
       },
       "book_diff": 2694257.0,
-      "timestamp": "2026-06-02T21:55:58.674476",
+      "timestamp": "2026-06-02T23:09:25.214693",
       "main_force": -3137416.57,
       "super": 0,
       "large": 0,
@@ -7688,11 +6438,11 @@
       "small": 0,
       "main_ratio": 0,
       "main_pct": 0,
-      "chg_5d": 0,
+      "chg_5d": 0.57,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 183574310.2,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:17"
+      "fund_flow_time": "23:05:36"
     },
     "603629": {
       "code": "603629",
@@ -7732,7 +6482,7 @@
         "ask_vol5": 23
       },
       "book_diff": 7444320.0,
-      "timestamp": "2026-06-02T21:55:58.674587",
+      "timestamp": "2026-06-02T23:09:25.214804",
       "main_force": -1197785408.4,
       "super": 0,
       "large": 0,
@@ -7740,11 +6490,11 @@
       "small": 0,
       "main_ratio": 0,
       "main_pct": 0,
-      "chg_5d": 0,
+      "chg_5d": -7.8,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": -1631698542.0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:17"
+      "fund_flow_time": "23:05:36"
     },
     "688525": {
       "code": "688525",
@@ -7784,7 +6534,7 @@
         "ask_vol5": 32
       },
       "book_diff": 39470663.0,
-      "timestamp": "2026-06-02T21:55:58.674708",
+      "timestamp": "2026-06-02T23:09:25.214912",
       "main_force": -536941322.25,
       "super": 0,
       "large": 0,
@@ -7836,7 +6586,7 @@
         "ask_vol5": 2
       },
       "book_diff": 519229.0,
-      "timestamp": "2026-06-02T21:55:58.674819",
+      "timestamp": "2026-06-02T23:09:25.215019",
       "main_force": -536660215.27,
       "super": 0,
       "large": 0,
@@ -7844,11 +6594,11 @@
       "small": 0,
       "main_ratio": 0,
       "main_pct": 0,
-      "chg_5d": 0,
+      "chg_5d": -3.43,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": -917788310.0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:17"
+      "fund_flow_time": "23:05:36"
     },
     "603986": {
       "code": "603986",
@@ -7888,7 +6638,7 @@
         "ask_vol5": 4
       },
       "book_diff": -42723123.0,
-      "timestamp": "2026-06-02T21:55:58.674928",
+      "timestamp": "2026-06-02T23:09:25.215126",
       "main_force": 345664963.43,
       "super": 0,
       "large": 0,
@@ -7896,11 +6646,11 @@
       "small": 0,
       "main_ratio": 0,
       "main_pct": 0,
-      "chg_5d": 0,
+      "chg_5d": -9.79,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": -5263762100.0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:17"
+      "fund_flow_time": "23:05:36"
     },
     "688008": {
       "code": "688008",
@@ -7940,7 +6690,7 @@
         "ask_vol5": 10
       },
       "book_diff": 22680075.0,
-      "timestamp": "2026-06-02T21:55:58.675040",
+      "timestamp": "2026-06-02T23:09:25.215242",
       "main_force": -93871708.57,
       "super": 0,
       "large": 0,
@@ -7992,7 +6742,7 @@
         "ask_vol5": 20
       },
       "book_diff": 20967162.0,
-      "timestamp": "2026-06-02T21:55:58.675145",
+      "timestamp": "2026-06-02T23:09:25.215354",
       "main_force": -135091139.52,
       "super": 0,
       "large": 0,
@@ -8000,11 +6750,11 @@
       "small": 0,
       "main_ratio": 0,
       "main_pct": 0,
-      "chg_5d": 0,
+      "chg_5d": -4.9,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": -985594310.0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:22"
+      "fund_flow_time": "23:05:36"
     },
     "300308": {
       "code": "300308",
@@ -8044,7 +6794,7 @@
         "ask_vol5": 2
       },
       "book_diff": 19783675.0,
-      "timestamp": "2026-06-02T21:55:58.675251",
+      "timestamp": "2026-06-02T23:09:25.215464",
       "main_force": 1125853767.81,
       "super": 0,
       "large": 0,
@@ -8052,11 +6802,11 @@
       "small": 0,
       "main_ratio": 0,
       "main_pct": 0,
-      "chg_5d": 0,
+      "chg_5d": 8.05,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 1337499800.0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:22"
+      "fund_flow_time": "23:05:36"
     },
     "300502": {
       "code": "300502",
@@ -8096,7 +6846,7 @@
         "ask_vol5": 1
       },
       "book_diff": 3809552.0,
-      "timestamp": "2026-06-02T21:55:58.675355",
+      "timestamp": "2026-06-02T23:09:25.215570",
       "main_force": 1842812517.54,
       "super": 0,
       "large": 0,
@@ -8104,11 +6854,11 @@
       "small": 0,
       "main_ratio": 0,
       "main_pct": 0,
-      "chg_5d": 0,
+      "chg_5d": 6.71,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 789733600.0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:22"
+      "fund_flow_time": "23:05:36"
     },
     "300394": {
       "code": "300394",
@@ -8148,7 +6898,7 @@
         "ask_vol5": 2
       },
       "book_diff": 14212326.0,
-      "timestamp": "2026-06-02T21:55:58.675461",
+      "timestamp": "2026-06-02T23:09:25.215690",
       "main_force": 1478731265.82,
       "super": 0,
       "large": 0,
@@ -8156,11 +6906,11 @@
       "small": 0,
       "main_ratio": 0,
       "main_pct": 0,
-      "chg_5d": 0,
+      "chg_5d": 12.35,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 917896500.0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:22"
+      "fund_flow_time": "23:05:40"
     },
     "002281": {
       "code": "002281",
@@ -8200,7 +6950,7 @@
         "ask_vol5": 25
       },
       "book_diff": 38998104.0,
-      "timestamp": "2026-06-02T21:55:58.675576",
+      "timestamp": "2026-06-02T23:09:25.215801",
       "main_force": 1024793227.42,
       "super": 0,
       "large": 0,
@@ -8208,11 +6958,11 @@
       "small": 0,
       "main_ratio": 0,
       "main_pct": 0,
-      "chg_5d": 0,
+      "chg_5d": 4.06,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 903756680.0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:22"
+      "fund_flow_time": "23:05:40"
     },
     "300548": {
       "code": "300548",
@@ -8252,7 +7002,7 @@
         "ask_vol5": 602
       },
       "book_diff": -11194696.0,
-      "timestamp": "2026-06-02T21:55:58.675696",
+      "timestamp": "2026-06-02T23:09:25.215908",
       "main_force": -48996518.32,
       "super": 0,
       "large": 0,
@@ -8260,167 +7010,63 @@
       "small": 0,
       "main_ratio": 0,
       "main_pct": 0,
-      "chg_5d": 0,
+      "chg_5d": -0.65,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 1011384070.0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:22"
+      "fund_flow_time": "23:05:40"
     },
-    "688205": {
-      "code": "688205",
-      "name": "德科立",
+    "600487": {
+      "code": "600487",
+      "name": "亨通光电",
       "sector": "光模块/CPO/光引擎",
-      "price": 232.59,
-      "open": 221.99,
-      "high": 234.57,
-      "low": 218.0,
-      "last_close": 220.01,
-      "volume": 89396,
-      "amount": 2043890432.0,
-      "vwap": 228.63,
-      "change_pct": 5.72,
+      "price": 83.12,
+      "open": 74.61,
+      "high": 83.12,
+      "low": 74.61,
+      "last_close": 75.56,
+      "volume": 1913933,
+      "amount": 15481292800.0,
+      "vwap": 80.89,
+      "change_pct": 10.01,
       "bids": {
-        "bid1": 232.59,
-        "bid_vol1": 21,
-        "bid2": 232.58,
-        "bid_vol2": 2,
-        "bid3": 232.57,
-        "bid_vol3": 3,
-        "bid4": 232.56,
-        "bid_vol4": 118,
-        "bid5": 232.54,
-        "bid_vol5": 17
+        "bid1": 83.12,
+        "bid_vol1": 84837,
+        "bid2": 83.11,
+        "bid_vol2": 837,
+        "bid3": 83.10000000000001,
+        "bid_vol3": 123,
+        "bid4": 83.09,
+        "bid_vol4": 32,
+        "bid5": 83.08,
+        "bid_vol5": 68
       },
       "asks": {
-        "ask1": 232.6,
-        "ask_vol1": 113,
-        "ask2": 232.62,
-        "ask_vol2": 7,
-        "ask3": 232.65,
-        "ask_vol3": 13,
-        "ask4": 232.66,
-        "ask_vol4": 23,
-        "ask5": 232.69,
-        "ask_vol5": 59
+        "ask1": 0.0,
+        "ask_vol1": 0,
+        "ask2": 0.0,
+        "ask_vol2": 0,
+        "ask3": 0.0,
+        "ask_vol3": 0,
+        "ask4": 0.0,
+        "ask_vol4": 0,
+        "ask5": 0.0,
+        "ask_vol5": 0
       },
-      "book_diff": -1257396.0,
-      "timestamp": "2026-06-02T21:55:58.675808",
-      "main_force": -152726056.26,
+      "book_diff": 713974413.0,
+      "timestamp": "2026-06-02T23:09:25.216013",
+      "main_force": 2812845134.24,
       "super": 0,
       "large": 0,
       "medium": 0,
       "small": 0,
       "main_ratio": 0,
       "main_pct": 0,
-      "chg_5d": 0,
+      "chg_5d": 19.75,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 6647508680.0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:22"
-    },
-    "603083": {
-      "code": "603083",
-      "name": "剑桥科技",
-      "sector": "光模块/CPO/光引擎",
-      "price": 189.85,
-      "open": 187.33,
-      "high": 194.99,
-      "low": 183.0,
-      "last_close": 187.0,
-      "volume": 322554,
-      "amount": 6116024832.0,
-      "vwap": 189.61,
-      "change_pct": 1.52,
-      "bids": {
-        "bid1": 189.85,
-        "bid_vol1": 2,
-        "bid2": 189.84,
-        "bid_vol2": 8,
-        "bid3": 189.83,
-        "bid_vol3": 67,
-        "bid4": 189.82,
-        "bid_vol4": 292,
-        "bid5": 189.81,
-        "bid_vol5": 2
-      },
-      "asks": {
-        "ask1": 189.86,
-        "ask_vol1": 26,
-        "ask2": 189.87,
-        "ask_vol2": 186,
-        "ask3": 189.88,
-        "ask_vol3": 52,
-        "ask4": 189.89000000000001,
-        "ask_vol4": 15,
-        "ask5": 189.9,
-        "ask_vol5": 29
-      },
-      "book_diff": 1194270.0,
-      "timestamp": "2026-06-02T21:55:58.675914",
-      "main_force": 98310540.27,
-      "super": 0,
-      "large": 0,
-      "medium": 0,
-      "small": 0,
-      "main_ratio": 0,
-      "main_pct": 0,
-      "chg_5d": 0,
-      "chg_20d": 0,
-      "mf_5d": 0,
-      "has_fund_flow": true,
-      "fund_flow_time": "21:56:22"
-    },
-    "301205": {
-      "code": "301205",
-      "name": "联特科技",
-      "sector": "光模块/CPO/光引擎",
-      "price": 340.02,
-      "open": 318.0,
-      "high": 351.49,
-      "low": 317.3,
-      "last_close": 312.69,
-      "volume": 141514,
-      "amount": 4772110336.0,
-      "vwap": 337.22,
-      "change_pct": 8.74,
-      "bids": {
-        "bid1": 340.01,
-        "bid_vol1": 1,
-        "bid2": 340.0,
-        "bid_vol2": 70,
-        "bid3": 339.99,
-        "bid_vol3": 39,
-        "bid4": 339.90000000000003,
-        "bid_vol4": 1,
-        "bid5": 339.88,
-        "bid_vol5": 5
-      },
-      "asks": {
-        "ask1": 340.02,
-        "ask_vol1": 6,
-        "ask2": 340.1,
-        "ask_vol2": 1,
-        "ask3": 340.11,
-        "ask_vol3": 1,
-        "ask4": 340.13,
-        "ask_vol4": 1,
-        "ask5": 340.18,
-        "ask_vol5": 7
-      },
-      "book_diff": 3399720.0,
-      "timestamp": "2026-06-02T21:55:58.676023",
-      "main_force": 197372747.31,
-      "super": 0,
-      "large": 0,
-      "medium": 0,
-      "small": 0,
-      "main_ratio": 0,
-      "main_pct": 0,
-      "chg_5d": 0,
-      "chg_20d": 0,
-      "mf_5d": 0,
-      "has_fund_flow": true,
-      "fund_flow_time": "21:56:22"
+      "fund_flow_time": "23:05:40"
     },
     "000988": {
       "code": "000988",
@@ -8460,7 +7106,7 @@
         "ask_vol5": 106
       },
       "book_diff": -7405193.0,
-      "timestamp": "2026-06-02T21:55:58.676134",
+      "timestamp": "2026-06-02T23:09:25.216121",
       "main_force": 0,
       "super": 0,
       "large": 0,
@@ -8512,19 +7158,19 @@
         "ask_vol5": 7
       },
       "book_diff": -8449676.0,
-      "timestamp": "2026-06-02T21:55:58.676240",
-      "main_force": 958172707.61,
+      "timestamp": "2026-06-02T23:09:25.216232",
+      "main_force": 157037748.91,
       "super": 0,
       "large": 0,
       "medium": 0,
       "small": 0,
-      "main_ratio": 1030.29,
-      "main_pct": 10.3029,
+      "main_ratio": 0,
+      "main_pct": 0,
       "chg_5d": 15.93,
       "chg_20d": 0,
-      "mf_5d": 2234485790.0,
+      "mf_5d": 1491841140.0,
       "has_fund_flow": true,
-      "fund_flow_time": "18:15:37"
+      "fund_flow_time": "23:05:40"
     },
     "688313": {
       "code": "688313",
@@ -8564,19 +7210,19 @@
         "ask_vol5": 4
       },
       "book_diff": -1993627.0,
-      "timestamp": "2026-06-02T21:55:58.676344",
-      "main_force": 269125676.65,
+      "timestamp": "2026-06-02T23:09:25.216341",
+      "main_force": -90282747.87,
       "super": 0,
       "large": 0,
       "medium": 0,
       "small": 0,
-      "main_ratio": 669.35,
-      "main_pct": 6.6935,
+      "main_ratio": 0,
+      "main_pct": 0,
       "chg_5d": -9.69,
       "chg_20d": 0,
-      "mf_5d": -443092500.0,
+      "mf_5d": -1942407210.0,
       "has_fund_flow": true,
-      "fund_flow_time": "18:15:37"
+      "fund_flow_time": "23:05:40"
     },
     "688048": {
       "code": "688048",
@@ -8616,19 +7262,19 @@
         "ask_vol5": 8
       },
       "book_diff": 4738617.0,
-      "timestamp": "2026-06-02T21:55:58.676482",
-      "main_force": 226745444.24,
+      "timestamp": "2026-06-02T23:09:25.216450",
+      "main_force": -7160472.4,
       "super": 0,
       "large": 0,
       "medium": 0,
       "small": 0,
-      "main_ratio": 485.43,
-      "main_pct": 4.8543,
+      "main_ratio": 0,
+      "main_pct": 0,
       "chg_5d": -1.15,
       "chg_20d": 0,
-      "mf_5d": 545928940.0,
+      "mf_5d": 821376990.0,
       "has_fund_flow": true,
-      "fund_flow_time": "18:15:37"
+      "fund_flow_time": "23:05:40"
     },
     "300620": {
       "code": "300620",
@@ -8668,7 +7314,7 @@
         "ask_vol5": 1
       },
       "book_diff": 13280519.0,
-      "timestamp": "2026-06-02T21:55:58.676638",
+      "timestamp": "2026-06-02T23:09:25.216561",
       "main_force": 690543989.72,
       "super": 0,
       "large": 0,
@@ -8680,7 +7326,7 @@
       "chg_20d": 0,
       "mf_5d": 1742794620.0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:26"
+      "fund_flow_time": "23:05:40"
     },
     "688195": {
       "code": "688195",
@@ -8720,7 +7366,7 @@
         "ask_vol5": 2
       },
       "book_diff": 206780.0,
-      "timestamp": "2026-06-02T21:55:58.676768",
+      "timestamp": "2026-06-02T23:09:25.216680",
       "main_force": -78559345.52,
       "super": 0,
       "large": 0,
@@ -8732,59 +7378,7 @@
       "chg_20d": 0,
       "mf_5d": -1876710.0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:26"
-    },
-    "600487": {
-      "code": "600487",
-      "name": "长飞光纤",
-      "sector": "光纤/光器件",
-      "price": 83.12,
-      "open": 74.61,
-      "high": 83.12,
-      "low": 74.61,
-      "last_close": 75.56,
-      "volume": 1913933,
-      "amount": 15481292800.0,
-      "vwap": 80.89,
-      "change_pct": 10.01,
-      "bids": {
-        "bid1": 83.12,
-        "bid_vol1": 84837,
-        "bid2": 83.11,
-        "bid_vol2": 837,
-        "bid3": 83.10000000000001,
-        "bid_vol3": 123,
-        "bid4": 83.09,
-        "bid_vol4": 32,
-        "bid5": 83.08,
-        "bid_vol5": 68
-      },
-      "asks": {
-        "ask1": 0.0,
-        "ask_vol1": 0,
-        "ask2": 0.0,
-        "ask_vol2": 0,
-        "ask3": 0.0,
-        "ask_vol3": 0,
-        "ask4": 0.0,
-        "ask_vol4": 0,
-        "ask5": 0.0,
-        "ask_vol5": 0
-      },
-      "book_diff": 713974413.0,
-      "timestamp": "2026-06-02T21:55:58.676878",
-      "main_force": 2812845134.24,
-      "super": 0,
-      "large": 0,
-      "medium": 0,
-      "small": 0,
-      "main_ratio": 0,
-      "main_pct": 0,
-      "chg_5d": 19.75,
-      "chg_20d": 0,
-      "mf_5d": 6647508680.0,
-      "has_fund_flow": true,
-      "fund_flow_time": "21:56:26"
+      "fund_flow_time": "23:05:40"
     },
     "002491": {
       "code": "002491",
@@ -8824,7 +7418,7 @@
         "ask_vol5": 197
       },
       "book_diff": 15776607.0,
-      "timestamp": "2026-06-02T21:55:58.676985",
+      "timestamp": "2026-06-02T23:09:25.216791",
       "main_force": 238204505.06,
       "super": 0,
       "large": 0,
@@ -8832,11 +7426,11 @@
       "small": 0,
       "main_ratio": 0,
       "main_pct": 0,
-      "chg_5d": 15.36,
+      "chg_5d": 0,
       "chg_20d": 0,
-      "mf_5d": 858111844.0,
+      "mf_5d": 0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:26"
+      "fund_flow_time": "23:05:45"
     },
     "600105": {
       "code": "600105",
@@ -8876,7 +7470,7 @@
         "ask_vol5": 0
       },
       "book_diff": 225432009.0,
-      "timestamp": "2026-06-02T21:55:58.677090",
+      "timestamp": "2026-06-02T23:09:25.216901",
       "main_force": 2008714011.86,
       "super": 0,
       "large": 0,
@@ -8884,11 +7478,11 @@
       "small": 0,
       "main_ratio": 0,
       "main_pct": 0,
-      "chg_5d": 7.22,
+      "chg_5d": 0,
       "chg_20d": 0,
-      "mf_5d": 2735242530.0,
+      "mf_5d": 0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:26"
+      "fund_flow_time": "23:05:45"
     },
     "600522": {
       "code": "600522",
@@ -8928,7 +7522,7 @@
         "ask_vol5": 43
       },
       "book_diff": 78694376.0,
-      "timestamp": "2026-06-02T21:55:58.677199",
+      "timestamp": "2026-06-02T23:09:25.217008",
       "main_force": 1896122002.09,
       "super": 0,
       "large": 0,
@@ -8936,11 +7530,11 @@
       "small": 0,
       "main_ratio": 0,
       "main_pct": 0,
-      "chg_5d": 5.95,
+      "chg_5d": 0,
       "chg_20d": 0,
-      "mf_5d": 1247482510.0,
+      "mf_5d": 0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:26"
+      "fund_flow_time": "23:05:45"
     },
     "600498": {
       "code": "600498",
@@ -8980,7 +7574,7 @@
         "ask_vol5": 1887
       },
       "book_diff": -14172655.0,
-      "timestamp": "2026-06-02T21:55:58.741027",
+      "timestamp": "2026-06-02T23:09:25.217119",
       "main_force": 283808263.25,
       "super": 0,
       "large": 0,
@@ -8988,11 +7582,11 @@
       "small": 0,
       "main_ratio": 0,
       "main_pct": 0,
-      "chg_5d": -4.81,
+      "chg_5d": 0,
       "chg_20d": 0,
-      "mf_5d": -536864920.0,
+      "mf_5d": 0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:31"
+      "fund_flow_time": "23:05:45"
     },
     "688981": {
       "code": "688981",
@@ -9032,7 +7626,7 @@
         "ask_vol5": 8
       },
       "book_diff": 35123907.0,
-      "timestamp": "2026-06-02T21:55:58.741160",
+      "timestamp": "2026-06-02T23:09:25.217225",
       "main_force": -241947029.36,
       "super": 0,
       "large": 0,
@@ -9044,7 +7638,7 @@
       "chg_20d": 0,
       "mf_5d": 0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:31"
+      "fund_flow_time": "23:05:45"
     },
     "688347": {
       "code": "688347",
@@ -9084,7 +7678,7 @@
         "ask_vol5": 4
       },
       "book_diff": 4824234.0,
-      "timestamp": "2026-06-02T21:55:58.741274",
+      "timestamp": "2026-06-02T23:09:25.217330",
       "main_force": 572080822.02,
       "super": 0,
       "large": 0,
@@ -9092,11 +7686,11 @@
       "small": 0,
       "main_ratio": 0,
       "main_pct": 0,
-      "chg_5d": 1.83,
+      "chg_5d": 0,
       "chg_20d": 0,
-      "mf_5d": -759585570.0,
+      "mf_5d": 0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:31"
+      "fund_flow_time": "23:05:45"
     },
     "688469": {
       "code": "688469",
@@ -9136,7 +7730,7 @@
         "ask_vol5": 1321
       },
       "book_diff": 3196089.0,
-      "timestamp": "2026-06-02T21:55:58.741385",
+      "timestamp": "2026-06-02T23:09:25.217440",
       "main_force": 46692416.42,
       "super": 0,
       "large": 0,
@@ -9144,11 +7738,11 @@
       "small": 0,
       "main_ratio": 0,
       "main_pct": 0,
-      "chg_5d": -7.11,
+      "chg_5d": 0,
       "chg_20d": 0,
-      "mf_5d": -32824376.0,
+      "mf_5d": 0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:31"
+      "fund_flow_time": "23:05:45"
     },
     "688249": {
       "code": "688249",
@@ -9188,7 +7782,7 @@
         "ask_vol5": 24
       },
       "book_diff": -2279445.0,
-      "timestamp": "2026-06-02T21:55:58.741494",
+      "timestamp": "2026-06-02T23:09:25.217553",
       "main_force": -778005.3,
       "super": 0,
       "large": 0,
@@ -9196,11 +7790,11 @@
       "small": 0,
       "main_ratio": 0,
       "main_pct": 0,
-      "chg_5d": 1.15,
+      "chg_5d": 0,
       "chg_20d": 0,
-      "mf_5d": 227208908.0,
+      "mf_5d": 0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:31"
+      "fund_flow_time": "23:05:45"
     },
     "600460": {
       "code": "600460",
@@ -9240,7 +7834,7 @@
         "ask_vol5": 60
       },
       "book_diff": 13155083.0,
-      "timestamp": "2026-06-02T21:55:58.741631",
+      "timestamp": "2026-06-02T23:09:25.217674",
       "main_force": -67397950.84,
       "super": 0,
       "large": 0,
@@ -9248,11 +7842,11 @@
       "small": 0,
       "main_ratio": 0,
       "main_pct": 0,
-      "chg_5d": -2.57,
+      "chg_5d": 0,
       "chg_20d": 0,
-      "mf_5d": 137054475.0,
+      "mf_5d": 0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:31"
+      "fund_flow_time": "23:05:45"
     },
     "600584": {
       "code": "600584",
@@ -9292,7 +7886,7 @@
         "ask_vol5": 332
       },
       "book_diff": 46533019.0,
-      "timestamp": "2026-06-02T21:55:58.741746",
+      "timestamp": "2026-06-02T23:09:25.217783",
       "main_force": -527020657.16,
       "super": 0,
       "large": 0,
@@ -9300,11 +7894,11 @@
       "small": 0,
       "main_ratio": 0,
       "main_pct": 0,
-      "chg_5d": -14.56,
+      "chg_5d": 0,
       "chg_20d": 0,
-      "mf_5d": -7752627600.0,
+      "mf_5d": 0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:31"
+      "fund_flow_time": "23:05:45"
     },
     "002156": {
       "code": "002156",
@@ -9344,7 +7938,7 @@
         "ask_vol5": 210
       },
       "book_diff": 38241948.0,
-      "timestamp": "2026-06-02T21:55:58.741856",
+      "timestamp": "2026-06-02T23:09:25.282734",
       "main_force": 615201798.67,
       "super": 0,
       "large": 0,
@@ -9356,7 +7950,7 @@
       "chg_20d": 0,
       "mf_5d": -3311682270.0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:31"
+      "fund_flow_time": "23:05:50"
     },
     "002185": {
       "code": "002185",
@@ -9396,7 +7990,7 @@
         "ask_vol5": 1096
       },
       "book_diff": 61936033.0,
-      "timestamp": "2026-06-02T21:55:58.741970",
+      "timestamp": "2026-06-02T23:09:25.282873",
       "main_force": -99540128.96,
       "super": 0,
       "large": 0,
@@ -9404,11 +7998,11 @@
       "small": 0,
       "main_ratio": 0,
       "main_pct": 0,
-      "chg_5d": 0,
+      "chg_5d": -1.82,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": -4683830960.0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:31"
+      "fund_flow_time": "23:05:50"
     },
     "688403": {
       "code": "688403",
@@ -9448,7 +8042,7 @@
         "ask_vol5": 18
       },
       "book_diff": -305781.0,
-      "timestamp": "2026-06-02T21:55:58.742083",
+      "timestamp": "2026-06-02T23:09:25.282989",
       "main_force": 8486422.93,
       "super": 0,
       "large": 0,
@@ -9460,7 +8054,7 @@
       "chg_20d": 0,
       "mf_5d": -44011690.0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:31"
+      "fund_flow_time": "23:05:50"
     },
     "688372": {
       "code": "688372",
@@ -9500,7 +8094,7 @@
         "ask_vol5": 6
       },
       "book_diff": -712817.0,
-      "timestamp": "2026-06-02T21:55:58.742191",
+      "timestamp": "2026-06-02T23:09:25.283102",
       "main_force": -119115384.73,
       "super": 0,
       "large": 0,
@@ -9512,7 +8106,7 @@
       "chg_20d": 0,
       "mf_5d": -391711462.0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:36"
+      "fund_flow_time": "23:05:50"
     },
     "002371": {
       "code": "002371",
@@ -9552,7 +8146,7 @@
         "ask_vol5": 38
       },
       "book_diff": 18866770.0,
-      "timestamp": "2026-06-02T21:55:58.742298",
+      "timestamp": "2026-06-02T23:09:25.283212",
       "main_force": 218184933.64,
       "super": 0,
       "large": 0,
@@ -9564,7 +8158,7 @@
       "chg_20d": 0,
       "mf_5d": -1893827610.0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:36"
+      "fund_flow_time": "23:05:50"
     },
     "688012": {
       "code": "688012",
@@ -9604,7 +8198,7 @@
         "ask_vol5": 2
       },
       "book_diff": 451602.0,
-      "timestamp": "2026-06-02T21:55:58.742405",
+      "timestamp": "2026-06-02T23:09:25.283322",
       "main_force": -180902004.64,
       "super": 0,
       "large": 0,
@@ -9616,7 +8210,7 @@
       "chg_20d": 0,
       "mf_5d": -2525987820.0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:36"
+      "fund_flow_time": "23:05:50"
     },
     "688072": {
       "code": "688072",
@@ -9656,7 +8250,7 @@
         "ask_vol5": 2
       },
       "book_diff": 12753601.0,
-      "timestamp": "2026-06-02T21:55:58.742511",
+      "timestamp": "2026-06-02T23:09:25.283431",
       "main_force": 66885584.4,
       "super": 0,
       "large": 0,
@@ -9668,7 +8262,7 @@
       "chg_20d": 0,
       "mf_5d": -1687829060.0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:36"
+      "fund_flow_time": "23:05:50"
     },
     "688082": {
       "code": "688082",
@@ -9708,7 +8302,7 @@
         "ask_vol5": 3
       },
       "book_diff": 1462187.0,
-      "timestamp": "2026-06-02T21:55:58.742636",
+      "timestamp": "2026-06-02T23:09:25.283552",
       "main_force": 149886776.26,
       "super": 0,
       "large": 0,
@@ -9720,7 +8314,7 @@
       "chg_20d": 0,
       "mf_5d": -158601021.0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:36"
+      "fund_flow_time": "23:05:50"
     },
     "688361": {
       "code": "688361",
@@ -9760,7 +8354,7 @@
         "ask_vol5": 2
       },
       "book_diff": -471616.0,
-      "timestamp": "2026-06-02T21:55:58.742749",
+      "timestamp": "2026-06-02T23:09:25.283679",
       "main_force": 91884194.56,
       "super": 0,
       "large": 0,
@@ -9772,7 +8366,7 @@
       "chg_20d": 0,
       "mf_5d": -442102394.0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:36"
+      "fund_flow_time": "23:05:50"
     },
     "300604": {
       "code": "300604",
@@ -9812,7 +8406,7 @@
         "ask_vol5": 1
       },
       "book_diff": 664210.0,
-      "timestamp": "2026-06-02T21:55:58.742855",
+      "timestamp": "2026-06-02T23:09:25.283789",
       "main_force": 61895506.97,
       "super": 0,
       "large": 0,
@@ -9824,7 +8418,7 @@
       "chg_20d": 0,
       "mf_5d": -2371429340.0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:36"
+      "fund_flow_time": "23:05:50"
     },
     "300666": {
       "code": "300666",
@@ -9864,7 +8458,7 @@
         "ask_vol5": 11
       },
       "book_diff": -418749.0,
-      "timestamp": "2026-06-02T21:55:58.742966",
+      "timestamp": "2026-06-02T23:09:25.283895",
       "main_force": -165196525.64,
       "super": 0,
       "large": 0,
@@ -9876,7 +8470,7 @@
       "chg_20d": 0,
       "mf_5d": -664408000.0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:36"
+      "fund_flow_time": "23:05:54"
     },
     "688126": {
       "code": "688126",
@@ -9916,7 +8510,7 @@
         "ask_vol5": 158
       },
       "book_diff": 8930850.0,
-      "timestamp": "2026-06-02T21:55:58.743074",
+      "timestamp": "2026-06-02T23:09:25.284001",
       "main_force": -308032138.21,
       "super": 0,
       "large": 0,
@@ -9928,7 +8522,7 @@
       "chg_20d": 0,
       "mf_5d": 101415200.0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:36"
+      "fund_flow_time": "23:05:54"
     },
     "688019": {
       "code": "688019",
@@ -9968,7 +8562,7 @@
         "ask_vol5": 2
       },
       "book_diff": 739750.0,
-      "timestamp": "2026-06-02T21:55:58.743185",
+      "timestamp": "2026-06-02T23:09:25.284106",
       "main_force": 87001682.71,
       "super": 0,
       "large": 0,
@@ -9980,7 +8574,7 @@
       "chg_20d": 0,
       "mf_5d": -534744684.0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:36"
+      "fund_flow_time": "23:05:54"
     },
     "300054": {
       "code": "300054",
@@ -10020,19 +8614,19 @@
         "ask_vol5": 34
       },
       "book_diff": 767644.0,
-      "timestamp": "2026-06-02T21:55:58.743294",
-      "main_force": 54681827.73,
+      "timestamp": "2026-06-02T23:09:25.284212",
+      "main_force": -8460193.04,
       "super": 0,
       "large": 0,
       "medium": 0,
       "small": 0,
-      "main_ratio": 277.57,
-      "main_pct": 2.7757,
+      "main_ratio": 0,
+      "main_pct": 0,
       "chg_5d": -15.22,
       "chg_20d": 0,
-      "mf_5d": -637310510.0,
+      "mf_5d": -1018805790.0,
       "has_fund_flow": true,
-      "fund_flow_time": "18:15:44"
+      "fund_flow_time": "23:05:54"
     },
     "688268": {
       "code": "688268",
@@ -10072,19 +8666,19 @@
         "ask_vol5": 18
       },
       "book_diff": -1278364.0,
-      "timestamp": "2026-06-02T21:55:58.743399",
-      "main_force": 10105968.48,
+      "timestamp": "2026-06-02T23:09:25.284323",
+      "main_force": -4216230.14,
       "super": 0,
       "large": 0,
       "medium": 0,
       "small": 0,
-      "main_ratio": 100.42999999999999,
-      "main_pct": 1.0043,
+      "main_ratio": 0,
+      "main_pct": 0,
       "chg_5d": -7.03,
       "chg_20d": 0,
-      "mf_5d": -142279953.0,
+      "mf_5d": -383606544.0,
       "has_fund_flow": true,
-      "fund_flow_time": "18:15:44"
+      "fund_flow_time": "23:05:54"
     },
     "300655": {
       "code": "300655",
@@ -10124,7 +8718,7 @@
         "ask_vol5": 265
       },
       "book_diff": -1178451.0,
-      "timestamp": "2026-06-02T21:55:58.743504",
+      "timestamp": "2026-06-02T23:09:25.284430",
       "main_force": -31120147.97,
       "super": 0,
       "large": 0,
@@ -10136,7 +8730,7 @@
       "chg_20d": 0,
       "mf_5d": -445337813.0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:40"
+      "fund_flow_time": "23:05:54"
     },
     "301269": {
       "code": "301269",
@@ -10176,7 +8770,7 @@
         "ask_vol5": 19
       },
       "book_diff": -1242973.0,
-      "timestamp": "2026-06-02T21:55:58.743629",
+      "timestamp": "2026-06-02T23:09:25.284535",
       "main_force": 52382699.23,
       "super": 0,
       "large": 0,
@@ -10188,7 +8782,7 @@
       "chg_20d": 0,
       "mf_5d": -1046963180.0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:40"
+      "fund_flow_time": "23:05:54"
     },
     "688206": {
       "code": "688206",
@@ -10228,7 +8822,7 @@
         "ask_vol5": 68
       },
       "book_diff": -23027.0,
-      "timestamp": "2026-06-02T21:55:58.743763",
+      "timestamp": "2026-06-02T23:09:25.284662",
       "main_force": 4169927.94,
       "super": 0,
       "large": 0,
@@ -10240,7 +8834,7 @@
       "chg_20d": 0,
       "mf_5d": -165016410.0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:40"
+      "fund_flow_time": "23:05:54"
     },
     "688521": {
       "code": "688521",
@@ -10280,7 +8874,7 @@
         "ask_vol5": 2
       },
       "book_diff": 1152767.0,
-      "timestamp": "2026-06-02T21:55:58.743879",
+      "timestamp": "2026-06-02T23:09:25.284774",
       "main_force": 394342598.51,
       "super": 0,
       "large": 0,
@@ -10332,19 +8926,19 @@
         "ask_vol5": 1
       },
       "book_diff": 263374.0,
-      "timestamp": "2026-06-02T21:55:58.743987",
-      "main_force": 2648308.0,
+      "timestamp": "2026-06-02T23:09:25.284884",
+      "main_force": -20054735.4,
       "super": 0,
       "large": 0,
       "medium": 0,
       "small": 0,
-      "main_ratio": 47.3,
-      "main_pct": 0.473,
+      "main_ratio": 0,
+      "main_pct": 0,
       "chg_5d": -15.7,
       "chg_20d": 0,
-      "mf_5d": -44150584.0,
+      "mf_5d": -295804390.0,
       "has_fund_flow": true,
-      "fund_flow_time": "18:15:44"
+      "fund_flow_time": "23:05:54"
     },
     "688017": {
       "code": "688017",
@@ -10384,7 +8978,7 @@
         "ask_vol5": 2
       },
       "book_diff": 5415351.0,
-      "timestamp": "2026-06-02T21:55:58.744093",
+      "timestamp": "2026-06-02T23:09:25.284992",
       "main_force": 114695644.53,
       "super": 0,
       "large": 0,
@@ -10396,7 +8990,7 @@
       "chg_20d": 0,
       "mf_5d": -2030994890.0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:40"
+      "fund_flow_time": "23:06:00"
     },
     "002472": {
       "code": "002472",
@@ -10436,19 +9030,19 @@
         "ask_vol5": 20
       },
       "book_diff": 1738913.0,
-      "timestamp": "2026-06-02T21:55:58.744204",
-      "main_force": 20258006.03,
+      "timestamp": "2026-06-02T23:09:25.285097",
+      "main_force": -15415955.57,
       "super": 0,
       "large": 0,
       "medium": 0,
       "small": 0,
-      "main_ratio": 158.35,
-      "main_pct": 1.5835,
+      "main_ratio": 0,
+      "main_pct": 0,
       "chg_5d": -10.6,
       "chg_20d": 0,
-      "mf_5d": -201702830.0,
+      "mf_5d": -480701499.0,
       "has_fund_flow": true,
-      "fund_flow_time": "18:15:44"
+      "fund_flow_time": "23:06:00"
     },
     "603728": {
       "code": "603728",
@@ -10488,7 +9082,7 @@
         "ask_vol5": 18
       },
       "book_diff": 623969.0,
-      "timestamp": "2026-06-02T21:55:58.744314",
+      "timestamp": "2026-06-02T23:09:25.285202",
       "main_force": -3649217.35,
       "super": 0,
       "large": 0,
@@ -10500,7 +9094,7 @@
       "chg_20d": 0,
       "mf_5d": -189947954.0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:40"
+      "fund_flow_time": "23:06:00"
     },
     "603662": {
       "code": "603662",
@@ -10540,7 +9134,7 @@
         "ask_vol5": 46
       },
       "book_diff": -2695114.0,
-      "timestamp": "2026-06-02T21:55:58.744421",
+      "timestamp": "2026-06-02T23:09:25.285312",
       "main_force": -2329869.06,
       "super": 0,
       "large": 0,
@@ -10548,11 +9142,11 @@
       "small": 0,
       "main_ratio": 0,
       "main_pct": 0,
-      "chg_5d": 0,
+      "chg_5d": -12.13,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": -171274506.5,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:45"
+      "fund_flow_time": "23:06:00"
     },
     "603667": {
       "code": "603667",
@@ -10592,7 +9186,7 @@
         "ask_vol5": 106
       },
       "book_diff": 20662543.0,
-      "timestamp": "2026-06-02T21:55:58.744526",
+      "timestamp": "2026-06-02T23:09:25.285423",
       "main_force": -20928640.8,
       "super": 0,
       "large": 0,
@@ -10600,11 +9194,11 @@
       "small": 0,
       "main_ratio": 0,
       "main_pct": 0,
-      "chg_5d": 0,
+      "chg_5d": -20.4,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": -1110938579.0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:45"
+      "fund_flow_time": "23:06:00"
     },
     "002896": {
       "code": "002896",
@@ -10644,7 +9238,7 @@
         "ask_vol5": 0
       },
       "book_diff": 124763470.0,
-      "timestamp": "2026-06-02T21:55:58.744658",
+      "timestamp": "2026-06-02T23:09:25.285528",
       "main_force": 468812575.41,
       "super": 0,
       "large": 0,
@@ -10652,11 +9246,11 @@
       "small": 0,
       "main_ratio": 0,
       "main_pct": 0,
-      "chg_5d": 0,
+      "chg_5d": -8.9,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 85833407.0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:45"
+      "fund_flow_time": "23:06:00"
     },
     "002463": {
       "code": "002463",
@@ -10696,7 +9290,7 @@
         "ask_vol5": 55
       },
       "book_diff": 11158114.0,
-      "timestamp": "2026-06-02T21:55:58.744780",
+      "timestamp": "2026-06-02T23:09:25.285646",
       "main_force": 821478697.88,
       "super": 0,
       "large": 0,
@@ -10704,11 +9298,11 @@
       "small": 0,
       "main_ratio": 0,
       "main_pct": 0,
-      "chg_5d": 0,
+      "chg_5d": -1.77,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": -1423033070.0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:45"
+      "fund_flow_time": "23:06:00"
     },
     "002916": {
       "code": "002916",
@@ -10748,7 +9342,7 @@
         "ask_vol5": 20
       },
       "book_diff": 16741832.0,
-      "timestamp": "2026-06-02T21:55:58.744900",
+      "timestamp": "2026-06-02T23:09:25.285762",
       "main_force": 156776499.83,
       "super": 0,
       "large": 0,
@@ -10756,11 +9350,11 @@
       "small": 0,
       "main_ratio": 0,
       "main_pct": 0,
-      "chg_5d": 0,
+      "chg_5d": -4.39,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": -604018500.0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:45"
+      "fund_flow_time": "23:06:00"
     },
     "300476": {
       "code": "300476",
@@ -10800,7 +9394,7 @@
         "ask_vol5": 24
       },
       "book_diff": -40708119.0,
-      "timestamp": "2026-06-02T21:55:58.745008",
+      "timestamp": "2026-06-02T23:09:25.285870",
       "main_force": -270644899.69,
       "super": 0,
       "large": 0,
@@ -10808,11 +9402,11 @@
       "small": 0,
       "main_ratio": 0,
       "main_pct": 0,
-      "chg_5d": 0,
+      "chg_5d": -11.16,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": -6877904210.0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:45"
+      "fund_flow_time": "23:06:00"
     },
     "002938": {
       "code": "002938",
@@ -10852,7 +9446,7 @@
         "ask_vol5": 4
       },
       "book_diff": 23369313.0,
-      "timestamp": "2026-06-02T21:55:58.745118",
+      "timestamp": "2026-06-02T23:09:25.285981",
       "main_force": 589981326.77,
       "super": 0,
       "large": 0,
@@ -10860,11 +9454,11 @@
       "small": 0,
       "main_ratio": 0,
       "main_pct": 0,
-      "chg_5d": 0,
+      "chg_5d": -3.54,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 104094340.0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:45"
+      "fund_flow_time": "23:06:00"
     },
     "603228": {
       "code": "603228",
@@ -10904,7 +9498,7 @@
         "ask_vol5": 96
       },
       "book_diff": -26922651.0,
-      "timestamp": "2026-06-02T21:55:58.745228",
+      "timestamp": "2026-06-02T23:09:25.286087",
       "main_force": -127832862.43,
       "super": 0,
       "large": 0,
@@ -10916,7 +9510,7 @@
       "chg_20d": 0,
       "mf_5d": 0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:45"
+      "fund_flow_time": "23:06:04"
     },
     "301377": {
       "code": "301377",
@@ -10956,7 +9550,7 @@
         "ask_vol5": 3
       },
       "book_diff": -69008.0,
-      "timestamp": "2026-06-02T21:55:58.745334",
+      "timestamp": "2026-06-02T23:09:25.286192",
       "main_force": -18801307.07,
       "super": 0,
       "large": 0,
@@ -10968,7 +9562,7 @@
       "chg_20d": 0,
       "mf_5d": 0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:45"
+      "fund_flow_time": "23:06:04"
     },
     "600183": {
       "code": "600183",
@@ -11008,7 +9602,7 @@
         "ask_vol5": 15
       },
       "book_diff": 11734431.0,
-      "timestamp": "2026-06-02T21:55:58.745442",
+      "timestamp": "2026-06-02T23:09:25.286303",
       "main_force": 240594568.46,
       "super": 0,
       "large": 0,
@@ -11020,7 +9614,7 @@
       "chg_20d": 0,
       "mf_5d": 0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:45"
+      "fund_flow_time": "23:06:04"
     },
     "000636": {
       "code": "000636",
@@ -11060,7 +9654,7 @@
         "ask_vol5": 115
       },
       "book_diff": 18083785.0,
-      "timestamp": "2026-06-02T21:55:58.745548",
+      "timestamp": "2026-06-02T23:09:25.286409",
       "main_force": 153782831.01,
       "super": 0,
       "large": 0,
@@ -11072,7 +9666,7 @@
       "chg_20d": 0,
       "mf_5d": 0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:50"
+      "fund_flow_time": "23:06:04"
     },
     "300408": {
       "code": "300408",
@@ -11112,7 +9706,7 @@
         "ask_vol5": 7
       },
       "book_diff": -323655.0,
-      "timestamp": "2026-06-02T21:55:58.745669",
+      "timestamp": "2026-06-02T23:09:25.286517",
       "main_force": 362549575.22,
       "super": 0,
       "large": 0,
@@ -11124,7 +9718,7 @@
       "chg_20d": 0,
       "mf_5d": 0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:50"
+      "fund_flow_time": "23:06:04"
     },
     "603678": {
       "code": "603678",
@@ -11164,7 +9758,7 @@
         "ask_vol5": 0
       },
       "book_diff": 194857630.0,
-      "timestamp": "2026-06-02T21:55:58.745786",
+      "timestamp": "2026-06-02T23:09:25.286636",
       "main_force": 68655669.78,
       "super": 0,
       "large": 0,
@@ -11176,7 +9770,7 @@
       "chg_20d": 0,
       "mf_5d": 0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:50"
+      "fund_flow_time": "23:06:04"
     },
     "603267": {
       "code": "603267",
@@ -11216,7 +9810,7 @@
         "ask_vol5": 0
       },
       "book_diff": 63286028.0,
-      "timestamp": "2026-06-02T21:55:58.745893",
+      "timestamp": "2026-06-02T23:09:25.286755",
       "main_force": 211199503.7,
       "super": 0,
       "large": 0,
@@ -11228,7 +9822,7 @@
       "chg_20d": 0,
       "mf_5d": 0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:50"
+      "fund_flow_time": "23:06:04"
     },
     "300726": {
       "code": "300726",
@@ -11268,7 +9862,7 @@
         "ask_vol5": 12
       },
       "book_diff": 1061362.0,
-      "timestamp": "2026-06-02T21:55:58.746002",
+      "timestamp": "2026-06-02T23:09:25.286866",
       "main_force": -26982969.14,
       "super": 0,
       "large": 0,
@@ -11280,111 +9874,7 @@
       "chg_20d": 0,
       "mf_5d": 0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:50"
-    },
-    "003009": {
-      "code": "003009",
-      "name": "中天火箭",
-      "sector": "火箭+地面设备+材料",
-      "price": 50.33,
-      "open": 50.85,
-      "high": 50.94,
-      "low": 49.120000000000005,
-      "last_close": 50.83,
-      "volume": 23263,
-      "amount": 116372664.0,
-      "vwap": 50.02,
-      "change_pct": -0.98,
-      "bids": {
-        "bid1": 50.33,
-        "bid_vol1": 12,
-        "bid2": 50.32,
-        "bid_vol2": 11,
-        "bid3": 50.31,
-        "bid_vol3": 72,
-        "bid4": 50.300000000000004,
-        "bid_vol4": 78,
-        "bid5": 50.29,
-        "bid_vol5": 1
-      },
-      "asks": {
-        "ask1": 50.35,
-        "ask_vol1": 79,
-        "ask2": 50.36,
-        "ask_vol2": 20,
-        "ask3": 50.370000000000005,
-        "ask_vol3": 44,
-        "ask4": 50.38,
-        "ask_vol4": 2,
-        "ask5": 50.39,
-        "ask_vol5": 8
-      },
-      "book_diff": 104848.0,
-      "timestamp": "2026-06-02T21:55:58.746108",
-      "main_force": -1786685.5,
-      "super": 0,
-      "large": 0,
-      "medium": 0,
-      "small": 0,
-      "main_ratio": 0,
-      "main_pct": 0,
-      "chg_5d": 0,
-      "chg_20d": 0,
-      "mf_5d": 0,
-      "has_fund_flow": true,
-      "fund_flow_time": "21:56:50"
-    },
-    "600456": {
-      "code": "600456",
-      "name": "宝钛股份",
-      "sector": "火箭+地面设备+材料",
-      "price": 32.03,
-      "open": 31.94,
-      "high": 32.18,
-      "low": 31.400000000000002,
-      "last_close": 31.93,
-      "volume": 64647,
-      "amount": 205462528.0,
-      "vwap": 31.78,
-      "change_pct": 0.31,
-      "bids": {
-        "bid1": 32.03,
-        "bid_vol1": 32,
-        "bid2": 32.02,
-        "bid_vol2": 27,
-        "bid3": 32.01,
-        "bid_vol3": 135,
-        "bid4": 32.0,
-        "bid_vol4": 105,
-        "bid5": 31.990000000000002,
-        "bid_vol5": 60
-      },
-      "asks": {
-        "ask1": 32.04,
-        "ask_vol1": 540,
-        "ask2": 32.05,
-        "ask_vol2": 255,
-        "ask3": 32.06,
-        "ask_vol3": 100,
-        "ask4": 32.07,
-        "ask_vol4": 110,
-        "ask5": 32.08,
-        "ask_vol5": 5
-      },
-      "book_diff": -2087820.0,
-      "timestamp": "2026-06-02T21:55:58.746214",
-      "main_force": 2705713.72,
-      "super": 0,
-      "large": 0,
-      "medium": 0,
-      "small": 0,
-      "main_ratio": 0,
-      "main_pct": 0,
-      "chg_5d": 0,
-      "chg_20d": 0,
-      "mf_5d": 0,
-      "has_fund_flow": true,
-      "fund_flow_time": "21:56:50"
+      "fund_flow_time": "23:06:04"
     },
     "002465": {
       "code": "002465",
@@ -11424,7 +9914,7 @@
         "ask_vol5": 856
       },
       "book_diff": -23820669.0,
-      "timestamp": "2026-06-02T21:55:58.746322",
+      "timestamp": "2026-06-02T23:09:25.286974",
       "main_force": 43200335.16,
       "super": 0,
       "large": 0,
@@ -11436,59 +9926,7 @@
       "chg_20d": 0,
       "mf_5d": 0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:50"
-    },
-    "688387": {
-      "code": "688387",
-      "name": "信科移动",
-      "sector": "火箭+地面设备+材料",
-      "price": 15.72,
-      "open": 15.5,
-      "high": 15.99,
-      "low": 14.91,
-      "last_close": 15.27,
-      "volume": 615306,
-      "amount": 947427904.0,
-      "vwap": 15.4,
-      "change_pct": 2.95,
-      "bids": {
-        "bid1": 15.71,
-        "bid_vol1": 96,
-        "bid2": 15.700000000000001,
-        "bid_vol2": 197,
-        "bid3": 15.69,
-        "bid_vol3": 3,
-        "bid4": 15.68,
-        "bid_vol4": 4,
-        "bid5": 15.67,
-        "bid_vol5": 4
-      },
-      "asks": {
-        "ask1": 15.72,
-        "ask_vol1": 562,
-        "ask2": 15.73,
-        "ask_vol2": 419,
-        "ask3": 15.74,
-        "ask_vol3": 592,
-        "ask4": 15.75,
-        "ask_vol4": 695,
-        "ask5": 15.76,
-        "ask_vol5": 1013
-      },
-      "book_diff": -4688119.0,
-      "timestamp": "2026-06-02T21:55:58.746428",
-      "main_force": 52480313.84,
-      "super": 0,
-      "large": 0,
-      "medium": 0,
-      "small": 0,
-      "main_ratio": 0,
-      "main_pct": 0,
-      "chg_5d": 0,
-      "chg_20d": 0,
-      "mf_5d": 0,
-      "has_fund_flow": true,
-      "fund_flow_time": "21:56:50"
+      "fund_flow_time": "23:06:09"
     },
     "002297": {
       "code": "002297",
@@ -11528,7 +9966,7 @@
         "ask_vol5": 1692
       },
       "book_diff": -681072.0,
-      "timestamp": "2026-06-02T21:55:58.746537",
+      "timestamp": "2026-06-02T23:09:25.287084",
       "main_force": -53732096.01,
       "super": 0,
       "large": 0,
@@ -11580,7 +10018,7 @@
         "ask_vol5": 22
       },
       "book_diff": 1528147.0,
-      "timestamp": "2026-06-02T21:55:58.809079",
+      "timestamp": "2026-06-02T23:09:25.287194",
       "main_force": -59429353.0,
       "super": 0,
       "large": 0,
@@ -11588,115 +10026,11 @@
       "small": 0,
       "main_ratio": 0,
       "main_pct": 0,
-      "chg_5d": -6.24,
+      "chg_5d": 0,
       "chg_20d": 0,
-      "mf_5d": -165882588.0,
+      "mf_5d": 0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:54"
-    },
-    "688005": {
-      "code": "688005",
-      "name": "容百科技",
-      "sector": "正负极材料+电解质",
-      "price": 31.740000000000002,
-      "open": 32.94,
-      "high": 33.22,
-      "low": 31.54,
-      "last_close": 32.88,
-      "volume": 223449,
-      "amount": 717144704.0,
-      "vwap": 32.09,
-      "change_pct": -3.47,
-      "bids": {
-        "bid1": 31.73,
-        "bid_vol1": 353,
-        "bid2": 31.720000000000002,
-        "bid_vol2": 55,
-        "bid3": 31.71,
-        "bid_vol3": 112,
-        "bid4": 31.7,
-        "bid_vol4": 221,
-        "bid5": 31.69,
-        "bid_vol5": 158
-      },
-      "asks": {
-        "ask1": 31.740000000000002,
-        "ask_vol1": 26,
-        "ask2": 31.75,
-        "ask_vol2": 54,
-        "ask3": 31.76,
-        "ask_vol3": 92,
-        "ask4": 31.77,
-        "ask_vol4": 71,
-        "ask5": 31.78,
-        "ask_vol5": 49
-      },
-      "book_diff": 1923498.0,
-      "timestamp": "2026-06-02T21:55:58.809210",
-      "main_force": -10934758.96,
-      "super": 0,
-      "large": 0,
-      "medium": 0,
-      "small": 0,
-      "main_ratio": 0,
-      "main_pct": 0,
-      "chg_5d": -3.32,
-      "chg_20d": 0,
-      "mf_5d": -38983542.0,
-      "has_fund_flow": true,
-      "fund_flow_time": "21:56:54"
-    },
-    "002167": {
-      "code": "002167",
-      "name": "东方锆业",
-      "sector": "正负极材料+电解质",
-      "price": 13.39,
-      "open": 13.040000000000001,
-      "high": 13.52,
-      "low": 12.8,
-      "last_close": 13.01,
-      "volume": 419277,
-      "amount": 553076672.0,
-      "vwap": 13.19,
-      "change_pct": 2.92,
-      "bids": {
-        "bid1": 13.38,
-        "bid_vol1": 925,
-        "bid2": 13.370000000000001,
-        "bid_vol2": 1661,
-        "bid3": 13.36,
-        "bid_vol3": 1238,
-        "bid4": 13.35,
-        "bid_vol4": 474,
-        "bid5": 13.34,
-        "bid_vol5": 1332
-      },
-      "asks": {
-        "ask1": 13.39,
-        "ask_vol1": 713,
-        "ask2": 13.4,
-        "ask_vol2": 995,
-        "ask3": 13.41,
-        "ask_vol3": 227,
-        "ask4": 13.42,
-        "ask_vol4": 782,
-        "ask5": 13.43,
-        "ask_vol5": 235
-      },
-      "book_diff": 3564590.0,
-      "timestamp": "2026-06-02T21:55:58.809323",
-      "main_force": 22748117.22,
-      "super": 0,
-      "large": 0,
-      "medium": 0,
-      "small": 0,
-      "main_ratio": 0,
-      "main_pct": 0,
-      "chg_5d": 3.0,
-      "chg_20d": 0,
-      "mf_5d": -52703692.0,
-      "has_fund_flow": true,
-      "fund_flow_time": "21:56:54"
+      "fund_flow_time": "23:06:09"
     },
     "603663": {
       "code": "603663",
@@ -11736,7 +10070,7 @@
         "ask_vol5": 244
       },
       "book_diff": -2474722.0,
-      "timestamp": "2026-06-02T21:55:58.809441",
+      "timestamp": "2026-06-02T23:09:25.287299",
       "main_force": -102688.44,
       "super": 0,
       "large": 0,
@@ -11744,271 +10078,11 @@
       "small": 0,
       "main_ratio": 0,
       "main_pct": 0,
-      "chg_5d": 5.99,
+      "chg_5d": 0,
       "chg_20d": 0,
-      "mf_5d": -205970508.0,
+      "mf_5d": 0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:54"
-    },
-    "002882": {
-      "code": "002882",
-      "name": "金龙羽",
-      "sector": "正负极材料+电解质",
-      "price": 22.3,
-      "open": 22.94,
-      "high": 22.97,
-      "low": 22.1,
-      "last_close": 22.95,
-      "volume": 29599,
-      "amount": 66167400.0,
-      "vwap": 22.35,
-      "change_pct": -2.83,
-      "bids": {
-        "bid1": 22.3,
-        "bid_vol1": 210,
-        "bid2": 22.29,
-        "bid_vol2": 10,
-        "bid3": 22.28,
-        "bid_vol3": 13,
-        "bid4": 22.27,
-        "bid_vol4": 56,
-        "bid5": 22.26,
-        "bid_vol5": 42
-      },
-      "asks": {
-        "ask1": 22.31,
-        "ask_vol1": 35,
-        "ask2": 22.32,
-        "ask_vol2": 80,
-        "ask3": 22.330000000000002,
-        "ask_vol3": 37,
-        "ask4": 22.34,
-        "ask_vol4": 55,
-        "ask5": 22.35,
-        "ask_vol5": 22
-      },
-      "book_diff": 226452.0,
-      "timestamp": "2026-06-02T21:55:58.809550",
-      "main_force": -1496344.28,
-      "super": 0,
-      "large": 0,
-      "medium": 0,
-      "small": 0,
-      "main_ratio": 0,
-      "main_pct": 0,
-      "chg_5d": -5.35,
-      "chg_20d": 0,
-      "mf_5d": -8859739.3,
-      "has_fund_flow": true,
-      "fund_flow_time": "21:56:54"
-    },
-    "600150": {
-      "code": "600150",
-      "name": "中国船舶",
-      "sector": "舰船+军工信息化",
-      "price": 36.45,
-      "open": 36.63,
-      "high": 36.74,
-      "low": 35.82,
-      "last_close": 36.74,
-      "volume": 747758,
-      "amount": 2715211008.0,
-      "vwap": 36.31,
-      "change_pct": -0.79,
-      "bids": {
-        "bid1": 36.45,
-        "bid_vol1": 2307,
-        "bid2": 36.44,
-        "bid_vol2": 244,
-        "bid3": 36.43,
-        "bid_vol3": 1316,
-        "bid4": 36.42,
-        "bid_vol4": 508,
-        "bid5": 36.410000000000004,
-        "bid_vol5": 79
-      },
-      "asks": {
-        "ask1": 36.46,
-        "ask_vol1": 292,
-        "ask2": 36.47,
-        "ask_vol2": 187,
-        "ask3": 36.480000000000004,
-        "ask_vol3": 368,
-        "ask4": 36.49,
-        "ask_vol4": 101,
-        "ask5": 36.5,
-        "ask_vol5": 415
-      },
-      "book_diff": 11257730.0,
-      "timestamp": "2026-06-02T21:55:58.809675",
-      "main_force": -160589058.5,
-      "super": 0,
-      "large": 0,
-      "medium": 0,
-      "small": 0,
-      "main_ratio": 0,
-      "main_pct": 0,
-      "chg_5d": -5.79,
-      "chg_20d": 0,
-      "mf_5d": -313292190.0,
-      "has_fund_flow": true,
-      "fund_flow_time": "21:56:54"
-    },
-    "000733": {
-      "code": "000733",
-      "name": "振华科技",
-      "sector": "舰船+军工信息化",
-      "price": 54.1,
-      "open": 50.9,
-      "high": 54.49,
-      "low": 49.800000000000004,
-      "last_close": 50.870000000000005,
-      "volume": 543014,
-      "amount": 2886948352.0,
-      "vwap": 53.17,
-      "change_pct": 6.35,
-      "bids": {
-        "bid1": 54.1,
-        "bid_vol1": 1056,
-        "bid2": 54.09,
-        "bid_vol2": 219,
-        "bid3": 54.08,
-        "bid_vol3": 151,
-        "bid4": 54.07,
-        "bid_vol4": 191,
-        "bid5": 54.06,
-        "bid_vol5": 117
-      },
-      "asks": {
-        "ask1": 54.11,
-        "ask_vol1": 68,
-        "ask2": 54.120000000000005,
-        "ask_vol2": 39,
-        "ask3": 54.13,
-        "ask_vol3": 233,
-        "ask4": 54.14,
-        "ask_vol4": 180,
-        "ask5": 54.15,
-        "ask_vol5": 251
-      },
-      "book_diff": 5205448.0,
-      "timestamp": "2026-06-02T21:55:58.809821",
-      "main_force": 159422250.99,
-      "super": 0,
-      "large": 0,
-      "medium": 0,
-      "small": 0,
-      "main_ratio": 0,
-      "main_pct": 0,
-      "chg_5d": 7.47,
-      "chg_20d": 0,
-      "mf_5d": 79007490.0,
-      "has_fund_flow": true,
-      "fund_flow_time": "21:56:54"
-    },
-    "600118": {
-      "code": "600118",
-      "name": "中国卫星",
-      "sector": "舰船+军工信息化",
-      "price": 76.4,
-      "open": 77.2,
-      "high": 77.38,
-      "low": 73.01,
-      "last_close": 76.60000000000001,
-      "volume": 352756,
-      "amount": 2659594496.0,
-      "vwap": 75.39,
-      "change_pct": -0.26,
-      "bids": {
-        "bid1": 76.39,
-        "bid_vol1": 880,
-        "bid2": 76.38,
-        "bid_vol2": 628,
-        "bid3": 76.37,
-        "bid_vol3": 92,
-        "bid4": 76.36,
-        "bid_vol4": 98,
-        "bid5": 76.35000000000001,
-        "bid_vol5": 47
-      },
-      "asks": {
-        "ask1": 76.4,
-        "ask_vol1": 42,
-        "ask2": 76.41,
-        "ask_vol2": 334,
-        "ask3": 76.42,
-        "ask_vol3": 40,
-        "ask4": 76.43,
-        "ask_vol4": 158,
-        "ask5": 76.44,
-        "ask_vol5": 34
-      },
-      "book_diff": 8682617.0,
-      "timestamp": "2026-06-02T21:55:58.809926",
-      "main_force": -176348831.11,
-      "super": 0,
-      "large": 0,
-      "medium": 0,
-      "small": 0,
-      "main_ratio": 0,
-      "main_pct": 0,
-      "chg_5d": -9.63,
-      "chg_20d": 0,
-      "mf_5d": -1592217593.0,
-      "has_fund_flow": true,
-      "fund_flow_time": "21:56:54"
-    },
-    "600316": {
-      "code": "600316",
-      "name": "洪都航空",
-      "sector": "舰船+军工信息化",
-      "price": 28.55,
-      "open": 29.22,
-      "high": 29.22,
-      "low": 28.26,
-      "last_close": 29.17,
-      "volume": 76816,
-      "amount": 219498944.0,
-      "vwap": 28.57,
-      "change_pct": -2.13,
-      "bids": {
-        "bid1": 28.54,
-        "bid_vol1": 38,
-        "bid2": 28.51,
-        "bid_vol2": 7,
-        "bid3": 28.5,
-        "bid_vol3": 51,
-        "bid4": 28.48,
-        "bid_vol4": 55,
-        "bid5": 28.46,
-        "bid_vol5": 7
-      },
-      "asks": {
-        "ask1": 28.55,
-        "ask_vol1": 193,
-        "ask2": 28.560000000000002,
-        "ask_vol2": 6,
-        "ask3": 28.6,
-        "ask_vol3": 20,
-        "ask4": 28.61,
-        "ask_vol4": 1,
-        "ask5": 28.62,
-        "ask_vol5": 111
-      },
-      "book_diff": -495573.0,
-      "timestamp": "2026-06-02T21:55:58.810033",
-      "main_force": -18556574.0,
-      "super": 0,
-      "large": 0,
-      "medium": 0,
-      "small": 0,
-      "main_ratio": 0,
-      "main_pct": 0,
-      "chg_5d": -5.4,
-      "chg_20d": 0,
-      "mf_5d": -96680069.0,
-      "has_fund_flow": true,
-      "fund_flow_time": "21:56:54"
+      "fund_flow_time": "23:06:09"
     },
     "300274": {
       "code": "300274",
@@ -12048,7 +10122,7 @@
         "ask_vol5": 2
       },
       "book_diff": -1416950.0,
-      "timestamp": "2026-06-02T21:55:58.810138",
+      "timestamp": "2026-06-02T23:09:25.287404",
       "main_force": 79089208.39,
       "super": 0,
       "large": 0,
@@ -12056,115 +10130,11 @@
       "small": 0,
       "main_ratio": 0,
       "main_pct": 0,
-      "chg_5d": -3.51,
+      "chg_5d": 0,
       "chg_20d": 0,
-      "mf_5d": -1568464550.0,
+      "mf_5d": 0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:59"
-    },
-    "300827": {
-      "code": "300827",
-      "name": "上能电气",
-      "sector": "储能+逆变器",
-      "price": 32.33,
-      "open": 33.230000000000004,
-      "high": 33.79,
-      "low": 31.52,
-      "last_close": 33.52,
-      "volume": 186352,
-      "amount": 602566336.0,
-      "vwap": 32.33,
-      "change_pct": -3.55,
-      "bids": {
-        "bid1": 32.32,
-        "bid_vol1": 12,
-        "bid2": 32.31,
-        "bid_vol2": 6,
-        "bid3": 32.3,
-        "bid_vol3": 127,
-        "bid4": 32.28,
-        "bid_vol4": 21,
-        "bid5": 32.27,
-        "bid_vol5": 14
-      },
-      "asks": {
-        "ask1": 32.33,
-        "ask_vol1": 317,
-        "ask2": 32.34,
-        "ask_vol2": 43,
-        "ask3": 32.35,
-        "ask_vol3": 240,
-        "ask4": 32.36,
-        "ask_vol4": 197,
-        "ask5": 32.37,
-        "ask_vol5": 16
-      },
-      "book_diff": -2048261.0,
-      "timestamp": "2026-06-02T21:55:58.810252",
-      "main_force": -46668196.57,
-      "super": 0,
-      "large": 0,
-      "medium": 0,
-      "small": 0,
-      "main_ratio": 0,
-      "main_pct": 0,
-      "chg_5d": -10.89,
-      "chg_20d": 0,
-      "mf_5d": -323931703.0,
-      "has_fund_flow": true,
-      "fund_flow_time": "21:56:59"
-    },
-    "688063": {
-      "code": "688063",
-      "name": "派能科技",
-      "sector": "储能+逆变器",
-      "price": 63.480000000000004,
-      "open": 66.41,
-      "high": 66.8,
-      "low": 62.52,
-      "last_close": 66.22,
-      "volume": 104095,
-      "amount": 663147520.0,
-      "vwap": 63.71,
-      "change_pct": -4.14,
-      "bids": {
-        "bid1": 63.47,
-        "bid_vol1": 6,
-        "bid2": 63.46,
-        "bid_vol2": 159,
-        "bid3": 63.45,
-        "bid_vol3": 39,
-        "bid4": 63.440000000000005,
-        "bid_vol4": 22,
-        "bid5": 63.42,
-        "bid_vol5": 170
-      },
-      "asks": {
-        "ask1": 63.480000000000004,
-        "ask_vol1": 4,
-        "ask2": 63.49,
-        "ask_vol2": 2,
-        "ask3": 63.5,
-        "ask_vol3": 138,
-        "ask4": 63.53,
-        "ask_vol4": 27,
-        "ask5": 63.54,
-        "ask_vol5": 11
-      },
-      "book_diff": 1356444.0,
-      "timestamp": "2026-06-02T21:55:58.810358",
-      "main_force": -58934407.04,
-      "super": 0,
-      "large": 0,
-      "medium": 0,
-      "small": 0,
-      "main_ratio": 0,
-      "main_pct": 0,
-      "chg_5d": -12.57,
-      "chg_20d": 0,
-      "mf_5d": -171987708.0,
-      "has_fund_flow": true,
-      "fund_flow_time": "21:56:59"
+      "fund_flow_time": "23:06:09"
     },
     "605117": {
       "code": "605117",
@@ -12204,7 +10174,7 @@
         "ask_vol5": 3
       },
       "book_diff": 2965689.0,
-      "timestamp": "2026-06-02T21:55:58.810462",
+      "timestamp": "2026-06-02T23:09:25.287508",
       "main_force": -130836276.85,
       "super": 0,
       "large": 0,
@@ -12216,59 +10186,7 @@
       "chg_20d": 0,
       "mf_5d": -192748080.0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:59"
-    },
-    "300693": {
-      "code": "300693",
-      "name": "盛弘股份",
-      "sector": "储能+逆变器",
-      "price": 50.410000000000004,
-      "open": 51.230000000000004,
-      "high": 51.5,
-      "low": 48.21,
-      "last_close": 50.94,
-      "volume": 144984,
-      "amount": 720394752.0,
-      "vwap": 49.69,
-      "change_pct": -1.04,
-      "bids": {
-        "bid1": 50.410000000000004,
-        "bid_vol1": 64,
-        "bid2": 50.4,
-        "bid_vol2": 33,
-        "bid3": 50.39,
-        "bid_vol3": 60,
-        "bid4": 50.38,
-        "bid_vol4": 21,
-        "bid5": 50.370000000000005,
-        "bid_vol5": 2
-      },
-      "asks": {
-        "ask1": 50.42,
-        "ask_vol1": 32,
-        "ask2": 50.43,
-        "ask_vol2": 5,
-        "ask3": 50.44,
-        "ask_vol3": 112,
-        "ask4": 50.45,
-        "ask_vol4": 21,
-        "ask5": 50.47,
-        "ask_vol5": 1
-      },
-      "book_diff": 44677.0,
-      "timestamp": "2026-06-02T21:55:58.810566",
-      "main_force": 15487201.31,
-      "super": 0,
-      "large": 0,
-      "medium": 0,
-      "small": 0,
-      "main_ratio": 0,
-      "main_pct": 0,
-      "chg_5d": -9.01,
-      "chg_20d": 0,
-      "mf_5d": -53889312.0,
-      "has_fund_flow": true,
-      "fund_flow_time": "21:56:59"
+      "fund_flow_time": "23:06:13"
     },
     "600578": {
       "code": "600578",
@@ -12308,7 +10226,7 @@
         "ask_vol5": 2580
       },
       "book_diff": -3926253.0,
-      "timestamp": "2026-06-02T21:55:58.810686",
+      "timestamp": "2026-06-02T23:09:25.287631",
       "main_force": 45449031.25,
       "super": 0,
       "large": 0,
@@ -12320,7 +10238,7 @@
       "chg_20d": 0,
       "mf_5d": -813290571.0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:59"
+      "fund_flow_time": "23:06:13"
     },
     "600596": {
       "code": "600596",
@@ -12360,7 +10278,7 @@
         "ask_vol5": 361
       },
       "book_diff": 4300807.0,
-      "timestamp": "2026-06-02T21:55:58.810794",
+      "timestamp": "2026-06-02T23:09:25.287740",
       "main_force": -21139493.77,
       "super": 0,
       "large": 0,
@@ -12372,7 +10290,7 @@
       "chg_20d": 0,
       "mf_5d": 137818326.0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:59"
+      "fund_flow_time": "23:06:13"
     },
     "601991": {
       "code": "601991",
@@ -12412,7 +10330,7 @@
         "ask_vol5": 0
       },
       "book_diff": -203176530.0,
-      "timestamp": "2026-06-02T21:55:58.810900",
+      "timestamp": "2026-06-02T23:09:25.287849",
       "main_force": 115020940.51,
       "super": 0,
       "large": 0,
@@ -12424,7 +10342,7 @@
       "chg_20d": 0,
       "mf_5d": -334003380.0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:59"
+      "fund_flow_time": "23:06:13"
     },
     "600726": {
       "code": "600726",
@@ -12464,7 +10382,7 @@
         "ask_vol5": 2883
       },
       "book_diff": -15102436.0,
-      "timestamp": "2026-06-02T21:55:58.811006",
+      "timestamp": "2026-06-02T23:09:25.287958",
       "main_force": -368893365.48,
       "super": 0,
       "large": 0,
@@ -12476,7 +10394,7 @@
       "chg_20d": 0,
       "mf_5d": -119124672.0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:59"
+      "fund_flow_time": "23:06:13"
     },
     "000767": {
       "code": "000767",
@@ -12516,7 +10434,7 @@
         "ask_vol5": 5379
       },
       "book_diff": 6408172.0,
-      "timestamp": "2026-06-02T21:55:58.811117",
+      "timestamp": "2026-06-02T23:09:25.288067",
       "main_force": -771870764.46,
       "super": 0,
       "large": 0,
@@ -12528,7 +10446,7 @@
       "chg_20d": 0,
       "mf_5d": -339471628.0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:56:59"
+      "fund_flow_time": "23:06:13"
     },
     "600863": {
       "code": "600863",
@@ -12568,7 +10486,7 @@
         "ask_vol5": 2266
       },
       "book_diff": 34867034.0,
-      "timestamp": "2026-06-02T21:55:58.811255",
+      "timestamp": "2026-06-02T23:09:25.288177",
       "main_force": -740456172.6,
       "super": 0,
       "large": 0,
@@ -12620,19 +10538,19 @@
         "ask_vol5": 656
       },
       "book_diff": 39355851.0,
-      "timestamp": "2026-06-02T21:55:58.811397",
+      "timestamp": "2026-06-02T23:09:25.350644",
       "main_force": -202135688.51,
       "super": 0,
       "large": 0,
       "medium": 0,
       "small": 0,
-      "main_ratio": -485.18999999999994,
-      "main_pct": -4.8519,
-      "chg_5d": 39.82,
+      "main_ratio": 0,
+      "main_pct": 0,
+      "chg_5d": 36.88,
       "chg_20d": 0,
-      "mf_5d": 131713474.1,
+      "mf_5d": 149756675.0,
       "has_fund_flow": true,
-      "fund_flow_time": "21:57:03"
+      "fund_flow_time": "23:06:13"
     }
   },
   "index": {}
