@@ -52,7 +52,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": -0.4,
-        "chg_20d": 0,
+        "chg_20d": -12.42,
         "mf_5d": 609571860.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:04"
@@ -104,7 +104,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": -4.49,
-        "chg_20d": 0,
+        "chg_20d": -18.46,
         "mf_5d": -59996236.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:04"
@@ -156,7 +156,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": -12.06,
-        "chg_20d": 0,
+        "chg_20d": -18.77,
         "mf_5d": -65355043.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:04"
@@ -208,7 +208,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": -7.65,
-        "chg_20d": 0,
+        "chg_20d": -18.78,
         "mf_5d": -99024738.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:04"
@@ -260,7 +260,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": -10.67,
-        "chg_20d": 0,
+        "chg_20d": -2.35,
         "mf_5d": -2293736110.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:04"
@@ -313,8 +313,8 @@
         "small": 0,
         "main_ratio": 0,
         "main_pct": 0,
-        "chg_5d": 0,
-        "chg_20d": 0,
+        "chg_5d": -4.19,
+        "chg_20d": -14.89,
         "mf_5d": 0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:24"
@@ -366,7 +366,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": -7.52,
-        "chg_20d": 0,
+        "chg_20d": -17.01,
         "mf_5d": -675694790.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:04"
@@ -418,7 +418,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": -12.24,
-        "chg_20d": 0,
+        "chg_20d": 3.69,
         "mf_5d": -6438144120.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:04"
@@ -472,7 +472,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": 0.85,
-        "chg_20d": 0,
+        "chg_20d": -12.19,
         "mf_5d": 285671399.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:04"
@@ -524,7 +524,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": -1.04,
-        "chg_20d": 0,
+        "chg_20d": -6.63,
         "mf_5d": 42114888.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:24"
@@ -576,7 +576,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": 3.53,
-        "chg_20d": 0,
+        "chg_20d": 6.28,
         "mf_5d": 144730386.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:04"
@@ -627,8 +627,8 @@
         "small": 0,
         "main_ratio": 0,
         "main_pct": 0,
-        "chg_5d": -5.74,
-        "chg_20d": 0,
+        "chg_5d": -5.75,
+        "chg_20d": -20.02,
         "mf_5d": -51213680.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:06"
@@ -680,7 +680,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": 0.28,
-        "chg_20d": 0,
+        "chg_20d": 1.99,
         "mf_5d": 17774719.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:06"
@@ -734,7 +734,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": 3.0,
-        "chg_20d": 0,
+        "chg_20d": 6.64,
         "mf_5d": 272189090.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:06"
@@ -786,7 +786,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": -10.58,
-        "chg_20d": 0,
+        "chg_20d": -15.28,
         "mf_5d": -268783708.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:06"
@@ -838,7 +838,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": -12.67,
-        "chg_20d": 0,
+        "chg_20d": -14.96,
         "mf_5d": -32432620.3,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:06"
@@ -890,7 +890,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": -12.42,
-        "chg_20d": 0,
+        "chg_20d": -13.12,
         "mf_5d": -2893406860.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:06"
@@ -941,8 +941,8 @@
         "small": 0,
         "main_ratio": 0,
         "main_pct": 0,
-        "chg_5d": 0,
-        "chg_20d": 0,
+        "chg_5d": -11.07,
+        "chg_20d": -3.42,
         "mf_5d": 0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:06"
@@ -996,7 +996,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": 4.21,
-        "chg_20d": 0,
+        "chg_20d": -17.59,
         "mf_5d": -39984210.1,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:08"
@@ -1048,7 +1048,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": -5.49,
-        "chg_20d": 0,
+        "chg_20d": -22.85,
         "mf_5d": -411287680.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:06"
@@ -1100,7 +1100,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": -5.3,
-        "chg_20d": 0,
+        "chg_20d": -16.25,
         "mf_5d": -161444754.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:08"
@@ -1152,7 +1152,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": -11.74,
-        "chg_20d": 0,
+        "chg_20d": -30.55,
         "mf_5d": -82027807.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:06"
@@ -1204,7 +1204,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": -30.42,
-        "chg_20d": 0,
+        "chg_20d": -15.12,
         "mf_5d": -567011173.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:08"
@@ -1257,8 +1257,8 @@
         "small": 0,
         "main_ratio": 0,
         "main_pct": 0,
-        "chg_5d": 0,
-        "chg_20d": 0,
+        "chg_5d": 0.96,
+        "chg_20d": -1.96,
         "mf_5d": 0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:24"
@@ -1310,7 +1310,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": -4.79,
-        "chg_20d": 0,
+        "chg_20d": -15.19,
         "mf_5d": -1011960960.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:08"
@@ -1361,8 +1361,8 @@
         "small": 0,
         "main_ratio": 0,
         "main_pct": 0,
-        "chg_5d": 0,
-        "chg_20d": 0,
+        "chg_5d": -9.02,
+        "chg_20d": -12.86,
         "mf_5d": 0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:24"
@@ -1414,7 +1414,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": -2.31,
-        "chg_20d": 0,
+        "chg_20d": 35.19,
         "mf_5d": -1934230000.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:08"
@@ -1466,7 +1466,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": 3.18,
-        "chg_20d": 0,
+        "chg_20d": 5.1,
         "mf_5d": 891487720.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:08"
@@ -1520,7 +1520,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": 16.9,
-        "chg_20d": 0,
+        "chg_20d": 44.43,
         "mf_5d": -1653149900.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:11"
@@ -1572,7 +1572,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": -1.25,
-        "chg_20d": 0,
+        "chg_20d": 25.02,
         "mf_5d": 2856218700.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:08"
@@ -1624,7 +1624,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": -10.04,
-        "chg_20d": 0,
+        "chg_20d": 6.4,
         "mf_5d": -5348417800.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:08"
@@ -1676,7 +1676,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": -9.55,
-        "chg_20d": 0,
+        "chg_20d": -0.59,
         "mf_5d": -738834810.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:11"
@@ -1728,7 +1728,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": -6.42,
-        "chg_20d": 0,
+        "chg_20d": -14.17,
         "mf_5d": -622986040.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:11"
@@ -1780,7 +1780,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": -3.49,
-        "chg_20d": 0,
+        "chg_20d": 8.44,
         "mf_5d": -805531680.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:24"
@@ -1832,7 +1832,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": 1.73,
-        "chg_20d": 0,
+        "chg_20d": 11.86,
         "mf_5d": -1448022020.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:11"
@@ -1884,7 +1884,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": -17.35,
-        "chg_20d": 0,
+        "chg_20d": 4.87,
         "mf_5d": -4073212400.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:11"
@@ -1938,7 +1938,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": 3.2,
-        "chg_20d": 0,
+        "chg_20d": 28.52,
         "mf_5d": -160445950.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:11"
@@ -1990,7 +1990,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": -10.2,
-        "chg_20d": 0,
+        "chg_20d": -16.93,
         "mf_5d": -1298904210.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:11"
@@ -2042,7 +2042,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": -10.24,
-        "chg_20d": 0,
+        "chg_20d": -23.68,
         "mf_5d": -906062100.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:11"
@@ -2094,7 +2094,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": -14.97,
-        "chg_20d": 0,
+        "chg_20d": -0.01,
         "mf_5d": -1704016280.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:11"
@@ -2146,7 +2146,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": -23.23,
-        "chg_20d": 0,
+        "chg_20d": -27.92,
         "mf_5d": -838875440.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:13"
@@ -2200,7 +2200,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": 7.07,
-        "chg_20d": 0,
+        "chg_20d": -5.86,
         "mf_5d": 480023000.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:13"
@@ -2252,7 +2252,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": 11.61,
-        "chg_20d": 0,
+        "chg_20d": 13.83,
         "mf_5d": -636344300.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:13"
@@ -2304,7 +2304,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": 0.73,
-        "chg_20d": 0,
+        "chg_20d": -3.13,
         "mf_5d": 68369060.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:13"
@@ -2356,7 +2356,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": -0.41,
-        "chg_20d": 0,
+        "chg_20d": -1.46,
         "mf_5d": -285522700.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:13"
@@ -2410,7 +2410,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": -7.59,
-        "chg_20d": 0,
+        "chg_20d": -11.14,
         "mf_5d": -539445547.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:13"
@@ -2462,7 +2462,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": -6.46,
-        "chg_20d": 0,
+        "chg_20d": 6.31,
         "mf_5d": -1226952470.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:13"
@@ -2514,7 +2514,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": -4.9,
-        "chg_20d": 0,
+        "chg_20d": 40.51,
         "mf_5d": -175677010.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:13"
@@ -2566,7 +2566,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": -6.68,
-        "chg_20d": 0,
+        "chg_20d": -1.76,
         "mf_5d": -33906470.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:13"
@@ -2620,7 +2620,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": 1.69,
-        "chg_20d": 0,
+        "chg_20d": -6.83,
         "mf_5d": -79948329.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:15"
@@ -2672,7 +2672,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": -7.59,
-        "chg_20d": 0,
+        "chg_20d": 36.35,
         "mf_5d": -2882408030.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:13"
@@ -2723,8 +2723,8 @@
         "small": 0,
         "main_ratio": 0,
         "main_pct": 0,
-        "chg_5d": -10.61,
-        "chg_20d": 0,
+        "chg_5d": -10.59,
+        "chg_20d": 20.14,
         "mf_5d": -1476251860.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:15"
@@ -2776,7 +2776,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": -12.5,
-        "chg_20d": 0,
+        "chg_20d": 7.16,
         "mf_5d": -3130798010.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:15"
@@ -2830,7 +2830,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": 5.88,
-        "chg_20d": 0,
+        "chg_20d": 8.61,
         "mf_5d": 1195019950.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:15"
@@ -2882,7 +2882,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": 0.46,
-        "chg_20d": 0,
+        "chg_20d": 25.42,
         "mf_5d": -177913770.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:15"
@@ -2934,7 +2934,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": 1.12,
-        "chg_20d": 0,
+        "chg_20d": 11.35,
         "mf_5d": 463593350.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:15"
@@ -2986,7 +2986,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": -1.16,
-        "chg_20d": 0,
+        "chg_20d": -0.41,
         "mf_5d": 125977178.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:15"
@@ -3038,7 +3038,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": 4.76,
-        "chg_20d": 0,
+        "chg_20d": 51.34,
         "mf_5d": 262096310.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:15"
@@ -3090,7 +3090,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": 0.71,
-        "chg_20d": 0,
+        "chg_20d": 9.71,
         "mf_5d": 456907540.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:15"
@@ -3144,7 +3144,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": 17.15,
-        "chg_20d": 0,
+        "chg_20d": 35.65,
         "mf_5d": 1006572910.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:15"
@@ -3196,7 +3196,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": 29.15,
-        "chg_20d": 0,
+        "chg_20d": 30.76,
         "mf_5d": 513020480.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:17"
@@ -3248,7 +3248,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": 0.91,
-        "chg_20d": 0,
+        "chg_20d": 2.25,
         "mf_5d": 128289030.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:17"
@@ -3299,8 +3299,8 @@
         "small": 0,
         "main_ratio": 0,
         "main_pct": 0,
-        "chg_5d": 9.6,
-        "chg_20d": 0,
+        "chg_5d": 9.56,
+        "chg_20d": 0.2,
         "mf_5d": 176113448.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:17"
@@ -3352,7 +3352,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": 1.01,
-        "chg_20d": 0,
+        "chg_20d": 3.99,
         "mf_5d": -92449758.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:17"
@@ -3404,7 +3404,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": 8.17,
-        "chg_20d": 0,
+        "chg_20d": 6.51,
         "mf_5d": -80602770.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:17"
@@ -3458,7 +3458,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": -4.96,
-        "chg_20d": 0,
+        "chg_20d": -14.06,
         "mf_5d": -523934260.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:17"
@@ -3510,7 +3510,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": -7.34,
-        "chg_20d": 0,
+        "chg_20d": -10.17,
         "mf_5d": 32081768.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:17"
@@ -3562,7 +3562,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": -8.47,
-        "chg_20d": 0,
+        "chg_20d": 2.89,
         "mf_5d": -174226717.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:17"
@@ -3614,7 +3614,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": 5.87,
-        "chg_20d": 0,
+        "chg_20d": 7.99,
         "mf_5d": 34463906.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:17"
@@ -3668,7 +3668,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": 34.65,
-        "chg_20d": 0,
+        "chg_20d": 60.0,
         "mf_5d": 588993390.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:17"
@@ -3720,7 +3720,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": 14.85,
-        "chg_20d": 0,
+        "chg_20d": 16.84,
         "mf_5d": -39073486.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:19"
@@ -3772,7 +3772,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": 10.79,
-        "chg_20d": 0,
+        "chg_20d": 14.06,
         "mf_5d": 261901208.5,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:19"
@@ -3824,7 +3824,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": 6.09,
-        "chg_20d": 0,
+        "chg_20d": 4.81,
         "mf_5d": 156698578.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:19"
@@ -3876,7 +3876,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": 0.66,
-        "chg_20d": 0,
+        "chg_20d": 1.54,
         "mf_5d": 55414559.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:19"
@@ -3928,7 +3928,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": -4.54,
-        "chg_20d": 0,
+        "chg_20d": -12.83,
         "mf_5d": -414597161.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:19"
@@ -3982,7 +3982,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": 1.43,
-        "chg_20d": 0,
+        "chg_20d": 2.6,
         "mf_5d": 270487481.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:19"
@@ -4033,8 +4033,8 @@
         "small": 0,
         "main_ratio": 0,
         "main_pct": 0,
-        "chg_5d": 4.71,
-        "chg_20d": 0,
+        "chg_5d": 4.7,
+        "chg_20d": 58.3,
         "mf_5d": 364898010.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:21"
@@ -4086,7 +4086,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": 12.34,
-        "chg_20d": 0,
+        "chg_20d": 91.24,
         "mf_5d": 277293310.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:24"
@@ -4138,7 +4138,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": 0.28,
-        "chg_20d": 0,
+        "chg_20d": 16.3,
         "mf_5d": 701094140.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:19"
@@ -4190,7 +4190,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": -6.56,
-        "chg_20d": 0,
+        "chg_20d": -6.92,
         "mf_5d": -2315100630.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:19"
@@ -4242,7 +4242,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": 2.55,
-        "chg_20d": 0,
+        "chg_20d": 31.95,
         "mf_5d": 456449990.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:19"
@@ -4294,7 +4294,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": 0.62,
-        "chg_20d": 0,
+        "chg_20d": 22.03,
         "mf_5d": -1554620300.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:19"
@@ -4348,7 +4348,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": -1.21,
-        "chg_20d": 0,
+        "chg_20d": 112.02,
         "mf_5d": -286408250.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:21"
@@ -4400,7 +4400,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": -10.89,
-        "chg_20d": 0,
+        "chg_20d": 20.35,
         "mf_5d": -102927163.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:21"
@@ -4452,7 +4452,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": -11.86,
-        "chg_20d": 0,
+        "chg_20d": 71.85,
         "mf_5d": -44084180.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:21"
@@ -4504,7 +4504,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": -2.14,
-        "chg_20d": 0,
+        "chg_20d": 49.34,
         "mf_5d": 928402540.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:21"
@@ -4556,7 +4556,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": -4.77,
-        "chg_20d": 0,
+        "chg_20d": 53.78,
         "mf_5d": -36377770.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:21"
@@ -4608,7 +4608,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": -1.49,
-        "chg_20d": 0,
+        "chg_20d": 11.56,
         "mf_5d": -293828957.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:21"
@@ -4662,7 +4662,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": -1.65,
-        "chg_20d": 0,
+        "chg_20d": -16.38,
         "mf_5d": -142148754.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:21"
@@ -4714,7 +4714,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": -8.46,
-        "chg_20d": 0,
+        "chg_20d": -9.01,
         "mf_5d": -194804708.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:21"
@@ -4768,7 +4768,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": -10.08,
-        "chg_20d": 0,
+        "chg_20d": -2.93,
         "mf_5d": -252659795.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:24"
@@ -4820,7 +4820,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": -15.95,
-        "chg_20d": 0,
+        "chg_20d": 6.31,
         "mf_5d": -1749547960.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:24"
@@ -4874,7 +4874,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": -14.73,
-        "chg_20d": 0,
+        "chg_20d": 7.78,
         "mf_5d": -948230450.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:24"
@@ -4926,7 +4926,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": 3.68,
-        "chg_20d": 0,
+        "chg_20d": 22.58,
         "mf_5d": -87744517.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:24"
@@ -4978,7 +4978,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": -23.72,
-        "chg_20d": 0,
+        "chg_20d": -1.49,
         "mf_5d": -454069055.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:24"
@@ -5030,7 +5030,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": -13.18,
-        "chg_20d": 0,
+        "chg_20d": 5.37,
         "mf_5d": -37389643.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:24"
@@ -5082,7 +5082,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": -19.89,
-        "chg_20d": 0,
+        "chg_20d": 4.15,
         "mf_5d": -369886868.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:24"
@@ -5133,8 +5133,8 @@
         "small": 0,
         "main_ratio": 0,
         "main_pct": 0,
-        "chg_5d": 13.54,
-        "chg_20d": 0,
+        "chg_5d": -23.95,
+        "chg_20d": 15.4,
         "mf_5d": -733681077.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:24"
@@ -5186,7 +5186,7 @@
         "main_ratio": 0,
         "main_pct": 0,
         "chg_5d": -11.99,
-        "chg_20d": 0,
+        "chg_20d": 29.04,
         "mf_5d": -649292690.0,
         "has_fund_flow": true,
         "fund_flow_time": "15:00:24"
@@ -5241,7 +5241,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": -10.67,
-      "chg_20d": 0,
+      "chg_20d": -2.35,
       "mf_5d": -2293736110.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:04"
@@ -5293,7 +5293,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": -0.4,
-      "chg_20d": 0,
+      "chg_20d": -12.42,
       "mf_5d": 609571860.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:04"
@@ -5345,7 +5345,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": -7.65,
-      "chg_20d": 0,
+      "chg_20d": -18.78,
       "mf_5d": -99024738.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:04"
@@ -5397,7 +5397,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": -4.49,
-      "chg_20d": 0,
+      "chg_20d": -18.46,
       "mf_5d": -59996236.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:04"
@@ -5449,7 +5449,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": -12.06,
-      "chg_20d": 0,
+      "chg_20d": -18.77,
       "mf_5d": -65355043.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:04"
@@ -5501,7 +5501,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": -7.52,
-      "chg_20d": 0,
+      "chg_20d": -17.01,
       "mf_5d": -675694790.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:04"
@@ -5553,7 +5553,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": -12.24,
-      "chg_20d": 0,
+      "chg_20d": 3.69,
       "mf_5d": -6438144120.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:04"
@@ -5604,8 +5604,8 @@
       "small": 0,
       "main_ratio": 0,
       "main_pct": 0,
-      "chg_5d": 0,
-      "chg_20d": 0,
+      "chg_5d": -4.19,
+      "chg_20d": -14.89,
       "mf_5d": 0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:24"
@@ -5657,7 +5657,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": 0.85,
-      "chg_20d": 0,
+      "chg_20d": -12.19,
       "mf_5d": 285671399.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:04"
@@ -5709,7 +5709,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": 3.53,
-      "chg_20d": 0,
+      "chg_20d": 6.28,
       "mf_5d": 144730386.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:04"
@@ -5760,8 +5760,8 @@
       "small": 0,
       "main_ratio": 0,
       "main_pct": 0,
-      "chg_5d": -5.74,
-      "chg_20d": 0,
+      "chg_5d": -5.75,
+      "chg_20d": -20.02,
       "mf_5d": -51213680.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:06"
@@ -5813,7 +5813,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": -1.04,
-      "chg_20d": 0,
+      "chg_20d": -6.63,
       "mf_5d": 42114888.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:24"
@@ -5865,7 +5865,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": 0.28,
-      "chg_20d": 0,
+      "chg_20d": 1.99,
       "mf_5d": 17774719.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:06"
@@ -5917,7 +5917,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": -10.58,
-      "chg_20d": 0,
+      "chg_20d": -15.28,
       "mf_5d": -268783708.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:06"
@@ -5969,7 +5969,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": -12.67,
-      "chg_20d": 0,
+      "chg_20d": -14.96,
       "mf_5d": -32432620.3,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:06"
@@ -6021,7 +6021,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": 3.0,
-      "chg_20d": 0,
+      "chg_20d": 6.64,
       "mf_5d": 272189090.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:06"
@@ -6073,7 +6073,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": -12.42,
-      "chg_20d": 0,
+      "chg_20d": -13.12,
       "mf_5d": -2893406860.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:06"
@@ -6124,8 +6124,8 @@
       "small": 0,
       "main_ratio": 0,
       "main_pct": 0,
-      "chg_5d": 0,
-      "chg_20d": 0,
+      "chg_5d": -11.07,
+      "chg_20d": -3.42,
       "mf_5d": 0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:06"
@@ -6177,7 +6177,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": -5.49,
-      "chg_20d": 0,
+      "chg_20d": -22.85,
       "mf_5d": -411287680.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:06"
@@ -6229,7 +6229,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": -11.74,
-      "chg_20d": 0,
+      "chg_20d": -30.55,
       "mf_5d": -82027807.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:06"
@@ -6281,7 +6281,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": -5.3,
-      "chg_20d": 0,
+      "chg_20d": -16.25,
       "mf_5d": -161444754.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:08"
@@ -6333,7 +6333,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": 4.21,
-      "chg_20d": 0,
+      "chg_20d": -17.59,
       "mf_5d": -39984210.1,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:08"
@@ -6385,7 +6385,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": -30.42,
-      "chg_20d": 0,
+      "chg_20d": -15.12,
       "mf_5d": -567011173.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:08"
@@ -6436,8 +6436,8 @@
       "small": 0,
       "main_ratio": 0,
       "main_pct": 0,
-      "chg_5d": 0,
-      "chg_20d": 0,
+      "chg_5d": 0.96,
+      "chg_20d": -1.96,
       "mf_5d": 0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:24"
@@ -6489,7 +6489,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": -4.79,
-      "chg_20d": 0,
+      "chg_20d": -15.19,
       "mf_5d": -1011960960.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:08"
@@ -6541,7 +6541,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": -2.31,
-      "chg_20d": 0,
+      "chg_20d": 35.19,
       "mf_5d": -1934230000.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:08"
@@ -6592,8 +6592,8 @@
       "small": 0,
       "main_ratio": 0,
       "main_pct": 0,
-      "chg_5d": 0,
-      "chg_20d": 0,
+      "chg_5d": -9.02,
+      "chg_20d": -12.86,
       "mf_5d": 0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:24"
@@ -6645,7 +6645,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": 3.18,
-      "chg_20d": 0,
+      "chg_20d": 5.1,
       "mf_5d": 891487720.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:08"
@@ -6697,7 +6697,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": -10.04,
-      "chg_20d": 0,
+      "chg_20d": 6.4,
       "mf_5d": -5348417800.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:08"
@@ -6749,7 +6749,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": -1.25,
-      "chg_20d": 0,
+      "chg_20d": 25.02,
       "mf_5d": 2856218700.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:08"
@@ -6801,7 +6801,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": -17.35,
-      "chg_20d": 0,
+      "chg_20d": 4.87,
       "mf_5d": -4073212400.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:11"
@@ -6853,7 +6853,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": -9.55,
-      "chg_20d": 0,
+      "chg_20d": -0.59,
       "mf_5d": -738834810.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:11"
@@ -6905,7 +6905,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": -6.42,
-      "chg_20d": 0,
+      "chg_20d": -14.17,
       "mf_5d": -622986040.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:11"
@@ -6957,7 +6957,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": 1.73,
-      "chg_20d": 0,
+      "chg_20d": 11.86,
       "mf_5d": -1448022020.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:11"
@@ -7009,7 +7009,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": 16.9,
-      "chg_20d": 0,
+      "chg_20d": 44.43,
       "mf_5d": -1653149900.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:11"
@@ -7061,7 +7061,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": -3.49,
-      "chg_20d": 0,
+      "chg_20d": 8.44,
       "mf_5d": -805531680.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:24"
@@ -7113,7 +7113,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": 3.2,
-      "chg_20d": 0,
+      "chg_20d": 28.52,
       "mf_5d": -160445950.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:11"
@@ -7165,7 +7165,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": -10.2,
-      "chg_20d": 0,
+      "chg_20d": -16.93,
       "mf_5d": -1298904210.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:11"
@@ -7217,7 +7217,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": -10.24,
-      "chg_20d": 0,
+      "chg_20d": -23.68,
       "mf_5d": -906062100.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:11"
@@ -7269,7 +7269,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": -14.97,
-      "chg_20d": 0,
+      "chg_20d": -0.01,
       "mf_5d": -1704016280.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:11"
@@ -7321,7 +7321,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": -23.23,
-      "chg_20d": 0,
+      "chg_20d": -27.92,
       "mf_5d": -838875440.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:13"
@@ -7373,7 +7373,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": -0.41,
-      "chg_20d": 0,
+      "chg_20d": -1.46,
       "mf_5d": -285522700.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:13"
@@ -7425,7 +7425,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": 0.73,
-      "chg_20d": 0,
+      "chg_20d": -3.13,
       "mf_5d": 68369060.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:13"
@@ -7477,7 +7477,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": 11.61,
-      "chg_20d": 0,
+      "chg_20d": 13.83,
       "mf_5d": -636344300.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:13"
@@ -7529,7 +7529,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": 7.07,
-      "chg_20d": 0,
+      "chg_20d": -5.86,
       "mf_5d": 480023000.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:13"
@@ -7581,7 +7581,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": -6.46,
-      "chg_20d": 0,
+      "chg_20d": 6.31,
       "mf_5d": -1226952470.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:13"
@@ -7633,7 +7633,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": -4.9,
-      "chg_20d": 0,
+      "chg_20d": 40.51,
       "mf_5d": -175677010.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:13"
@@ -7685,7 +7685,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": -7.59,
-      "chg_20d": 0,
+      "chg_20d": -11.14,
       "mf_5d": -539445547.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:13"
@@ -7737,7 +7737,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": -6.68,
-      "chg_20d": 0,
+      "chg_20d": -1.76,
       "mf_5d": -33906470.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:13"
@@ -7789,7 +7789,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": -7.59,
-      "chg_20d": 0,
+      "chg_20d": 36.35,
       "mf_5d": -2882408030.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:13"
@@ -7841,7 +7841,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": -12.5,
-      "chg_20d": 0,
+      "chg_20d": 7.16,
       "mf_5d": -3130798010.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:15"
@@ -7892,8 +7892,8 @@
       "small": 0,
       "main_ratio": 0,
       "main_pct": 0,
-      "chg_5d": -10.61,
-      "chg_20d": 0,
+      "chg_5d": -10.59,
+      "chg_20d": 20.14,
       "mf_5d": -1476251860.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:15"
@@ -7945,7 +7945,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": 1.69,
-      "chg_20d": 0,
+      "chg_20d": -6.83,
       "mf_5d": -79948329.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:15"
@@ -7997,7 +7997,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": 0.71,
-      "chg_20d": 0,
+      "chg_20d": 9.71,
       "mf_5d": 456907540.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:15"
@@ -8049,7 +8049,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": 1.12,
-      "chg_20d": 0,
+      "chg_20d": 11.35,
       "mf_5d": 463593350.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:15"
@@ -8101,7 +8101,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": 0.46,
-      "chg_20d": 0,
+      "chg_20d": 25.42,
       "mf_5d": -177913770.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:15"
@@ -8153,7 +8153,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": 4.76,
-      "chg_20d": 0,
+      "chg_20d": 51.34,
       "mf_5d": 262096310.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:15"
@@ -8205,7 +8205,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": -1.16,
-      "chg_20d": 0,
+      "chg_20d": -0.41,
       "mf_5d": 125977178.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:15"
@@ -8257,7 +8257,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": 5.88,
-      "chg_20d": 0,
+      "chg_20d": 8.61,
       "mf_5d": 1195019950.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:15"
@@ -8309,7 +8309,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": 17.15,
-      "chg_20d": 0,
+      "chg_20d": 35.65,
       "mf_5d": 1006572910.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:15"
@@ -8361,7 +8361,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": 29.15,
-      "chg_20d": 0,
+      "chg_20d": 30.76,
       "mf_5d": 513020480.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:17"
@@ -8413,7 +8413,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": 1.01,
-      "chg_20d": 0,
+      "chg_20d": 3.99,
       "mf_5d": -92449758.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:17"
@@ -8465,7 +8465,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": 0.91,
-      "chg_20d": 0,
+      "chg_20d": 2.25,
       "mf_5d": 128289030.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:17"
@@ -8517,7 +8517,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": 8.17,
-      "chg_20d": 0,
+      "chg_20d": 6.51,
       "mf_5d": -80602770.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:17"
@@ -8568,8 +8568,8 @@
       "small": 0,
       "main_ratio": 0,
       "main_pct": 0,
-      "chg_5d": 9.6,
-      "chg_20d": 0,
+      "chg_5d": 9.56,
+      "chg_20d": 0.2,
       "mf_5d": 176113448.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:17"
@@ -8621,7 +8621,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": -8.47,
-      "chg_20d": 0,
+      "chg_20d": 2.89,
       "mf_5d": -174226717.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:17"
@@ -8673,7 +8673,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": 5.87,
-      "chg_20d": 0,
+      "chg_20d": 7.99,
       "mf_5d": 34463906.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:17"
@@ -8725,7 +8725,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": -4.96,
-      "chg_20d": 0,
+      "chg_20d": -14.06,
       "mf_5d": -523934260.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:17"
@@ -8777,7 +8777,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": -7.34,
-      "chg_20d": 0,
+      "chg_20d": -10.17,
       "mf_5d": 32081768.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:17"
@@ -8829,7 +8829,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": 34.65,
-      "chg_20d": 0,
+      "chg_20d": 60.0,
       "mf_5d": 588993390.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:17"
@@ -8881,7 +8881,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": 6.09,
-      "chg_20d": 0,
+      "chg_20d": 4.81,
       "mf_5d": 156698578.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:19"
@@ -8933,7 +8933,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": 0.66,
-      "chg_20d": 0,
+      "chg_20d": 1.54,
       "mf_5d": 55414559.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:19"
@@ -8985,7 +8985,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": 10.79,
-      "chg_20d": 0,
+      "chg_20d": 14.06,
       "mf_5d": 261901208.5,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:19"
@@ -9037,7 +9037,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": -4.54,
-      "chg_20d": 0,
+      "chg_20d": -12.83,
       "mf_5d": -414597161.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:19"
@@ -9089,7 +9089,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": 14.85,
-      "chg_20d": 0,
+      "chg_20d": 16.84,
       "mf_5d": -39073486.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:19"
@@ -9141,7 +9141,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": 0.62,
-      "chg_20d": 0,
+      "chg_20d": 22.03,
       "mf_5d": -1554620300.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:19"
@@ -9193,7 +9193,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": 0.28,
-      "chg_20d": 0,
+      "chg_20d": 16.3,
       "mf_5d": 701094140.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:19"
@@ -9245,7 +9245,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": -6.56,
-      "chg_20d": 0,
+      "chg_20d": -6.92,
       "mf_5d": -2315100630.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:19"
@@ -9297,7 +9297,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": 2.55,
-      "chg_20d": 0,
+      "chg_20d": 31.95,
       "mf_5d": 456449990.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:19"
@@ -9349,7 +9349,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": 1.43,
-      "chg_20d": 0,
+      "chg_20d": 2.6,
       "mf_5d": 270487481.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:19"
@@ -9401,7 +9401,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": 12.34,
-      "chg_20d": 0,
+      "chg_20d": 91.24,
       "mf_5d": 277293310.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:24"
@@ -9452,8 +9452,8 @@
       "small": 0,
       "main_ratio": 0,
       "main_pct": 0,
-      "chg_5d": 4.71,
-      "chg_20d": 0,
+      "chg_5d": 4.7,
+      "chg_20d": 58.3,
       "mf_5d": 364898010.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:21"
@@ -9505,7 +9505,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": -1.21,
-      "chg_20d": 0,
+      "chg_20d": 112.02,
       "mf_5d": -286408250.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:21"
@@ -9557,7 +9557,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": -2.14,
-      "chg_20d": 0,
+      "chg_20d": 49.34,
       "mf_5d": 928402540.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:21"
@@ -9609,7 +9609,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": -11.86,
-      "chg_20d": 0,
+      "chg_20d": 71.85,
       "mf_5d": -44084180.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:21"
@@ -9661,7 +9661,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": -10.89,
-      "chg_20d": 0,
+      "chg_20d": 20.35,
       "mf_5d": -102927163.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:21"
@@ -9713,7 +9713,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": -1.49,
-      "chg_20d": 0,
+      "chg_20d": 11.56,
       "mf_5d": -293828957.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:21"
@@ -9765,7 +9765,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": -4.77,
-      "chg_20d": 0,
+      "chg_20d": 53.78,
       "mf_5d": -36377770.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:21"
@@ -9817,7 +9817,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": -8.46,
-      "chg_20d": 0,
+      "chg_20d": -9.01,
       "mf_5d": -194804708.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:21"
@@ -9869,7 +9869,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": -1.65,
-      "chg_20d": 0,
+      "chg_20d": -16.38,
       "mf_5d": -142148754.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:21"
@@ -9921,7 +9921,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": -15.95,
-      "chg_20d": 0,
+      "chg_20d": 6.31,
       "mf_5d": -1749547960.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:24"
@@ -9973,7 +9973,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": -10.08,
-      "chg_20d": 0,
+      "chg_20d": -2.93,
       "mf_5d": -252659795.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:24"
@@ -10025,7 +10025,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": -11.99,
-      "chg_20d": 0,
+      "chg_20d": 29.04,
       "mf_5d": -649292690.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:24"
@@ -10077,7 +10077,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": 3.68,
-      "chg_20d": 0,
+      "chg_20d": 22.58,
       "mf_5d": -87744517.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:24"
@@ -10129,7 +10129,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": -14.73,
-      "chg_20d": 0,
+      "chg_20d": 7.78,
       "mf_5d": -948230450.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:24"
@@ -10181,7 +10181,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": -13.18,
-      "chg_20d": 0,
+      "chg_20d": 5.37,
       "mf_5d": -37389643.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:24"
@@ -10233,7 +10233,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": -23.72,
-      "chg_20d": 0,
+      "chg_20d": -1.49,
       "mf_5d": -454069055.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:24"
@@ -10284,8 +10284,8 @@
       "small": 0,
       "main_ratio": 0,
       "main_pct": 0,
-      "chg_5d": 13.54,
-      "chg_20d": 0,
+      "chg_5d": -23.95,
+      "chg_20d": 15.4,
       "mf_5d": -733681077.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:24"
@@ -10337,7 +10337,7 @@
       "main_ratio": 0,
       "main_pct": 0,
       "chg_5d": -19.89,
-      "chg_20d": 0,
+      "chg_20d": 4.15,
       "mf_5d": -369886868.0,
       "has_fund_flow": true,
       "fund_flow_time": "15:00:24"
