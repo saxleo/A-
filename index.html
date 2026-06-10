@@ -154,11 +154,13 @@
 .dash-sector-list { display: flex; flex-direction: column; gap: 6px; }
 .dash-sector-row {
   display: flex; align-items: center; justify-content: space-between;
-  padding: 6px 10px; background: var(--dash-elevated); border-radius: 6px; font-size: 12px;
+  padding: 8px 12px; background: var(--dash-elevated); border-radius: 6px; font-size: 12px;
+  gap: 8px;
 }
-.dash-sector-name { font-weight: 500; color: var(--dash-text); }
-.dash-sector-pct { font-family: 'JetBrains Mono', monospace; font-weight: 700; }
-.dash-sector-flow { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--dash-muted); }
+.dash-sector-name { font-weight: 500; color: var(--dash-text); flex-shrink: 0; }
+.dash-sector-pct { font-family: 'JetBrains Mono', monospace; font-weight: 700; margin-right: 8px; }
+.dash-sector-flow { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--dash-muted); margin-left: 6px; }
+.dash-sector-flow:first-of-type { margin-left: 0; }
 
 .dash-theme-footer {
   display: flex; justify-content: space-between; margin-top: 12px;
@@ -2494,6 +2496,21 @@ function dashOpenStock(code) {
     const s = dashData.raw_data && dashData.raw_data[code];
     if (!s) return;
     
+    // V5.2: 检查数据完整性，如果20日涨幅缺失或异常，尝试刷新数据
+    if (s.chg_20d === undefined || (s.chg_20d === 0 && s.chg_5d !== undefined && s.chg_5d !== 0)) {
+        console.warn('[Dashboard] 20日涨幅数据可能不完整，尝试刷新...');
+        dashLoadData().then(() => {
+            const fresh = dashData.raw_data && dashData.raw_data[code];
+            if (fresh && fresh.chg_20d !== undefined && fresh.chg_20d !== 0) {
+                dashRenderStockDetails(fresh, code);
+            }
+        });
+    }
+    
+    dashRenderStockDetails(s, code);
+}
+
+function dashRenderStockDetails(s, code) {
     document.getElementById('dashModalTitle').innerHTML = `<span>${s.name}</span><span style="color:var(--dash-muted);font-size:14px;margin-left:8px">${s.code}</span><span style="color:${s.change_pct >= 0 ? 'var(--dash-up)' : 'var(--dash-down)'};margin-left:12px;font-size:16px">${s.change_pct >= 0 ? '+' : ''}${s.change_pct.toFixed(2)}%</span>`;
     
     const amp = s.high && s.low && s.last_close ? ((s.high - s.low) / s.last_close * 100).toFixed(2) : '-';
