@@ -2467,7 +2467,7 @@ function dashRenderStockTable() {
             <td><div class="name-cell"><span>${s.name}</span><span class="code-txt">${s.code}</span></div></td>
             <td class="mono price">${s.price.toFixed(2)}</td>
             <td class="mono change" style="color:${pctColor}">${s.change_pct >= 0 ? '+' : ''}${s.change_pct.toFixed(2)}%</td>
-            <td class="mono amount" style="color:${mainForceColor}">${s.main_force !== undefined ? dashFmtm(s.main_force) : (s.est_net !== undefined ? dashFmtm(s.est_net) + ' (估)' : (s.has_fund_flow ? dashFmtm(s.main_force) : '-'))}</td>
+            <td class="mono amount" style="color:${mainForceColor}">${s.main_force !== undefined ? dashFmtm(s.main_force) : (s.est_net !== undefined ? dashFmtm(s.est_net) + ' (估)' : (s.has_fund_flow && s.main_force !== undefined ? dashFmtm(s.main_force) : (s.est_net !== undefined ? dashFmtm(s.est_net) + ' (估)' : '-')))}</td>
             <td class="mono amount" style="color:${bookColor}">${dashFmtm(s.book_diff || 0)}</td>
             <td class="mono amount">${dashFmtm(s.amount)}</td>
             <td class="mono amount">${amp}%</td>
@@ -2506,11 +2506,11 @@ function dashOpenStock(code) {
         ['成交量', dashFmtm(s.volume), ''],
         ['成交额', dashFmtm(s.amount), ''],
         ['盘口差', dashFmtm(s.book_diff || 0), (s.book_diff || 0) >= 0 ? 'var(--dash-up)' : 'var(--dash-down)'],
-        ['主力净流', s.has_fund_flow ? dashFmtm(s.main_force) : '-', (s.main_force || 0) >= 0 ? 'var(--dash-up)' : 'var(--dash-down)'],
-        ['5日主力净流', s.has_fund_flow && s.mf_5d ? dashFmtm(s.mf_5d) : '-', (s.mf_5d || 0) >= 0 ? 'var(--dash-up)' : 'var(--dash-down)'],
-        ['主力增仓占比', s.has_fund_flow && s.main_pct ? s.main_pct.toFixed(2) + '%' : '-', (s.main_pct || 0) >= 0 ? 'var(--dash-up)' : 'var(--dash-down)'],
-        ['5日涨幅', s.chg_5d ? (s.chg_5d >= 0 ? '+' : '') + s.chg_5d.toFixed(2) + '%' : '-', (s.chg_5d || 0) >= 0 ? 'var(--dash-up)' : 'var(--dash-down)'],
-        ['20日涨幅', s.chg_20d ? (s.chg_20d >= 0 ? '+' : '') + s.chg_20d.toFixed(2) + '%' : '-', (s.chg_20d || 0) >= 0 ? 'var(--dash-up)' : 'var(--dash-down)'],
+        ['主力净流', s.has_fund_flow && s.main_force !== undefined ? dashFmtm(s.main_force) : (s.est_net !== undefined ? dashFmtm(s.est_net) + ' (估)' : '-'), (s.main_force || 0) >= 0 ? 'var(--dash-up)' : 'var(--dash-down)'],
+        ['5日主力净流', s.has_fund_flow && s.mf_5d !== undefined ? dashFmtm(s.mf_5d) : '-', (s.mf_5d || 0) >= 0 ? 'var(--dash-up)' : 'var(--dash-down)'],
+        ['主力增仓占比', s.has_fund_flow && s.main_pct !== undefined ? s.main_pct.toFixed(2) + '%' : '-', (s.main_pct || 0) >= 0 ? 'var(--dash-up)' : 'var(--dash-down)'],
+        ['5日涨幅', s.chg_5d !== undefined ? (s.chg_5d >= 0 ? '+' : '') + s.chg_5d.toFixed(2) + '%' : '-', (s.chg_5d || 0) >= 0 ? 'var(--dash-up)' : 'var(--dash-down)'],
+        ['20日涨幅', s.chg_20d !== undefined ? (s.chg_20d >= 0 ? '+' : '') + s.chg_20d.toFixed(2) + '%' : '-', (s.chg_20d || 0) >= 0 ? 'var(--dash-up)' : 'var(--dash-down)'],
         ['振幅', `${amp}%`, ''],
         ['所属', s.sector, '']
     ];
