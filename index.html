@@ -6,7 +6,7 @@
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
-    <title>超黄体系 · 每日复盘</title>
+    <title>超黄体系 · 每日复盘 V5.2</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -2306,6 +2306,7 @@ function dashRenderThemes() {
         for (const s of t.sectors) allStocks.push(...s.stocks);
         t.avg = allStocks.length ? (allStocks.reduce((a,b) => a + b.change_pct, 0) / allStocks.length).toFixed(2) : 0;
         t.totalMain = allStocks.reduce((a,b) => a + (b.main_force || 0), 0);
+        t.totalMf5d = allStocks.reduce((a,b) => a + (b.mf_5d || 0), 0);
         t.totalBook = allStocks.reduce((a,b) => a + (b.book_diff || 0), 0);
         t.up = allStocks.filter(s => s.change_pct > 0).length;
         t.total = allStocks.length;
@@ -2315,6 +2316,7 @@ function dashRenderThemes() {
         for (const s of t.sectors) {
             s.avg = s.stocks.length ? (s.stocks.reduce((a,b) => a + b.change_pct, 0) / s.stocks.length).toFixed(2) : 0;
             s.main = s.stocks.reduce((a,b) => a + (b.main_force || 0), 0);
+            s.mf5d = s.stocks.reduce((a,b) => a + (b.mf_5d || 0), 0);
             s.up = s.stocks.filter(x => x.change_pct > 0).length;
         }
         t.sectors.sort((a,b) => b.avg - a.avg);
@@ -2348,6 +2350,8 @@ function dashRenderThemes() {
         const mainLabel = t.hasFf > 0 ? '主力净流入' : '盘口差';
         const mainVal = t.hasFf > 0 ? t.totalMain : t.totalBook;
         
+        const mf5dColor = t.totalMf5d >= 0 ? 'var(--dash-up)' : 'var(--dash-down)';
+        
         gridHtml += `<div class="dash-theme-card" onclick="dashGoToTheme('${themeName}')">
             <div class="dash-theme-header">
                 <div class="dash-theme-title"><span class="dash-theme-emoji">${t.emoji}</span>${themeName}</div>
@@ -2357,6 +2361,7 @@ function dashRenderThemes() {
                 <div class="dash-stat-item"><span class="dash-stat-label">平均涨跌</span><span class="dash-stat-val" style="color:${avgColor}">${t.avg >= 0 ? '+' : ''}${t.avg}%</span></div>
                 <div class="dash-stat-item"><span class="dash-stat-label">${mainLabel}</span><span class="dash-stat-val" style="color:${mainColor}">${dashFmtm(mainVal)}</span></div>
                 <div class="dash-stat-item"><span class="dash-stat-label">上涨率</span><span class="dash-stat-val">${t.up}/${t.total}</span></div>
+                <div class="dash-stat-item"><span class="dash-stat-label">5日主力净流</span><span class="dash-stat-val" style="color:${mf5dColor}">${dashFmtm(t.totalMf5d)}</span></div>
             </div>
             <div class="dash-sector-list">`;
         
@@ -2364,9 +2369,10 @@ function dashRenderThemes() {
         for (const s of t.sectors.slice(0, 3)) {
             const pctColor = s.avg >= 0 ? 'var(--dash-up)' : 'var(--dash-down)';
             const mainColor2 = s.main >= 0 ? 'var(--dash-up)' : 'var(--dash-down)';
+            const mf5dColor2 = s.mf5d >= 0 ? 'var(--dash-up)' : 'var(--dash-down)';
             gridHtml += `<div class="dash-sector-row">
                 <span class="dash-sector-name">${s.name}</span>
-                <span><span class="dash-sector-pct" style="color:${pctColor}">${s.avg >= 0 ? '+' : ''}${s.avg}%</span> <span class="dash-sector-flow" style="color:${mainColor2}">${dashFmtm(s.main)}</span></span>
+                <span><span class="dash-sector-pct" style="color:${pctColor}">${s.avg >= 0 ? '+' : ''}${s.avg}%</span> <span class="dash-sector-flow" style="color:${mainColor2}">${dashFmtm(s.main)}</span> <span class="dash-sector-flow" style="color:${mf5dColor2}">5日${dashFmtm(s.mf5d)}</span></span>
             </div>`;
         }
         
@@ -2400,6 +2406,7 @@ function dashRenderSectors() {
     for (const s of sectors) {
         const avg = s.stocks.length ? (s.stocks.reduce((a,b) => a + b.change_pct, 0) / s.stocks.length).toFixed(2) : 0;
         const main = s.stocks.reduce((a,b) => a + (b.main_force || 0), 0);
+        const mf5d = s.stocks.reduce((a,b) => a + (b.mf_5d || 0), 0);
         const book = s.stocks.reduce((a,b) => a + (b.book_diff || 0), 0);
         const est = s.stocks.reduce((a,b) => a + (b.est_net || 0), 0);
         const hasMainForce = s.stocks.filter(x => x.main_force !== undefined).length > 0;
@@ -2408,6 +2415,7 @@ function dashRenderSectors() {
         const hasFf = s.stocks.filter(x => x.has_fund_flow).length;
         const displayVal = hasMainForce ? main : (hasEst ? est : (hasFf > 0 ? main : book));
         const mainColor = displayVal >= 0 ? 'var(--dash-up)' : 'var(--dash-down)';
+        const mf5dColor = mf5d >= 0 ? 'var(--dash-up)' : 'var(--dash-down)';
         const avgColor = avg >= 0 ? 'var(--dash-up)' : 'var(--dash-down)';
         const top = s.stocks.sort((a,b) => b.change_pct - a.change_pct)[0];
         
@@ -2420,6 +2428,7 @@ function dashRenderSectors() {
                 <div><span style="font-size:11px;color:var(--dash-muted)">${hasMainForce ? '主力净流入' : (hasEst ? '估主力净流' : (hasFf > 0 ? '主力净流入' : '盘口差'))}</span><br/><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:${mainColor}">${dashFmtm(displayVal)}</span></div>
                 <div><span style="font-size:11px;color:var(--dash-muted)">上涨</span><br/><span style="font-weight:700">${up}/${s.stocks.length}</span></div>
                 <div><span style="font-size:11px;color:var(--dash-muted)">成交额</span><br/><span style="font-family:'JetBrains Mono',monospace">${dashFmtm(s.stocks.reduce((a,b) => a + b.amount, 0))}</span></div>
+                <div><span style="font-size:11px;color:var(--dash-muted)">5日主力净流</span><br/><span style="font-family:'JetBrains Mono',monospace;font-weight:700;color:${mf5dColor}">${dashFmtm(mf5d)}</span></div>
             </div>
             <div style="font-size:12px;color:var(--dash-muted)">领涨: <span style="color:var(--dash-text)">${top ? top.name : '-'} ${top ? (top.change_pct >= 0 ? '+' : '') + top.change_pct.toFixed(2) + '%' : ''}</span></div>
         </div>`;
@@ -2450,7 +2459,7 @@ function dashRenderStockTable() {
     
     let html = '<table class="dash-stock-table"><thead><tr>';
     html += '<th class="rank">#</th><th>名称</th><th class="price">现价</th><th class="change">涨跌</th>';
-    html += '<th class="amount">主力净流</th><th class="amount">盘口差</th><th class="amount">成交额</th><th class="amount">振幅</th><th>操作</th></tr></thead><tbody>';
+    html += '<th class="amount">主力净流</th><th class="amount">5日主力净流</th><th class="amount">盘口差</th><th class="amount">成交额</th><th class="amount">振幅</th><th>操作</th></tr></thead><tbody>';
     
     for (let i = 0; i < stocks.length; i++) {
         const s = stocks[i];
@@ -2458,6 +2467,7 @@ function dashRenderStockTable() {
         const mainForceColor = (s.main_force || 0) >= 0 ? 'var(--dash-up)' : 'var(--dash-down)';
         const estColor = (s.est_net || 0) >= 0 ? 'var(--dash-up)' : 'var(--dash-down)';
         const mainColor = (s.main_force || 0) >= 0 ? 'var(--dash-up)' : 'var(--dash-down)';
+        const mf5dColor = (s.mf_5d || 0) >= 0 ? 'var(--dash-up)' : 'var(--dash-down)';
         const bookColor = (s.book_diff || 0) >= 0 ? 'var(--dash-up)' : 'var(--dash-down)';
         const isF = dashIsFav(s.code);
         const amp = s.high && s.low && s.last_close ? ((s.high - s.low) / s.last_close * 100).toFixed(2) : '-';
@@ -2468,6 +2478,7 @@ function dashRenderStockTable() {
             <td class="mono price">${s.price.toFixed(2)}</td>
             <td class="mono change" style="color:${pctColor}">${s.change_pct >= 0 ? '+' : ''}${s.change_pct.toFixed(2)}%</td>
             <td class="mono amount" style="color:${mainForceColor}">${s.main_force !== undefined ? dashFmtm(s.main_force) : (s.est_net !== undefined ? dashFmtm(s.est_net) + ' (估)' : (s.has_fund_flow && s.main_force !== undefined ? dashFmtm(s.main_force) : (s.est_net !== undefined ? dashFmtm(s.est_net) + ' (估)' : '-')))}</td>
+            <td class="mono amount" style="color:${mf5dColor}">${s.mf_5d !== undefined ? dashFmtm(s.mf_5d) : '-'}</td>
             <td class="mono amount" style="color:${bookColor}">${dashFmtm(s.book_diff || 0)}</td>
             <td class="mono amount">${dashFmtm(s.amount)}</td>
             <td class="mono amount">${amp}%</td>
@@ -2694,7 +2705,12 @@ function dashGoToPage1() {
 // ===== 数据加载 =====
 async function dashLoadData() {
     try {
-        const resp = await fetch('data/dashboard_v5.json?t=' + Date.now());
+        // V5.1: 更激进的缓存破坏，确保获取最新数据
+        const cacheBuster = Date.now() + '_' + Math.random().toString(36).substr(2, 9);
+        const resp = await fetch('data/dashboard_v5.json?t=' + cacheBuster, {
+            cache: 'no-store',
+            headers: { 'Cache-Control': 'no-cache' }
+        });
         if (!resp.ok) throw new Error('HTTP ' + resp.status);
         dashData = await resp.json();
         dashRenderFavBar();

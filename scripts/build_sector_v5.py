@@ -76,6 +76,7 @@ def build():
         info['avg'] = round(sum(s.get('change_pct', 0) for s in all_s) / len(all_s), 2) if all_s else 0
         info['book'] = round(sum(s.get('book_diff', 0) for s in all_s), 2)
         info['main'] = round(sum(s.get('main_force', 0) for s in all_s if s.get('has_fund_flow')), 2)
+        info['mf5d'] = round(sum(s.get('mf_5d', 0) for s in all_s), 2)
         info['has_ff'] = sum(1 for s in all_s if s.get('has_fund_flow'))
         info['up'] = sum(1 for s in all_s if s.get('change_pct', 0) > 0)
         info['total'] = len(all_s)
@@ -258,6 +259,7 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
         book_color = 'var(--up)' if info['book'] >= 0 else 'var(--down)'
         avg_color = 'var(--up)' if info['avg'] >= 0 else 'var(--down)'
         main_color = 'var(--up)' if info['main'] >= 0 else 'var(--down)'
+        mf5d_color = 'var(--up)' if info['mf5d'] >= 0 else 'var(--down)'
         body += f'<div class="card" onclick="goToTheme(\'{theme_name}\')">'
         body += '<div class="card-header">'
         body += f'<div class="card-title"><span class="card-emoji">{info["emoji"]}</span>{theme_name}</div>'
@@ -270,6 +272,7 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
         else:
             body += f'<div class="stat-item"><span class="stat-label">盘口差</span><span class="stat-val" style="color:{book_color}">{fmtm(info["book"])}</span></div>'
         body += f'<div class="stat-item"><span class="stat-label">上涨率</span><span class="stat-val">{info["up"]}/{info["total"]}</span></div>'
+        body += f'<div class="stat-item"><span class="stat-label">5日主力净流</span><span class="stat-val" style="color:{mf5d_color}">{fmtm(info["mf5d"])}</span></div>'
         body += '</div>'
         if info['top_sector']:
             body += f'<div class="card-sub-leader">🏆 领涨细分: {info["top_sector"]}</div>'
@@ -280,8 +283,12 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
             if s.get('has_fund_flow') and s.get('main_force'):
                 mc = 'var(--up)' if s['main_force'] >= 0 else 'var(--down)'
                 main_txt = f' <span style="color:{mc};font-size:10px">{fmtm(s["main_force"])}</span>'
+            mf5d_txt = ''
+            if s.get('mf_5d') is not None:
+                mc5 = 'var(--up)' if s['mf_5d'] >= 0 else 'var(--down)'
+                mf5d_txt = f' <span style="color:{mc5};font-size:10px">5日{fmtm(s["mf_5d"])}</span>'
             body += '<div class="top3-row">'
-            body += f'<span><span class="top3-name">{s["name"]}</span><span class="top3-code">{s["code"]}</span>{main_txt}</span>'
+            body += f'<span><span class="top3-name">{s["name"]}</span><span class="top3-code">{s["code"]}</span>{main_txt}{mf5d_txt}</span>'
             body += f'<span class="top3-pct" style="color:{pct_color}">{s["change_pct"]:+.2f}%</span>'
             body += '</div>'
         body += '</div>'
@@ -373,11 +380,13 @@ function renderPage2(){{
   const avg=allStocks.length?(allStocks.reduce((a,b)=>a+b.change_pct,0)/allStocks.length).toFixed(2):0;
   const book=allStocks.reduce((a,b)=>a+(b.book_diff||0),0);
   const main=allStocks.reduce((a,b)=>a+(b.main_force||0),0);
+  const mf5d_all=allStocks.reduce((a,b)=>a+(b.mf_5d||0),0);
   const has_ff=allStocks.filter(s=>s.has_fund_flow).length;
   const up=allStocks.filter(s=>s.change_pct>0).length;
   document.getElementById('sectorSummary').innerHTML=`<div class="sum-box"><div class="sum-label">平均涨跌</div><div class="sum-val" style="color:${{avg>=0?'var(--up)':'var(--down)'}}">${{avg>=0?'+':''}}${{avg}}%</div></div>
     <div class="sum-box"><div class="sum-label">${{has_ff>0?'主力净流':'盘口差'}}</div><div class="sum-val" style="color:${{(has_ff>0?main:book)>=0?'var(--up)':'var(--down)'}}">${{fmtm(has_ff>0?main:book)}}</div></div>
     <div class="sum-box"><div class="sum-label">上涨家数</div><div class="sum-val">${{up}}/${{allStocks.length}}</div></div>
+    <div class="sum-box"><div class="sum-label">5日主力净流</div><div class="sum-val" style="color:${{mf5d_all>=0?'var(--up)':'var(--down)'}}">${{fmtm(mf5d_all)}}</div></div>
     <div class="sum-box"><div class="sum-label">总成交额</div><div class="sum-val">${{fmtm(allStocks.reduce((a,b)=>a+b.amount,0))}}</div></div>`;
   let tabHtml='';
   for(const s of sectors){{
@@ -393,7 +402,7 @@ function renderPage2(){{
   stocks.sort((a,b)=>b.change_pct-a.change_pct);
   let tableHtml='<table class="stock-table"><thead><tr>';
   tableHtml+='<th class="rank">#</th><th>名称</th><th class="price">现价</th><th class="change">涨跌</th>';
-  tableHtml+='<th class="amount">主力净流</th><th class="amount">盘口差</th><th class="amount">成交额</th><th class="amount">振幅</th><th>操作</th></tr></thead><tbody>';
+  tableHtml+='<th class="amount">主力净流</th><th class="amount">5日主力净流</th><th class="amount">盘口差</th><th class="amount">成交额</th><th class="amount">振幅</th><th>操作</th></tr></thead><tbody>';
   for(let i=0;i<stocks.length;i++){{
     const s=stocks[i];
     const pctColor=s.change_pct>=0?'var(--up)':'var(--down)';
@@ -407,6 +416,7 @@ function renderPage2(){{
       <td class="price">${{s.price.toFixed(2)}}</td>
       <td class="change" style="color:${{pctColor}}">${{s.change_pct>=0?'+':''}}${{s.change_pct.toFixed(2)}}%</td>
       <td class="amount" style="color:${{mainColor}}">${{s.has_fund_flow?fmtm(s.main_force):'-'}}</td>
+      <td class="amount" style="color:${{(s.mf_5d||0)>=0?'var(--up)':'var(--down)'}}">${{s.mf_5d!==undefined?fmtm(s.mf_5d):'-'}}</td>
       <td class="amount" style="color:${{bookColor}}">${{fmtm(s.book_diff||0)}}</td>
       <td class="amount">${{fmtm(s.amount)}}</td>
       <td class="amount">${{amp}}%</td>
