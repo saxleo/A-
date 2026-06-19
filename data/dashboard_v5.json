@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-19T14:57:02.664076",
+  "timestamp": "2026-06-19T15:00:53.456638",
   "total": 99,
   "success": 99,
   "has_fund_flow": 99,
@@ -43,7 +43,7 @@
           "ask_vol5": 82
         },
         "book_diff": -8916620.0,
-        "timestamp": "2026-06-19T14:57:02.394220",
+        "timestamp": "2026-06-19T15:00:03.600247",
         "main_force": 2065562200.0,
         "super": 0,
         "large": 0,
@@ -51,11 +51,11 @@
         "small": 0,
         "main_ratio": 1448.71,
         "main_pct": 14.4871,
-        "chg_5d": 0,
+        "chg_5d": 16.78,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 1591168190.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:04"
+        "fund_flow_time": "15:00:04"
       },
       {
         "code": "688041",
@@ -95,7 +95,7 @@
           "ask_vol5": 978
         },
         "book_diff": -27605060.0,
-        "timestamp": "2026-06-19T14:57:02.394381",
+        "timestamp": "2026-06-19T15:00:03.600406",
         "main_force": 1261437100.0,
         "super": 0,
         "large": 0,
@@ -103,11 +103,11 @@
         "small": 0,
         "main_ratio": 954.26,
         "main_pct": 9.5426,
-        "chg_5d": 0,
+        "chg_5d": 6.84,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 4514788180.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:04"
+        "fund_flow_time": "15:00:04"
       },
       {
         "code": "688262",
@@ -147,7 +147,7 @@
           "ask_vol5": 111
         },
         "book_diff": -1184168.0,
-        "timestamp": "2026-06-19T14:57:02.394758",
+        "timestamp": "2026-06-19T15:00:03.600789",
         "main_force": -22897671.0,
         "super": 0,
         "large": 0,
@@ -155,11 +155,11 @@
         "small": 0,
         "main_ratio": 486.61,
         "main_pct": 4.8661,
-        "chg_5d": 0,
+        "chg_5d": 1.54,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 34936344.4,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:04"
+        "fund_flow_time": "15:00:04"
       },
       {
         "code": "300474",
@@ -199,7 +199,7 @@
           "ask_vol5": 63
         },
         "book_diff": -2061620.0,
-        "timestamp": "2026-06-19T14:57:02.394503",
+        "timestamp": "2026-06-19T15:00:03.600529",
         "main_force": 24017093.0,
         "super": 0,
         "large": 0,
@@ -207,11 +207,11 @@
         "small": 0,
         "main_ratio": 127.03,
         "main_pct": 1.2703,
-        "chg_5d": 0,
+        "chg_5d": -10.88,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": -79217764.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:04"
+        "fund_flow_time": "15:00:04"
       },
       {
         "code": "688047",
@@ -251,7 +251,7 @@
           "ask_vol5": 10
         },
         "book_diff": 565853.0,
-        "timestamp": "2026-06-19T14:57:02.394639",
+        "timestamp": "2026-06-19T15:00:03.600663",
         "main_force": 89098057.0,
         "super": 0,
         "large": 0,
@@ -259,11 +259,11 @@
         "small": 0,
         "main_ratio": 182.21,
         "main_pct": 1.8221,
-        "chg_5d": 0,
+        "chg_5d": -6.88,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 329223937.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:04"
+        "fund_flow_time": "15:00:04"
       }
     ],
     "AI服务器": [
@@ -305,7 +305,7 @@
           "ask_vol5": 106
         },
         "book_diff": 84204036.0,
-        "timestamp": "2026-06-19T14:57:02.394981",
+        "timestamp": "2026-06-19T15:00:03.601013",
         "main_force": 4841184600.0,
         "super": 0,
         "large": 0,
@@ -313,11 +313,11 @@
         "small": 0,
         "main_ratio": 640.37,
         "main_pct": 6.4037,
-        "chg_5d": 0,
+        "chg_5d": 19.21,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 2746762450.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:04"
+        "fund_flow_time": "15:00:04"
       },
       {
         "code": "603019",
@@ -357,7 +357,7 @@
           "ask_vol5": 61
         },
         "book_diff": -7524157.0,
-        "timestamp": "2026-06-19T14:57:02.395094",
+        "timestamp": "2026-06-19T15:00:03.601124",
         "main_force": 154347830.0,
         "super": 0,
         "large": 0,
@@ -365,11 +365,11 @@
         "small": 0,
         "main_ratio": 0,
         "main_pct": 0,
-        "chg_5d": 0,
+        "chg_5d": -4.51,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 535956555.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:04"
+        "fund_flow_time": "15:00:04"
       },
       {
         "code": "000977",
@@ -409,7 +409,7 @@
           "ask_vol5": 143
         },
         "book_diff": -1848624.0,
-        "timestamp": "2026-06-19T14:57:02.394871",
+        "timestamp": "2026-06-19T15:00:03.600902",
         "main_force": 196805980.0,
         "super": 0,
         "large": 0,
@@ -417,11 +417,11 @@
         "small": 0,
         "main_ratio": 509.63000000000005,
         "main_pct": 5.0963,
-        "chg_5d": 0,
+        "chg_5d": -0.98,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 635007985.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:04"
+        "fund_flow_time": "15:00:04"
       }
     ],
     "液冷散热": [
@@ -463,7 +463,7 @@
           "ask_vol5": 0
         },
         "book_diff": 348014815.0,
-        "timestamp": "2026-06-19T14:57:02.395544",
+        "timestamp": "2026-06-19T15:00:03.601569",
         "main_force": 90332329.8,
         "super": 0,
         "large": 0,
@@ -471,11 +471,11 @@
         "small": 0,
         "main_ratio": -4616.75,
         "main_pct": -46.1675,
-        "chg_5d": 0,
+        "chg_5d": 14.15,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 552556009.6,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:06"
+        "fund_flow_time": "15:00:08"
       },
       {
         "code": "603269",
@@ -515,7 +515,7 @@
           "ask_vol5": 213
         },
         "book_diff": 1511362.0,
-        "timestamp": "2026-06-19T14:57:02.395668",
+        "timestamp": "2026-06-19T15:00:03.601696",
         "main_force": 50414456.0,
         "super": 0,
         "large": 0,
@@ -523,11 +523,11 @@
         "small": 0,
         "main_ratio": 395.48,
         "main_pct": 3.9548,
-        "chg_5d": 0,
+        "chg_5d": 15.62,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 142277139.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:06"
+        "fund_flow_time": "15:00:08"
       },
       {
         "code": "301018",
@@ -567,7 +567,7 @@
           "ask_vol5": 3
         },
         "book_diff": 1371922.0,
-        "timestamp": "2026-06-19T14:57:02.395315",
+        "timestamp": "2026-06-19T15:00:03.601343",
         "main_force": 265188750.0,
         "super": 0,
         "large": 0,
@@ -575,11 +575,11 @@
         "small": 0,
         "main_ratio": 578.88,
         "main_pct": 5.7888,
-        "chg_5d": 0,
+        "chg_5d": 5.56,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 941990584.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:04"
+        "fund_flow_time": "15:00:04"
       },
       {
         "code": "300499",
@@ -619,7 +619,7 @@
           "ask_vol5": 721
         },
         "book_diff": -5018369.0,
-        "timestamp": "2026-06-19T14:57:02.395431",
+        "timestamp": "2026-06-19T15:00:03.601455",
         "main_force": -32244166.0,
         "super": 0,
         "large": 0,
@@ -627,11 +627,11 @@
         "small": 0,
         "main_ratio": -306.39,
         "main_pct": -3.0639,
-        "chg_5d": 0,
+        "chg_5d": -9.77,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 40954086.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:06"
+        "fund_flow_time": "15:00:08"
       },
       {
         "code": "002837",
@@ -671,7 +671,7 @@
           "ask_vol5": 137
         },
         "book_diff": -13104559.0,
-        "timestamp": "2026-06-19T14:57:02.395207",
+        "timestamp": "2026-06-19T15:00:03.601235",
         "main_force": -66476470.0,
         "super": 0,
         "large": 0,
@@ -679,11 +679,11 @@
         "small": 0,
         "main_ratio": 207.73000000000002,
         "main_pct": 2.0773,
-        "chg_5d": 0,
+        "chg_5d": -3.67,
         "chg_20d": 0,
         "mf_5d": 0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:04"
+        "fund_flow_time": "15:00:04"
       }
     ],
     "铜缆高速连接": [
@@ -725,7 +725,7 @@
           "ask_vol5": 414
         },
         "book_diff": 17544478.0,
-        "timestamp": "2026-06-19T14:57:02.396143",
+        "timestamp": "2026-06-19T15:00:03.602138",
         "main_force": 739468400.0,
         "super": 0,
         "large": 0,
@@ -733,11 +733,11 @@
         "small": 0,
         "main_ratio": 685.62,
         "main_pct": 6.8562,
-        "chg_5d": 0,
+        "chg_5d": 3.04,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 1006736240.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:06"
+        "fund_flow_time": "15:00:08"
       },
       {
         "code": "300913",
@@ -777,7 +777,7 @@
           "ask_vol5": 7
         },
         "book_diff": -4192699.0,
-        "timestamp": "2026-06-19T14:57:02.396253",
+        "timestamp": "2026-06-19T15:00:03.602247",
         "main_force": 50567014.0,
         "super": 0,
         "large": 0,
@@ -785,11 +785,11 @@
         "small": 0,
         "main_ratio": -241.64,
         "main_pct": -2.4164,
-        "chg_5d": 0,
+        "chg_5d": 15.94,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": -82655701.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:06"
+        "fund_flow_time": "15:00:08"
       },
       {
         "code": "688629",
@@ -829,7 +829,7 @@
           "ask_vol5": 3
         },
         "book_diff": -7789850.0,
-        "timestamp": "2026-06-19T14:57:02.396027",
+        "timestamp": "2026-06-19T15:00:03.602027",
         "main_force": -106062820.0,
         "super": 0,
         "large": 0,
@@ -837,11 +837,11 @@
         "small": 0,
         "main_ratio": 362.15000000000003,
         "main_pct": 3.6215,
-        "chg_5d": 0,
+        "chg_5d": 17.86,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 107506060.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:06"
+        "fund_flow_time": "15:00:08"
       },
       {
         "code": "300563",
@@ -881,7 +881,7 @@
           "ask_vol5": 14
         },
         "book_diff": 288755.0,
-        "timestamp": "2026-06-19T14:57:02.395918",
+        "timestamp": "2026-06-19T15:00:03.601916",
         "main_force": 2874245.5,
         "super": 0,
         "large": 0,
@@ -889,11 +889,11 @@
         "small": 0,
         "main_ratio": -107.1,
         "main_pct": -1.071,
-        "chg_5d": 0,
+        "chg_5d": -1.45,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": -12708584.6,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:06"
+        "fund_flow_time": "15:00:08"
       },
       {
         "code": "002130",
@@ -933,7 +933,7 @@
           "ask_vol5": 155
         },
         "book_diff": 658956.0,
-        "timestamp": "2026-06-19T14:57:02.395799",
+        "timestamp": "2026-06-19T15:00:03.601808",
         "main_force": -62260711.0,
         "super": 0,
         "large": 0,
@@ -941,11 +941,11 @@
         "small": 0,
         "main_ratio": -659.35,
         "main_pct": -6.5935,
-        "chg_5d": 0,
+        "chg_5d": 0.05,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": -82503204.1,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:06"
+        "fund_flow_time": "15:00:08"
       }
     ],
     "算力租赁/IDC": [
@@ -987,7 +987,7 @@
           "ask_vol5": 3
         },
         "book_diff": 20179152.0,
-        "timestamp": "2026-06-19T14:57:02.396823",
+        "timestamp": "2026-06-19T15:00:03.602814",
         "main_force": 32864180.0,
         "super": 0,
         "large": 0,
@@ -995,11 +995,11 @@
         "small": 0,
         "main_ratio": 85.76,
         "main_pct": 0.8576,
-        "chg_5d": 0,
+        "chg_5d": -1.69,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": -378649730.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:08"
+        "fund_flow_time": "15:00:10"
       },
       {
         "code": "300442",
@@ -1039,7 +1039,7 @@
           "ask_vol5": 100
         },
         "book_diff": -22092365.0,
-        "timestamp": "2026-06-19T14:57:02.396366",
+        "timestamp": "2026-06-19T15:00:03.602353",
         "main_force": 224719720.0,
         "super": 0,
         "large": 0,
@@ -1047,11 +1047,11 @@
         "small": 0,
         "main_ratio": 458.33000000000004,
         "main_pct": 4.5833,
-        "chg_5d": 0,
+        "chg_5d": -6.99,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 351765050.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:06"
+        "fund_flow_time": "15:00:08"
       },
       {
         "code": "002229",
@@ -1091,7 +1091,7 @@
           "ask_vol5": 448
         },
         "book_diff": 286869.0,
-        "timestamp": "2026-06-19T14:57:02.396714",
+        "timestamp": "2026-06-19T15:00:03.602701",
         "main_force": -5995867.1,
         "super": 0,
         "large": 0,
@@ -1099,11 +1099,11 @@
         "small": 0,
         "main_ratio": -136.91,
         "main_pct": -1.3691,
-        "chg_5d": 0,
+        "chg_5d": -19.21,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": -149799114.5,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:08"
+        "fund_flow_time": "15:00:10"
       },
       {
         "code": "603881",
@@ -1143,7 +1143,7 @@
           "ask_vol5": 52
         },
         "book_diff": 11881754.0,
-        "timestamp": "2026-06-19T14:57:02.396581",
+        "timestamp": "2026-06-19T15:00:03.602568",
         "main_force": 17572918.0,
         "super": 0,
         "large": 0,
@@ -1151,11 +1151,11 @@
         "small": 0,
         "main_ratio": 135.89,
         "main_pct": 1.3589,
-        "chg_5d": 0,
+        "chg_5d": -14.13,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": -96767075.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:08"
+        "fund_flow_time": "15:00:10"
       },
       {
         "code": "002929",
@@ -1195,7 +1195,7 @@
           "ask_vol5": 4
         },
         "book_diff": 3032743.0,
-        "timestamp": "2026-06-19T14:57:02.396475",
+        "timestamp": "2026-06-19T15:00:03.602458",
         "main_force": 74892422.0,
         "super": 0,
         "large": 0,
@@ -1203,11 +1203,11 @@
         "small": 0,
         "main_ratio": -31.28,
         "main_pct": -0.3128,
-        "chg_5d": 0,
+        "chg_5d": -23.08,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 157450024.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:06"
+        "fund_flow_time": "15:00:08"
       }
     ],
     "存力/HBM存储": [
@@ -1249,7 +1249,7 @@
           "ask_vol5": 2
         },
         "book_diff": 2157247.0,
-        "timestamp": "2026-06-19T14:57:02.397373",
+        "timestamp": "2026-06-19T15:00:03.603355",
         "main_force": 22849350.0,
         "super": 0,
         "large": 0,
@@ -1257,11 +1257,11 @@
         "small": 0,
         "main_ratio": 910.91,
         "main_pct": 9.1091,
-        "chg_5d": 0,
+        "chg_5d": 42.33,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 378069190.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:08"
+        "fund_flow_time": "15:00:10"
       },
       {
         "code": "603986",
@@ -1301,7 +1301,7 @@
           "ask_vol5": 10
         },
         "book_diff": -90515352.0,
-        "timestamp": "2026-06-19T14:57:02.397146",
+        "timestamp": "2026-06-19T15:00:03.603138",
         "main_force": -26374200.0,
         "super": 0,
         "large": 0,
@@ -1309,11 +1309,11 @@
         "small": 0,
         "main_ratio": 832.98,
         "main_pct": 8.3298,
-        "chg_5d": 0,
+        "chg_5d": 45.89,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 6716069600.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:08"
+        "fund_flow_time": "15:00:10"
       },
       {
         "code": "688525",
@@ -1353,19 +1353,19 @@
           "ask_vol5": 17
         },
         "book_diff": -1583989.0,
-        "timestamp": "2026-06-19T14:57:02.396930",
+        "timestamp": "2026-06-19T15:00:03.602921",
         "main_force": 248099900.0,
         "super": 0,
         "large": 0,
         "medium": 0,
         "small": 0,
-        "main_ratio": 0,
-        "main_pct": 0,
-        "chg_5d": 0,
+        "main_ratio": -104.89,
+        "main_pct": -1.0489,
+        "chg_5d": 28.4,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 1673852150.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:27"
+        "fund_flow_time": "15:00:25"
       },
       {
         "code": "688008",
@@ -1405,19 +1405,19 @@
           "ask_vol5": 48
         },
         "book_diff": -13983592.0,
-        "timestamp": "2026-06-19T14:57:02.397259",
+        "timestamp": "2026-06-19T15:00:03.603246",
         "main_force": 26283800.0,
         "super": 0,
         "large": 0,
         "medium": 0,
         "small": 0,
-        "main_ratio": 0,
-        "main_pct": 0,
-        "chg_5d": 0,
+        "main_ratio": -423.53,
+        "main_pct": -4.2353,
+        "chg_5d": 2.95,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 1321033390.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:27"
+        "fund_flow_time": "15:00:25"
       },
       {
         "code": "301308",
@@ -1457,7 +1457,7 @@
           "ask_vol5": 38
         },
         "book_diff": -28775209.0,
-        "timestamp": "2026-06-19T14:57:02.397038",
+        "timestamp": "2026-06-19T15:00:03.603028",
         "main_force": -587677620.0,
         "super": 0,
         "large": 0,
@@ -1465,11 +1465,11 @@
         "small": 0,
         "main_ratio": -771.45,
         "main_pct": -7.7145,
-        "chg_5d": 0,
+        "chg_5d": 7.39,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": -208752330.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:08"
+        "fund_flow_time": "15:00:10"
       }
     ],
     "光模块/CPO/光引擎": [
@@ -1511,7 +1511,7 @@
           "ask_vol5": 0
         },
         "book_diff": 431083399.0,
-        "timestamp": "2026-06-19T14:57:02.397821",
+        "timestamp": "2026-06-19T15:00:03.603807",
         "main_force": 1553230520.0,
         "super": 0,
         "large": 0,
@@ -1519,11 +1519,11 @@
         "small": 0,
         "main_ratio": 835.6199999999999,
         "main_pct": 8.3562,
-        "chg_5d": 0,
+        "chg_5d": 22.5,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 3263727670.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:10"
+        "fund_flow_time": "15:00:12"
       },
       {
         "code": "300308",
@@ -1563,7 +1563,7 @@
           "ask_vol5": 6
         },
         "book_diff": -97120598.0,
-        "timestamp": "2026-06-19T14:57:02.397480",
+        "timestamp": "2026-06-19T15:00:03.603462",
         "main_force": 2390605600.0,
         "super": 0,
         "large": 0,
@@ -1571,11 +1571,11 @@
         "small": 0,
         "main_ratio": 1208.71,
         "main_pct": 12.0871,
-        "chg_5d": 0,
+        "chg_5d": 37.71,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 5927596800.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:08"
+        "fund_flow_time": "15:00:10"
       },
       {
         "code": "300548",
@@ -1615,7 +1615,7 @@
           "ask_vol5": 6
         },
         "book_diff": 30677188.0,
-        "timestamp": "2026-06-19T14:57:02.397926",
+        "timestamp": "2026-06-19T15:00:03.603912",
         "main_force": 1009857310.0,
         "super": 0,
         "large": 0,
@@ -1623,11 +1623,11 @@
         "small": 0,
         "main_ratio": 499.14,
         "main_pct": 4.9914,
-        "chg_5d": 0,
+        "chg_5d": 21.83,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 822083700.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:10"
+        "fund_flow_time": "15:00:12"
       },
       {
         "code": "300502",
@@ -1667,7 +1667,7 @@
           "ask_vol5": 2
         },
         "book_diff": 522488.0,
-        "timestamp": "2026-06-19T14:57:02.397584",
+        "timestamp": "2026-06-19T15:00:03.603574",
         "main_force": 1451119900.0,
         "super": 0,
         "large": 0,
@@ -1675,11 +1675,11 @@
         "small": 0,
         "main_ratio": 562.89,
         "main_pct": 5.6289,
-        "chg_5d": 0,
+        "chg_5d": 44.08,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 1050268100.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:08"
+        "fund_flow_time": "15:00:10"
       },
       {
         "code": "000988",
@@ -1719,7 +1719,7 @@
           "ask_vol5": 50
         },
         "book_diff": 99742478.0,
-        "timestamp": "2026-06-19T14:57:02.398249",
+        "timestamp": "2026-06-19T15:00:03.604233",
         "main_force": 316923100.0,
         "super": 0,
         "large": 0,
@@ -1727,11 +1727,11 @@
         "small": 0,
         "main_ratio": 0,
         "main_pct": 0,
-        "chg_5d": 0,
+        "chg_5d": 15.51,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 1755726420.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:10"
+        "fund_flow_time": "15:00:12"
       },
       {
         "code": "601869",
@@ -1771,7 +1771,7 @@
           "ask_vol5": 6
         },
         "book_diff": 58894544.0,
-        "timestamp": "2026-06-19T14:57:02.398031",
+        "timestamp": "2026-06-19T15:00:03.604017",
         "main_force": 165532190.0,
         "super": 0,
         "large": 0,
@@ -1779,11 +1779,11 @@
         "small": 0,
         "main_ratio": 371.78,
         "main_pct": 3.7178,
-        "chg_5d": 0,
+        "chg_5d": 25.48,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": -41051910.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:10"
+        "fund_flow_time": "15:00:12"
       },
       {
         "code": "300394",
@@ -1823,7 +1823,7 @@
           "ask_vol5": 56
         },
         "book_diff": 58397533.0,
-        "timestamp": "2026-06-19T14:57:02.397708",
+        "timestamp": "2026-06-19T15:00:03.603698",
         "main_force": -7886500.0,
         "super": 0,
         "large": 0,
@@ -1831,11 +1831,11 @@
         "small": 0,
         "main_ratio": 10.13,
         "main_pct": 0.1013,
-        "chg_5d": 0,
+        "chg_5d": 40.04,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 346238380.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:10"
+        "fund_flow_time": "15:00:12"
       },
       {
         "code": "600487",
@@ -1875,7 +1875,7 @@
           "ask_vol5": 128
         },
         "book_diff": 45672126.0,
-        "timestamp": "2026-06-19T14:57:02.398137",
+        "timestamp": "2026-06-19T15:00:03.604127",
         "main_force": -557526800.0,
         "super": 0,
         "large": 0,
@@ -1883,11 +1883,11 @@
         "small": 0,
         "main_ratio": -256.78000000000003,
         "main_pct": -2.5678,
-        "chg_5d": 0,
+        "chg_5d": 58.81,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": -1473765700.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:10"
+        "fund_flow_time": "15:00:12"
       }
     ],
     "光芯片/硅光/薄膜铌酸锂": [
@@ -1929,7 +1929,7 @@
           "ask_vol5": 19
         },
         "book_diff": 1290210.0,
-        "timestamp": "2026-06-19T14:57:02.398578",
+        "timestamp": "2026-06-19T15:00:03.604588",
         "main_force": 441143370.0,
         "super": 0,
         "large": 0,
@@ -1937,11 +1937,11 @@
         "small": 0,
         "main_ratio": 669.64,
         "main_pct": 6.6964,
-        "chg_5d": 0,
+        "chg_5d": 9.55,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": -245746560.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:10"
+        "fund_flow_time": "15:00:12"
       },
       {
         "code": "688498",
@@ -1981,7 +1981,7 @@
           "ask_vol5": 3
         },
         "book_diff": 19225166.0,
-        "timestamp": "2026-06-19T14:57:02.398359",
+        "timestamp": "2026-06-19T15:00:03.604351",
         "main_force": 385715630.0,
         "super": 0,
         "large": 0,
@@ -1989,11 +1989,11 @@
         "small": 0,
         "main_ratio": 749.4200000000001,
         "main_pct": 7.4942,
-        "chg_5d": 0,
+        "chg_5d": 61.2,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 3219938870.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:10"
+        "fund_flow_time": "15:00:12"
       },
       {
         "code": "688313",
@@ -2033,7 +2033,7 @@
           "ask_vol5": 27
         },
         "book_diff": 8366175.0,
-        "timestamp": "2026-06-19T14:57:02.398473",
+        "timestamp": "2026-06-19T15:00:03.604476",
         "main_force": 355840940.0,
         "super": 0,
         "large": 0,
@@ -2041,11 +2041,11 @@
         "small": 0,
         "main_ratio": 599.17,
         "main_pct": 5.9917,
-        "chg_5d": 0,
+        "chg_5d": 4.69,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 182784850.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:10"
+        "fund_flow_time": "15:00:12"
       },
       {
         "code": "688195",
@@ -2085,7 +2085,7 @@
           "ask_vol5": 15
         },
         "book_diff": 2804352.0,
-        "timestamp": "2026-06-19T14:57:02.398811",
+        "timestamp": "2026-06-19T15:00:03.604823",
         "main_force": -66510490.0,
         "super": 0,
         "large": 0,
@@ -2093,11 +2093,11 @@
         "small": 0,
         "main_ratio": -414.18,
         "main_pct": -4.1418,
-        "chg_5d": 0,
+        "chg_5d": -7.25,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 71109012.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:13"
+        "fund_flow_time": "15:00:14"
       },
       {
         "code": "300620",
@@ -2137,7 +2137,7 @@
           "ask_vol5": 51
         },
         "book_diff": -5042025.0,
-        "timestamp": "2026-06-19T14:57:02.398699",
+        "timestamp": "2026-06-19T15:00:03.604713",
         "main_force": -556968990.0,
         "super": 0,
         "large": 0,
@@ -2145,11 +2145,11 @@
         "small": 0,
         "main_ratio": -781.9,
         "main_pct": -7.819,
-        "chg_5d": 0,
+        "chg_5d": 33.17,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": -925365850.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:10"
+        "fund_flow_time": "15:00:12"
       }
     ],
     "光纤/光器件": [
@@ -2191,7 +2191,7 @@
           "ask_vol5": 0
         },
         "book_diff": 249359482.0,
-        "timestamp": "2026-06-19T14:57:02.398953",
+        "timestamp": "2026-06-19T15:00:03.604929",
         "main_force": 446396111.0,
         "super": 0,
         "large": 0,
@@ -2243,7 +2243,7 @@
           "ask_vol5": 113
         },
         "book_diff": -12907853.0,
-        "timestamp": "2026-06-19T14:57:02.399185",
+        "timestamp": "2026-06-19T15:00:03.605142",
         "main_force": 5981100.0,
         "super": 0,
         "large": 0,
@@ -2251,11 +2251,11 @@
         "small": 0,
         "main_ratio": 58.81999999999999,
         "main_pct": 0.5882,
-        "chg_5d": 0,
+        "chg_5d": 34.96,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": -74248500.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:13"
+        "fund_flow_time": "15:00:14"
       },
       {
         "code": "600105",
@@ -2295,7 +2295,7 @@
           "ask_vol5": 93
         },
         "book_diff": 71835447.0,
-        "timestamp": "2026-06-19T14:57:02.399076",
+        "timestamp": "2026-06-19T15:00:03.605035",
         "main_force": -544166270.0,
         "super": 0,
         "large": 0,
@@ -2303,11 +2303,11 @@
         "small": 0,
         "main_ratio": -420.05999999999995,
         "main_pct": -4.2006,
-        "chg_5d": 0,
+        "chg_5d": 34.23,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 824032100.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:13"
+        "fund_flow_time": "15:00:14"
       },
       {
         "code": "600498",
@@ -2347,7 +2347,7 @@
           "ask_vol5": 1034
         },
         "book_diff": -17262878.0,
-        "timestamp": "2026-06-19T14:57:02.399298",
+        "timestamp": "2026-06-19T15:00:03.605251",
         "main_force": -805314530.0,
         "super": 0,
         "large": 0,
@@ -2355,11 +2355,11 @@
         "small": 0,
         "main_ratio": -836.0400000000001,
         "main_pct": -8.3604,
-        "chg_5d": 0,
+        "chg_5d": 39.36,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": -945074840.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:13"
+        "fund_flow_time": "15:00:14"
       }
     ],
     "晶圆代工/制造": [
@@ -2401,7 +2401,7 @@
           "ask_vol5": 1189
         },
         "book_diff": -9840673.0,
-        "timestamp": "2026-06-19T14:57:02.399753",
+        "timestamp": "2026-06-19T15:00:03.605694",
         "main_force": -156093890.0,
         "super": 0,
         "large": 0,
@@ -2409,11 +2409,11 @@
         "small": 0,
         "main_ratio": 552.51,
         "main_pct": 5.5251,
-        "chg_5d": 0,
+        "chg_5d": 28.17,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 246695977.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:13"
+        "fund_flow_time": "15:00:14"
       },
       {
         "code": "688347",
@@ -2453,7 +2453,7 @@
           "ask_vol5": 2
         },
         "book_diff": -1529887.0,
-        "timestamp": "2026-06-19T14:57:02.399517",
+        "timestamp": "2026-06-19T15:00:03.605465",
         "main_force": 341747500.0,
         "super": 0,
         "large": 0,
@@ -2461,11 +2461,11 @@
         "small": 0,
         "main_ratio": 430.19,
         "main_pct": 4.3019,
-        "chg_5d": 0,
+        "chg_5d": 64.38,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 2605973180.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:13"
+        "fund_flow_time": "15:00:14"
       },
       {
         "code": "688981",
@@ -2505,7 +2505,7 @@
           "ask_vol5": 27
         },
         "book_diff": -14003624.0,
-        "timestamp": "2026-06-19T14:57:02.399410",
+        "timestamp": "2026-06-19T15:00:03.605356",
         "main_force": 775291400.0,
         "super": 0,
         "large": 0,
@@ -2513,11 +2513,11 @@
         "small": 0,
         "main_ratio": 585.24,
         "main_pct": 5.8524,
-        "chg_5d": 0,
+        "chg_5d": 10.6,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 728769870.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:13"
+        "fund_flow_time": "15:00:14"
       },
       {
         "code": "688469",
@@ -2557,7 +2557,7 @@
           "ask_vol5": 7967
         },
         "book_diff": 2537113.0,
-        "timestamp": "2026-06-19T14:57:02.399642",
+        "timestamp": "2026-06-19T15:00:03.605573",
         "main_force": -230717990.0,
         "super": 0,
         "large": 0,
@@ -2565,11 +2565,11 @@
         "small": 0,
         "main_ratio": -51.41,
         "main_pct": -0.5141,
-        "chg_5d": 0,
+        "chg_5d": 17.39,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": -52063840.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:13"
+        "fund_flow_time": "15:00:14"
       }
     ],
     "先进封装/测试": [
@@ -2611,7 +2611,7 @@
           "ask_vol5": 2306
         },
         "book_diff": 32576497.0,
-        "timestamp": "2026-06-19T14:57:02.463892",
+        "timestamp": "2026-06-19T15:00:03.769097",
         "main_force": -130550510.0,
         "super": 0,
         "large": 0,
@@ -2619,11 +2619,11 @@
         "small": 0,
         "main_ratio": -93.93,
         "main_pct": -0.9393,
-        "chg_5d": 0,
+        "chg_5d": 29.27,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 278727375.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:15"
+        "fund_flow_time": "15:00:16"
       },
       {
         "code": "002156",
@@ -2663,7 +2663,7 @@
           "ask_vol5": 95
         },
         "book_diff": 56192367.0,
-        "timestamp": "2026-06-19T14:57:02.463754",
+        "timestamp": "2026-06-19T15:00:03.768948",
         "main_force": -264688450.0,
         "super": 0,
         "large": 0,
@@ -2671,11 +2671,11 @@
         "small": 0,
         "main_ratio": 81.5,
         "main_pct": 0.815,
-        "chg_5d": 0,
+        "chg_5d": 10.68,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": -119749010.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:15"
+        "fund_flow_time": "15:00:16"
       },
       {
         "code": "600584",
@@ -2715,7 +2715,7 @@
           "ask_vol5": 72
         },
         "book_diff": 68887190.0,
-        "timestamp": "2026-06-19T14:57:02.399858",
+        "timestamp": "2026-06-19T15:00:03.605809",
         "main_force": -390727100.0,
         "super": 0,
         "large": 0,
@@ -2723,11 +2723,11 @@
         "small": 0,
         "main_ratio": -242.45000000000002,
         "main_pct": -2.4245,
-        "chg_5d": 0,
+        "chg_5d": 24.22,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 231484370.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:13"
+        "fund_flow_time": "15:00:14"
       },
       {
         "code": "688372",
@@ -2767,7 +2767,7 @@
           "ask_vol5": 17
         },
         "book_diff": 577561.0,
-        "timestamp": "2026-06-19T14:57:02.464007",
+        "timestamp": "2026-06-19T15:00:03.769214",
         "main_force": -32933833.0,
         "super": 0,
         "large": 0,
@@ -2775,11 +2775,11 @@
         "small": 0,
         "main_ratio": 230.45,
         "main_pct": 2.3045,
-        "chg_5d": 0,
+        "chg_5d": 5.21,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": -80442654.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:15"
+        "fund_flow_time": "15:00:16"
       }
     ],
     "半导体设备": [
@@ -2821,7 +2821,7 @@
           "ask_vol5": 2
         },
         "book_diff": -1253949.0,
-        "timestamp": "2026-06-19T14:57:02.464456",
+        "timestamp": "2026-06-19T15:00:03.769670",
         "main_force": -175172280.0,
         "super": 0,
         "large": 0,
@@ -2829,11 +2829,11 @@
         "small": 0,
         "main_ratio": -294.96000000000004,
         "main_pct": -2.9496,
-        "chg_5d": 0,
+        "chg_5d": 78.05,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 57570040.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:15"
+        "fund_flow_time": "15:00:16"
       },
       {
         "code": "688012",
@@ -2873,7 +2873,7 @@
           "ask_vol5": 9
         },
         "book_diff": -18765893.0,
-        "timestamp": "2026-06-19T14:57:02.464227",
+        "timestamp": "2026-06-19T15:00:03.769437",
         "main_force": 547954870.0,
         "super": 0,
         "large": 0,
@@ -2881,11 +2881,11 @@
         "small": 0,
         "main_ratio": 261.38,
         "main_pct": 2.6138,
-        "chg_5d": 0,
+        "chg_5d": 12.82,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 2239153760.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:15"
+        "fund_flow_time": "15:00:16"
       },
       {
         "code": "002371",
@@ -2925,7 +2925,7 @@
           "ask_vol5": 1
         },
         "book_diff": 5767643.0,
-        "timestamp": "2026-06-19T14:57:02.464119",
+        "timestamp": "2026-06-19T15:00:03.769326",
         "main_force": 751416360.0,
         "super": 0,
         "large": 0,
@@ -2933,11 +2933,11 @@
         "small": 0,
         "main_ratio": 562.42,
         "main_pct": 5.6242,
-        "chg_5d": 0,
+        "chg_5d": 8.76,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 2666998320.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:15"
+        "fund_flow_time": "15:00:16"
       },
       {
         "code": "688361",
@@ -2977,7 +2977,7 @@
           "ask_vol5": 15
         },
         "book_diff": 2394541.0,
-        "timestamp": "2026-06-19T14:57:02.464574",
+        "timestamp": "2026-06-19T15:00:03.769790",
         "main_force": -198183382.0,
         "super": 0,
         "large": 0,
@@ -2985,11 +2985,11 @@
         "small": 0,
         "main_ratio": -119.9,
         "main_pct": -1.199,
-        "chg_5d": 0,
+        "chg_5d": 4.39,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 55732848.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:15"
+        "fund_flow_time": "15:00:16"
       },
       {
         "code": "300604",
@@ -3029,7 +3029,7 @@
           "ask_vol5": 4
         },
         "book_diff": 4172358.0,
-        "timestamp": "2026-06-19T14:57:02.464701",
+        "timestamp": "2026-06-19T15:00:03.769898",
         "main_force": -27915470.0,
         "super": 0,
         "large": 0,
@@ -3037,11 +3037,11 @@
         "small": 0,
         "main_ratio": -123.73,
         "main_pct": -1.2373,
-        "chg_5d": 0,
+        "chg_5d": 12.54,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 715746680.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:15"
+        "fund_flow_time": "15:00:16"
       },
       {
         "code": "688072",
@@ -3081,7 +3081,7 @@
           "ask_vol5": 2
         },
         "book_diff": 10786317.0,
-        "timestamp": "2026-06-19T14:57:02.464346",
+        "timestamp": "2026-06-19T15:00:03.769546",
         "main_force": 33575470.0,
         "super": 0,
         "large": 0,
@@ -3089,11 +3089,11 @@
         "small": 0,
         "main_ratio": -239.66,
         "main_pct": -2.3966,
-        "chg_5d": 0,
+        "chg_5d": 21.15,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 750275760.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:15"
+        "fund_flow_time": "15:00:16"
       }
     ],
     "半导体材料": [
@@ -3135,7 +3135,7 @@
           "ask_vol5": 27
         },
         "book_diff": -840926.0,
-        "timestamp": "2026-06-19T14:57:02.464809",
+        "timestamp": "2026-06-19T15:00:03.770014",
         "main_force": 181215010.0,
         "super": 0,
         "large": 0,
@@ -3143,11 +3143,11 @@
         "small": 0,
         "main_ratio": 382.37,
         "main_pct": 3.8237,
-        "chg_5d": 0,
+        "chg_5d": 63.25,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": -413031280.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:15"
+        "fund_flow_time": "15:00:16"
       },
       {
         "code": "300054",
@@ -3187,7 +3187,7 @@
           "ask_vol5": 74
         },
         "book_diff": -14281494.0,
-        "timestamp": "2026-06-19T14:57:02.465131",
+        "timestamp": "2026-06-19T15:00:03.770338",
         "main_force": -20910730.0,
         "super": 0,
         "large": 0,
@@ -3195,11 +3195,11 @@
         "small": 0,
         "main_ratio": -250.32000000000002,
         "main_pct": -2.5032,
-        "chg_5d": 0,
+        "chg_5d": 26.48,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": -278759500.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:17"
+        "fund_flow_time": "15:00:18"
       },
       {
         "code": "688268",
@@ -3239,7 +3239,7 @@
           "ask_vol5": 45
         },
         "book_diff": -377068.0,
-        "timestamp": "2026-06-19T14:57:02.465235",
+        "timestamp": "2026-06-19T15:00:03.770444",
         "main_force": -133319260.0,
         "super": 0,
         "large": 0,
@@ -3247,11 +3247,11 @@
         "small": 0,
         "main_ratio": -185.17,
         "main_pct": -1.8517,
-        "chg_5d": 0,
+        "chg_5d": 18.67,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": -867083470.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:17"
+        "fund_flow_time": "15:00:18"
       },
       {
         "code": "688019",
@@ -3291,7 +3291,7 @@
           "ask_vol5": 4
         },
         "book_diff": 417696.0,
-        "timestamp": "2026-06-19T14:57:02.465027",
+        "timestamp": "2026-06-19T15:00:03.770232",
         "main_force": -38582640.0,
         "super": 0,
         "large": 0,
@@ -3299,11 +3299,11 @@
         "small": 0,
         "main_ratio": -176.69,
         "main_pct": -1.7669,
-        "chg_5d": 0,
+        "chg_5d": 5.09,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": -165043050.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:17"
+        "fund_flow_time": "15:00:18"
       },
       {
         "code": "688126",
@@ -3343,7 +3343,7 @@
           "ask_vol5": 1508
         },
         "book_diff": 6962049.0,
-        "timestamp": "2026-06-19T14:57:02.464920",
+        "timestamp": "2026-06-19T15:00:03.770125",
         "main_force": -329737540.0,
         "super": 0,
         "large": 0,
@@ -3351,11 +3351,11 @@
         "small": 0,
         "main_ratio": -285.15999999999997,
         "main_pct": -2.8516,
-        "chg_5d": 0,
+        "chg_5d": 16.33,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": -750218460.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:17"
+        "fund_flow_time": "15:00:18"
       },
       {
         "code": "300655",
@@ -3395,7 +3395,7 @@
           "ask_vol5": 191
         },
         "book_diff": 2677123.0,
-        "timestamp": "2026-06-19T14:57:02.465341",
+        "timestamp": "2026-06-19T15:00:03.770549",
         "main_force": -165300990.0,
         "super": 0,
         "large": 0,
@@ -3403,11 +3403,11 @@
         "small": 0,
         "main_ratio": -828.8500000000001,
         "main_pct": -8.2885,
-        "chg_5d": 0,
+        "chg_5d": 2.88,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": -402509723.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:17"
+        "fund_flow_time": "15:00:18"
       }
     ],
     "EDA/IP": [
@@ -3449,7 +3449,7 @@
           "ask_vol5": 6
         },
         "book_diff": 2236628.0,
-        "timestamp": "2026-06-19T14:57:02.465677",
+        "timestamp": "2026-06-19T15:00:03.770950",
         "main_force": 243811520.0,
         "super": 0,
         "large": 0,
@@ -3457,11 +3457,11 @@
         "small": 0,
         "main_ratio": 1094.68,
         "main_pct": 10.9468,
-        "chg_5d": 0,
+        "chg_5d": 0.17,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 1647575170.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:17"
+        "fund_flow_time": "15:00:18"
       },
       {
         "code": "301095",
@@ -3501,7 +3501,7 @@
           "ask_vol5": 1
         },
         "book_diff": 276482.0,
-        "timestamp": "2026-06-19T14:57:02.465791",
+        "timestamp": "2026-06-19T15:00:03.771069",
         "main_force": 165331915.0,
         "super": 0,
         "large": 0,
@@ -3509,11 +3509,11 @@
         "small": 0,
         "main_ratio": 712.29,
         "main_pct": 7.1229,
-        "chg_5d": 0,
+        "chg_5d": 0.53,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 13292624.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:17"
+        "fund_flow_time": "15:00:18"
       },
       {
         "code": "301269",
@@ -3553,7 +3553,7 @@
           "ask_vol5": 3
         },
         "book_diff": 2485434.0,
-        "timestamp": "2026-06-19T14:57:02.465449",
+        "timestamp": "2026-06-19T15:00:03.770669",
         "main_force": 3245905.0,
         "super": 0,
         "large": 0,
@@ -3561,11 +3561,11 @@
         "small": 0,
         "main_ratio": -465.51,
         "main_pct": -4.6551,
-        "chg_5d": 0,
+        "chg_5d": 7.14,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 138353340.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:17"
+        "fund_flow_time": "15:00:18"
       },
       {
         "code": "688206",
@@ -3605,7 +3605,7 @@
           "ask_vol5": 6
         },
         "book_diff": -147574.0,
-        "timestamp": "2026-06-19T14:57:02.465555",
+        "timestamp": "2026-06-19T15:00:03.770798",
         "main_force": -22456559.0,
         "super": 0,
         "large": 0,
@@ -3613,11 +3613,11 @@
         "small": 0,
         "main_ratio": 12.01,
         "main_pct": 0.1201,
-        "chg_5d": 0,
+        "chg_5d": -1.59,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": -180804642.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:17"
+        "fund_flow_time": "15:00:18"
       }
     ],
     "核心零部件": [
@@ -3659,7 +3659,7 @@
           "ask_vol5": 6
         },
         "book_diff": 23745167.0,
-        "timestamp": "2026-06-19T14:57:02.465901",
+        "timestamp": "2026-06-19T15:00:03.771181",
         "main_force": 386052930.0,
         "super": 0,
         "large": 0,
@@ -3667,11 +3667,11 @@
         "small": 0,
         "main_ratio": 373.36,
         "main_pct": 3.7336,
-        "chg_5d": 0,
+        "chg_5d": 21.79,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": -1171510960.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:17"
+        "fund_flow_time": "15:00:18"
       },
       {
         "code": "002472",
@@ -3711,7 +3711,7 @@
           "ask_vol5": 85
         },
         "book_diff": -6026627.0,
-        "timestamp": "2026-06-19T14:57:02.466009",
+        "timestamp": "2026-06-19T15:00:03.771290",
         "main_force": 32103687.0,
         "super": 0,
         "large": 0,
@@ -3719,11 +3719,11 @@
         "small": 0,
         "main_ratio": 247.64,
         "main_pct": 2.4764,
-        "chg_5d": 0,
+        "chg_5d": -1.53,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": -189623439.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:19"
+        "fund_flow_time": "15:00:20"
       },
       {
         "code": "603728",
@@ -3763,7 +3763,7 @@
           "ask_vol5": 6
         },
         "book_diff": -1980163.0,
-        "timestamp": "2026-06-19T14:57:02.466112",
+        "timestamp": "2026-06-19T15:00:03.771396",
         "main_force": 14404661.0,
         "super": 0,
         "large": 0,
@@ -3771,11 +3771,11 @@
         "small": 0,
         "main_ratio": 455.58,
         "main_pct": 4.5558,
-        "chg_5d": 0,
+        "chg_5d": -5.22,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": -82020112.9,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:19"
+        "fund_flow_time": "15:00:20"
       },
       {
         "code": "002896",
@@ -3815,7 +3815,7 @@
           "ask_vol5": 16
         },
         "book_diff": 12351277.0,
-        "timestamp": "2026-06-19T14:57:02.466435",
+        "timestamp": "2026-06-19T15:00:03.771753",
         "main_force": 35601502.0,
         "super": 0,
         "large": 0,
@@ -3823,11 +3823,11 @@
         "small": 0,
         "main_ratio": 17.66,
         "main_pct": 0.1766,
-        "chg_5d": 0,
+        "chg_5d": 2.97,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": -179909173.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:19"
+        "fund_flow_time": "15:00:20"
       },
       {
         "code": "603667",
@@ -3867,7 +3867,7 @@
           "ask_vol5": 37
         },
         "book_diff": 7873141.0,
-        "timestamp": "2026-06-19T14:57:02.466325",
+        "timestamp": "2026-06-19T15:00:03.771643",
         "main_force": 41966833.0,
         "super": 0,
         "large": 0,
@@ -3875,11 +3875,11 @@
         "small": 0,
         "main_ratio": 221.01999999999998,
         "main_pct": 2.2102,
-        "chg_5d": 0,
+        "chg_5d": -19.96,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": -18076051.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:19"
+        "fund_flow_time": "15:00:20"
       },
       {
         "code": "603662",
@@ -3919,7 +3919,7 @@
           "ask_vol5": 1
         },
         "book_diff": 1805852.0,
-        "timestamp": "2026-06-19T14:57:02.466216",
+        "timestamp": "2026-06-19T15:00:03.771522",
         "main_force": -26002989.0,
         "super": 0,
         "large": 0,
@@ -3927,11 +3927,11 @@
         "small": 0,
         "main_ratio": 12.49,
         "main_pct": 0.1249,
-        "chg_5d": 0,
+        "chg_5d": 3.96,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 23173229.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:19"
+        "fund_flow_time": "15:00:20"
       }
     ],
     "PCB赛道": [
@@ -3973,7 +3973,7 @@
           "ask_vol5": 4
         },
         "book_diff": -3675904.0,
-        "timestamp": "2026-06-19T14:57:02.466659",
+        "timestamp": "2026-06-19T15:00:03.771972",
         "main_force": -285125330.0,
         "super": 0,
         "large": 0,
@@ -3981,11 +3981,11 @@
         "small": 0,
         "main_ratio": -336.63,
         "main_pct": -3.3663,
-        "chg_5d": 0,
+        "chg_5d": 32.89,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 1776937480.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:19"
+        "fund_flow_time": "15:00:20"
       },
       {
         "code": "600183",
@@ -4025,7 +4025,7 @@
           "ask_vol5": 30
         },
         "book_diff": 34895336.0,
-        "timestamp": "2026-06-19T14:57:02.467203",
+        "timestamp": "2026-06-19T15:00:03.772516",
         "main_force": -208503640.0,
         "super": 0,
         "large": 0,
@@ -4033,11 +4033,11 @@
         "small": 0,
         "main_ratio": 265.36,
         "main_pct": 2.6536,
-        "chg_5d": 0,
+        "chg_5d": 88.8,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": -65656780.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:21"
+        "fund_flow_time": "15:00:22"
       },
       {
         "code": "300476",
@@ -4077,7 +4077,7 @@
           "ask_vol5": 26
         },
         "book_diff": -25719556.0,
-        "timestamp": "2026-06-19T14:57:02.466772",
+        "timestamp": "2026-06-19T15:00:03.772082",
         "main_force": 199442130.0,
         "super": 0,
         "large": 0,
@@ -4085,11 +4085,11 @@
         "small": 0,
         "main_ratio": 298.83000000000004,
         "main_pct": 2.9883,
-        "chg_5d": 0,
+        "chg_5d": 11.35,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 2658128530.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:19"
+        "fund_flow_time": "15:00:20"
       },
       {
         "code": "301377",
@@ -4129,7 +4129,7 @@
           "ask_vol5": 1
         },
         "book_diff": -3336928.0,
-        "timestamp": "2026-06-19T14:57:02.467098",
+        "timestamp": "2026-06-19T15:00:03.772407",
         "main_force": 5250460.0,
         "super": 0,
         "large": 0,
@@ -4181,7 +4181,7 @@
           "ask_vol5": 171
         },
         "book_diff": 23307305.0,
-        "timestamp": "2026-06-19T14:57:02.466542",
+        "timestamp": "2026-06-19T15:00:03.771859",
         "main_force": -421014050.0,
         "super": 0,
         "large": 0,
@@ -4189,11 +4189,11 @@
         "small": 0,
         "main_ratio": 136.67000000000002,
         "main_pct": 1.3667,
-        "chg_5d": 0,
+        "chg_5d": 42.62,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 1767161730.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:19"
+        "fund_flow_time": "15:00:20"
       },
       {
         "code": "002938",
@@ -4233,7 +4233,7 @@
           "ask_vol5": 4
         },
         "book_diff": 5789860.0,
-        "timestamp": "2026-06-19T14:57:02.466882",
+        "timestamp": "2026-06-19T15:00:03.772191",
         "main_force": -709850090.0,
         "super": 0,
         "large": 0,
@@ -4241,11 +4241,11 @@
         "small": 0,
         "main_ratio": -276.18,
         "main_pct": -2.7618,
-        "chg_5d": 0,
+        "chg_5d": 28.27,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": -186779620.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:19"
+        "fund_flow_time": "15:00:20"
       },
       {
         "code": "603228",
@@ -4285,7 +4285,7 @@
           "ask_vol5": 252
         },
         "book_diff": 480916.0,
-        "timestamp": "2026-06-19T14:57:02.466992",
+        "timestamp": "2026-06-19T15:00:03.772300",
         "main_force": -88421400.0,
         "super": 0,
         "large": 0,
@@ -4293,11 +4293,11 @@
         "small": 0,
         "main_ratio": -647.82,
         "main_pct": -6.4782,
-        "chg_5d": 0,
+        "chg_5d": 8.08,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 468466410.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:19"
+        "fund_flow_time": "15:00:20"
       }
     ],
     "MLCC赛道": [
@@ -4339,7 +4339,7 @@
           "ask_vol5": 0
         },
         "book_diff": 34005499.0,
-        "timestamp": "2026-06-19T14:57:02.467890",
+        "timestamp": "2026-06-19T15:00:03.773184",
         "main_force": 166165590.0,
         "super": 0,
         "large": 0,
@@ -4347,11 +4347,11 @@
         "small": 0,
         "main_ratio": -323.75,
         "main_pct": -3.2375,
-        "chg_5d": 0,
+        "chg_5d": 83.09,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 96833046.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:21"
+        "fund_flow_time": "15:00:22"
       },
       {
         "code": "603267",
@@ -4391,7 +4391,7 @@
           "ask_vol5": 11
         },
         "book_diff": 1098588.0,
-        "timestamp": "2026-06-19T14:57:02.467666",
+        "timestamp": "2026-06-19T15:00:03.772960",
         "main_force": 14099237.0,
         "super": 0,
         "large": 0,
@@ -4399,11 +4399,11 @@
         "small": 0,
         "main_ratio": -104.35000000000001,
         "main_pct": -1.0435,
-        "chg_5d": 0,
+        "chg_5d": 29.46,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": -30539383.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:21"
+        "fund_flow_time": "15:00:22"
       },
       {
         "code": "300408",
@@ -4443,7 +4443,7 @@
           "ask_vol5": 9
         },
         "book_diff": 7735743.0,
-        "timestamp": "2026-06-19T14:57:02.467442",
+        "timestamp": "2026-06-19T15:00:03.772743",
         "main_force": 69461730.0,
         "super": 0,
         "large": 0,
@@ -4451,11 +4451,11 @@
         "small": 0,
         "main_ratio": 159.09,
         "main_pct": 1.5909,
-        "chg_5d": 0,
+        "chg_5d": 60.34,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 799581750.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:21"
+        "fund_flow_time": "15:00:22"
       },
       {
         "code": "000636",
@@ -4495,7 +4495,7 @@
           "ask_vol5": 145
         },
         "book_diff": 35344171.0,
-        "timestamp": "2026-06-19T14:57:02.467328",
+        "timestamp": "2026-06-19T15:00:03.772634",
         "main_force": 59578550.0,
         "super": 0,
         "large": 0,
@@ -4503,11 +4503,11 @@
         "small": 0,
         "main_ratio": 73.03,
         "main_pct": 0.7303,
-        "chg_5d": 0,
+        "chg_5d": 118.13,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 695647920.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:21"
+        "fund_flow_time": "15:00:22"
       },
       {
         "code": "300726",
@@ -4547,7 +4547,7 @@
           "ask_vol5": 59
         },
         "book_diff": 442737.0,
-        "timestamp": "2026-06-19T14:57:02.467777",
+        "timestamp": "2026-06-19T15:00:03.773073",
         "main_force": -157848400.0,
         "super": 0,
         "large": 0,
@@ -4555,11 +4555,11 @@
         "small": 0,
         "main_ratio": 48.0,
         "main_pct": 0.48,
-        "chg_5d": 0,
+        "chg_5d": 52.79,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": -381599280.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:21"
+        "fund_flow_time": "15:00:22"
       },
       {
         "code": "603678",
@@ -4599,7 +4599,7 @@
           "ask_vol5": 262
         },
         "book_diff": 10960884.0,
-        "timestamp": "2026-06-19T14:57:02.467548",
+        "timestamp": "2026-06-19T15:00:03.772853",
         "main_force": -106769790.0,
         "super": 0,
         "large": 0,
@@ -4607,11 +4607,11 @@
         "small": 0,
         "main_ratio": -555.41,
         "main_pct": -5.5541,
-        "chg_5d": 0,
+        "chg_5d": 98.27,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 278467802.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:21"
+        "fund_flow_time": "15:00:22"
       }
     ],
     "火箭+地面设备+材料": [
@@ -4653,7 +4653,7 @@
           "ask_vol5": 0
         },
         "book_diff": 48451115.0,
-        "timestamp": "2026-06-19T14:57:02.468135",
+        "timestamp": "2026-06-19T15:00:03.773400",
         "main_force": 697772840.0,
         "super": 0,
         "large": 0,
@@ -4661,11 +4661,11 @@
         "small": 0,
         "main_ratio": 510.98999999999995,
         "main_pct": 5.1099,
-        "chg_5d": 0,
+        "chg_5d": 14.77,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 967592116.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:21"
+        "fund_flow_time": "15:00:22"
       },
       {
         "code": "002465",
@@ -4705,7 +4705,7 @@
           "ask_vol5": 3145
         },
         "book_diff": -3716507.0,
-        "timestamp": "2026-06-19T14:57:02.468025",
+        "timestamp": "2026-06-19T15:00:03.773290",
         "main_force": -171020442.0,
         "super": 0,
         "large": 0,
@@ -4713,11 +4713,11 @@
         "small": 0,
         "main_ratio": -1067.7199999999998,
         "main_pct": -10.6772,
-        "chg_5d": 0,
+        "chg_5d": -15.4,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": -267220809.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:21"
+        "fund_flow_time": "15:00:22"
       }
     ],
     "储能+逆变器": [
@@ -4759,7 +4759,7 @@
           "ask_vol5": 19
         },
         "book_diff": -2398428.0,
-        "timestamp": "2026-06-19T14:57:02.468351",
+        "timestamp": "2026-06-19T15:00:03.773627",
         "main_force": 26012972.0,
         "super": 0,
         "large": 0,
@@ -4767,11 +4767,11 @@
         "small": 0,
         "main_ratio": -324.87,
         "main_pct": -3.2487,
-        "chg_5d": 0,
+        "chg_5d": -13.41,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": -19049874.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:24"
+        "fund_flow_time": "15:00:24"
       },
       {
         "code": "300274",
@@ -4811,7 +4811,7 @@
           "ask_vol5": 23
         },
         "book_diff": -5872161.0,
-        "timestamp": "2026-06-19T14:57:02.468242",
+        "timestamp": "2026-06-19T15:00:03.773506",
         "main_force": -1152773800.0,
         "super": 0,
         "large": 0,
@@ -4819,11 +4819,11 @@
         "small": 0,
         "main_ratio": -1053.88,
         "main_pct": -10.5388,
-        "chg_5d": 0,
+        "chg_5d": -11.13,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": -750904460.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:24"
+        "fund_flow_time": "15:00:24"
       }
     ],
     "新型电力系统": [
@@ -4865,7 +4865,7 @@
           "ask_vol5": 144
         },
         "book_diff": 3008749.0,
-        "timestamp": "2026-06-19T14:57:02.468565",
+        "timestamp": "2026-06-19T15:00:03.773846",
         "main_force": -90116763.0,
         "super": 0,
         "large": 0,
@@ -4873,11 +4873,11 @@
         "small": 0,
         "main_ratio": -676.31,
         "main_pct": -6.7631,
-        "chg_5d": 0,
+        "chg_5d": 28.7,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 125375055.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:24"
+        "fund_flow_time": "15:00:25"
       },
       {
         "code": "600726",
@@ -4917,7 +4917,7 @@
           "ask_vol5": 1307
         },
         "book_diff": -3429486.0,
-        "timestamp": "2026-06-19T14:57:02.468805",
+        "timestamp": "2026-06-19T15:00:03.774053",
         "main_force": -136229807.0,
         "super": 0,
         "large": 0,
@@ -4925,11 +4925,11 @@
         "small": 0,
         "main_ratio": -358.3,
         "main_pct": -3.583,
-        "chg_5d": 0,
+        "chg_5d": 27.3,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": -173349039.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:24"
+        "fund_flow_time": "15:00:25"
       },
       {
         "code": "600578",
@@ -4969,7 +4969,7 @@
           "ask_vol5": 1902
         },
         "book_diff": 5823215.0,
-        "timestamp": "2026-06-19T14:57:02.468456",
+        "timestamp": "2026-06-19T15:00:03.773736",
         "main_force": -85790218.0,
         "super": 0,
         "large": 0,
@@ -4977,11 +4977,11 @@
         "small": 0,
         "main_ratio": -446.25000000000006,
         "main_pct": -4.4625,
-        "chg_5d": 0,
+        "chg_5d": -7.21,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": 176740866.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:24"
+        "fund_flow_time": "15:00:25"
       },
       {
         "code": "600863",
@@ -5021,7 +5021,7 @@
           "ask_vol5": 2801
         },
         "book_diff": 16016471.0,
-        "timestamp": "2026-06-19T14:57:02.469017",
+        "timestamp": "2026-06-19T15:00:03.774268",
         "main_force": -70852156.0,
         "super": 0,
         "large": 0,
@@ -5029,11 +5029,11 @@
         "small": 0,
         "main_ratio": -517.1999999999999,
         "main_pct": -5.172,
-        "chg_5d": 0,
+        "chg_5d": -3.94,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": -78678277.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:24"
+        "fund_flow_time": "15:00:25"
       },
       {
         "code": "000767",
@@ -5073,7 +5073,7 @@
           "ask_vol5": 1584
         },
         "book_diff": 15384068.0,
-        "timestamp": "2026-06-19T14:57:02.468909",
+        "timestamp": "2026-06-19T15:00:03.774161",
         "main_force": -138140479.0,
         "super": 0,
         "large": 0,
@@ -5081,11 +5081,11 @@
         "small": 0,
         "main_ratio": -1208.99,
         "main_pct": -12.0899,
-        "chg_5d": 0,
+        "chg_5d": 3.61,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": -60871108.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:24"
+        "fund_flow_time": "15:00:24"
       },
       {
         "code": "601991",
@@ -5125,7 +5125,7 @@
           "ask_vol5": 3085
         },
         "book_diff": -118513388.0,
-        "timestamp": "2026-06-19T14:57:02.468695",
+        "timestamp": "2026-06-19T15:00:03.773950",
         "main_force": -971782840.0,
         "super": 0,
         "large": 0,
@@ -5133,11 +5133,11 @@
         "small": 0,
         "main_ratio": -1159.48,
         "main_pct": -11.5948,
-        "chg_5d": 0,
+        "chg_5d": 16.6,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": -524617650.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:24"
+        "fund_flow_time": "15:00:24"
       },
       {
         "code": "000539",
@@ -5177,7 +5177,7 @@
           "ask_vol5": 605
         },
         "book_diff": -6980447.0,
-        "timestamp": "2026-06-19T14:57:02.469125",
+        "timestamp": "2026-06-19T15:00:03.774373",
         "main_force": -205574152.0,
         "super": 0,
         "large": 0,
@@ -5185,11 +5185,11 @@
         "small": 0,
         "main_ratio": -1134.86,
         "main_pct": -11.3486,
-        "chg_5d": 0,
+        "chg_5d": 14.91,
         "chg_20d": 0,
-        "mf_5d": 0,
+        "mf_5d": -98883867.0,
         "has_fund_flow": true,
-        "fund_flow_time": "14:45:24"
+        "fund_flow_time": "15:00:24"
       }
     ]
   },
@@ -5232,7 +5232,7 @@
         "ask_vol5": 82
       },
       "book_diff": -8916620.0,
-      "timestamp": "2026-06-19T14:57:02.394220",
+      "timestamp": "2026-06-19T15:00:03.600247",
       "main_force": 2065562200.0,
       "super": 0,
       "large": 0,
@@ -5240,11 +5240,11 @@
       "small": 0,
       "main_ratio": 1448.71,
       "main_pct": 14.4871,
-      "chg_5d": 0,
+      "chg_5d": 16.78,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 1591168190.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:04"
+      "fund_flow_time": "15:00:04"
     },
     "688041": {
       "code": "688041",
@@ -5284,7 +5284,7 @@
         "ask_vol5": 978
       },
       "book_diff": -27605060.0,
-      "timestamp": "2026-06-19T14:57:02.394381",
+      "timestamp": "2026-06-19T15:00:03.600406",
       "main_force": 1261437100.0,
       "super": 0,
       "large": 0,
@@ -5292,11 +5292,11 @@
       "small": 0,
       "main_ratio": 954.26,
       "main_pct": 9.5426,
-      "chg_5d": 0,
+      "chg_5d": 6.84,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 4514788180.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:04"
+      "fund_flow_time": "15:00:04"
     },
     "300474": {
       "code": "300474",
@@ -5336,7 +5336,7 @@
         "ask_vol5": 63
       },
       "book_diff": -2061620.0,
-      "timestamp": "2026-06-19T14:57:02.394503",
+      "timestamp": "2026-06-19T15:00:03.600529",
       "main_force": 24017093.0,
       "super": 0,
       "large": 0,
@@ -5344,11 +5344,11 @@
       "small": 0,
       "main_ratio": 127.03,
       "main_pct": 1.2703,
-      "chg_5d": 0,
+      "chg_5d": -10.88,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": -79217764.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:04"
+      "fund_flow_time": "15:00:04"
     },
     "688047": {
       "code": "688047",
@@ -5388,7 +5388,7 @@
         "ask_vol5": 10
       },
       "book_diff": 565853.0,
-      "timestamp": "2026-06-19T14:57:02.394639",
+      "timestamp": "2026-06-19T15:00:03.600663",
       "main_force": 89098057.0,
       "super": 0,
       "large": 0,
@@ -5396,11 +5396,11 @@
       "small": 0,
       "main_ratio": 182.21,
       "main_pct": 1.8221,
-      "chg_5d": 0,
+      "chg_5d": -6.88,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 329223937.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:04"
+      "fund_flow_time": "15:00:04"
     },
     "688262": {
       "code": "688262",
@@ -5440,7 +5440,7 @@
         "ask_vol5": 111
       },
       "book_diff": -1184168.0,
-      "timestamp": "2026-06-19T14:57:02.394758",
+      "timestamp": "2026-06-19T15:00:03.600789",
       "main_force": -22897671.0,
       "super": 0,
       "large": 0,
@@ -5448,11 +5448,11 @@
       "small": 0,
       "main_ratio": 486.61,
       "main_pct": 4.8661,
-      "chg_5d": 0,
+      "chg_5d": 1.54,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 34936344.4,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:04"
+      "fund_flow_time": "15:00:04"
     },
     "000977": {
       "code": "000977",
@@ -5492,7 +5492,7 @@
         "ask_vol5": 143
       },
       "book_diff": -1848624.0,
-      "timestamp": "2026-06-19T14:57:02.394871",
+      "timestamp": "2026-06-19T15:00:03.600902",
       "main_force": 196805980.0,
       "super": 0,
       "large": 0,
@@ -5500,11 +5500,11 @@
       "small": 0,
       "main_ratio": 509.63000000000005,
       "main_pct": 5.0963,
-      "chg_5d": 0,
+      "chg_5d": -0.98,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 635007985.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:04"
+      "fund_flow_time": "15:00:04"
     },
     "601138": {
       "code": "601138",
@@ -5544,7 +5544,7 @@
         "ask_vol5": 106
       },
       "book_diff": 84204036.0,
-      "timestamp": "2026-06-19T14:57:02.394981",
+      "timestamp": "2026-06-19T15:00:03.601013",
       "main_force": 4841184600.0,
       "super": 0,
       "large": 0,
@@ -5552,11 +5552,11 @@
       "small": 0,
       "main_ratio": 640.37,
       "main_pct": 6.4037,
-      "chg_5d": 0,
+      "chg_5d": 19.21,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 2746762450.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:04"
+      "fund_flow_time": "15:00:04"
     },
     "603019": {
       "code": "603019",
@@ -5596,7 +5596,7 @@
         "ask_vol5": 61
       },
       "book_diff": -7524157.0,
-      "timestamp": "2026-06-19T14:57:02.395094",
+      "timestamp": "2026-06-19T15:00:03.601124",
       "main_force": 154347830.0,
       "super": 0,
       "large": 0,
@@ -5604,11 +5604,11 @@
       "small": 0,
       "main_ratio": 0,
       "main_pct": 0,
-      "chg_5d": 0,
+      "chg_5d": -4.51,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 535956555.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:04"
+      "fund_flow_time": "15:00:04"
     },
     "002837": {
       "code": "002837",
@@ -5648,7 +5648,7 @@
         "ask_vol5": 137
       },
       "book_diff": -13104559.0,
-      "timestamp": "2026-06-19T14:57:02.395207",
+      "timestamp": "2026-06-19T15:00:03.601235",
       "main_force": -66476470.0,
       "super": 0,
       "large": 0,
@@ -5656,11 +5656,11 @@
       "small": 0,
       "main_ratio": 207.73000000000002,
       "main_pct": 2.0773,
-      "chg_5d": 0,
+      "chg_5d": -3.67,
       "chg_20d": 0,
       "mf_5d": 0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:04"
+      "fund_flow_time": "15:00:04"
     },
     "301018": {
       "code": "301018",
@@ -5700,7 +5700,7 @@
         "ask_vol5": 3
       },
       "book_diff": 1371922.0,
-      "timestamp": "2026-06-19T14:57:02.395315",
+      "timestamp": "2026-06-19T15:00:03.601343",
       "main_force": 265188750.0,
       "super": 0,
       "large": 0,
@@ -5708,11 +5708,11 @@
       "small": 0,
       "main_ratio": 578.88,
       "main_pct": 5.7888,
-      "chg_5d": 0,
+      "chg_5d": 5.56,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 941990584.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:04"
+      "fund_flow_time": "15:00:04"
     },
     "300499": {
       "code": "300499",
@@ -5752,7 +5752,7 @@
         "ask_vol5": 721
       },
       "book_diff": -5018369.0,
-      "timestamp": "2026-06-19T14:57:02.395431",
+      "timestamp": "2026-06-19T15:00:03.601455",
       "main_force": -32244166.0,
       "super": 0,
       "large": 0,
@@ -5760,11 +5760,11 @@
       "small": 0,
       "main_ratio": -306.39,
       "main_pct": -3.0639,
-      "chg_5d": 0,
+      "chg_5d": -9.77,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 40954086.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:06"
+      "fund_flow_time": "15:00:08"
     },
     "000811": {
       "code": "000811",
@@ -5804,7 +5804,7 @@
         "ask_vol5": 0
       },
       "book_diff": 348014815.0,
-      "timestamp": "2026-06-19T14:57:02.395544",
+      "timestamp": "2026-06-19T15:00:03.601569",
       "main_force": 90332329.8,
       "super": 0,
       "large": 0,
@@ -5812,11 +5812,11 @@
       "small": 0,
       "main_ratio": -4616.75,
       "main_pct": -46.1675,
-      "chg_5d": 0,
+      "chg_5d": 14.15,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 552556009.6,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:06"
+      "fund_flow_time": "15:00:08"
     },
     "603269": {
       "code": "603269",
@@ -5856,7 +5856,7 @@
         "ask_vol5": 213
       },
       "book_diff": 1511362.0,
-      "timestamp": "2026-06-19T14:57:02.395668",
+      "timestamp": "2026-06-19T15:00:03.601696",
       "main_force": 50414456.0,
       "super": 0,
       "large": 0,
@@ -5864,11 +5864,11 @@
       "small": 0,
       "main_ratio": 395.48,
       "main_pct": 3.9548,
-      "chg_5d": 0,
+      "chg_5d": 15.62,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 142277139.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:06"
+      "fund_flow_time": "15:00:08"
     },
     "002130": {
       "code": "002130",
@@ -5908,7 +5908,7 @@
         "ask_vol5": 155
       },
       "book_diff": 658956.0,
-      "timestamp": "2026-06-19T14:57:02.395799",
+      "timestamp": "2026-06-19T15:00:03.601808",
       "main_force": -62260711.0,
       "super": 0,
       "large": 0,
@@ -5916,11 +5916,11 @@
       "small": 0,
       "main_ratio": -659.35,
       "main_pct": -6.5935,
-      "chg_5d": 0,
+      "chg_5d": 0.05,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": -82503204.1,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:06"
+      "fund_flow_time": "15:00:08"
     },
     "300563": {
       "code": "300563",
@@ -5960,7 +5960,7 @@
         "ask_vol5": 14
       },
       "book_diff": 288755.0,
-      "timestamp": "2026-06-19T14:57:02.395918",
+      "timestamp": "2026-06-19T15:00:03.601916",
       "main_force": 2874245.5,
       "super": 0,
       "large": 0,
@@ -5968,11 +5968,11 @@
       "small": 0,
       "main_ratio": -107.1,
       "main_pct": -1.071,
-      "chg_5d": 0,
+      "chg_5d": -1.45,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": -12708584.6,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:06"
+      "fund_flow_time": "15:00:08"
     },
     "688629": {
       "code": "688629",
@@ -6012,7 +6012,7 @@
         "ask_vol5": 3
       },
       "book_diff": -7789850.0,
-      "timestamp": "2026-06-19T14:57:02.396027",
+      "timestamp": "2026-06-19T15:00:03.602027",
       "main_force": -106062820.0,
       "super": 0,
       "large": 0,
@@ -6020,11 +6020,11 @@
       "small": 0,
       "main_ratio": 362.15000000000003,
       "main_pct": 3.6215,
-      "chg_5d": 0,
+      "chg_5d": 17.86,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 107506060.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:06"
+      "fund_flow_time": "15:00:08"
     },
     "002475": {
       "code": "002475",
@@ -6064,7 +6064,7 @@
         "ask_vol5": 414
       },
       "book_diff": 17544478.0,
-      "timestamp": "2026-06-19T14:57:02.396143",
+      "timestamp": "2026-06-19T15:00:03.602138",
       "main_force": 739468400.0,
       "super": 0,
       "large": 0,
@@ -6072,11 +6072,11 @@
       "small": 0,
       "main_ratio": 685.62,
       "main_pct": 6.8562,
-      "chg_5d": 0,
+      "chg_5d": 3.04,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 1006736240.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:06"
+      "fund_flow_time": "15:00:08"
     },
     "300913": {
       "code": "300913",
@@ -6116,7 +6116,7 @@
         "ask_vol5": 7
       },
       "book_diff": -4192699.0,
-      "timestamp": "2026-06-19T14:57:02.396253",
+      "timestamp": "2026-06-19T15:00:03.602247",
       "main_force": 50567014.0,
       "super": 0,
       "large": 0,
@@ -6124,11 +6124,11 @@
       "small": 0,
       "main_ratio": -241.64,
       "main_pct": -2.4164,
-      "chg_5d": 0,
+      "chg_5d": 15.94,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": -82655701.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:06"
+      "fund_flow_time": "15:00:08"
     },
     "300442": {
       "code": "300442",
@@ -6168,7 +6168,7 @@
         "ask_vol5": 100
       },
       "book_diff": -22092365.0,
-      "timestamp": "2026-06-19T14:57:02.396366",
+      "timestamp": "2026-06-19T15:00:03.602353",
       "main_force": 224719720.0,
       "super": 0,
       "large": 0,
@@ -6176,11 +6176,11 @@
       "small": 0,
       "main_ratio": 458.33000000000004,
       "main_pct": 4.5833,
-      "chg_5d": 0,
+      "chg_5d": -6.99,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 351765050.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:06"
+      "fund_flow_time": "15:00:08"
     },
     "002929": {
       "code": "002929",
@@ -6220,7 +6220,7 @@
         "ask_vol5": 4
       },
       "book_diff": 3032743.0,
-      "timestamp": "2026-06-19T14:57:02.396475",
+      "timestamp": "2026-06-19T15:00:03.602458",
       "main_force": 74892422.0,
       "super": 0,
       "large": 0,
@@ -6228,11 +6228,11 @@
       "small": 0,
       "main_ratio": -31.28,
       "main_pct": -0.3128,
-      "chg_5d": 0,
+      "chg_5d": -23.08,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 157450024.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:06"
+      "fund_flow_time": "15:00:08"
     },
     "603881": {
       "code": "603881",
@@ -6272,7 +6272,7 @@
         "ask_vol5": 52
       },
       "book_diff": 11881754.0,
-      "timestamp": "2026-06-19T14:57:02.396581",
+      "timestamp": "2026-06-19T15:00:03.602568",
       "main_force": 17572918.0,
       "super": 0,
       "large": 0,
@@ -6280,11 +6280,11 @@
       "small": 0,
       "main_ratio": 135.89,
       "main_pct": 1.3589,
-      "chg_5d": 0,
+      "chg_5d": -14.13,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": -96767075.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:08"
+      "fund_flow_time": "15:00:10"
     },
     "002229": {
       "code": "002229",
@@ -6324,7 +6324,7 @@
         "ask_vol5": 448
       },
       "book_diff": 286869.0,
-      "timestamp": "2026-06-19T14:57:02.396714",
+      "timestamp": "2026-06-19T15:00:03.602701",
       "main_force": -5995867.1,
       "super": 0,
       "large": 0,
@@ -6332,11 +6332,11 @@
       "small": 0,
       "main_ratio": -136.91,
       "main_pct": -1.3691,
-      "chg_5d": 0,
+      "chg_5d": -19.21,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": -149799114.5,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:08"
+      "fund_flow_time": "15:00:10"
     },
     "603629": {
       "code": "603629",
@@ -6376,7 +6376,7 @@
         "ask_vol5": 3
       },
       "book_diff": 20179152.0,
-      "timestamp": "2026-06-19T14:57:02.396823",
+      "timestamp": "2026-06-19T15:00:03.602814",
       "main_force": 32864180.0,
       "super": 0,
       "large": 0,
@@ -6384,11 +6384,11 @@
       "small": 0,
       "main_ratio": 85.76,
       "main_pct": 0.8576,
-      "chg_5d": 0,
+      "chg_5d": -1.69,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": -378649730.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:08"
+      "fund_flow_time": "15:00:10"
     },
     "688525": {
       "code": "688525",
@@ -6428,19 +6428,19 @@
         "ask_vol5": 17
       },
       "book_diff": -1583989.0,
-      "timestamp": "2026-06-19T14:57:02.396930",
+      "timestamp": "2026-06-19T15:00:03.602921",
       "main_force": 248099900.0,
       "super": 0,
       "large": 0,
       "medium": 0,
       "small": 0,
-      "main_ratio": 0,
-      "main_pct": 0,
-      "chg_5d": 0,
+      "main_ratio": -104.89,
+      "main_pct": -1.0489,
+      "chg_5d": 28.4,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 1673852150.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:27"
+      "fund_flow_time": "15:00:25"
     },
     "301308": {
       "code": "301308",
@@ -6480,7 +6480,7 @@
         "ask_vol5": 38
       },
       "book_diff": -28775209.0,
-      "timestamp": "2026-06-19T14:57:02.397038",
+      "timestamp": "2026-06-19T15:00:03.603028",
       "main_force": -587677620.0,
       "super": 0,
       "large": 0,
@@ -6488,11 +6488,11 @@
       "small": 0,
       "main_ratio": -771.45,
       "main_pct": -7.7145,
-      "chg_5d": 0,
+      "chg_5d": 7.39,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": -208752330.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:08"
+      "fund_flow_time": "15:00:10"
     },
     "603986": {
       "code": "603986",
@@ -6532,7 +6532,7 @@
         "ask_vol5": 10
       },
       "book_diff": -90515352.0,
-      "timestamp": "2026-06-19T14:57:02.397146",
+      "timestamp": "2026-06-19T15:00:03.603138",
       "main_force": -26374200.0,
       "super": 0,
       "large": 0,
@@ -6540,11 +6540,11 @@
       "small": 0,
       "main_ratio": 832.98,
       "main_pct": 8.3298,
-      "chg_5d": 0,
+      "chg_5d": 45.89,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 6716069600.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:08"
+      "fund_flow_time": "15:00:10"
     },
     "688008": {
       "code": "688008",
@@ -6584,19 +6584,19 @@
         "ask_vol5": 48
       },
       "book_diff": -13983592.0,
-      "timestamp": "2026-06-19T14:57:02.397259",
+      "timestamp": "2026-06-19T15:00:03.603246",
       "main_force": 26283800.0,
       "super": 0,
       "large": 0,
       "medium": 0,
       "small": 0,
-      "main_ratio": 0,
-      "main_pct": 0,
-      "chg_5d": 0,
+      "main_ratio": -423.53,
+      "main_pct": -4.2353,
+      "chg_5d": 2.95,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 1321033390.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:27"
+      "fund_flow_time": "15:00:25"
     },
     "300223": {
       "code": "300223",
@@ -6636,7 +6636,7 @@
         "ask_vol5": 2
       },
       "book_diff": 2157247.0,
-      "timestamp": "2026-06-19T14:57:02.397373",
+      "timestamp": "2026-06-19T15:00:03.603355",
       "main_force": 22849350.0,
       "super": 0,
       "large": 0,
@@ -6644,11 +6644,11 @@
       "small": 0,
       "main_ratio": 910.91,
       "main_pct": 9.1091,
-      "chg_5d": 0,
+      "chg_5d": 42.33,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 378069190.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:08"
+      "fund_flow_time": "15:00:10"
     },
     "300308": {
       "code": "300308",
@@ -6688,7 +6688,7 @@
         "ask_vol5": 6
       },
       "book_diff": -97120598.0,
-      "timestamp": "2026-06-19T14:57:02.397480",
+      "timestamp": "2026-06-19T15:00:03.603462",
       "main_force": 2390605600.0,
       "super": 0,
       "large": 0,
@@ -6696,11 +6696,11 @@
       "small": 0,
       "main_ratio": 1208.71,
       "main_pct": 12.0871,
-      "chg_5d": 0,
+      "chg_5d": 37.71,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 5927596800.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:08"
+      "fund_flow_time": "15:00:10"
     },
     "300502": {
       "code": "300502",
@@ -6740,7 +6740,7 @@
         "ask_vol5": 2
       },
       "book_diff": 522488.0,
-      "timestamp": "2026-06-19T14:57:02.397584",
+      "timestamp": "2026-06-19T15:00:03.603574",
       "main_force": 1451119900.0,
       "super": 0,
       "large": 0,
@@ -6748,11 +6748,11 @@
       "small": 0,
       "main_ratio": 562.89,
       "main_pct": 5.6289,
-      "chg_5d": 0,
+      "chg_5d": 44.08,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 1050268100.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:08"
+      "fund_flow_time": "15:00:10"
     },
     "300394": {
       "code": "300394",
@@ -6792,7 +6792,7 @@
         "ask_vol5": 56
       },
       "book_diff": 58397533.0,
-      "timestamp": "2026-06-19T14:57:02.397708",
+      "timestamp": "2026-06-19T15:00:03.603698",
       "main_force": -7886500.0,
       "super": 0,
       "large": 0,
@@ -6800,11 +6800,11 @@
       "small": 0,
       "main_ratio": 10.13,
       "main_pct": 0.1013,
-      "chg_5d": 0,
+      "chg_5d": 40.04,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 346238380.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:10"
+      "fund_flow_time": "15:00:12"
     },
     "002281": {
       "code": "002281",
@@ -6844,7 +6844,7 @@
         "ask_vol5": 0
       },
       "book_diff": 431083399.0,
-      "timestamp": "2026-06-19T14:57:02.397821",
+      "timestamp": "2026-06-19T15:00:03.603807",
       "main_force": 1553230520.0,
       "super": 0,
       "large": 0,
@@ -6852,11 +6852,11 @@
       "small": 0,
       "main_ratio": 835.6199999999999,
       "main_pct": 8.3562,
-      "chg_5d": 0,
+      "chg_5d": 22.5,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 3263727670.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:10"
+      "fund_flow_time": "15:00:12"
     },
     "300548": {
       "code": "300548",
@@ -6896,7 +6896,7 @@
         "ask_vol5": 6
       },
       "book_diff": 30677188.0,
-      "timestamp": "2026-06-19T14:57:02.397926",
+      "timestamp": "2026-06-19T15:00:03.603912",
       "main_force": 1009857310.0,
       "super": 0,
       "large": 0,
@@ -6904,11 +6904,11 @@
       "small": 0,
       "main_ratio": 499.14,
       "main_pct": 4.9914,
-      "chg_5d": 0,
+      "chg_5d": 21.83,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 822083700.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:10"
+      "fund_flow_time": "15:00:12"
     },
     "601869": {
       "code": "601869",
@@ -6948,7 +6948,7 @@
         "ask_vol5": 6
       },
       "book_diff": 58894544.0,
-      "timestamp": "2026-06-19T14:57:02.398031",
+      "timestamp": "2026-06-19T15:00:03.604017",
       "main_force": 165532190.0,
       "super": 0,
       "large": 0,
@@ -6956,11 +6956,11 @@
       "small": 0,
       "main_ratio": 371.78,
       "main_pct": 3.7178,
-      "chg_5d": 0,
+      "chg_5d": 25.48,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": -41051910.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:10"
+      "fund_flow_time": "15:00:12"
     },
     "600487": {
       "code": "600487",
@@ -7000,7 +7000,7 @@
         "ask_vol5": 128
       },
       "book_diff": 45672126.0,
-      "timestamp": "2026-06-19T14:57:02.398137",
+      "timestamp": "2026-06-19T15:00:03.604127",
       "main_force": -557526800.0,
       "super": 0,
       "large": 0,
@@ -7008,11 +7008,11 @@
       "small": 0,
       "main_ratio": -256.78000000000003,
       "main_pct": -2.5678,
-      "chg_5d": 0,
+      "chg_5d": 58.81,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": -1473765700.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:10"
+      "fund_flow_time": "15:00:12"
     },
     "000988": {
       "code": "000988",
@@ -7052,7 +7052,7 @@
         "ask_vol5": 50
       },
       "book_diff": 99742478.0,
-      "timestamp": "2026-06-19T14:57:02.398249",
+      "timestamp": "2026-06-19T15:00:03.604233",
       "main_force": 316923100.0,
       "super": 0,
       "large": 0,
@@ -7060,11 +7060,11 @@
       "small": 0,
       "main_ratio": 0,
       "main_pct": 0,
-      "chg_5d": 0,
+      "chg_5d": 15.51,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 1755726420.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:10"
+      "fund_flow_time": "15:00:12"
     },
     "688498": {
       "code": "688498",
@@ -7104,7 +7104,7 @@
         "ask_vol5": 3
       },
       "book_diff": 19225166.0,
-      "timestamp": "2026-06-19T14:57:02.398359",
+      "timestamp": "2026-06-19T15:00:03.604351",
       "main_force": 385715630.0,
       "super": 0,
       "large": 0,
@@ -7112,11 +7112,11 @@
       "small": 0,
       "main_ratio": 749.4200000000001,
       "main_pct": 7.4942,
-      "chg_5d": 0,
+      "chg_5d": 61.2,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 3219938870.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:10"
+      "fund_flow_time": "15:00:12"
     },
     "688313": {
       "code": "688313",
@@ -7156,7 +7156,7 @@
         "ask_vol5": 27
       },
       "book_diff": 8366175.0,
-      "timestamp": "2026-06-19T14:57:02.398473",
+      "timestamp": "2026-06-19T15:00:03.604476",
       "main_force": 355840940.0,
       "super": 0,
       "large": 0,
@@ -7164,11 +7164,11 @@
       "small": 0,
       "main_ratio": 599.17,
       "main_pct": 5.9917,
-      "chg_5d": 0,
+      "chg_5d": 4.69,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 182784850.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:10"
+      "fund_flow_time": "15:00:12"
     },
     "688048": {
       "code": "688048",
@@ -7208,7 +7208,7 @@
         "ask_vol5": 19
       },
       "book_diff": 1290210.0,
-      "timestamp": "2026-06-19T14:57:02.398578",
+      "timestamp": "2026-06-19T15:00:03.604588",
       "main_force": 441143370.0,
       "super": 0,
       "large": 0,
@@ -7216,11 +7216,11 @@
       "small": 0,
       "main_ratio": 669.64,
       "main_pct": 6.6964,
-      "chg_5d": 0,
+      "chg_5d": 9.55,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": -245746560.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:10"
+      "fund_flow_time": "15:00:12"
     },
     "300620": {
       "code": "300620",
@@ -7260,7 +7260,7 @@
         "ask_vol5": 51
       },
       "book_diff": -5042025.0,
-      "timestamp": "2026-06-19T14:57:02.398699",
+      "timestamp": "2026-06-19T15:00:03.604713",
       "main_force": -556968990.0,
       "super": 0,
       "large": 0,
@@ -7268,11 +7268,11 @@
       "small": 0,
       "main_ratio": -781.9,
       "main_pct": -7.819,
-      "chg_5d": 0,
+      "chg_5d": 33.17,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": -925365850.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:10"
+      "fund_flow_time": "15:00:12"
     },
     "688195": {
       "code": "688195",
@@ -7312,7 +7312,7 @@
         "ask_vol5": 15
       },
       "book_diff": 2804352.0,
-      "timestamp": "2026-06-19T14:57:02.398811",
+      "timestamp": "2026-06-19T15:00:03.604823",
       "main_force": -66510490.0,
       "super": 0,
       "large": 0,
@@ -7320,11 +7320,11 @@
       "small": 0,
       "main_ratio": -414.18,
       "main_pct": -4.1418,
-      "chg_5d": 0,
+      "chg_5d": -7.25,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 71109012.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:13"
+      "fund_flow_time": "15:00:14"
     },
     "002491": {
       "code": "002491",
@@ -7364,7 +7364,7 @@
         "ask_vol5": 0
       },
       "book_diff": 249359482.0,
-      "timestamp": "2026-06-19T14:57:02.398953",
+      "timestamp": "2026-06-19T15:00:03.604929",
       "main_force": 446396111.0,
       "super": 0,
       "large": 0,
@@ -7416,7 +7416,7 @@
         "ask_vol5": 93
       },
       "book_diff": 71835447.0,
-      "timestamp": "2026-06-19T14:57:02.399076",
+      "timestamp": "2026-06-19T15:00:03.605035",
       "main_force": -544166270.0,
       "super": 0,
       "large": 0,
@@ -7424,11 +7424,11 @@
       "small": 0,
       "main_ratio": -420.05999999999995,
       "main_pct": -4.2006,
-      "chg_5d": 0,
+      "chg_5d": 34.23,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 824032100.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:13"
+      "fund_flow_time": "15:00:14"
     },
     "600522": {
       "code": "600522",
@@ -7468,7 +7468,7 @@
         "ask_vol5": 113
       },
       "book_diff": -12907853.0,
-      "timestamp": "2026-06-19T14:57:02.399185",
+      "timestamp": "2026-06-19T15:00:03.605142",
       "main_force": 5981100.0,
       "super": 0,
       "large": 0,
@@ -7476,11 +7476,11 @@
       "small": 0,
       "main_ratio": 58.81999999999999,
       "main_pct": 0.5882,
-      "chg_5d": 0,
+      "chg_5d": 34.96,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": -74248500.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:13"
+      "fund_flow_time": "15:00:14"
     },
     "600498": {
       "code": "600498",
@@ -7520,7 +7520,7 @@
         "ask_vol5": 1034
       },
       "book_diff": -17262878.0,
-      "timestamp": "2026-06-19T14:57:02.399298",
+      "timestamp": "2026-06-19T15:00:03.605251",
       "main_force": -805314530.0,
       "super": 0,
       "large": 0,
@@ -7528,11 +7528,11 @@
       "small": 0,
       "main_ratio": -836.0400000000001,
       "main_pct": -8.3604,
-      "chg_5d": 0,
+      "chg_5d": 39.36,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": -945074840.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:13"
+      "fund_flow_time": "15:00:14"
     },
     "688981": {
       "code": "688981",
@@ -7572,7 +7572,7 @@
         "ask_vol5": 27
       },
       "book_diff": -14003624.0,
-      "timestamp": "2026-06-19T14:57:02.399410",
+      "timestamp": "2026-06-19T15:00:03.605356",
       "main_force": 775291400.0,
       "super": 0,
       "large": 0,
@@ -7580,11 +7580,11 @@
       "small": 0,
       "main_ratio": 585.24,
       "main_pct": 5.8524,
-      "chg_5d": 0,
+      "chg_5d": 10.6,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 728769870.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:13"
+      "fund_flow_time": "15:00:14"
     },
     "688347": {
       "code": "688347",
@@ -7624,7 +7624,7 @@
         "ask_vol5": 2
       },
       "book_diff": -1529887.0,
-      "timestamp": "2026-06-19T14:57:02.399517",
+      "timestamp": "2026-06-19T15:00:03.605465",
       "main_force": 341747500.0,
       "super": 0,
       "large": 0,
@@ -7632,11 +7632,11 @@
       "small": 0,
       "main_ratio": 430.19,
       "main_pct": 4.3019,
-      "chg_5d": 0,
+      "chg_5d": 64.38,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 2605973180.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:13"
+      "fund_flow_time": "15:00:14"
     },
     "688469": {
       "code": "688469",
@@ -7676,7 +7676,7 @@
         "ask_vol5": 7967
       },
       "book_diff": 2537113.0,
-      "timestamp": "2026-06-19T14:57:02.399642",
+      "timestamp": "2026-06-19T15:00:03.605573",
       "main_force": -230717990.0,
       "super": 0,
       "large": 0,
@@ -7684,11 +7684,11 @@
       "small": 0,
       "main_ratio": -51.41,
       "main_pct": -0.5141,
-      "chg_5d": 0,
+      "chg_5d": 17.39,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": -52063840.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:13"
+      "fund_flow_time": "15:00:14"
     },
     "688249": {
       "code": "688249",
@@ -7728,7 +7728,7 @@
         "ask_vol5": 1189
       },
       "book_diff": -9840673.0,
-      "timestamp": "2026-06-19T14:57:02.399753",
+      "timestamp": "2026-06-19T15:00:03.605694",
       "main_force": -156093890.0,
       "super": 0,
       "large": 0,
@@ -7736,11 +7736,11 @@
       "small": 0,
       "main_ratio": 552.51,
       "main_pct": 5.5251,
-      "chg_5d": 0,
+      "chg_5d": 28.17,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 246695977.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:13"
+      "fund_flow_time": "15:00:14"
     },
     "600584": {
       "code": "600584",
@@ -7780,7 +7780,7 @@
         "ask_vol5": 72
       },
       "book_diff": 68887190.0,
-      "timestamp": "2026-06-19T14:57:02.399858",
+      "timestamp": "2026-06-19T15:00:03.605809",
       "main_force": -390727100.0,
       "super": 0,
       "large": 0,
@@ -7788,11 +7788,11 @@
       "small": 0,
       "main_ratio": -242.45000000000002,
       "main_pct": -2.4245,
-      "chg_5d": 0,
+      "chg_5d": 24.22,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 231484370.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:13"
+      "fund_flow_time": "15:00:14"
     },
     "002156": {
       "code": "002156",
@@ -7832,7 +7832,7 @@
         "ask_vol5": 95
       },
       "book_diff": 56192367.0,
-      "timestamp": "2026-06-19T14:57:02.463754",
+      "timestamp": "2026-06-19T15:00:03.768948",
       "main_force": -264688450.0,
       "super": 0,
       "large": 0,
@@ -7840,11 +7840,11 @@
       "small": 0,
       "main_ratio": 81.5,
       "main_pct": 0.815,
-      "chg_5d": 0,
+      "chg_5d": 10.68,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": -119749010.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:15"
+      "fund_flow_time": "15:00:16"
     },
     "002185": {
       "code": "002185",
@@ -7884,7 +7884,7 @@
         "ask_vol5": 2306
       },
       "book_diff": 32576497.0,
-      "timestamp": "2026-06-19T14:57:02.463892",
+      "timestamp": "2026-06-19T15:00:03.769097",
       "main_force": -130550510.0,
       "super": 0,
       "large": 0,
@@ -7892,11 +7892,11 @@
       "small": 0,
       "main_ratio": -93.93,
       "main_pct": -0.9393,
-      "chg_5d": 0,
+      "chg_5d": 29.27,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 278727375.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:15"
+      "fund_flow_time": "15:00:16"
     },
     "688372": {
       "code": "688372",
@@ -7936,7 +7936,7 @@
         "ask_vol5": 17
       },
       "book_diff": 577561.0,
-      "timestamp": "2026-06-19T14:57:02.464007",
+      "timestamp": "2026-06-19T15:00:03.769214",
       "main_force": -32933833.0,
       "super": 0,
       "large": 0,
@@ -7944,11 +7944,11 @@
       "small": 0,
       "main_ratio": 230.45,
       "main_pct": 2.3045,
-      "chg_5d": 0,
+      "chg_5d": 5.21,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": -80442654.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:15"
+      "fund_flow_time": "15:00:16"
     },
     "002371": {
       "code": "002371",
@@ -7988,7 +7988,7 @@
         "ask_vol5": 1
       },
       "book_diff": 5767643.0,
-      "timestamp": "2026-06-19T14:57:02.464119",
+      "timestamp": "2026-06-19T15:00:03.769326",
       "main_force": 751416360.0,
       "super": 0,
       "large": 0,
@@ -7996,11 +7996,11 @@
       "small": 0,
       "main_ratio": 562.42,
       "main_pct": 5.6242,
-      "chg_5d": 0,
+      "chg_5d": 8.76,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 2666998320.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:15"
+      "fund_flow_time": "15:00:16"
     },
     "688012": {
       "code": "688012",
@@ -8040,7 +8040,7 @@
         "ask_vol5": 9
       },
       "book_diff": -18765893.0,
-      "timestamp": "2026-06-19T14:57:02.464227",
+      "timestamp": "2026-06-19T15:00:03.769437",
       "main_force": 547954870.0,
       "super": 0,
       "large": 0,
@@ -8048,11 +8048,11 @@
       "small": 0,
       "main_ratio": 261.38,
       "main_pct": 2.6138,
-      "chg_5d": 0,
+      "chg_5d": 12.82,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 2239153760.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:15"
+      "fund_flow_time": "15:00:16"
     },
     "688072": {
       "code": "688072",
@@ -8092,7 +8092,7 @@
         "ask_vol5": 2
       },
       "book_diff": 10786317.0,
-      "timestamp": "2026-06-19T14:57:02.464346",
+      "timestamp": "2026-06-19T15:00:03.769546",
       "main_force": 33575470.0,
       "super": 0,
       "large": 0,
@@ -8100,11 +8100,11 @@
       "small": 0,
       "main_ratio": -239.66,
       "main_pct": -2.3966,
-      "chg_5d": 0,
+      "chg_5d": 21.15,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 750275760.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:15"
+      "fund_flow_time": "15:00:16"
     },
     "688082": {
       "code": "688082",
@@ -8144,7 +8144,7 @@
         "ask_vol5": 2
       },
       "book_diff": -1253949.0,
-      "timestamp": "2026-06-19T14:57:02.464456",
+      "timestamp": "2026-06-19T15:00:03.769670",
       "main_force": -175172280.0,
       "super": 0,
       "large": 0,
@@ -8152,11 +8152,11 @@
       "small": 0,
       "main_ratio": -294.96000000000004,
       "main_pct": -2.9496,
-      "chg_5d": 0,
+      "chg_5d": 78.05,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 57570040.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:15"
+      "fund_flow_time": "15:00:16"
     },
     "688361": {
       "code": "688361",
@@ -8196,7 +8196,7 @@
         "ask_vol5": 15
       },
       "book_diff": 2394541.0,
-      "timestamp": "2026-06-19T14:57:02.464574",
+      "timestamp": "2026-06-19T15:00:03.769790",
       "main_force": -198183382.0,
       "super": 0,
       "large": 0,
@@ -8204,11 +8204,11 @@
       "small": 0,
       "main_ratio": -119.9,
       "main_pct": -1.199,
-      "chg_5d": 0,
+      "chg_5d": 4.39,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 55732848.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:15"
+      "fund_flow_time": "15:00:16"
     },
     "300604": {
       "code": "300604",
@@ -8248,7 +8248,7 @@
         "ask_vol5": 4
       },
       "book_diff": 4172358.0,
-      "timestamp": "2026-06-19T14:57:02.464701",
+      "timestamp": "2026-06-19T15:00:03.769898",
       "main_force": -27915470.0,
       "super": 0,
       "large": 0,
@@ -8256,11 +8256,11 @@
       "small": 0,
       "main_ratio": -123.73,
       "main_pct": -1.2373,
-      "chg_5d": 0,
+      "chg_5d": 12.54,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 715746680.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:15"
+      "fund_flow_time": "15:00:16"
     },
     "300666": {
       "code": "300666",
@@ -8300,7 +8300,7 @@
         "ask_vol5": 27
       },
       "book_diff": -840926.0,
-      "timestamp": "2026-06-19T14:57:02.464809",
+      "timestamp": "2026-06-19T15:00:03.770014",
       "main_force": 181215010.0,
       "super": 0,
       "large": 0,
@@ -8308,11 +8308,11 @@
       "small": 0,
       "main_ratio": 382.37,
       "main_pct": 3.8237,
-      "chg_5d": 0,
+      "chg_5d": 63.25,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": -413031280.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:15"
+      "fund_flow_time": "15:00:16"
     },
     "688126": {
       "code": "688126",
@@ -8352,7 +8352,7 @@
         "ask_vol5": 1508
       },
       "book_diff": 6962049.0,
-      "timestamp": "2026-06-19T14:57:02.464920",
+      "timestamp": "2026-06-19T15:00:03.770125",
       "main_force": -329737540.0,
       "super": 0,
       "large": 0,
@@ -8360,11 +8360,11 @@
       "small": 0,
       "main_ratio": -285.15999999999997,
       "main_pct": -2.8516,
-      "chg_5d": 0,
+      "chg_5d": 16.33,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": -750218460.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:17"
+      "fund_flow_time": "15:00:18"
     },
     "688019": {
       "code": "688019",
@@ -8404,7 +8404,7 @@
         "ask_vol5": 4
       },
       "book_diff": 417696.0,
-      "timestamp": "2026-06-19T14:57:02.465027",
+      "timestamp": "2026-06-19T15:00:03.770232",
       "main_force": -38582640.0,
       "super": 0,
       "large": 0,
@@ -8412,11 +8412,11 @@
       "small": 0,
       "main_ratio": -176.69,
       "main_pct": -1.7669,
-      "chg_5d": 0,
+      "chg_5d": 5.09,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": -165043050.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:17"
+      "fund_flow_time": "15:00:18"
     },
     "300054": {
       "code": "300054",
@@ -8456,7 +8456,7 @@
         "ask_vol5": 74
       },
       "book_diff": -14281494.0,
-      "timestamp": "2026-06-19T14:57:02.465131",
+      "timestamp": "2026-06-19T15:00:03.770338",
       "main_force": -20910730.0,
       "super": 0,
       "large": 0,
@@ -8464,11 +8464,11 @@
       "small": 0,
       "main_ratio": -250.32000000000002,
       "main_pct": -2.5032,
-      "chg_5d": 0,
+      "chg_5d": 26.48,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": -278759500.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:17"
+      "fund_flow_time": "15:00:18"
     },
     "688268": {
       "code": "688268",
@@ -8508,7 +8508,7 @@
         "ask_vol5": 45
       },
       "book_diff": -377068.0,
-      "timestamp": "2026-06-19T14:57:02.465235",
+      "timestamp": "2026-06-19T15:00:03.770444",
       "main_force": -133319260.0,
       "super": 0,
       "large": 0,
@@ -8516,11 +8516,11 @@
       "small": 0,
       "main_ratio": -185.17,
       "main_pct": -1.8517,
-      "chg_5d": 0,
+      "chg_5d": 18.67,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": -867083470.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:17"
+      "fund_flow_time": "15:00:18"
     },
     "300655": {
       "code": "300655",
@@ -8560,7 +8560,7 @@
         "ask_vol5": 191
       },
       "book_diff": 2677123.0,
-      "timestamp": "2026-06-19T14:57:02.465341",
+      "timestamp": "2026-06-19T15:00:03.770549",
       "main_force": -165300990.0,
       "super": 0,
       "large": 0,
@@ -8568,11 +8568,11 @@
       "small": 0,
       "main_ratio": -828.8500000000001,
       "main_pct": -8.2885,
-      "chg_5d": 0,
+      "chg_5d": 2.88,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": -402509723.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:17"
+      "fund_flow_time": "15:00:18"
     },
     "301269": {
       "code": "301269",
@@ -8612,7 +8612,7 @@
         "ask_vol5": 3
       },
       "book_diff": 2485434.0,
-      "timestamp": "2026-06-19T14:57:02.465449",
+      "timestamp": "2026-06-19T15:00:03.770669",
       "main_force": 3245905.0,
       "super": 0,
       "large": 0,
@@ -8620,11 +8620,11 @@
       "small": 0,
       "main_ratio": -465.51,
       "main_pct": -4.6551,
-      "chg_5d": 0,
+      "chg_5d": 7.14,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 138353340.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:17"
+      "fund_flow_time": "15:00:18"
     },
     "688206": {
       "code": "688206",
@@ -8664,7 +8664,7 @@
         "ask_vol5": 6
       },
       "book_diff": -147574.0,
-      "timestamp": "2026-06-19T14:57:02.465555",
+      "timestamp": "2026-06-19T15:00:03.770798",
       "main_force": -22456559.0,
       "super": 0,
       "large": 0,
@@ -8672,11 +8672,11 @@
       "small": 0,
       "main_ratio": 12.01,
       "main_pct": 0.1201,
-      "chg_5d": 0,
+      "chg_5d": -1.59,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": -180804642.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:17"
+      "fund_flow_time": "15:00:18"
     },
     "688521": {
       "code": "688521",
@@ -8716,7 +8716,7 @@
         "ask_vol5": 6
       },
       "book_diff": 2236628.0,
-      "timestamp": "2026-06-19T14:57:02.465677",
+      "timestamp": "2026-06-19T15:00:03.770950",
       "main_force": 243811520.0,
       "super": 0,
       "large": 0,
@@ -8724,11 +8724,11 @@
       "small": 0,
       "main_ratio": 1094.68,
       "main_pct": 10.9468,
-      "chg_5d": 0,
+      "chg_5d": 0.17,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 1647575170.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:17"
+      "fund_flow_time": "15:00:18"
     },
     "301095": {
       "code": "301095",
@@ -8768,7 +8768,7 @@
         "ask_vol5": 1
       },
       "book_diff": 276482.0,
-      "timestamp": "2026-06-19T14:57:02.465791",
+      "timestamp": "2026-06-19T15:00:03.771069",
       "main_force": 165331915.0,
       "super": 0,
       "large": 0,
@@ -8776,11 +8776,11 @@
       "small": 0,
       "main_ratio": 712.29,
       "main_pct": 7.1229,
-      "chg_5d": 0,
+      "chg_5d": 0.53,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 13292624.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:17"
+      "fund_flow_time": "15:00:18"
     },
     "688017": {
       "code": "688017",
@@ -8820,7 +8820,7 @@
         "ask_vol5": 6
       },
       "book_diff": 23745167.0,
-      "timestamp": "2026-06-19T14:57:02.465901",
+      "timestamp": "2026-06-19T15:00:03.771181",
       "main_force": 386052930.0,
       "super": 0,
       "large": 0,
@@ -8828,11 +8828,11 @@
       "small": 0,
       "main_ratio": 373.36,
       "main_pct": 3.7336,
-      "chg_5d": 0,
+      "chg_5d": 21.79,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": -1171510960.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:17"
+      "fund_flow_time": "15:00:18"
     },
     "002472": {
       "code": "002472",
@@ -8872,7 +8872,7 @@
         "ask_vol5": 85
       },
       "book_diff": -6026627.0,
-      "timestamp": "2026-06-19T14:57:02.466009",
+      "timestamp": "2026-06-19T15:00:03.771290",
       "main_force": 32103687.0,
       "super": 0,
       "large": 0,
@@ -8880,11 +8880,11 @@
       "small": 0,
       "main_ratio": 247.64,
       "main_pct": 2.4764,
-      "chg_5d": 0,
+      "chg_5d": -1.53,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": -189623439.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:19"
+      "fund_flow_time": "15:00:20"
     },
     "603728": {
       "code": "603728",
@@ -8924,7 +8924,7 @@
         "ask_vol5": 6
       },
       "book_diff": -1980163.0,
-      "timestamp": "2026-06-19T14:57:02.466112",
+      "timestamp": "2026-06-19T15:00:03.771396",
       "main_force": 14404661.0,
       "super": 0,
       "large": 0,
@@ -8932,11 +8932,11 @@
       "small": 0,
       "main_ratio": 455.58,
       "main_pct": 4.5558,
-      "chg_5d": 0,
+      "chg_5d": -5.22,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": -82020112.9,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:19"
+      "fund_flow_time": "15:00:20"
     },
     "603662": {
       "code": "603662",
@@ -8976,7 +8976,7 @@
         "ask_vol5": 1
       },
       "book_diff": 1805852.0,
-      "timestamp": "2026-06-19T14:57:02.466216",
+      "timestamp": "2026-06-19T15:00:03.771522",
       "main_force": -26002989.0,
       "super": 0,
       "large": 0,
@@ -8984,11 +8984,11 @@
       "small": 0,
       "main_ratio": 12.49,
       "main_pct": 0.1249,
-      "chg_5d": 0,
+      "chg_5d": 3.96,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 23173229.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:19"
+      "fund_flow_time": "15:00:20"
     },
     "603667": {
       "code": "603667",
@@ -9028,7 +9028,7 @@
         "ask_vol5": 37
       },
       "book_diff": 7873141.0,
-      "timestamp": "2026-06-19T14:57:02.466325",
+      "timestamp": "2026-06-19T15:00:03.771643",
       "main_force": 41966833.0,
       "super": 0,
       "large": 0,
@@ -9036,11 +9036,11 @@
       "small": 0,
       "main_ratio": 221.01999999999998,
       "main_pct": 2.2102,
-      "chg_5d": 0,
+      "chg_5d": -19.96,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": -18076051.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:19"
+      "fund_flow_time": "15:00:20"
     },
     "002896": {
       "code": "002896",
@@ -9080,7 +9080,7 @@
         "ask_vol5": 16
       },
       "book_diff": 12351277.0,
-      "timestamp": "2026-06-19T14:57:02.466435",
+      "timestamp": "2026-06-19T15:00:03.771753",
       "main_force": 35601502.0,
       "super": 0,
       "large": 0,
@@ -9088,11 +9088,11 @@
       "small": 0,
       "main_ratio": 17.66,
       "main_pct": 0.1766,
-      "chg_5d": 0,
+      "chg_5d": 2.97,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": -179909173.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:19"
+      "fund_flow_time": "15:00:20"
     },
     "002463": {
       "code": "002463",
@@ -9132,7 +9132,7 @@
         "ask_vol5": 171
       },
       "book_diff": 23307305.0,
-      "timestamp": "2026-06-19T14:57:02.466542",
+      "timestamp": "2026-06-19T15:00:03.771859",
       "main_force": -421014050.0,
       "super": 0,
       "large": 0,
@@ -9140,11 +9140,11 @@
       "small": 0,
       "main_ratio": 136.67000000000002,
       "main_pct": 1.3667,
-      "chg_5d": 0,
+      "chg_5d": 42.62,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 1767161730.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:19"
+      "fund_flow_time": "15:00:20"
     },
     "002916": {
       "code": "002916",
@@ -9184,7 +9184,7 @@
         "ask_vol5": 4
       },
       "book_diff": -3675904.0,
-      "timestamp": "2026-06-19T14:57:02.466659",
+      "timestamp": "2026-06-19T15:00:03.771972",
       "main_force": -285125330.0,
       "super": 0,
       "large": 0,
@@ -9192,11 +9192,11 @@
       "small": 0,
       "main_ratio": -336.63,
       "main_pct": -3.3663,
-      "chg_5d": 0,
+      "chg_5d": 32.89,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 1776937480.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:19"
+      "fund_flow_time": "15:00:20"
     },
     "300476": {
       "code": "300476",
@@ -9236,7 +9236,7 @@
         "ask_vol5": 26
       },
       "book_diff": -25719556.0,
-      "timestamp": "2026-06-19T14:57:02.466772",
+      "timestamp": "2026-06-19T15:00:03.772082",
       "main_force": 199442130.0,
       "super": 0,
       "large": 0,
@@ -9244,11 +9244,11 @@
       "small": 0,
       "main_ratio": 298.83000000000004,
       "main_pct": 2.9883,
-      "chg_5d": 0,
+      "chg_5d": 11.35,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 2658128530.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:19"
+      "fund_flow_time": "15:00:20"
     },
     "002938": {
       "code": "002938",
@@ -9288,7 +9288,7 @@
         "ask_vol5": 4
       },
       "book_diff": 5789860.0,
-      "timestamp": "2026-06-19T14:57:02.466882",
+      "timestamp": "2026-06-19T15:00:03.772191",
       "main_force": -709850090.0,
       "super": 0,
       "large": 0,
@@ -9296,11 +9296,11 @@
       "small": 0,
       "main_ratio": -276.18,
       "main_pct": -2.7618,
-      "chg_5d": 0,
+      "chg_5d": 28.27,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": -186779620.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:19"
+      "fund_flow_time": "15:00:20"
     },
     "603228": {
       "code": "603228",
@@ -9340,7 +9340,7 @@
         "ask_vol5": 252
       },
       "book_diff": 480916.0,
-      "timestamp": "2026-06-19T14:57:02.466992",
+      "timestamp": "2026-06-19T15:00:03.772300",
       "main_force": -88421400.0,
       "super": 0,
       "large": 0,
@@ -9348,11 +9348,11 @@
       "small": 0,
       "main_ratio": -647.82,
       "main_pct": -6.4782,
-      "chg_5d": 0,
+      "chg_5d": 8.08,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 468466410.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:19"
+      "fund_flow_time": "15:00:20"
     },
     "301377": {
       "code": "301377",
@@ -9392,7 +9392,7 @@
         "ask_vol5": 1
       },
       "book_diff": -3336928.0,
-      "timestamp": "2026-06-19T14:57:02.467098",
+      "timestamp": "2026-06-19T15:00:03.772407",
       "main_force": 5250460.0,
       "super": 0,
       "large": 0,
@@ -9444,7 +9444,7 @@
         "ask_vol5": 30
       },
       "book_diff": 34895336.0,
-      "timestamp": "2026-06-19T14:57:02.467203",
+      "timestamp": "2026-06-19T15:00:03.772516",
       "main_force": -208503640.0,
       "super": 0,
       "large": 0,
@@ -9452,11 +9452,11 @@
       "small": 0,
       "main_ratio": 265.36,
       "main_pct": 2.6536,
-      "chg_5d": 0,
+      "chg_5d": 88.8,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": -65656780.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:21"
+      "fund_flow_time": "15:00:22"
     },
     "000636": {
       "code": "000636",
@@ -9496,7 +9496,7 @@
         "ask_vol5": 145
       },
       "book_diff": 35344171.0,
-      "timestamp": "2026-06-19T14:57:02.467328",
+      "timestamp": "2026-06-19T15:00:03.772634",
       "main_force": 59578550.0,
       "super": 0,
       "large": 0,
@@ -9504,11 +9504,11 @@
       "small": 0,
       "main_ratio": 73.03,
       "main_pct": 0.7303,
-      "chg_5d": 0,
+      "chg_5d": 118.13,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 695647920.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:21"
+      "fund_flow_time": "15:00:22"
     },
     "300408": {
       "code": "300408",
@@ -9548,7 +9548,7 @@
         "ask_vol5": 9
       },
       "book_diff": 7735743.0,
-      "timestamp": "2026-06-19T14:57:02.467442",
+      "timestamp": "2026-06-19T15:00:03.772743",
       "main_force": 69461730.0,
       "super": 0,
       "large": 0,
@@ -9556,11 +9556,11 @@
       "small": 0,
       "main_ratio": 159.09,
       "main_pct": 1.5909,
-      "chg_5d": 0,
+      "chg_5d": 60.34,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 799581750.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:21"
+      "fund_flow_time": "15:00:22"
     },
     "603678": {
       "code": "603678",
@@ -9600,7 +9600,7 @@
         "ask_vol5": 262
       },
       "book_diff": 10960884.0,
-      "timestamp": "2026-06-19T14:57:02.467548",
+      "timestamp": "2026-06-19T15:00:03.772853",
       "main_force": -106769790.0,
       "super": 0,
       "large": 0,
@@ -9608,11 +9608,11 @@
       "small": 0,
       "main_ratio": -555.41,
       "main_pct": -5.5541,
-      "chg_5d": 0,
+      "chg_5d": 98.27,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 278467802.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:21"
+      "fund_flow_time": "15:00:22"
     },
     "603267": {
       "code": "603267",
@@ -9652,7 +9652,7 @@
         "ask_vol5": 11
       },
       "book_diff": 1098588.0,
-      "timestamp": "2026-06-19T14:57:02.467666",
+      "timestamp": "2026-06-19T15:00:03.772960",
       "main_force": 14099237.0,
       "super": 0,
       "large": 0,
@@ -9660,11 +9660,11 @@
       "small": 0,
       "main_ratio": -104.35000000000001,
       "main_pct": -1.0435,
-      "chg_5d": 0,
+      "chg_5d": 29.46,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": -30539383.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:21"
+      "fund_flow_time": "15:00:22"
     },
     "300726": {
       "code": "300726",
@@ -9704,7 +9704,7 @@
         "ask_vol5": 59
       },
       "book_diff": 442737.0,
-      "timestamp": "2026-06-19T14:57:02.467777",
+      "timestamp": "2026-06-19T15:00:03.773073",
       "main_force": -157848400.0,
       "super": 0,
       "large": 0,
@@ -9712,11 +9712,11 @@
       "small": 0,
       "main_ratio": 48.0,
       "main_pct": 0.48,
-      "chg_5d": 0,
+      "chg_5d": 52.79,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": -381599280.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:21"
+      "fund_flow_time": "15:00:22"
     },
     "002859": {
       "code": "002859",
@@ -9756,7 +9756,7 @@
         "ask_vol5": 0
       },
       "book_diff": 34005499.0,
-      "timestamp": "2026-06-19T14:57:02.467890",
+      "timestamp": "2026-06-19T15:00:03.773184",
       "main_force": 166165590.0,
       "super": 0,
       "large": 0,
@@ -9764,11 +9764,11 @@
       "small": 0,
       "main_ratio": -323.75,
       "main_pct": -3.2375,
-      "chg_5d": 0,
+      "chg_5d": 83.09,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 96833046.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:21"
+      "fund_flow_time": "15:00:22"
     },
     "002465": {
       "code": "002465",
@@ -9808,7 +9808,7 @@
         "ask_vol5": 3145
       },
       "book_diff": -3716507.0,
-      "timestamp": "2026-06-19T14:57:02.468025",
+      "timestamp": "2026-06-19T15:00:03.773290",
       "main_force": -171020442.0,
       "super": 0,
       "large": 0,
@@ -9816,11 +9816,11 @@
       "small": 0,
       "main_ratio": -1067.7199999999998,
       "main_pct": -10.6772,
-      "chg_5d": 0,
+      "chg_5d": -15.4,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": -267220809.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:21"
+      "fund_flow_time": "15:00:22"
     },
     "002297": {
       "code": "002297",
@@ -9860,7 +9860,7 @@
         "ask_vol5": 0
       },
       "book_diff": 48451115.0,
-      "timestamp": "2026-06-19T14:57:02.468135",
+      "timestamp": "2026-06-19T15:00:03.773400",
       "main_force": 697772840.0,
       "super": 0,
       "large": 0,
@@ -9868,11 +9868,11 @@
       "small": 0,
       "main_ratio": 510.98999999999995,
       "main_pct": 5.1099,
-      "chg_5d": 0,
+      "chg_5d": 14.77,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 967592116.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:21"
+      "fund_flow_time": "15:00:22"
     },
     "300274": {
       "code": "300274",
@@ -9912,7 +9912,7 @@
         "ask_vol5": 23
       },
       "book_diff": -5872161.0,
-      "timestamp": "2026-06-19T14:57:02.468242",
+      "timestamp": "2026-06-19T15:00:03.773506",
       "main_force": -1152773800.0,
       "super": 0,
       "large": 0,
@@ -9920,11 +9920,11 @@
       "small": 0,
       "main_ratio": -1053.88,
       "main_pct": -10.5388,
-      "chg_5d": 0,
+      "chg_5d": -11.13,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": -750904460.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:24"
+      "fund_flow_time": "15:00:24"
     },
     "605117": {
       "code": "605117",
@@ -9964,7 +9964,7 @@
         "ask_vol5": 19
       },
       "book_diff": -2398428.0,
-      "timestamp": "2026-06-19T14:57:02.468351",
+      "timestamp": "2026-06-19T15:00:03.773627",
       "main_force": 26012972.0,
       "super": 0,
       "large": 0,
@@ -9972,11 +9972,11 @@
       "small": 0,
       "main_ratio": -324.87,
       "main_pct": -3.2487,
-      "chg_5d": 0,
+      "chg_5d": -13.41,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": -19049874.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:24"
+      "fund_flow_time": "15:00:24"
     },
     "600578": {
       "code": "600578",
@@ -10016,7 +10016,7 @@
         "ask_vol5": 1902
       },
       "book_diff": 5823215.0,
-      "timestamp": "2026-06-19T14:57:02.468456",
+      "timestamp": "2026-06-19T15:00:03.773736",
       "main_force": -85790218.0,
       "super": 0,
       "large": 0,
@@ -10024,11 +10024,11 @@
       "small": 0,
       "main_ratio": -446.25000000000006,
       "main_pct": -4.4625,
-      "chg_5d": 0,
+      "chg_5d": -7.21,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 176740866.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:24"
+      "fund_flow_time": "15:00:25"
     },
     "600596": {
       "code": "600596",
@@ -10068,7 +10068,7 @@
         "ask_vol5": 144
       },
       "book_diff": 3008749.0,
-      "timestamp": "2026-06-19T14:57:02.468565",
+      "timestamp": "2026-06-19T15:00:03.773846",
       "main_force": -90116763.0,
       "super": 0,
       "large": 0,
@@ -10076,11 +10076,11 @@
       "small": 0,
       "main_ratio": -676.31,
       "main_pct": -6.7631,
-      "chg_5d": 0,
+      "chg_5d": 28.7,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": 125375055.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:24"
+      "fund_flow_time": "15:00:25"
     },
     "601991": {
       "code": "601991",
@@ -10120,7 +10120,7 @@
         "ask_vol5": 3085
       },
       "book_diff": -118513388.0,
-      "timestamp": "2026-06-19T14:57:02.468695",
+      "timestamp": "2026-06-19T15:00:03.773950",
       "main_force": -971782840.0,
       "super": 0,
       "large": 0,
@@ -10128,11 +10128,11 @@
       "small": 0,
       "main_ratio": -1159.48,
       "main_pct": -11.5948,
-      "chg_5d": 0,
+      "chg_5d": 16.6,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": -524617650.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:24"
+      "fund_flow_time": "15:00:24"
     },
     "600726": {
       "code": "600726",
@@ -10172,7 +10172,7 @@
         "ask_vol5": 1307
       },
       "book_diff": -3429486.0,
-      "timestamp": "2026-06-19T14:57:02.468805",
+      "timestamp": "2026-06-19T15:00:03.774053",
       "main_force": -136229807.0,
       "super": 0,
       "large": 0,
@@ -10180,11 +10180,11 @@
       "small": 0,
       "main_ratio": -358.3,
       "main_pct": -3.583,
-      "chg_5d": 0,
+      "chg_5d": 27.3,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": -173349039.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:24"
+      "fund_flow_time": "15:00:25"
     },
     "000767": {
       "code": "000767",
@@ -10224,7 +10224,7 @@
         "ask_vol5": 1584
       },
       "book_diff": 15384068.0,
-      "timestamp": "2026-06-19T14:57:02.468909",
+      "timestamp": "2026-06-19T15:00:03.774161",
       "main_force": -138140479.0,
       "super": 0,
       "large": 0,
@@ -10232,11 +10232,11 @@
       "small": 0,
       "main_ratio": -1208.99,
       "main_pct": -12.0899,
-      "chg_5d": 0,
+      "chg_5d": 3.61,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": -60871108.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:24"
+      "fund_flow_time": "15:00:24"
     },
     "600863": {
       "code": "600863",
@@ -10276,7 +10276,7 @@
         "ask_vol5": 2801
       },
       "book_diff": 16016471.0,
-      "timestamp": "2026-06-19T14:57:02.469017",
+      "timestamp": "2026-06-19T15:00:03.774268",
       "main_force": -70852156.0,
       "super": 0,
       "large": 0,
@@ -10284,11 +10284,11 @@
       "small": 0,
       "main_ratio": -517.1999999999999,
       "main_pct": -5.172,
-      "chg_5d": 0,
+      "chg_5d": -3.94,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": -78678277.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:24"
+      "fund_flow_time": "15:00:25"
     },
     "000539": {
       "code": "000539",
@@ -10328,7 +10328,7 @@
         "ask_vol5": 605
       },
       "book_diff": -6980447.0,
-      "timestamp": "2026-06-19T14:57:02.469125",
+      "timestamp": "2026-06-19T15:00:03.774373",
       "main_force": -205574152.0,
       "super": 0,
       "large": 0,
@@ -10336,11 +10336,11 @@
       "small": 0,
       "main_ratio": -1134.86,
       "main_pct": -11.3486,
-      "chg_5d": 0,
+      "chg_5d": 14.91,
       "chg_20d": 0,
-      "mf_5d": 0,
+      "mf_5d": -98883867.0,
       "has_fund_flow": true,
-      "fund_flow_time": "14:45:24"
+      "fund_flow_time": "15:00:24"
     }
   },
   "index": {}
