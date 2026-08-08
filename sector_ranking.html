@@ -9,10 +9,9 @@
 <style>
 body { background: #0a0e1a; color: #e2e8f0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
 .card { background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); border-radius: 16px; border: 1px solid #334155; box-shadow: 0 4px 20px rgba(0,0,0,0.3); }
-.fund-in { color: #f87171; }  /* 红色表示流入 */
-.fund-out { color: #4ade80; } /* 绿色表示流出 */
+.fund-in { color: #f87171; }
+.fund-out { color: #4ade80; }
 .glow-red { text-shadow: 0 0 10px rgba(248,113,113,0.5); }
-.glow-green { text-shadow: 0 0 10px rgba(74,222,128,0.5); }
 </style>
 </head>
 <body class="min-h-screen p-4">
@@ -22,32 +21,32 @@ body { background: #0a0e1a; color: #e2e8f0; font-family: -apple-system, BlinkMac
   <header class="mb-6 flex justify-between items-center">
     <div>
       <h1 class="text-3xl font-bold text-white tracking-tight">📊 超黄板块资金看板</h1>
-      <p class="text-slate-400 text-sm mt-1">数据日期: 2026-08-08 | 来源: 东方财富</p>
+      <p class="text-slate-400 text-sm mt-1">数据日期: 2026-08-08 | 来源: 东方财富/Wind</p>
     </div>
     <div class="text-right">
       <div class="text-xs text-slate-500">最后更新</div>
-      <div class="text-sm text-slate-300">17:01:02</div>
+      <div class="text-sm text-slate-300">17:07:55</div>
     </div>
   </header>
 
-  <!-- 全A股资金分层 -->
+  <!-- Wind全A股分类资金（只做流入） -->
   <div class="card p-6 mb-6">
     <h2 class="text-xl font-bold text-white mb-4 flex items-center">
-      <span class="mr-2">💰</span> 全A股资金流入（只做流入）
+      <span class="mr-2">💰</span> 全A股资金流入（Wind数据）
     </h2>
     <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
       <div class="bg-slate-800/50 rounded-xl p-4 border border-slate-700">
-        <div class="text-slate-400 text-sm mb-1">超大单（机构）</div>
-        <div class="text-2xl font-bold fund-in glow-red">+58.0亿</div>
+        <div class="text-slate-400 text-sm mb-1">机构资金</div>
+        <div class="text-2xl font-bold fund-in glow-red">+240.0亿</div>
         <div class="w-full bg-slate-700 rounded-full h-2 mt-2">
-          <div class="bg-red-500 h-2 rounded-full" style="width: 11.600000000000001%"></div>
+          <div class="h-2 rounded-full" style="width: 79.99316486333333%; background: #ef4444"></div>
         </div>
       </div>
       <div class="bg-slate-800/50 rounded-xl p-4 border border-slate-700">
-        <div class="text-slate-400 text-sm mb-1">主力</div>
-        <div class="text-2xl font-bold fund-in glow-red">+363.5亿</div>
+        <div class="text-slate-400 text-sm mb-1">大户资金</div>
+        <div class="text-2xl font-bold fund-in glow-red">+84.7亿</div>
         <div class="w-full bg-slate-700 rounded-full h-2 mt-2">
-          <div class="bg-red-500 h-2 rounded-full" style="width: 72.7%"></div>
+          <div class="h-2 rounded-full" style="width: 28.226066343333333%; background: #f97316"></div>
         </div>
       </div>
     </div>
@@ -131,31 +130,31 @@ body { background: #0a0e1a; color: #e2e8f0; font-family: -apple-system, BlinkMac
           <tr class="border-b border-slate-800 hover:bg-slate-800/30 transition">
             <td class="py-3 px-4 text-slate-400">10</td>
             <td class="py-3 px-4 font-medium text-white">MLCC</td>
-            <td class="py-3 px-4 text-right fund-out glow-green">-0.8亿</td>
+            <td class="py-3 px-4 text-right fund-out">-0.8亿</td>
             <td class="py-3 px-4 text-right text-slate-400">🟢 流出</td>
           </tr>
           <tr class="border-b border-slate-800 hover:bg-slate-800/30 transition">
             <td class="py-3 px-4 text-slate-400">11</td>
             <td class="py-3 px-4 font-medium text-white">电网设备</td>
-            <td class="py-3 px-4 text-right fund-out glow-green">-8.0亿</td>
+            <td class="py-3 px-4 text-right fund-out">-8.0亿</td>
             <td class="py-3 px-4 text-right text-slate-400">🟢 流出</td>
           </tr>
           <tr class="border-b border-slate-800 hover:bg-slate-800/30 transition">
             <td class="py-3 px-4 text-slate-400">12</td>
             <td class="py-3 px-4 font-medium text-white">银行</td>
-            <td class="py-3 px-4 text-right fund-out glow-green">-11.5亿</td>
+            <td class="py-3 px-4 text-right fund-out">-11.5亿</td>
             <td class="py-3 px-4 text-right text-slate-400">🟢 流出</td>
           </tr>
           <tr class="border-b border-slate-800 hover:bg-slate-800/30 transition">
             <td class="py-3 px-4 text-slate-400">13</td>
             <td class="py-3 px-4 font-medium text-white">AI应用</td>
-            <td class="py-3 px-4 text-right fund-out glow-green">-66.3亿</td>
+            <td class="py-3 px-4 text-right fund-out">-66.3亿</td>
             <td class="py-3 px-4 text-right text-slate-400">🟢 流出</td>
           </tr>
           <tr class="border-b border-slate-800 hover:bg-slate-800/30 transition">
             <td class="py-3 px-4 text-slate-400">14</td>
             <td class="py-3 px-4 font-medium text-white">算力</td>
-            <td class="py-3 px-4 text-right fund-out glow-green">-83.2亿</td>
+            <td class="py-3 px-4 text-right fund-out">-83.2亿</td>
             <td class="py-3 px-4 text-right text-slate-400">🟢 流出</td>
           </tr>
         </tbody>
@@ -171,7 +170,6 @@ body { background: #0a0e1a; color: #e2e8f0; font-family: -apple-system, BlinkMac
 </div>
 
 <script>
-// ECharts 柱状图
 const chartDom = document.getElementById('chart');
 const myChart = echarts.init(chartDom);
 
@@ -189,29 +187,16 @@ const option = {
               <div style="color:${color}">主力净流入: ${p.value >= 0 ? '+' : ''}${p.value}亿</div>`;
     }
   },
-  grid: {
-    left: '3%',
-    right: '4%',
-    bottom: '3%',
-    top: '10%',
-    containLabel: true
-  },
+  grid: { left: '3%', right: '4%', bottom: '3%', top: '10%', containLabel: true },
   xAxis: {
     type: 'category',
     data: data.map(d => d.name),
-    axisLabel: {
-      color: '#94a3b8',
-      rotate: 45,
-      fontSize: 11
-    },
+    axisLabel: { color: '#94a3b8', rotate: 45, fontSize: 11 },
     axisLine: { lineStyle: { color: '#334155' } }
   },
   yAxis: {
     type: 'value',
-    axisLabel: {
-      color: '#94a3b8',
-      formatter: '{value}亿'
-    },
+    axisLabel: { color: '#94a3b8', formatter: '{value}亿' },
     splitLine: { lineStyle: { color: '#1e293b' } }
   },
   series: [{
