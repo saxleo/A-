@@ -3,140 +3,241 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>板块主力资金排行</title>
+<title>超黄板块资金看板</title>
 <script src="https://cdn.tailwindcss.com"></script>
 <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
 <style>
-body { background: #0f172a; color: #e2e8f0; }
-.card { background: #1e293b; border-radius: 12px; border: 1px solid #334155; }
-.positive { color: #f87171; }
-.negative { color: #4ade80; }
+body { background: #0a0e1a; color: #e2e8f0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+.card { background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); border-radius: 16px; border: 1px solid #334155; box-shadow: 0 4px 20px rgba(0,0,0,0.3); }
+.fund-in { color: #f87171; }  /* 红色表示流入 */
+.fund-out { color: #4ade80; } /* 绿色表示流出 */
+.glow-red { text-shadow: 0 0 10px rgba(248,113,113,0.5); }
+.glow-green { text-shadow: 0 0 10px rgba(74,222,128,0.5); }
 </style>
 </head>
 <body class="min-h-screen p-4">
-<div class="max-w-6xl mx-auto">
-  <header class="mb-6">
-    <h1 class="text-2xl font-bold text-white">📊 板块主力资金净流入排行</h1>
-    <p class="text-slate-400 text-sm mt-1">数据时间: <span id="data-time">加载中...</span></p>
+<div class="max-w-7xl mx-auto">
+  
+  <!-- 头部 -->
+  <header class="mb-6 flex justify-between items-center">
+    <div>
+      <h1 class="text-3xl font-bold text-white tracking-tight">📊 超黄板块资金看板</h1>
+      <p class="text-slate-400 text-sm mt-1">数据日期: 2026-08-08 | 来源: 东方财富</p>
+    </div>
+    <div class="text-right">
+      <div class="text-xs text-slate-500">最后更新</div>
+      <div class="text-sm text-slate-300">17:01:02</div>
+    </div>
   </header>
 
-  <!-- 图表区域 -->
-  <div class="card p-4 mb-6">
-    <div id="chart" style="width:100%;height:400px;"></div>
+  <!-- 全A股资金分层 -->
+  <div class="card p-6 mb-6">
+    <h2 class="text-xl font-bold text-white mb-4 flex items-center">
+      <span class="mr-2">💰</span> 全A股资金流入（只做流入）
+    </h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <div class="bg-slate-800/50 rounded-xl p-4 border border-slate-700">
+        <div class="text-slate-400 text-sm mb-1">超大单（机构）</div>
+        <div class="text-2xl font-bold fund-in glow-red">+58.0亿</div>
+        <div class="w-full bg-slate-700 rounded-full h-2 mt-2">
+          <div class="bg-red-500 h-2 rounded-full" style="width: 11.600000000000001%"></div>
+        </div>
+      </div>
+      <div class="bg-slate-800/50 rounded-xl p-4 border border-slate-700">
+        <div class="text-slate-400 text-sm mb-1">主力</div>
+        <div class="text-2xl font-bold fund-in glow-red">+363.5亿</div>
+        <div class="w-full bg-slate-700 rounded-full h-2 mt-2">
+          <div class="bg-red-500 h-2 rounded-full" style="width: 72.7%"></div>
+        </div>
+      </div>
+    </div>
   </div>
 
-  <!-- 排行表格 -->
-  <div class="card p-4">
-    <h2 class="text-lg font-semibold mb-4">🏆 板块排行 TOP 20</h2>
+  <!-- 概念板块排行 -->
+  <div class="card p-6">
+    <h2 class="text-xl font-bold text-white mb-4 flex items-center">
+      <span class="mr-2">🏆</span> 核心概念板块主力净流入排行
+    </h2>
+    
+    <!-- 图表 -->
+    <div id="chart" style="width:100%;height:400px;" class="mb-6"></div>
+    
+    <!-- 表格 -->
     <div class="overflow-x-auto">
       <table class="w-full text-sm">
         <thead>
           <tr class="text-slate-400 border-b border-slate-700">
-            <th class="text-left py-2 px-3">排名</th>
-            <th class="text-left py-2 px-3">行业板块</th>
-            <th class="text-right py-2 px-3">主力净流入</th>
-            <th class="text-right py-2 px-3">平均涨跌</th>
-            <th class="text-right py-2 px-3">个股数</th>
-            <th class="text-left py-2 px-3">领涨股</th>
-            <th class="text-right py-2 px-3">领涨涨幅</th>
+            <th class="text-left py-3 px-4">排名</th>
+            <th class="text-left py-3 px-4">概念板块</th>
+            <th class="text-right py-3 px-4">主力净流入</th>
+            <th class="text-right py-3 px-4">方向</th>
           </tr>
         </thead>
-        <tbody id="ranking-body">
-          <tr><td colspan="7" class="py-8 text-center text-slate-500">加载中...</td></tr>
+        <tbody>
+          <tr class="border-b border-slate-800 hover:bg-slate-800/30 transition">
+            <td class="py-3 px-4 text-slate-400">1</td>
+            <td class="py-3 px-4 font-medium text-white">PCB</td>
+            <td class="py-3 px-4 text-right fund-in glow-red">+247.0亿</td>
+            <td class="py-3 px-4 text-right text-slate-400">🔴 流入</td>
+          </tr>
+          <tr class="border-b border-slate-800 hover:bg-slate-800/30 transition">
+            <td class="py-3 px-4 text-slate-400">2</td>
+            <td class="py-3 px-4 font-medium text-white">半导体</td>
+            <td class="py-3 px-4 text-right fund-in glow-red">+198.4亿</td>
+            <td class="py-3 px-4 text-right text-slate-400">🔴 流入</td>
+          </tr>
+          <tr class="border-b border-slate-800 hover:bg-slate-800/30 transition">
+            <td class="py-3 px-4 text-slate-400">3</td>
+            <td class="py-3 px-4 font-medium text-white">存储芯片</td>
+            <td class="py-3 px-4 text-right fund-in glow-red">+129.2亿</td>
+            <td class="py-3 px-4 text-right text-slate-400">🔴 流入</td>
+          </tr>
+          <tr class="border-b border-slate-800 hover:bg-slate-800/30 transition">
+            <td class="py-3 px-4 text-slate-400">4</td>
+            <td class="py-3 px-4 font-medium text-white">有色金属</td>
+            <td class="py-3 px-4 text-right fund-in glow-red">+69.3亿</td>
+            <td class="py-3 px-4 text-right text-slate-400">🔴 流入</td>
+          </tr>
+          <tr class="border-b border-slate-800 hover:bg-slate-800/30 transition">
+            <td class="py-3 px-4 text-slate-400">5</td>
+            <td class="py-3 px-4 font-medium text-white">创新药</td>
+            <td class="py-3 px-4 text-right fund-in glow-red">+66.9亿</td>
+            <td class="py-3 px-4 text-right text-slate-400">🔴 流入</td>
+          </tr>
+          <tr class="border-b border-slate-800 hover:bg-slate-800/30 transition">
+            <td class="py-3 px-4 text-slate-400">6</td>
+            <td class="py-3 px-4 font-medium text-white">机器人</td>
+            <td class="py-3 px-4 text-right fund-in glow-red">+45.8亿</td>
+            <td class="py-3 px-4 text-right text-slate-400">🔴 流入</td>
+          </tr>
+          <tr class="border-b border-slate-800 hover:bg-slate-800/30 transition">
+            <td class="py-3 px-4 text-slate-400">7</td>
+            <td class="py-3 px-4 font-medium text-white">光通信模块</td>
+            <td class="py-3 px-4 text-right fund-in glow-red">+43.0亿</td>
+            <td class="py-3 px-4 text-right text-slate-400">🔴 流入</td>
+          </tr>
+          <tr class="border-b border-slate-800 hover:bg-slate-800/30 transition">
+            <td class="py-3 px-4 text-slate-400">8</td>
+            <td class="py-3 px-4 font-medium text-white">先进封装</td>
+            <td class="py-3 px-4 text-right fund-in glow-red">+36.1亿</td>
+            <td class="py-3 px-4 text-right text-slate-400">🔴 流入</td>
+          </tr>
+          <tr class="border-b border-slate-800 hover:bg-slate-800/30 transition">
+            <td class="py-3 px-4 text-slate-400">9</td>
+            <td class="py-3 px-4 font-medium text-white">半导体材料</td>
+            <td class="py-3 px-4 text-right fund-in glow-red">+15.5亿</td>
+            <td class="py-3 px-4 text-right text-slate-400">🔴 流入</td>
+          </tr>
+          <tr class="border-b border-slate-800 hover:bg-slate-800/30 transition">
+            <td class="py-3 px-4 text-slate-400">10</td>
+            <td class="py-3 px-4 font-medium text-white">MLCC</td>
+            <td class="py-3 px-4 text-right fund-out glow-green">-0.8亿</td>
+            <td class="py-3 px-4 text-right text-slate-400">🟢 流出</td>
+          </tr>
+          <tr class="border-b border-slate-800 hover:bg-slate-800/30 transition">
+            <td class="py-3 px-4 text-slate-400">11</td>
+            <td class="py-3 px-4 font-medium text-white">电网设备</td>
+            <td class="py-3 px-4 text-right fund-out glow-green">-8.0亿</td>
+            <td class="py-3 px-4 text-right text-slate-400">🟢 流出</td>
+          </tr>
+          <tr class="border-b border-slate-800 hover:bg-slate-800/30 transition">
+            <td class="py-3 px-4 text-slate-400">12</td>
+            <td class="py-3 px-4 font-medium text-white">银行</td>
+            <td class="py-3 px-4 text-right fund-out glow-green">-11.5亿</td>
+            <td class="py-3 px-4 text-right text-slate-400">🟢 流出</td>
+          </tr>
+          <tr class="border-b border-slate-800 hover:bg-slate-800/30 transition">
+            <td class="py-3 px-4 text-slate-400">13</td>
+            <td class="py-3 px-4 font-medium text-white">AI应用</td>
+            <td class="py-3 px-4 text-right fund-out glow-green">-66.3亿</td>
+            <td class="py-3 px-4 text-right text-slate-400">🟢 流出</td>
+          </tr>
+          <tr class="border-b border-slate-800 hover:bg-slate-800/30 transition">
+            <td class="py-3 px-4 text-slate-400">14</td>
+            <td class="py-3 px-4 font-medium text-white">算力</td>
+            <td class="py-3 px-4 text-right fund-out glow-green">-83.2亿</td>
+            <td class="py-3 px-4 text-right text-slate-400">🟢 流出</td>
+          </tr>
         </tbody>
       </table>
     </div>
   </div>
 
-  <footer class="mt-6 text-center text-xs text-slate-600">
-    数据来源: 东方财富妙想智能选股 | 自动更新 | 
-    <a href="https://github.com/saxleo/A-" class="text-slate-400 hover:text-white">GitHub</a>
+  <!-- 底部 -->
+  <footer class="mt-8 text-center text-slate-600 text-xs">
+    <p>超黄体系 | 数据仅供参考，不构成投资建议</p>
   </footer>
+
 </div>
 
 <script>
-// 加载数据
-async function loadData() {
-  try {
-    const resp = await fetch('data/sector_ranking.json?t=' + Date.now());
-    const data = await resp.json();
-    
-    document.getElementById('data-time').textContent = 
-      new Date(data.timestamp).toLocaleString('zh-CN');
-    
-    renderTable(data.sectors);
-    renderChart(data.sectors);
-  } catch (e) {
-    document.getElementById('ranking-body').innerHTML = 
-      `<tr><td colspan="7" class="py-8 text-center text-red-400">加载失败: ${e.message}</td></tr>`;
-  }
-}
+// ECharts 柱状图
+const chartDom = document.getElementById('chart');
+const myChart = echarts.init(chartDom);
 
-function renderTable(sectors) {
-  const tbody = document.getElementById('ranking-body');
-  tbody.innerHTML = sectors.map((s, i) => `
-    <tr class="border-b border-slate-800 hover:bg-slate-800/50 transition">
-      <td class="py-3 px-3 font-mono ${i < 3 ? 'text-yellow-400 font-bold' : 'text-slate-400'}">${i + 1}</td>
-      <td class="py-3 px-3 font-medium text-white">${s.name}</td>
-      <td class="py-3 px-3 text-right ${s.total_main_force_raw > 0 ? 'positive' : 'negative'}">${s.total_main_force}</td>
-      <td class="py-3 px-3 text-right ${s.avg_change_pct > 0 ? 'positive' : 'negative'}">${s.avg_change_pct > 0 ? '+' : ''}${s.avg_change_pct}%</td>
-      <td class="py-3 px-3 text-right text-slate-400">${s.stock_count}</td>
-      <td class="py-3 px-3 text-slate-300">${s.top_stock.name} <span class="text-xs text-slate-500">${s.top_stock.code}</span></td>
-      <td class="py-3 px-3 text-right ${s.top_stock.change_pct > 0 ? 'positive' : 'negative'}">${s.top_stock.change_pct > 0 ? '+' : ''}${s.top_stock.change_pct}%</td>
-    </tr>
-  `).join('');
-}
+const data = [{"name": "PCB", "value": 247.0}, {"name": "半导体", "value": 198.4}, {"name": "存储芯片", "value": 129.2}, {"name": "有色金属", "value": 69.3}, {"name": "创新药", "value": 66.9}, {"name": "机器人", "value": 45.8}, {"name": "光通信模块", "value": 43.0}, {"name": "先进封装", "value": 36.1}, {"name": "半导体材料", "value": 15.5}, {"name": "MLCC", "value": -0.8}, {"name": "电网设备", "value": -8.0}, {"name": "银行", "value": -11.5}, {"name": "AI应用", "value": -66.3}, {"name": "算力", "value": -83.2}];
 
-function renderChart(sectors) {
-  const chart = echarts.init(document.getElementById('chart'));
-  const top10 = sectors.slice(0, 15);
-  
-  chart.setOption({
-    backgroundColor: 'transparent',
-    tooltip: {
-      trigger: 'axis',
-      axisPointer: { type: 'shadow' },
-      formatter: function(params) {
-        const p = params[0];
-        const s = top10[p.dataIndex];
-        return `<b>${s.name}</b><br/>
-                主力净流入: ${s.total_main_force}<br/>
-                平均涨跌: ${s.avg_change_pct > 0 ? '+' : ''}${s.avg_change_pct}%<br/>
-                个股数: ${s.stock_count}<br/>
-                领涨: ${s.top_stock.name} ${s.top_stock.change_pct > 0 ? '+' : ''}${s.top_stock.change_pct}%`;
-      }
+const option = {
+  backgroundColor: 'transparent',
+  tooltip: {
+    trigger: 'axis',
+    axisPointer: { type: 'shadow' },
+    formatter: function(params) {
+      const p = params[0];
+      const color = p.value >= 0 ? '#f87171' : '#4ade80';
+      return `<div style="font-weight:bold">${p.name}</div>
+              <div style="color:${color}">主力净流入: ${p.value >= 0 ? '+' : ''}${p.value}亿</div>`;
+    }
+  },
+  grid: {
+    left: '3%',
+    right: '4%',
+    bottom: '3%',
+    top: '10%',
+    containLabel: true
+  },
+  xAxis: {
+    type: 'category',
+    data: data.map(d => d.name),
+    axisLabel: {
+      color: '#94a3b8',
+      rotate: 45,
+      fontSize: 11
     },
-    grid: { left: '3%', right: '4%', bottom: '3%', top: '10%', containLabel: true },
-    xAxis: {
-      type: 'category',
-      data: top10.map(s => s.name),
-      axisLabel: { color: '#94a3b8', rotate: 30, fontSize: 11 },
-      axisLine: { lineStyle: { color: '#334155' } }
+    axisLine: { lineStyle: { color: '#334155' } }
+  },
+  yAxis: {
+    type: 'value',
+    axisLabel: {
+      color: '#94a3b8',
+      formatter: '{value}亿'
     },
-    yAxis: {
-      type: 'value',
-      name: '主力净流入(亿元)',
-      nameTextStyle: { color: '#64748b', fontSize: 10 },
-      axisLabel: { color: '#64748b', formatter: v => (v/1e8).toFixed(0) + '亿' },
-      splitLine: { lineStyle: { color: '#1e293b' } }
-    },
-    series: [{
-      name: '主力净流入',
-      type: 'bar',
-      data: top10.map(s => s.total_main_force_raw),
+    splitLine: { lineStyle: { color: '#1e293b' } }
+  },
+  series: [{
+    type: 'bar',
+    data: data.map(d => ({
+      value: d.value,
       itemStyle: {
-        color: p => {
-          const val = top10[p.dataIndex].total_main_force_raw;
-          return val > 0 ? '#f87171' : '#4ade80';
-        },
-        borderRadius: [4, 4, 0, 0]
-      },
-      barWidth: '60%'
-    }]
-  });
-}
+        color: d.value >= 0 
+          ? new echarts.graphic.LinearGradient(0, 0, 0, 1, [
+              { offset: 0, color: '#f87171' },
+              { offset: 1, color: '#991b1b' }
+            ])
+          : new echarts.graphic.LinearGradient(0, 0, 0, 1, [
+              { offset: 0, color: '#4ade80' },
+              { offset: 1, color: '#166534' }
+            ])
+      }
+    })),
+    barWidth: '60%',
+    borderRadius: [4, 4, 0, 0]
+  }]
+};
 
-loadData();
+myChart.setOption(option);
+window.addEventListener('resize', () => myChart.resize());
 </script>
+
 </body>
 </html>
