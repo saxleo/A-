@@ -17,38 +17,24 @@ body { background: #0a0e1a; color: #e2e8f0; font-family: -apple-system, BlinkMac
 <body class="min-h-screen p-4">
 <div class="max-w-7xl mx-auto">
   
-  <!-- 头部 -->
   <header class="mb-6 flex justify-between items-center">
     <div>
       <h1 class="text-3xl font-bold text-white tracking-tight">📊 超黄板块资金看板</h1>
-      <p class="text-slate-400 text-sm mt-1">数据日期: 2026-08-08 | 来源: 东方财富/Wind</p>
+      <p class="text-slate-400 text-sm mt-1">数据日期: 2026-08-08 | 来源: 东方财富/Wind万得全A</p>
     </div>
     <div class="text-right">
       <div class="text-xs text-slate-500">最后更新</div>
-      <div class="text-sm text-slate-300">17:07:55</div>
+      <div class="text-sm text-slate-300">17:15:54</div>
     </div>
   </header>
 
-  <!-- Wind全A股分类资金（只做流入） -->
+  <!-- Wind万得全A分类资金（只做流入） -->
   <div class="card p-6 mb-6">
     <h2 class="text-xl font-bold text-white mb-4 flex items-center">
-      <span class="mr-2">💰</span> 全A股资金流入（Wind数据）
+      <span class="mr-2">💰</span> 全A股资金流入（Wind万得全A）
     </h2>
     <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-      <div class="bg-slate-800/50 rounded-xl p-4 border border-slate-700">
-        <div class="text-slate-400 text-sm mb-1">机构资金</div>
-        <div class="text-2xl font-bold fund-in glow-red">+240.0亿</div>
-        <div class="w-full bg-slate-700 rounded-full h-2 mt-2">
-          <div class="h-2 rounded-full" style="width: 79.99316486333333%; background: #ef4444"></div>
-        </div>
-      </div>
-      <div class="bg-slate-800/50 rounded-xl p-4 border border-slate-700">
-        <div class="text-slate-400 text-sm mb-1">大户资金</div>
-        <div class="text-2xl font-bold fund-in glow-red">+84.7亿</div>
-        <div class="w-full bg-slate-700 rounded-full h-2 mt-2">
-          <div class="h-2 rounded-full" style="width: 28.226066343333333%; background: #f97316"></div>
-        </div>
-      </div>
+      <div class="col-span-4 text-center text-slate-500 py-4">今日暂无资金流入数据</div>
     </div>
   </div>
 
@@ -58,10 +44,8 @@ body { background: #0a0e1a; color: #e2e8f0; font-family: -apple-system, BlinkMac
       <span class="mr-2">🏆</span> 核心概念板块主力净流入排行
     </h2>
     
-    <!-- 图表 -->
     <div id="chart" style="width:100%;height:400px;" class="mb-6"></div>
     
-    <!-- 表格 -->
     <div class="overflow-x-auto">
       <table class="w-full text-sm">
         <thead>
@@ -162,7 +146,6 @@ body { background: #0a0e1a; color: #e2e8f0; font-family: -apple-system, BlinkMac
     </div>
   </div>
 
-  <!-- 底部 -->
   <footer class="mt-8 text-center text-slate-600 text-xs">
     <p>超黄体系 | 数据仅供参考，不构成投资建议</p>
   </footer>
