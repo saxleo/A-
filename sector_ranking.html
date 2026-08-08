@@ -519,7 +519,7 @@ function renderData(data) {
         fundHtml += `
         <div class="fund-item">
             <div class="label">${config.label}资金</div>
-            <div class="amount ${isIn ? 'in' : 'out'}">${value > 0 ? '+' : ''}${value.toFixed(1f)}亿</div>
+            <div class="amount ${isIn ? 'in' : 'out'}">${value > 0 ? '+' : ''}${value.toFixed(1)}亿</div>
             <div class="fund-bar">
                 <div class="fund-bar-inner" style="width: ${barWidth}%; background: ${barColor};"></div>
             </div>
