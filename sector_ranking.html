@@ -11,14 +11,14 @@ body {
     color: #e2e8f0; 
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif;
     min-height: 100vh;
-    padding: 20px;
+    padding: 16px;
 }
 .container { max-width: 800px; margin: 0 auto; }
 
 /* 头部 */
-.header { margin-bottom: 20px; }
+.header { margin-bottom: 16px; }
 .header h1 { 
-    font-size: 28px; 
+    font-size: 26px; 
     font-weight: 800; 
     background: linear-gradient(135deg, #ff6b6b, #feca57);
     -webkit-background-clip: text;
@@ -27,56 +27,56 @@ body {
 }
 .header .meta { 
     color: #64748b; 
-    font-size: 13px; 
-    margin-top: 8px;
+    font-size: 12px; 
+    margin-top: 6px;
     display: flex;
     justify-content: space-between;
 }
 
-/* 卡片通用 */
+/* 卡片 */
 .card { 
     background: linear-gradient(135deg, #1a1f2e 0%, #0f1419 100%);
-    border-radius: 16px; 
+    border-radius: 14px; 
     border: 1px solid rgba(255,255,255,0.06);
-    padding: 20px;
-    margin-bottom: 16px;
+    padding: 18px;
+    margin-bottom: 14px;
     box-shadow: 0 8px 32px rgba(0,0,0,0.4);
 }
 .card-title { 
-    font-size: 18px; 
+    font-size: 16px; 
     font-weight: 700; 
-    margin-bottom: 16px;
+    margin-bottom: 14px;
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 6px;
 }
 
-/* 资金区域 */
+/* 资金网格 */
 .fund-grid { 
     display: grid; 
     grid-template-columns: 1fr 1fr; 
-    gap: 12px; 
+    gap: 10px; 
 }
 .fund-item { 
     background: rgba(255,255,255,0.03);
-    border-radius: 12px;
-    padding: 16px;
+    border-radius: 10px;
+    padding: 14px;
     border: 1px solid rgba(255,255,255,0.05);
 }
 .fund-item .label { 
-    font-size: 13px; 
+    font-size: 12px; 
     color: #64748b; 
-    margin-bottom: 6px;
+    margin-bottom: 4px;
 }
 .fund-item .amount { 
-    font-size: 26px; 
+    font-size: 24px; 
     font-weight: 800;
-    margin-bottom: 8px;
+    margin-bottom: 6px;
 }
 .fund-item .amount.in { color: #ff4757; }
 .fund-item .amount.out { color: #2ed573; }
 .fund-bar { 
-    height: 4px; 
+    height: 3px; 
     border-radius: 2px; 
     background: rgba(255,255,255,0.06);
     overflow: hidden;
@@ -84,42 +84,43 @@ body {
 .fund-bar-inner { 
     height: 100%; 
     border-radius: 2px;
-    transition: width 0.5s ease;
 }
 
-/* 板块排行 */
+/* 排行列表 */
 .ranking-list { list-style: none; }
 .ranking-item { 
     display: flex; 
     align-items: center; 
-    padding: 10px 0;
+    padding: 8px 0;
     border-bottom: 1px solid rgba(255,255,255,0.04);
 }
 .ranking-item:last-child { border-bottom: none; }
 
 .rank-num { 
-    width: 32px; 
-    height: 32px;
-    border-radius: 8px;
+    width: 28px; 
+    height: 28px;
+    border-radius: 6px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 700;
-    margin-right: 12px;
+    margin-right: 10px;
     flex-shrink: 0;
 }
-.rank-num.top3 { background: linear-gradient(135deg, #ff4757, #ff6348); }
+.rank-num.top1 { background: linear-gradient(135deg, #ff4757, #ff6348); }
+.rank-num.top2 { background: linear-gradient(135deg, #ff6348, #feca57); }
+.rank-num.top3 { background: linear-gradient(135deg, #feca57, #48dbfb); }
 .rank-num.normal { background: rgba(255,255,255,0.08); color: #94a3b8; }
 
 .concept-info { flex: 1; min-width: 0; }
 .concept-name { 
-    font-size: 15px; 
+    font-size: 14px; 
     font-weight: 600;
     margin-bottom: 2px;
 }
 .concept-change { 
-    font-size: 12px; 
+    font-size: 11px; 
     font-weight: 600;
 }
 .concept-change.up { color: #ff4757; }
@@ -127,11 +128,11 @@ body {
 
 .progress-area { 
     flex: 1; 
-    margin: 0 12px;
-    max-width: 200px;
+    margin: 0 10px;
+    max-width: 160px;
 }
 .progress-bar { 
-    height: 6px; 
+    height: 5px; 
     border-radius: 3px;
     background: rgba(255,255,255,0.06);
     overflow: hidden;
@@ -145,9 +146,9 @@ body {
 .progress-bar-inner.out { background: linear-gradient(90deg, #2ed573, #26de81); }
 
 .net-amount { 
-    font-size: 15px; 
+    font-size: 14px; 
     font-weight: 700;
-    width: 90px;
+    width: 80px;
     text-align: right;
     flex-shrink: 0;
 }
@@ -158,9 +159,9 @@ body {
 .footer { 
     text-align: center; 
     color: #475569; 
-    font-size: 11px;
-    margin-top: 20px;
-    padding: 16px;
+    font-size: 10px;
+    margin-top: 16px;
+    padding: 12px;
 }
 </style>
 </head>
@@ -171,8 +172,8 @@ body {
   <div class="header">
     <h1>📊 超黄板块资金看板</h1>
     <div class="meta">
-      <span>数据日期: 2026-08-08 | 资金: Wind | 板块: 东方财富</span>
-      <span>更新: 18:24:21</span>
+      <span>数据: 2026-08-08 | 资金: Wind | 板块: 东财</span>
+      <span>18:28</span>
     </div>
   </div>
 
@@ -216,134 +217,186 @@ body {
     <div class="card-title">🏆 核心概念板块排行</div>
     <ul class="ranking-list">
       <li class="ranking-item">
-        <div class="rank-num top3">01</div>
-        <div class="concept-info">
-          <div class="concept-name">创新药</div>
-          <div class="concept-change up">+4.86%</div>
-        </div>
-        <div class="progress-area">
-          <div class="progress-bar">
-            <div class="progress-bar-inner in" style="width: 100.0%"></div>
-          </div>
-        </div>
-        <div class="net-amount in">+149.1亿</div>
-      </li>
-      <li class="ranking-item">
-        <div class="rank-num top3">02</div>
-        <div class="concept-info">
-          <div class="concept-name">存储芯片</div>
-          <div class="concept-change up">+3.59%</div>
-        </div>
-        <div class="progress-area">
-          <div class="progress-bar">
-            <div class="progress-bar-inner in" style="width: 81.01401649788745%"></div>
-          </div>
-        </div>
-        <div class="net-amount in">+120.8亿</div>
-      </li>
-      <li class="ranking-item">
-        <div class="rank-num top3">03</div>
-        <div class="concept-info">
-          <div class="concept-name">PCB</div>
-          <div class="concept-change up">+4.74%</div>
-        </div>
-        <div class="progress-area">
-          <div class="progress-bar">
-            <div class="progress-bar-inner in" style="width: 63.838776742002544%"></div>
-          </div>
-        </div>
-        <div class="net-amount in">+95.2亿</div>
-      </li>
-      <li class="ranking-item">
-        <div class="rank-num normal">04</div>
-        <div class="concept-info">
-          <div class="concept-name">先进封装</div>
-          <div class="concept-change up">+3.83%</div>
-        </div>
-        <div class="progress-area">
-          <div class="progress-bar">
-            <div class="progress-bar-inner in" style="width: 59.43934008450137%"></div>
-          </div>
-        </div>
-        <div class="net-amount in">+88.6亿</div>
-      </li>
-      <li class="ranking-item">
-        <div class="rank-num normal">05</div>
-        <div class="concept-info">
-          <div class="concept-name">机器人概念</div>
-          <div class="concept-change up">+1.25%</div>
-        </div>
-        <div class="progress-area">
-          <div class="progress-bar">
-            <div class="progress-bar-inner in" style="width: 37.6165247132989%"></div>
-          </div>
-        </div>
-        <div class="net-amount in">+56.1亿</div>
-      </li>
-      <li class="ranking-item">
-        <div class="rank-num normal">06</div>
+        <div class="rank-num top1">01</div>
         <div class="concept-info">
           <div class="concept-name">半导体</div>
           <div class="concept-change up">+3.14%</div>
         </div>
         <div class="progress-area">
           <div class="progress-bar">
-            <div class="progress-bar-inner in" style="width: 31.466702434444365%"></div>
+            <div class="progress-bar-inner in" style="width: 100.0%"></div>
           </div>
         </div>
-        <div class="net-amount in">+46.9亿</div>
+        <div class="net-amount in">+3128.0亿</div>
+      </li>
+      <li class="ranking-item">
+        <div class="rank-num top2">02</div>
+        <div class="concept-info">
+          <div class="concept-name">光通信模块</div>
+          <div class="concept-change up">+2.42%</div>
+        </div>
+        <div class="progress-area">
+          <div class="progress-bar">
+            <div class="progress-bar-inner in" style="width: 52.74936061381074%"></div>
+          </div>
+        </div>
+        <div class="net-amount in">+1650.0亿</div>
+      </li>
+      <li class="ranking-item">
+        <div class="rank-num top3">03</div>
+        <div class="concept-info">
+          <div class="concept-name">存储芯片</div>
+          <div class="concept-change up">+3.84%</div>
+        </div>
+        <div class="progress-area">
+          <div class="progress-bar">
+            <div class="progress-bar-inner in" style="width: 52.589514066496164%"></div>
+          </div>
+        </div>
+        <div class="net-amount in">+1645.0亿</div>
+      </li>
+      <li class="ranking-item">
+        <div class="rank-num normal">04</div>
+        <div class="concept-info">
+          <div class="concept-name">算力</div>
+          <div class="concept-change up">+0.20%</div>
+        </div>
+        <div class="progress-area">
+          <div class="progress-bar">
+            <div class="progress-bar-inner in" style="width: 51.95012787723785%"></div>
+          </div>
+        </div>
+        <div class="net-amount in">+1625.0亿</div>
+      </li>
+      <li class="ranking-item">
+        <div class="rank-num normal">05</div>
+        <div class="concept-info">
+          <div class="concept-name">机器人</div>
+          <div class="concept-change up">+1.45%</div>
+        </div>
+        <div class="progress-area">
+          <div class="progress-bar">
+            <div class="progress-bar-inner in" style="width: 48.785166240409204%"></div>
+          </div>
+        </div>
+        <div class="net-amount in">+1526.0亿</div>
+      </li>
+      <li class="ranking-item">
+        <div class="rank-num normal">06</div>
+        <div class="concept-info">
+          <div class="concept-name">PCB</div>
+          <div class="concept-change up">+7.46%</div>
+        </div>
+        <div class="progress-area">
+          <div class="progress-bar">
+            <div class="progress-bar-inner in" style="width: 39.80179028132992%"></div>
+          </div>
+        </div>
+        <div class="net-amount in">+1245.0亿</div>
       </li>
       <li class="ranking-item">
         <div class="rank-num normal">07</div>
         <div class="concept-info">
-          <div class="concept-name">AI应用</div>
-          <div class="concept-change up">+2.21%</div>
+          <div class="concept-name">有色金属</div>
+          <div class="concept-change up">+3.28%</div>
         </div>
         <div class="progress-area">
           <div class="progress-bar">
-            <div class="progress-bar-inner in" style="width: 16.28998725772919%"></div>
+            <div class="progress-bar-inner in" style="width: 23.922634271099742%"></div>
           </div>
         </div>
-        <div class="net-amount in">+24.3亿</div>
+        <div class="net-amount in">+748.3亿</div>
       </li>
       <li class="ranking-item">
         <div class="rank-num normal">08</div>
         <div class="concept-info">
-          <div class="concept-name">MLCC</div>
-          <div class="concept-change up">+1.83%</div>
+          <div class="concept-name">先进封装</div>
+          <div class="concept-change up">+4.16%</div>
         </div>
         <div class="progress-area">
           <div class="progress-bar">
-            <div class="progress-bar-inner out" style="width: 7.846556233653007%"></div>
+            <div class="progress-bar-inner in" style="width: 23.58695652173913%"></div>
           </div>
         </div>
-        <div class="net-amount out">-11.7亿</div>
+        <div class="net-amount in">+737.8亿</div>
       </li>
       <li class="ranking-item">
         <div class="rank-num normal">09</div>
         <div class="concept-info">
-          <div class="concept-name">银行</div>
-          <div class="concept-change down">-0.08%</div>
+          <div class="concept-name">AI应用</div>
+          <div class="concept-change down">-0.38%</div>
         </div>
         <div class="progress-area">
           <div class="progress-bar">
-            <div class="progress-bar-inner out" style="width: 10.649855811146134%"></div>
+            <div class="progress-bar-inner in" style="width: 16.998081841432228%"></div>
           </div>
         </div>
-        <div class="net-amount out">-15.9亿</div>
+        <div class="net-amount in">+531.7亿</div>
       </li>
       <li class="ranking-item">
         <div class="rank-num normal">10</div>
         <div class="concept-info">
-          <div class="concept-name">算力概念</div>
-          <div class="concept-change up">+0.45%</div>
+          <div class="concept-name">创新药</div>
+          <div class="concept-change up">+5.87%</div>
         </div>
         <div class="progress-area">
           <div class="progress-bar">
-            <div class="progress-bar-inner out" style="width: 21.73563141305076%"></div>
+            <div class="progress-bar-inner in" style="width: 12.525575447570333%"></div>
           </div>
         </div>
-        <div class="net-amount out">-32.4亿</div>
+        <div class="net-amount in">+391.8亿</div>
+      </li>
+      <li class="ranking-item">
+        <div class="rank-num normal">11</div>
+        <div class="concept-info">
+          <div class="concept-name">MLCC</div>
+          <div class="concept-change up">+1.80%</div>
+        </div>
+        <div class="progress-area">
+          <div class="progress-bar">
+            <div class="progress-bar-inner in" style="width: 10.661764705882353%"></div>
+          </div>
+        </div>
+        <div class="net-amount in">+333.5亿</div>
+      </li>
+      <li class="ranking-item">
+        <div class="rank-num normal">12</div>
+        <div class="concept-info">
+          <div class="concept-name">半导体材料</div>
+          <div class="concept-change up">+4.44%</div>
+        </div>
+        <div class="progress-area">
+          <div class="progress-bar">
+            <div class="progress-bar-inner in" style="width: 6.870204603580563%"></div>
+          </div>
+        </div>
+        <div class="net-amount in">+214.9亿</div>
+      </li>
+      <li class="ranking-item">
+        <div class="rank-num normal">13</div>
+        <div class="concept-info">
+          <div class="concept-name">电网设备</div>
+          <div class="concept-change up">+0.10%</div>
+        </div>
+        <div class="progress-area">
+          <div class="progress-bar">
+            <div class="progress-bar-inner in" style="width: 4.024936061381075%"></div>
+          </div>
+        </div>
+        <div class="net-amount in">+125.9亿</div>
+      </li>
+      <li class="ranking-item">
+        <div class="rank-num normal">14</div>
+        <div class="concept-info">
+          <div class="concept-name">银行</div>
+          <div class="concept-change down">-0.57%</div>
+        </div>
+        <div class="progress-area">
+          <div class="progress-bar">
+            <div class="progress-bar-inner in" style="width: 3.8618925831202042%"></div>
+          </div>
+        </div>
+        <div class="net-amount in">+120.8亿</div>
       </li>
     </ul>
   </div>
@@ -353,15 +406,5 @@ body {
   </div>
 
 </div>
-
-<script>
-// 动画效果
-setTimeout(() => {
-    document.querySelectorAll('.fund-bar-inner, .progress-bar-inner').forEach(el => {
-        el.style.width = el.style.width;
-    });
-}, 100);
-</script>
-
 </body>
 </html>
