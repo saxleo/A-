@@ -1,0 +1,800 @@
+{
+  "timestamp": "2026-08-08T11:58:33.835633",
+  "data_date": "2026-08-07",
+  "sector_count": 44,
+  "stock_count": 200,
+  "sectors": [
+    {
+      "rank": 1,
+      "name": "元件",
+      "total_main_force": "+120.5亿",
+      "total_main_force_raw": 12049000000.0,
+      "avg_change_pct": 9.88,
+      "stock_count": 25,
+      "top_stock": {
+        "name": "一博科技",
+        "code": 301366,
+        "change_pct": 20.0
+      }
+    },
+    {
+      "rank": 2,
+      "name": "半导体",
+      "total_main_force": "+119.8亿",
+      "total_main_force_raw": 11981000000.0,
+      "avg_change_pct": 17.82,
+      "stock_count": 32,
+      "top_stock": {
+        "name": "N展芯",
+        "code": 301707,
+        "change_pct": 396.89
+      }
+    },
+    {
+      "rank": 3,
+      "name": "通信设备",
+      "total_main_force": "+55.1亿",
+      "total_main_force_raw": 5508000000.0,
+      "avg_change_pct": 5.79,
+      "stock_count": 12,
+      "top_stock": {
+        "name": "光迅科技",
+        "code": 2281,
+        "change_pct": 10.0
+      }
+    },
+    {
+      "rank": 4,
+      "name": "化学制药",
+      "total_main_force": "+30.9亿",
+      "total_main_force_raw": 3093000000.0,
+      "avg_change_pct": 8.69,
+      "stock_count": 10,
+      "top_stock": {
+        "name": "百济神州",
+        "code": 688235,
+        "change_pct": 11.28
+      }
+    },
+    {
+      "rank": 5,
+      "name": "玻璃玻纤",
+      "total_main_force": "+28.7亿",
+      "total_main_force_raw": 2867000000.0,
+      "avg_change_pct": 8.56,
+      "stock_count": 4,
+      "top_stock": {
+        "name": "中材科技",
+        "code": 2080,
+        "change_pct": 9.78
+      }
+    },
+    {
+      "rank": 6,
+      "name": "电池",
+      "total_main_force": "+28.6亿",
+      "total_main_force_raw": 2855000000.0,
+      "avg_change_pct": 10.9,
+      "stock_count": 6,
+      "top_stock": {
+        "name": "铜冠铜箔",
+        "code": 301217,
+        "change_pct": 16.98
+      }
+    },
+    {
+      "rank": 7,
+      "name": "小金属",
+      "total_main_force": "+23.3亿",
+      "total_main_force_raw": 2330000000.0,
+      "avg_change_pct": 7.47,
+      "stock_count": 6,
+      "top_stock": {
+        "name": "中国稀土",
+        "code": 831,
+        "change_pct": 10.0
+      }
+    },
+    {
+      "rank": 8,
+      "name": "医疗服务",
+      "total_main_force": "+21.4亿",
+      "total_main_force_raw": 2145000000.0,
+      "avg_change_pct": 12.06,
+      "stock_count": 6,
+      "top_stock": {
+        "name": "博腾股份",
+        "code": 300363,
+        "change_pct": 20.02
+      }
+    },
+    {
+      "rank": 9,
+      "name": "工业金属",
+      "total_main_force": "+20.6亿",
+      "total_main_force_raw": 2055000000.0,
+      "avg_change_pct": 4.48,
+      "stock_count": 7,
+      "top_stock": {
+        "name": "株冶集团",
+        "code": 600961,
+        "change_pct": 9.01
+      }
+    },
+    {
+      "rank": 10,
+      "name": "电子化学品Ⅱ",
+      "total_main_force": "+19.1亿",
+      "total_main_force_raw": 1909000000.0,
+      "avg_change_pct": 7.39,
+      "stock_count": 9,
+      "top_stock": {
+        "name": "天承科技",
+        "code": 688603,
+        "change_pct": 11.0
+      }
+    },
+    {
+      "rank": 11,
+      "name": "专用设备",
+      "total_main_force": "+18.6亿",
+      "total_main_force_raw": 1859000000.0,
+      "avg_change_pct": 9.59,
+      "stock_count": 7,
+      "top_stock": {
+        "name": "泰金新能",
+        "code": 688813,
+        "change_pct": 17.69
+      }
+    },
+    {
+      "rank": 12,
+      "name": "光伏设备",
+      "total_main_force": "+17.5亿",
+      "total_main_force_raw": 1752000000.0,
+      "avg_change_pct": 5.04,
+      "stock_count": 7,
+      "top_stock": {
+        "name": "福莱特",
+        "code": 601865,
+        "change_pct": 10.02
+      }
+    },
+    {
+      "rank": 13,
+      "name": "光学光电子",
+      "total_main_force": "+10.5亿",
+      "total_main_force_raw": 1048000000.0,
+      "avg_change_pct": 10.0,
+      "stock_count": 5,
+      "top_stock": {
+        "name": "光智科技",
+        "code": 300489,
+        "change_pct": 18.81
+      }
+    },
+    {
+      "rank": 14,
+      "name": "贵金属",
+      "total_main_force": "+10.4亿",
+      "total_main_force_raw": 1042000000.0,
+      "avg_change_pct": 6.96,
+      "stock_count": 5,
+      "top_stock": {
+        "name": "招金黄金",
+        "code": 506,
+        "change_pct": 10.01
+      }
+    },
+    {
+      "rank": 15,
+      "name": "自动化设备",
+      "total_main_force": "+9.6亿",
+      "total_main_force_raw": 958000000.0,
+      "avg_change_pct": 8.18,
+      "stock_count": 5,
+      "top_stock": {
+        "name": "劲拓股份",
+        "code": 300400,
+        "change_pct": 17.76
+      }
+    },
+    {
+      "rank": 16,
+      "name": "通用设备",
+      "total_main_force": "+9.3亿",
+      "total_main_force_raw": 927000000.0,
+      "avg_change_pct": 6.12,
+      "stock_count": 6,
+      "top_stock": {
+        "name": "大元泵业",
+        "code": 603757,
+        "change_pct": 10.0
+      }
+    },
+    {
+      "rank": 17,
+      "name": "化学制品",
+      "total_main_force": "+7.9亿",
+      "total_main_force_raw": 790000000.0,
+      "avg_change_pct": 5.68,
+      "stock_count": 4,
+      "top_stock": {
+        "name": "和远气体",
+        "code": 2971,
+        "change_pct": 10.01
+      }
+    },
+    {
+      "rank": 18,
+      "name": "消费电子",
+      "total_main_force": "+6.9亿",
+      "total_main_force_raw": 689000000.0,
+      "avg_change_pct": 3.23,
+      "stock_count": 4,
+      "top_stock": {
+        "name": "奕东电子",
+        "code": 301123,
+        "change_pct": 5.5
+      }
+    },
+    {
+      "rank": 19,
+      "name": "塑料",
+      "total_main_force": "+6.8亿",
+      "total_main_force_raw": 677000000.0,
+      "avg_change_pct": 8.61,
+      "stock_count": 2,
+      "top_stock": {
+        "name": "东材科技",
+        "code": 601208,
+        "change_pct": 10.01
+      }
+    },
+    {
+      "rank": 20,
+      "name": "电力",
+      "total_main_force": "+6.0亿",
+      "total_main_force_raw": 601000000.0,
+      "avg_change_pct": 3.26,
+      "stock_count": 3,
+      "top_stock": {
+        "name": "华银电力",
+        "code": 600744,
+        "change_pct": 10.06
+      }
+    },
+    {
+      "rank": 21,
+      "name": "IT服务Ⅱ",
+      "total_main_force": "+5.7亿",
+      "total_main_force_raw": 573000000.0,
+      "avg_change_pct": 3.62,
+      "stock_count": 2,
+      "top_stock": {
+        "name": "网宿科技",
+        "code": 300017,
+        "change_pct": 4.96
+      }
+    },
+    {
+      "rank": 22,
+      "name": "广告营销",
+      "total_main_force": "+5.5亿",
+      "total_main_force_raw": 548000000.0,
+      "avg_change_pct": 2.83,
+      "stock_count": 2,
+      "top_stock": {
+        "name": "蓝色光标",
+        "code": 300058,
+        "change_pct": 3.52
+      }
+    },
+    {
+      "rank": 23,
+      "name": "其他电子Ⅱ",
+      "total_main_force": "+5.4亿",
+      "total_main_force_raw": 541000000.0,
+      "avg_change_pct": 6.0,
+      "stock_count": 2,
+      "top_stock": {
+        "name": "富信科技",
+        "code": 688662,
+        "change_pct": 8.0
+      }
+    },
+    {
+      "rank": 24,
+      "name": "生物制品",
+      "total_main_force": "+5.0亿",
+      "total_main_force_raw": 498000000.0,
+      "avg_change_pct": 13.16,
+      "stock_count": 3,
+      "top_stock": {
+        "name": "义翘神州",
+        "code": 301047,
+        "change_pct": 20.0
+      }
+    },
+    {
+      "rank": 25,
+      "name": "航空装备Ⅱ",
+      "total_main_force": "+4.6亿",
+      "total_main_force_raw": 456000000.0,
+      "avg_change_pct": 9.5,
+      "stock_count": 1,
+      "top_stock": {
+        "name": "菲利华",
+        "code": 300395,
+        "change_pct": 9.5
+      }
+    },
+    {
+      "rank": 26,
+      "name": "计算机设备",
+      "total_main_force": "+4.5亿",
+      "total_main_force_raw": 449000000.0,
+      "avg_change_pct": 4.94,
+      "stock_count": 3,
+      "top_stock": {
+        "name": "盛视科技",
+        "code": 2990,
+        "change_pct": 7.31
+      }
+    },
+    {
+      "rank": 27,
+      "name": "军工电子Ⅱ",
+      "total_main_force": "+4.3亿",
+      "total_main_force_raw": 426000000.0,
+      "avg_change_pct": 6.36,
+      "stock_count": 3,
+      "top_stock": {
+        "name": "睿创微纳",
+        "code": 688002,
+        "change_pct": 9.34
+      }
+    },
+    {
+      "rank": 28,
+      "name": "风电设备",
+      "total_main_force": "+4.0亿",
+      "total_main_force_raw": 399000000.0,
+      "avg_change_pct": 6.03,
+      "stock_count": 1,
+      "top_stock": {
+        "name": "金风科技",
+        "code": 2202,
+        "change_pct": 6.03
+      }
+    },
+    {
+      "rank": 29,
+      "name": "汽车零部件",
+      "total_main_force": "+3.9亿",
+      "total_main_force_raw": 394000000.0,
+      "avg_change_pct": 5.4,
+      "stock_count": 2,
+      "top_stock": {
+        "name": "华懋科技",
+        "code": 603306,
+        "change_pct": 8.19
+      }
+    },
+    {
+      "rank": 30,
+      "name": "能源金属",
+      "total_main_force": "+3.8亿",
+      "total_main_force_raw": 379000000.0,
+      "avg_change_pct": 6.3,
+      "stock_count": 1,
+      "top_stock": {
+        "name": "华友钴业",
+        "code": 603799,
+        "change_pct": 6.3
+      }
+    }
+  ],
+  "top_stocks": [
+    {
+      "code": 2281,
+      "name": "光迅科技",
+      "price": 193.04,
+      "change_pct": 10.0,
+      "main_force": "21.99亿",
+      "sector": "通信设备"
+    },
+    {
+      "code": 603986,
+      "name": "兆易创新",
+      "price": 417.05,
+      "change_pct": 8.32,
+      "main_force": "20.00亿",
+      "sector": "半导体"
+    },
+    {
+      "code": 600183,
+      "name": "生益科技",
+      "price": 139.98,
+      "change_pct": 10.0,
+      "main_force": "19.18亿",
+      "sector": "元件"
+    },
+    {
+      "code": 300476,
+      "name": "胜宏科技",
+      "price": 280.2,
+      "change_pct": 12.01,
+      "main_force": "15.91亿",
+      "sector": "元件"
+    },
+    {
+      "code": 301217,
+      "name": "铜冠铜箔",
+      "price": 115.81,
+      "change_pct": 16.98,
+      "main_force": "14.45亿",
+      "sector": "电池"
+    },
+    {
+      "code": 600176,
+      "name": "中国巨石",
+      "price": 44.38,
+      "change_pct": 8.83,
+      "main_force": "11.10亿",
+      "sector": "玻璃玻纤"
+    },
+    {
+      "code": 831,
+      "name": "中国稀土",
+      "price": 57.19,
+      "change_pct": 10.0,
+      "main_force": "10.02亿",
+      "sector": "小金属"
+    },
+    {
+      "code": 301707,
+      "name": "N展芯",
+      "price": 116.52,
+      "change_pct": 396.89,
+      "main_force": "9.71亿",
+      "sector": "半导体"
+    },
+    {
+      "code": 603259,
+      "name": "药明康德",
+      "price": 154.82,
+      "change_pct": 8.49,
+      "main_force": "9.20亿",
+      "sector": "医疗服务"
+    },
+    {
+      "code": 2463,
+      "name": "沪电股份",
+      "price": 125.87,
+      "change_pct": 7.4,
+      "main_force": "9.16亿",
+      "sector": "元件"
+    },
+    {
+      "code": 600276,
+      "name": "恒瑞医药",
+      "price": 54.62,
+      "change_pct": 4.82,
+      "main_force": "9.16亿",
+      "sector": "化学制药"
+    },
+    {
+      "code": 600664,
+      "name": "哈药股份",
+      "price": 6.84,
+      "change_pct": 9.97,
+      "main_force": "8.75亿",
+      "sector": "化学制药"
+    },
+    {
+      "code": 2080,
+      "name": "中材科技",
+      "price": 56.56,
+      "change_pct": 9.78,
+      "main_force": "8.68亿",
+      "sector": "玻璃玻纤"
+    },
+    {
+      "code": 1232,
+      "name": "C嘉立创",
+      "price": 198.29,
+      "change_pct": 12.15,
+      "main_force": "7.00亿",
+      "sector": "元件"
+    },
+    {
+      "code": 300223,
+      "name": "北京君正",
+      "price": 144.05,
+      "change_pct": 5.15,
+      "main_force": "6.33亿",
+      "sector": "半导体"
+    },
+    {
+      "code": 601899,
+      "name": "紫金矿业",
+      "price": 35.15,
+      "change_pct": 1.88,
+      "main_force": "6.30亿",
+      "sector": "工业金属"
+    },
+    {
+      "code": 657,
+      "name": "中钨高新",
+      "price": 67.01,
+      "change_pct": 7.22,
+      "main_force": "6.09亿",
+      "sector": "小金属"
+    },
+    {
+      "code": 300274,
+      "name": "阳光电源",
+      "price": 114.16,
+      "change_pct": 6.99,
+      "main_force": "6.04亿",
+      "sector": "光伏设备"
+    },
+    {
+      "code": 603459,
+      "name": "红板科技",
+      "price": 105.58,
+      "change_pct": 10.0,
+      "main_force": "6.02亿",
+      "sector": "元件"
+    },
+    {
+      "code": 301511,
+      "name": "德福科技",
+      "price": 90.9,
+      "change_pct": 16.21,
+      "main_force": "5.79亿",
+      "sector": "电池"
+    },
+    {
+      "code": 601208,
+      "name": "东材科技",
+      "price": 45.94,
+      "change_pct": 10.01,
+      "main_force": "5.62亿",
+      "sector": "塑料"
+    },
+    {
+      "code": 600487,
+      "name": "亨通光电",
+      "price": 59.52,
+      "change_pct": 6.0,
+      "main_force": "5.61亿",
+      "sector": "通信设备"
+    },
+    {
+      "code": 688525,
+      "name": "佰维存储",
+      "price": 244.88,
+      "change_pct": 5.13,
+      "main_force": "5.58亿",
+      "sector": "半导体"
+    },
+    {
+      "code": 301308,
+      "name": "江波龙",
+      "price": 386.6,
+      "change_pct": 5.53,
+      "main_force": "5.56亿",
+      "sector": "半导体"
+    },
+    {
+      "code": 688313,
+      "name": "仕佳光子",
+      "price": 127.7,
+      "change_pct": 7.54,
+      "main_force": "5.44亿",
+      "sector": "通信设备"
+    },
+    {
+      "code": 603256,
+      "name": "宏和科技",
+      "price": 158.8,
+      "change_pct": 6.76,
+      "main_force": "5.29亿",
+      "sector": "玻璃玻纤"
+    },
+    {
+      "code": 2636,
+      "name": "金安国纪",
+      "price": 65.4,
+      "change_pct": 9.02,
+      "main_force": "5.25亿",
+      "sector": "元件"
+    },
+    {
+      "code": 2156,
+      "name": "通富微电",
+      "price": 64.72,
+      "change_pct": 6.17,
+      "main_force": "5.10亿",
+      "sector": "半导体"
+    },
+    {
+      "code": 688521,
+      "name": "芯原股份",
+      "price": 230.5,
+      "change_pct": 6.14,
+      "main_force": "5.04亿",
+      "sector": "半导体"
+    },
+    {
+      "code": 2384,
+      "name": "东山精密",
+      "price": 195.27,
+      "change_pct": 4.04,
+      "main_force": "4.99亿",
+      "sector": "元件"
+    },
+    {
+      "code": 300666,
+      "name": "江丰电子",
+      "price": 252.54,
+      "change_pct": 5.83,
+      "main_force": "4.97亿",
+      "sector": "半导体"
+    },
+    {
+      "code": 2938,
+      "name": "鹏鼎控股",
+      "price": 101.41,
+      "change_pct": 8.06,
+      "main_force": "4.77亿",
+      "sector": "元件"
+    },
+    {
+      "code": 2185,
+      "name": "华天科技",
+      "price": 17.98,
+      "change_pct": 4.17,
+      "main_force": "4.60亿",
+      "sector": "半导体"
+    },
+    {
+      "code": 300395,
+      "name": "菲利华",
+      "price": 89.6,
+      "change_pct": 9.5,
+      "main_force": "4.56亿",
+      "sector": "航空装备Ⅱ"
+    },
+    {
+      "code": 1309,
+      "name": "德明利",
+      "price": 404.16,
+      "change_pct": 4.1,
+      "main_force": "4.55亿",
+      "sector": "半导体"
+    },
+    {
+      "code": 603186,
+      "name": "华正新材",
+      "price": 143.0,
+      "change_pct": 10.0,
+      "main_force": "4.54亿",
+      "sector": "元件"
+    },
+    {
+      "code": 603993,
+      "name": "洛阳钼业",
+      "price": 20.83,
+      "change_pct": 2.26,
+      "main_force": "4.52亿",
+      "sector": "工业金属"
+    },
+    {
+      "code": 1267,
+      "name": "汇绿生态",
+      "price": 42.69,
+      "change_pct": 10.0,
+      "main_force": "4.41亿",
+      "sector": "通信设备"
+    },
+    {
+      "code": 600522,
+      "name": "中天科技",
+      "price": 33.67,
+      "change_pct": 4.27,
+      "main_force": "4.38亿",
+      "sector": "通信设备"
+    },
+    {
+      "code": 688981,
+      "name": "中芯国际",
+      "price": 128.5,
+      "change_pct": 3.5,
+      "main_force": "4.34亿",
+      "sector": "半导体"
+    },
+    {
+      "code": 2916,
+      "name": "深南电路",
+      "price": 382.63,
+      "change_pct": 8.09,
+      "main_force": "4.07亿",
+      "sector": "元件"
+    },
+    {
+      "code": 2202,
+      "name": "金风科技",
+      "price": 21.8,
+      "change_pct": 6.03,
+      "main_force": "3.99亿",
+      "sector": "风电设备"
+    },
+    {
+      "code": 630,
+      "name": "铜陵有色",
+      "price": 6.96,
+      "change_pct": 5.94,
+      "main_force": "3.98亿",
+      "sector": "工业金属"
+    },
+    {
+      "code": 300903,
+      "name": "科翔股份",
+      "price": 72.33,
+      "change_pct": 12.45,
+      "main_force": "3.98亿",
+      "sector": "元件"
+    },
+    {
+      "code": 600378,
+      "name": "昊华科技",
+      "price": 49.09,
+      "change_pct": 1.72,
+      "main_force": "3.92亿",
+      "sector": "化学制品"
+    },
+    {
+      "code": 688766,
+      "name": "普冉股份",
+      "price": 393.63,
+      "change_pct": 5.02,
+      "main_force": "3.90亿",
+      "sector": "半导体"
+    },
+    {
+      "code": 688630,
+      "name": "芯碁微装",
+      "price": 426.99,
+      "change_pct": 8.75,
+      "main_force": "3.88亿",
+      "sector": "专用设备"
+    },
+    {
+      "code": 688519,
+      "name": "南亚新材",
+      "price": 302.55,
+      "change_pct": 16.53,
+      "main_force": "3.85亿",
+      "sector": "元件"
+    },
+    {
+      "code": 603799,
+      "name": "华友钴业",
+      "price": 44.01,
+      "change_pct": 6.3,
+      "main_force": "3.79亿",
+      "sector": "能源金属"
+    },
+    {
+      "code": 603228,
+      "name": "景旺电子",
+      "price": 94.95,
+      "change_pct": 10.0,
+      "main_force": "3.74亿",
+      "sector": "元件"
+    }
+  ]
+}
