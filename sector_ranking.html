@@ -224,13 +224,6 @@ body {
       <span id="current-date">2026-08-08</span>
       <select class="date-selector" id="dateSelector" onchange="changeDate(this.value)">
         <option value="">选择历史日期...</option>
-        <option value="2026-05-15">2026--0-5-15</option>
-        <option value="2026-05-18">2026--0-5-18</option>
-        <option value="2026-05-19">2026--0-5-19</option>
-        <option value="20260808">2026-08-08</option>
-        <option value="dashboard_v5">dash-bo-ard_v5</option>
-        <option value="dates">date-s-</option>
-        <option value="sector_ranking">sect-or-_ranking</option>
       </select>
     </div>
   </div>
@@ -475,7 +468,7 @@ body {
 <script>
 // 历史数据存储
 const historyData = {};
-historyData['20260808'] = {"date": "20260808", "time": "1911", "timestamp": "2026-08-08T19:11:39.129044", "wind_fund": {"机构": 619.8583, "大户": 209.6111, "中户": -86.3963, "散户": -168.3268}, "concepts": [{"name": "PCB", "change_pct": 7.464, "main_force": 247.0}, {"name": "半导体", "change_pct": 3.142, "main_force": 198.4}, {"name": "存储芯片", "change_pct": 3.838, "main_force": 129.2}, {"name": "有色金属", "change_pct": 3.281, "main_force": 69.31}, {"name": "创新药", "change_pct": 5.873, "main_force": 66.88}, {"name": "机器人", "change_pct": 1.448, "main_force": 45.79}, {"name": "光通信模块", "change_pct": 2.424, "main_force": 42.95}, {"name": "先进封装", "change_pct": 4.157, "main_force": 36.11}, {"name": "半导体材料", "change_pct": 4.441, "main_force": 15.5}, {"name": "MLCC", "change_pct": 1.802, "main_force": -0.7529}, {"name": "电网设备", "change_pct": 0.1033, "main_force": -8.025}, {"name": "银行", "change_pct": -0.5651, "main_force": -11.5}, {"name": "AI应用", "change_pct": -0.3796, "main_force": -66.34}, {"name": "算力", "change_pct": 0.1954, "main_force": -83.25}]};
+historyData['20260808'] = {"date": "20260808", "time": "1914", "timestamp": "2026-08-08T19:14:22.099814", "wind_fund": {"机构": 619.8583, "大户": 209.6111, "中户": -86.3963, "散户": -168.3268}, "concepts": [{"name": "PCB", "change_pct": 7.464, "main_force": 247.0}, {"name": "半导体", "change_pct": 3.142, "main_force": 198.4}, {"name": "存储芯片", "change_pct": 3.838, "main_force": 129.2}, {"name": "有色金属", "change_pct": 3.281, "main_force": 69.31}, {"name": "创新药", "change_pct": 5.873, "main_force": 66.88}, {"name": "机器人", "change_pct": 1.448, "main_force": 45.79}, {"name": "光通信模块", "change_pct": 2.424, "main_force": 42.95}, {"name": "先进封装", "change_pct": 4.157, "main_force": 36.11}, {"name": "半导体材料", "change_pct": 4.441, "main_force": 15.5}, {"name": "MLCC", "change_pct": 1.802, "main_force": -0.7529}, {"name": "电网设备", "change_pct": 0.1033, "main_force": -8.025}, {"name": "银行", "change_pct": -0.5651, "main_force": -11.5}, {"name": "AI应用", "change_pct": -0.3796, "main_force": -66.34}, {"name": "算力", "change_pct": 0.1954, "main_force": -83.25}]};
 
 function changeDate(dateStr) {
     if (!dateStr) {
@@ -497,12 +490,79 @@ function changeDate(dateStr) {
                 renderData(latest);
             }
         })
-        .catch(e => console.error('加载历史数据失败:', e));
+        .catch(e => {
+            console.error('加载历史数据失败:', e);
+            alert('加载历史数据失败，请稍后重试');
+        });
 }
 
 function renderData(data) {
-    // 这里可以添加渲染逻辑，简化版直接刷新页面
-    console.log('历史数据:', data);
+    // 更新资金数据
+    const fundMap = {
+        '机构': {label: '机构', color: '#ff4757'},
+        '大户': {label: '大户', color: '#ff6348'},
+        '中户': {label: '中户', color: '#feca57'},
+        '散户': {label: '散户', color: '#48dbfb'}
+    };
+    
+    const windFund = data.wind_fund || {};
+    const fundGrid = document.getElementById('fundGrid');
+    const maxFund = Math.max(...Object.values(windFund).map(Math.abs), 1);
+    
+    let fundHtml = '';
+    for (const [type, config] of Object.entries(fundMap)) {
+        const value = windFund[type] || 0;
+        const isIn = value > 0;
+        const barColor = isIn ? config.color : '#2ed573';
+        const barWidth = Math.min(Math.abs(value) / maxFund * 100, 100);
+        
+        fundHtml += `
+        <div class="fund-item">
+            <div class="label">${config.label}资金</div>
+            <div class="amount ${isIn ? 'in' : 'out'}">${value > 0 ? '+' : ''}${value.toFixed(1f)}亿</div>
+            <div class="fund-bar">
+                <div class="fund-bar-inner" style="width: ${barWidth}%; background: ${barColor};"></div>
+            </div>
+        </div>`;
+    }
+    fundGrid.innerHTML = fundHtml;
+    
+    // 更新板块排行
+    const concepts = data.concepts || [];
+    const maxNet = Math.max(...concepts.map(c => Math.abs(c.main_force)), 1);
+    const listEl = document.getElementById('rankingList');
+    
+    let listHtml = '';
+    concepts.forEach((c, i) => {
+        const rank = i + 1;
+        const isIn = c.main_force > 0;
+        let rankClass = 'normal';
+        if (rank === 1) rankClass = 'top1';
+        else if (rank === 2) rankClass = 'top2';
+        else if (rank === 3) rankClass = 'top3';
+        
+        const changeClass = c.change_pct > 0 ? 'up' : 'down';
+        const changeSign = c.change_pct > 0 ? '+' : '';
+        const netClass = isIn ? 'in' : 'out';
+        const barWidth = Math.min(Math.abs(c.main_force) / maxNet * 100, 100);
+        const barColorClass = isIn ? 'in' : 'out';
+        
+        listHtml += `
+        <li class="ranking-item">
+            <div class="rank-num ${rankClass}">${rank.toString().padStart(2, '0')}</div>
+            <div class="concept-info">
+                <div class="concept-name">${c.name}</div>
+                <div class="concept-change ${changeClass}">${changeSign}${c.change_pct.toFixed(2)}%</div>
+            </div>
+            <div class="progress-area">
+                <div class="progress-bar">
+                    <div class="progress-bar-inner ${barColorClass}" style="width: ${barWidth}%"></div>
+                </div>
+            </div>
+            <div class="net-amount ${netClass}">${c.main_force > 0 ? '+' : ''}${c.main_force.toFixed(1)}亿</div>
+        </li>`;
+    });
+    listEl.innerHTML = listHtml;
 }
 </script>
 
