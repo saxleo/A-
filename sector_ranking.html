@@ -221,7 +221,7 @@ body {
   <div class="header">
     <h1>📊 超黄板块资金看板</h1>
     <div class="meta">
-      <span id="current-date">2026-08-08</span>
+      <span id="current-date">2026-08-10</span>
       <select class="date-selector" id="dateSelector" onchange="changeDate(this.value)">
         <option value="">选择历史日期...</option>
       </select>
@@ -229,8 +229,8 @@ body {
   </div>
 
   <div class="status-bar">
-    <span><span class="live-dot"></span>数据更新: 21:59:14</span>
-    <span class="next-time">下次更新: 22:01</span>
+    <span><span class="live-dot"></span>数据更新: 00:43:43</span>
+    <span class="next-time">下次更新: 00:45</span>
   </div>
 
   <div class="history-note" id="historyNote">
@@ -468,13 +468,41 @@ body {
 <script>
 // 历史数据存储
 const historyData = {};
-historyData['20260808'] = {"date": "20260808", "time": "2159", "timestamp": "2026-08-08T21:59:14.075198", "wind_fund": {"机构": 619.8583, "大户": 209.6111, "中户": -86.3963, "散户": -168.3268}, "concepts": [{"name": "PCB", "change_pct": 7.464, "main_force": 247.0}, {"name": "半导体", "change_pct": 3.142, "main_force": 198.4}, {"name": "存储芯片", "change_pct": 3.838, "main_force": 129.2}, {"name": "有色金属", "change_pct": 3.281, "main_force": 69.31}, {"name": "创新药", "change_pct": 5.873, "main_force": 66.88}, {"name": "机器人", "change_pct": 1.448, "main_force": 45.79}, {"name": "光通信模块", "change_pct": 2.424, "main_force": 42.95}, {"name": "先进封装", "change_pct": 4.157, "main_force": 36.11}, {"name": "半导体材料", "change_pct": 4.441, "main_force": 15.5}, {"name": "MLCC", "change_pct": 1.802, "main_force": -0.7529}, {"name": "电网设备", "change_pct": 0.1033, "main_force": -8.025}, {"name": "银行", "change_pct": -0.5651, "main_force": -11.5}, {"name": "AI应用", "change_pct": -0.3796, "main_force": -66.34}, {"name": "算力", "change_pct": 0.1954, "main_force": -83.25}]};
+historyData['20260810'] = {"date": "20260810", "time": "0043", "timestamp": "2026-08-10T00:43:43.289921", "wind_fund": {"机构": 619.8583, "大户": 209.6111, "中户": -86.3963, "散户": -168.3268}, "concepts": [{"name": "PCB", "change_pct": 7.464, "main_force": 247.0}, {"name": "半导体", "change_pct": 3.142, "main_force": 198.4}, {"name": "存储芯片", "change_pct": 3.838, "main_force": 129.2}, {"name": "有色金属", "change_pct": 3.281, "main_force": 69.31}, {"name": "创新药", "change_pct": 5.873, "main_force": 66.88}, {"name": "机器人", "change_pct": 1.448, "main_force": 45.79}, {"name": "光通信模块", "change_pct": 2.424, "main_force": 42.95}, {"name": "先进封装", "change_pct": 4.157, "main_force": 36.11}, {"name": "半导体材料", "change_pct": 4.441, "main_force": 15.5}, {"name": "MLCC", "change_pct": 1.802, "main_force": -0.7529}, {"name": "电网设备", "change_pct": 0.1033, "main_force": -8.025}, {"name": "银行", "change_pct": -0.5651, "main_force": -11.5}, {"name": "AI应用", "change_pct": -0.3796, "main_force": -66.34}, {"name": "算力", "change_pct": 0.1954, "main_force": -83.25}]};
+
+let currentViewDate = '20260810';
+let isHistoryView = false;
+
+// 每30秒自动刷新（仅当天数据）
+setInterval(() => {
+    if (isHistoryView) return;
+    
+    fetch('data/' + currentViewDate + '.json?t=' + Date.now())
+        .then(r => r.json())
+        .then(data => {
+            if (data && data.length > 0) {
+                const latest = data[data.length - 1];
+                renderData(latest);
+                // 更新时间显示
+                const t = latest.time;
+                const timeStr = t.slice(0,2) + ':' + t.slice(2,4) + ':00';
+                document.querySelector('.status-bar span').innerHTML = 
+                    '<span class="live-dot"></span>数据更新: ' + timeStr;
+            }
+        })
+        .catch(e => console.error('轮询失败:', e));
+}, 30000);
 
 function changeDate(dateStr) {
     if (!dateStr) {
+        isHistoryView = false;
+        currentViewDate = '20260810';
         location.reload();
         return;
     }
+    
+    isHistoryView = true;
+    currentViewDate = dateStr;
     
     // 显示历史提示
     document.getElementById('historyNote').style.display = 'block';
