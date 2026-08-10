@@ -1909,5 +1909,53 @@
         "main_force": -222.71
       }
     ]
+  },
+  {
+    "date": "20260810",
+    "time": "1108",
+    "timestamp": "2026-08-10T11:08:05.612524",
+    "wind_fund": {
+      "机构": -207.5292,
+      "大户": -86.0509,
+      "中户": -107.9453,
+      "散户": -86.0139
+    },
+    "concepts": [
+      {
+        "name": "银行",
+        "change_pct": 1.12,
+        "main_force": -0.17
+      },
+      {
+        "name": "创新药",
+        "change_pct": 1.38,
+        "main_force": -15.68
+      },
+      {
+        "name": "AI应用",
+        "change_pct": 0.17,
+        "main_force": -52.12
+      },
+      {
+        "name": "存储芯片",
+        "change_pct": -0.41,
+        "main_force": -128.94
+      },
+      {
+        "name": "先进封装",
+        "change_pct": -1.28,
+        "main_force": -133.64
+      },
+      {
+        "name": "PCB",
+        "change_pct": -1.69,
+        "main_force": -166.43
+      },
+      {
+        "name": "机器人概念",
+        "change_pct": 0.05,
+        "main_force": -219.68
+      }
+    ]
   }
 ]
