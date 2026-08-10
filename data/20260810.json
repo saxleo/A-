@@ -954,5 +954,105 @@
       "fund": 11.5,
       "fund_ratio": 2.4
     }
+  ],
+  "19:00:35": [
+    {
+      "name": "PCB",
+      "code": "BK0877",
+      "change": -1.03,
+      "fund": -127.4,
+      "fund_ratio": -4.5
+    },
+    {
+      "name": "MLCC",
+      "code": "BK0890",
+      "change": 1.61,
+      "fund": -2.3,
+      "fund_ratio": -0.3
+    },
+    {
+      "name": "半导体",
+      "code": "BK1036",
+      "change": 0.29,
+      "fund": -62.5,
+      "fund_ratio": -1.72
+    },
+    {
+      "name": "存储芯片",
+      "code": "BK1137",
+      "change": 0.33,
+      "fund": -75.2,
+      "fund_ratio": -2.36
+    },
+    {
+      "name": "先进封装",
+      "code": "BK1101",
+      "change": -0.68,
+      "fund": -41.2,
+      "fund_ratio": -3.3
+    },
+    {
+      "name": "创新药",
+      "code": "BK1106",
+      "change": 1.07,
+      "fund": -27.9,
+      "fund_ratio": -2.21
+    },
+    {
+      "name": "光通信模块",
+      "code": "BK1136",
+      "change": -1.17,
+      "fund": -221.5,
+      "fund_ratio": -7.58
+    },
+    {
+      "name": "银行",
+      "code": "BK1283",
+      "change": 0.57,
+      "fund": 1.9,
+      "fund_ratio": 0.75
+    },
+    {
+      "name": "有色金属",
+      "code": "BK0478",
+      "change": 2.22,
+      "fund": 12.5,
+      "fund_ratio": 0.62
+    },
+    {
+      "name": "AI应用",
+      "code": "BK1629",
+      "change": 0.75,
+      "fund": -12.9,
+      "fund_ratio": -1.19
+    },
+    {
+      "name": "机器人",
+      "code": "BK1408",
+      "change": -1.06,
+      "fund": -5.6,
+      "fund_ratio": -5.79
+    },
+    {
+      "name": "算力概念",
+      "code": "BK1134",
+      "change": -0.05,
+      "fund": -184.3,
+      "fund_ratio": -6.94
+    },
+    {
+      "name": "半导体材料",
+      "code": "BK1325",
+      "change": 1.88,
+      "fund": 10.4,
+      "fund_ratio": 2.02
+    },
+    {
+      "name": "电网设备",
+      "code": "BK0457",
+      "change": 2.05,
+      "fund": 11.5,
+      "fund_ratio": 2.4
+    }
   ]
 }
