@@ -4138,5 +4138,53 @@
       "散户": -104.9504
     },
     "concepts": []
+  },
+  {
+    "date": "20260810",
+    "time": "1316",
+    "timestamp": "2026-08-10T13:16:05.134065",
+    "wind_fund": {
+      "机构": -230.0929,
+      "大户": -141.038,
+      "中户": -155.4522,
+      "散户": -109.5431
+    },
+    "concepts": [
+      {
+        "name": "银行",
+        "change_pct": 1.09,
+        "main_force": -3.71
+      },
+      {
+        "name": "半导体材料",
+        "change_pct": -2.63,
+        "main_force": -17.79
+      },
+      {
+        "name": "有色金属",
+        "change_pct": 0.71,
+        "main_force": -21.9
+      },
+      {
+        "name": "创新药",
+        "change_pct": 0.58,
+        "main_force": -34.81
+      },
+      {
+        "name": "MLCC",
+        "change_pct": -1.28,
+        "main_force": -38.87
+      },
+      {
+        "name": "半导体概念",
+        "change_pct": -1.68,
+        "main_force": -174.08
+      },
+      {
+        "name": "机器人概念",
+        "change_pct": -0.17,
+        "main_force": -269.26
+      }
+    ]
   }
 ]
