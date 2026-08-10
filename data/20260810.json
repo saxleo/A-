@@ -477,5 +477,38 @@
         "main_force": -73.83
       }
     ]
+  },
+  {
+    "date": "20260810",
+    "time": "1006",
+    "timestamp": "2026-08-10T10:06:05.231219",
+    "wind_fund": {
+      "机构": -208.729,
+      "大户": -80.837,
+      "中户": -55.7781,
+      "散户": -39.3061
+    },
+    "concepts": [
+      {
+        "name": "创新药",
+        "change_pct": 2.15,
+        "main_force": 6.43
+      },
+      {
+        "name": "银行",
+        "change_pct": 1.06,
+        "main_force": 6.11
+      },
+      {
+        "name": "AI应用",
+        "change_pct": 0.73,
+        "main_force": -22.45
+      },
+      {
+        "name": "机器人概念",
+        "change_pct": 0.06,
+        "main_force": -116.79
+      }
+    ]
   }
 ]
