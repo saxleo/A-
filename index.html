@@ -3,140 +3,190 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>板块主力资金排行</title>
-<script src="https://cdn.tailwindcss.com"></script>
-<script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+<title>🔥 14板块监控看板</title>
 <style>
-body { background: #0f172a; color: #e2e8f0; }
-.card { background: #1e293b; border-radius: 12px; border: 1px solid #334155; }
-.positive { color: #f87171; }
-.negative { color: #4ade80; }
+:root{--bg:#0a0e17;--card-bg:#111827;--elevated:#1f2937;--border:#374151;--text:#f3f4f6;--muted:#9ca3af;--up:#ef4444;--up-bg:rgba(239,68,68,0.1);--down:#22c55e;--down-bg:rgba(34,197,94,0.1);--accent:#3b82f6;--gold:#f59e0b}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;font-size:14px;line-height:1.5;min-height:100vh}
+.header{text-align:center;padding:20px 20px 10px}
+.header h1{font-size:24px;font-weight:700;letter-spacing:1px}
+.header .meta{color:var(--muted);font-size:12px;margin-top:6px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px;max-width:1400px;margin:0 auto;padding:0 16px 20px}
+@media(min-width:1200px){.grid{grid-template-columns:repeat(4,1fr)}}
+@media(max-width:768px){.grid{grid-template-columns:repeat(2,1fr)}}
+.card{background:var(--card-bg);border:1px solid var(--border);border-radius:10px;padding:14px;transition:all .2s}
+.card:hover{border-color:var(--accent)}
+.card-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}
+.card-title{font-size:15px;font-weight:600}
+.card-tag{font-size:11px;padding:2px 8px;border-radius:6px;font-weight:500}
+.tag-up{background:var(--up-bg);color:var(--up)}
+.tag-down{background:var(--down-bg);color:var(--down)}
+.card-stats{display:flex;gap:12px;margin-bottom:8px;font-size:13px}
+.stat-item{display:flex;flex-direction:column}
+.stat-label{font-size:11px;color:var(--muted);margin-bottom:2px}
+.stat-val{font-family:'SF Mono',Monaco,monospace;font-weight:700;font-size:15px}
+.fund-bar{height:4px;border-radius:2px;margin-top:6px;overflow:hidden;background:var(--elevated)}
+.fund-bar-inner{height:100%;border-radius:2px;transition:width .3s}
+.card-footer{display:flex;justify-content:space-between;margin-top:8px;font-size:11px;color:var(--muted)}
+.status-bar{position:fixed;bottom:0;left:0;right:0;background:var(--card-bg);border-top:1px solid var(--border);padding:8px 16px;display:flex;justify-content:space-between;align-items:center;font-size:12px;color:var(--muted)}
+#refreshBtn{background:var(--accent);color:#fff;border:none;padding:4px 12px;border-radius:4px;cursor:pointer;font-size:12px}
+#refreshBtn:hover{opacity:.9}
+.loading{opacity:.6;pointer-events:none}
 </style>
 </head>
-<body class="min-h-screen p-4">
-<div class="max-w-6xl mx-auto">
-  <header class="mb-6">
-    <h1 class="text-2xl font-bold text-white">📊 板块主力资金净流入排行</h1>
-    <p class="text-slate-400 text-sm mt-1">数据时间: <span id="data-time">加载中...</span></p>
-  </header>
-
-  <!-- 图表区域 -->
-  <div class="card p-4 mb-6">
-    <div id="chart" style="width:100%;height:400px;"></div>
+<body>
+<div class="header">
+  <h1>🔥 14板块实时监控</h1>
+  <div class="meta">
+    <span id="updateTime">--</span> · 
+    <span id="plateCount">14</span>个板块 · 
+    <span id="refreshStatus">自动刷新中(2分钟)</span>
   </div>
+</div>
+<div class="grid" id="plateGrid"></div>
 
-  <!-- 排行表格 -->
-  <div class="card p-4">
-    <h2 class="text-lg font-semibold mb-4">🏆 板块排行 TOP 20</h2>
-    <div class="overflow-x-auto">
-      <table class="w-full text-sm">
-        <thead>
-          <tr class="text-slate-400 border-b border-slate-700">
-            <th class="text-left py-2 px-3">排名</th>
-            <th class="text-left py-2 px-3">行业板块</th>
-            <th class="text-right py-2 px-3">主力净流入</th>
-            <th class="text-right py-2 px-3">平均涨跌</th>
-            <th class="text-right py-2 px-3">个股数</th>
-            <th class="text-left py-2 px-3">领涨股</th>
-            <th class="text-right py-2 px-3">领涨涨幅</th>
-          </tr>
-        </thead>
-        <tbody id="ranking-body">
-          <tr><td colspan="7" class="py-8 text-center text-slate-500">加载中...</td></tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-
-  <footer class="mt-6 text-center text-xs text-slate-600">
-    数据来源: 东方财富妙想智能选股 | 自动更新 | 
-    <a href="https://github.com/saxleo/A-" class="text-slate-400 hover:text-white">GitHub</a>
-  </footer>
+<div class="status-bar">
+  <span id="statusText">初始化...</span>
+  <button id="refreshBtn" onclick="manualRefresh()">🔄 立即刷新</button>
 </div>
 
 <script>
-// 加载数据
-async function loadData() {
+// ========== 配置 ==========
+const REFRESH_INTERVAL = 120000; // 2分钟
+let currentData = null;
+let refreshTimer = null;
+
+// ========== 获取今天日期 ==========
+function getTodayStr() {
+  const d = new Date();
+  return d.getFullYear() + 
+    String(d.getMonth()+1).padStart(2,'0') + 
+    String(d.getDate()).padStart(2,'0');
+}
+
+// ========== 获取最新时间点数据 ==========
+function getLatestData(dayData) {
+  if (!dayData) return null;
+  const times = Object.keys(dayData).sort();
+  if (times.length === 0) return null;
+  return dayData[times[times.length - 1]];
+}
+
+// ========== 渲染板块卡片 ==========
+function renderCards(plates) {
+  const grid = document.getElementById('plateGrid');
+  if (!plates || plates.length === 0) {
+    grid.innerHTML = '<div style="grid-column:1/-1;text-align:center;color:var(--muted);padding:40px">暂无数据</div>';
+    return;
+  }
+  
+  // 按涨幅排序
+  const sorted = [...plates].sort((a, b) => b.change - a.change);
+  
+  grid.innerHTML = sorted.map(p => {
+    const isUp = p.change >= 0;
+    const color = isUp ? 'var(--up)' : 'var(--down)';
+    const tagClass = isUp ? 'tag-up' : 'tag-down';
+    const arrow = isUp ? '▲' : '▼';
+    const fundColor = p.fund >= 0 ? 'var(--up)' : 'var(--down)';
+    
+    // 资金流向条宽度 (以300亿为满)
+    const maxFund = 300;
+    const barWidth = Math.min(Math.abs(p.fund) / maxFund * 100, 100);
+    const barColor = p.fund >= 0 ? 'var(--up)' : 'var(--down)';
+    
+    return `
+    <div class="card">
+      <div class="card-header">
+        <span class="card-title">${p.name}</span>
+        <span class="card-tag ${tagClass}">${arrow} ${Math.abs(p.change).toFixed(2)}%</span>
+      </div>
+      <div class="card-stats">
+        <div class="stat-item">
+          <span class="stat-label">主力净流入</span>
+          <span class="stat-val" style="color:${fundColor}">${p.fund >= 0 ? '+' : ''}${p.fund.toFixed(1)}亿</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-label">净占比</span>
+          <span class="stat-val" style="color:${fundColor}">${p.fund_ratio >= 0 ? '+' : ''}${p.fund_ratio.toFixed(2)}%</span>
+        </div>
+      </div>
+      <div class="fund-bar">
+        <div class="fund-bar-inner" style="width:${barWidth}%;background:${barColor}"></div>
+      </div>
+      <div class="card-footer">
+        <span>${p.code}</span>
+        <span>东财</span>
+      </div>
+    </div>
+    `;
+  }).join('');
+}
+
+// ========== 获取数据 ==========
+async function fetchData() {
+  const statusText = document.getElementById('statusText');
+  const grid = document.getElementById('plateGrid');
+  
   try {
-    const resp = await fetch('data/sector_ranking.json?t=' + Date.now());
-    const data = await resp.json();
+    statusText.textContent = '获取数据中...';
+    grid.classList.add('loading');
     
-    document.getElementById('data-time').textContent = 
-      new Date(data.timestamp).toLocaleString('zh-CN');
+    const todayStr = getTodayStr();
+    const resp = await fetch(`data/${todayStr}.json?t=${Date.now()}`);
     
-    renderTable(data.sectors);
-    renderChart(data.sectors);
-  } catch (e) {
-    document.getElementById('ranking-body').innerHTML = 
-      `<tr><td colspan="7" class="py-8 text-center text-red-400">加载失败: ${e.message}</td></tr>`;
+    if (!resp.ok) {
+      throw new Error(`HTTP ${resp.status}`);
+    }
+    
+    const dayData = await resp.json();
+    const plates = getLatestData(dayData);
+    
+    if (!plates) {
+      throw new Error('数据为空');
+    }
+    
+    currentData = plates;
+    renderCards(plates);
+    
+    // 更新时间显示
+    const times = Object.keys(dayData).sort();
+    const latestTime = times[times.length - 1];
+    document.getElementById('updateTime').textContent = `${todayStr.slice(0,4)}-${todayStr.slice(4,6)}-${todayStr.slice(6,8)} ${latestTime}`;
+    document.getElementById('plateCount').textContent = plates.length;
+    statusText.textContent = `✅ 最后更新: ${latestTime} · 共${times.length}个时间点`;
+    
+  } catch (err) {
+    console.error('获取数据失败:', err);
+    statusText.textContent = `❌ 获取失败: ${err.message}`;
+    // 如果有旧数据，继续显示
+    if (currentData) {
+      renderCards(currentData);
+    }
+  } finally {
+    grid.classList.remove('loading');
   }
 }
 
-function renderTable(sectors) {
-  const tbody = document.getElementById('ranking-body');
-  tbody.innerHTML = sectors.map((s, i) => `
-    <tr class="border-b border-slate-800 hover:bg-slate-800/50 transition">
-      <td class="py-3 px-3 font-mono ${i < 3 ? 'text-yellow-400 font-bold' : 'text-slate-400'}">${i + 1}</td>
-      <td class="py-3 px-3 font-medium text-white">${s.name}</td>
-      <td class="py-3 px-3 text-right ${s.total_main_force_raw > 0 ? 'positive' : 'negative'}">${s.total_main_force}</td>
-      <td class="py-3 px-3 text-right ${s.avg_change_pct > 0 ? 'positive' : 'negative'}">${s.avg_change_pct > 0 ? '+' : ''}${s.avg_change_pct}%</td>
-      <td class="py-3 px-3 text-right text-slate-400">${s.stock_count}</td>
-      <td class="py-3 px-3 text-slate-300">${s.top_stock.name} <span class="text-xs text-slate-500">${s.top_stock.code}</span></td>
-      <td class="py-3 px-3 text-right ${s.top_stock.change_pct > 0 ? 'positive' : 'negative'}">${s.top_stock.change_pct > 0 ? '+' : ''}${s.top_stock.change_pct}%</td>
-    </tr>
-  `).join('');
+// ========== 手动刷新 ==========
+function manualRefresh() {
+  fetchData();
 }
 
-function renderChart(sectors) {
-  const chart = echarts.init(document.getElementById('chart'));
-  const top10 = sectors.slice(0, 15);
-  
-  chart.setOption({
-    backgroundColor: 'transparent',
-    tooltip: {
-      trigger: 'axis',
-      axisPointer: { type: 'shadow' },
-      formatter: function(params) {
-        const p = params[0];
-        const s = top10[p.dataIndex];
-        return `<b>${s.name}</b><br/>
-                主力净流入: ${s.total_main_force}<br/>
-                平均涨跌: ${s.avg_change_pct > 0 ? '+' : ''}${s.avg_change_pct}%<br/>
-                个股数: ${s.stock_count}<br/>
-                领涨: ${s.top_stock.name} ${s.top_stock.change_pct > 0 ? '+' : ''}${s.top_stock.change_pct}%`;
-      }
-    },
-    grid: { left: '3%', right: '4%', bottom: '3%', top: '10%', containLabel: true },
-    xAxis: {
-      type: 'category',
-      data: top10.map(s => s.name),
-      axisLabel: { color: '#94a3b8', rotate: 30, fontSize: 11 },
-      axisLine: { lineStyle: { color: '#334155' } }
-    },
-    yAxis: {
-      type: 'value',
-      name: '主力净流入(亿元)',
-      nameTextStyle: { color: '#64748b', fontSize: 10 },
-      axisLabel: { color: '#64748b', formatter: v => (v/1e8).toFixed(0) + '亿' },
-      splitLine: { lineStyle: { color: '#1e293b' } }
-    },
-    series: [{
-      name: '主力净流入',
-      type: 'bar',
-      data: top10.map(s => s.total_main_force_raw),
-      itemStyle: {
-        color: p => {
-          const val = top10[p.dataIndex].total_main_force_raw;
-          return val > 0 ? '#f87171' : '#4ade80';
-        },
-        borderRadius: [4, 4, 0, 0]
-      },
-      barWidth: '60%'
-    }]
-  });
+// ========== 自动刷新 ==========
+function startAutoRefresh() {
+  if (refreshTimer) clearInterval(refreshTimer);
+  refreshTimer = setInterval(fetchData, REFRESH_INTERVAL);
 }
 
-loadData();
+// ========== 初始化 ==========
+async function init() {
+  await fetchData();
+  startAutoRefresh();
+}
+
+// 启动
+init();
 </script>
 </body>
 </html>
