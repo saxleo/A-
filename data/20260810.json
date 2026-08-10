@@ -6374,5 +6374,48 @@
         "main_force": -242.83
       }
     ]
+  },
+  {
+    "date": "20260810",
+    "time": "1428",
+    "timestamp": "2026-08-10T14:28:05.721156",
+    "wind_fund": {
+      "机构": -85.9375,
+      "大户": -16.2944,
+      "中户": -98.507,
+      "散户": -85.1951
+    },
+    "concepts": [
+      {
+        "name": "有色金属",
+        "change_pct": 2.36,
+        "main_force": 7.14
+      },
+      {
+        "name": "银行",
+        "change_pct": 1.5,
+        "main_force": -2.38
+      },
+      {
+        "name": "半导体材料",
+        "change_pct": -0.79,
+        "main_force": -15.1
+      },
+      {
+        "name": "创新药",
+        "change_pct": 1.12,
+        "main_force": -43.21
+      },
+      {
+        "name": "电网设备",
+        "change_pct": 1.04,
+        "main_force": -69.17
+      },
+      {
+        "name": "半导体概念",
+        "change_pct": -0.31,
+        "main_force": -168.6
+      }
+    ]
   }
 ]
