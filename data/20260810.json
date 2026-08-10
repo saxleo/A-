@@ -944,5 +944,53 @@
         "main_force": -159.14
       }
     ]
+  },
+  {
+    "date": "20260810",
+    "time": "1028",
+    "timestamp": "2026-08-10T10:28:04.511092",
+    "wind_fund": {
+      "机构": -224.1973,
+      "大户": -73.1355,
+      "中户": -62.7385,
+      "散户": -52.8772
+    },
+    "concepts": [
+      {
+        "name": "创新药",
+        "change_pct": 2.08,
+        "main_force": 3.14
+      },
+      {
+        "name": "AI应用",
+        "change_pct": 0.58,
+        "main_force": -21.05
+      },
+      {
+        "name": "MLCC",
+        "change_pct": -2.16,
+        "main_force": -37.7
+      },
+      {
+        "name": "存储芯片",
+        "change_pct": -1.22,
+        "main_force": -119.05
+      },
+      {
+        "name": "先进封装",
+        "change_pct": -1.75,
+        "main_force": -123.45
+      },
+      {
+        "name": "PCB",
+        "change_pct": -2.0,
+        "main_force": -137.8
+      },
+      {
+        "name": "机器人概念",
+        "change_pct": 0.02,
+        "main_force": -168.34
+      }
+    ]
   }
 ]
