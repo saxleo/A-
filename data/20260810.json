@@ -5603,5 +5603,63 @@
         "main_force": -345.37
       }
     ]
+  },
+  {
+    "date": "20260810",
+    "time": "1404",
+    "timestamp": "2026-08-10T14:04:04.543308",
+    "wind_fund": {
+      "机构": -145.6922,
+      "大户": -79.7217,
+      "中户": -129.1983,
+      "散户": -90.0508
+    },
+    "concepts": [
+      {
+        "name": "有色金属",
+        "change_pct": 2.11,
+        "main_force": -0.96
+      },
+      {
+        "name": "银行",
+        "change_pct": 1.47,
+        "main_force": -2.63
+      },
+      {
+        "name": "半导体材料",
+        "change_pct": -2.03,
+        "main_force": -18.68
+      },
+      {
+        "name": "MLCC",
+        "change_pct": 0.4,
+        "main_force": -26.39
+      },
+      {
+        "name": "创新药",
+        "change_pct": 0.67,
+        "main_force": -47.0
+      },
+      {
+        "name": "AI应用",
+        "change_pct": 0.39,
+        "main_force": -70.44
+      },
+      {
+        "name": "电网设备",
+        "change_pct": 0.61,
+        "main_force": -81.34
+      },
+      {
+        "name": "半导体概念",
+        "change_pct": -1.28,
+        "main_force": -184.03
+      },
+      {
+        "name": "机器人概念",
+        "change_pct": 0.06,
+        "main_force": -276.51
+      }
+    ]
   }
 ]
