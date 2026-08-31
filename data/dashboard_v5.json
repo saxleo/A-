@@ -1,9 +1,22 @@
 {
-  "timestamp": "2026-08-31T09:46:02.080290",
+  "timestamp": "2026-08-31T09:48:02.618230",
   "total": 0,
   "success": 0,
   "has_fund_flow": 0,
   "sector_data": {},
   "raw_data": {},
-  "index": {}
+  "index": {
+    "code": "000001",
+    "name": 0.0,
+    "price": 0.0,
+    "open": 0.0,
+    "high": 0.0,
+    "low": 0.0,
+    "last_close": 0.0,
+    "change": 0.0,
+    "change_pct": 0.0,
+    "main_force": -6316889600.0,
+    "has_fund_flow": true,
+    "timestamp": "2026-08-31T09:48:02.617100"
+  }
 }
