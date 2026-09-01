@@ -1,22 +1,9 @@
 {
-  "timestamp": "2026-09-01T10:43:02.889628",
+  "timestamp": "2026-09-01T10:44:02.425607",
   "total": 0,
   "success": 0,
   "has_fund_flow": 0,
   "sector_data": {},
   "raw_data": {},
-  "index": {
-    "code": "000001",
-    "name": 0.0,
-    "price": 0.0,
-    "open": 0.0,
-    "high": 0.0,
-    "low": 0.0,
-    "last_close": 0.0,
-    "change": 0.0,
-    "change_pct": 0.0,
-    "main_force": -10852463872.0,
-    "has_fund_flow": true,
-    "timestamp": "2026-09-01T10:43:02.888523"
-  }
+  "index": {}
 }
