@@ -221,9 +221,10 @@ body {
   <div class="header">
     <h1>📊 超黄板块资金看板</h1>
     <div class="meta">
-      <span id="current-date">2026-09-11</span>
+      <span id="current-date">2026-09-14</span>
       <select class="date-selector" id="dateSelector" onchange="changeDate(this.value)">
         <option value="">选择历史日期...</option>
+        <option value="20260914">2026-09-14</option>
         <option value="20260911">2026-09-11</option>
         <option value="20260910">2026-09-10</option>
         <option value="20260909">2026-09-09</option>
@@ -262,8 +263,8 @@ body {
   </div>
 
   <div class="status-bar">
-    <span><span class="live-dot"></span>数据更新: 15:00:10 <span style="color:#feca57;font-size:11px"></span></span>
-    <span class="next-time">下次更新: 15:02</span>
+    <span><span class="live-dot"></span>数据更新: 09:26:04 <span style="color:#feca57;font-size:11px"></span></span>
+    <span class="next-time">下次更新: 09:28</span>
   </div>
 
   <div class="history-note" id="historyNote">
@@ -275,30 +276,30 @@ body {
     <div class="fund-grid" id="fundGrid">
       <div class="fund-item">
         <div class="label">机构资金</div>
-        <div class="amount in">+50.8亿</div>
+        <div class="amount out">+0.0亿</div>
         <div class="fund-bar">
-          <div class="fund-bar-inner" style="width: 18.058871710790378%; background: #ff4757;"></div>
+          <div class="fund-bar-inner" style="width: 0.0%; background: #2ed573;"></div>
         </div>
       </div>
       <div class="fund-item">
         <div class="label">大户资金</div>
-        <div class="amount out">-205.0亿</div>
+        <div class="amount out">+0.0亿</div>
         <div class="fund-bar">
-          <div class="fund-bar-inner" style="width: 72.79982325415527%; background: #2ed573;"></div>
+          <div class="fund-bar-inner" style="width: 0.0%; background: #2ed573;"></div>
         </div>
       </div>
       <div class="fund-item">
         <div class="label">中户资金</div>
-        <div class="amount out">-281.5亿</div>
+        <div class="amount out">+0.0亿</div>
         <div class="fund-bar">
-          <div class="fund-bar-inner" style="width: 100.0%; background: #2ed573;"></div>
+          <div class="fund-bar-inner" style="width: 0.0%; background: #2ed573;"></div>
         </div>
       </div>
       <div class="fund-item">
         <div class="label">散户资金</div>
-        <div class="amount out">-213.3亿</div>
+        <div class="amount out">+0.0亿</div>
         <div class="fund-bar">
-          <div class="fund-bar-inner" style="width: 75.74642796505718%; background: #2ed573;"></div>
+          <div class="fund-bar-inner" style="width: 0.0%; background: #2ed573;"></div>
         </div>
       </div>
     </div>
@@ -307,188 +308,6 @@ body {
   <div class="card">
     <div class="card-title">🏆 核心概念板块排行</div>
     <ul class="ranking-list" id="rankingList">
-      <li class="ranking-item">
-        <div class="rank-num top1">01</div>
-        <div class="concept-info">
-          <div class="concept-name">光通信</div>
-          <div class="concept-change up">+0.07%</div>
-        </div>
-        <div class="progress-area">
-          <div class="progress-bar">
-            <div class="progress-bar-inner in" style="width: 39.34723481414324%"></div>
-          </div>
-        </div>
-        <div class="net-amount in">+43.4亿</div>
-      </li>
-      <li class="ranking-item">
-        <div class="rank-num top2">02</div>
-        <div class="concept-info">
-          <div class="concept-name">MLCC</div>
-          <div class="concept-change up">+1.72%</div>
-        </div>
-        <div class="progress-area">
-          <div class="progress-bar">
-            <div class="progress-bar-inner in" style="width: 25.657298277425205%"></div>
-          </div>
-        </div>
-        <div class="net-amount in">+28.3亿</div>
-      </li>
-      <li class="ranking-item">
-        <div class="rank-num top3">03</div>
-        <div class="concept-info">
-          <div class="concept-name">算力概念</div>
-          <div class="concept-change down">-1.37%</div>
-        </div>
-        <div class="progress-area">
-          <div class="progress-bar">
-            <div class="progress-bar-inner in" style="width: 19.31097008159565%"></div>
-          </div>
-        </div>
-        <div class="net-amount in">+21.3亿</div>
-      </li>
-      <li class="ranking-item">
-        <div class="rank-num normal">04</div>
-        <div class="concept-info">
-          <div class="concept-name">银行</div>
-          <div class="concept-change down">-1.10%</div>
-        </div>
-        <div class="progress-area">
-          <div class="progress-bar">
-            <div class="progress-bar-inner out" style="width: 3.626473254759746%"></div>
-          </div>
-        </div>
-        <div class="net-amount out">-4.0亿</div>
-      </li>
-      <li class="ranking-item">
-        <div class="rank-num normal">05</div>
-        <div class="concept-info">
-          <div class="concept-name">电网设备</div>
-          <div class="concept-change down">-1.43%</div>
-        </div>
-        <div class="progress-area">
-          <div class="progress-bar">
-            <div class="progress-bar-inner out" style="width: 5.167724388032639%"></div>
-          </div>
-        </div>
-        <div class="net-amount out">-5.7亿</div>
-      </li>
-      <li class="ranking-item">
-        <div class="rank-num normal">06</div>
-        <div class="concept-info">
-          <div class="concept-name">机器人概念</div>
-          <div class="concept-change down">-2.45%</div>
-        </div>
-        <div class="progress-area">
-          <div class="progress-bar">
-            <div class="progress-bar-inner out" style="width: 6.708975521305531%"></div>
-          </div>
-        </div>
-        <div class="net-amount out">-7.4亿</div>
-      </li>
-      <li class="ranking-item">
-        <div class="rank-num normal">07</div>
-        <div class="concept-info">
-          <div class="concept-name">半导体材料</div>
-          <div class="concept-change down">-2.25%</div>
-        </div>
-        <div class="progress-area">
-          <div class="progress-bar">
-            <div class="progress-bar-inner out" style="width: 11.87669990933817%"></div>
-          </div>
-        </div>
-        <div class="net-amount out">-13.1亿</div>
-      </li>
-      <li class="ranking-item">
-        <div class="rank-num normal">08</div>
-        <div class="concept-info">
-          <div class="concept-name">创新药</div>
-          <div class="concept-change down">-2.31%</div>
-        </div>
-        <div class="progress-area">
-          <div class="progress-bar">
-            <div class="progress-bar-inner out" style="width: 26.382592928377157%"></div>
-          </div>
-        </div>
-        <div class="net-amount out">-29.1亿</div>
-      </li>
-      <li class="ranking-item">
-        <div class="rank-num normal">09</div>
-        <div class="concept-info">
-          <div class="concept-name">AI应用</div>
-          <div class="concept-change down">-2.08%</div>
-        </div>
-        <div class="progress-area">
-          <div class="progress-bar">
-            <div class="progress-bar-inner out" style="width: 34.17951042611061%"></div>
-          </div>
-        </div>
-        <div class="net-amount out">-37.7亿</div>
-      </li>
-      <li class="ranking-item">
-        <div class="rank-num normal">10</div>
-        <div class="concept-info">
-          <div class="concept-name">PCB</div>
-          <div class="concept-change down">-0.33%</div>
-        </div>
-        <div class="progress-area">
-          <div class="progress-bar">
-            <div class="progress-bar-inner out" style="width: 36.446056210335456%"></div>
-          </div>
-        </div>
-        <div class="net-amount out">-40.2亿</div>
-      </li>
-      <li class="ranking-item">
-        <div class="rank-num normal">11</div>
-        <div class="concept-info">
-          <div class="concept-name">先进封装</div>
-          <div class="concept-change down">-1.73%</div>
-        </div>
-        <div class="progress-area">
-          <div class="progress-bar">
-            <div class="progress-bar-inner out" style="width: 45.51223934723482%"></div>
-          </div>
-        </div>
-        <div class="net-amount out">-50.2亿</div>
-      </li>
-      <li class="ranking-item">
-        <div class="rank-num normal">12</div>
-        <div class="concept-info">
-          <div class="concept-name">有色金属</div>
-          <div class="concept-change down">-3.12%</div>
-        </div>
-        <div class="progress-area">
-          <div class="progress-bar">
-            <div class="progress-bar-inner out" style="width: 72.07615593834996%"></div>
-          </div>
-        </div>
-        <div class="net-amount out">-79.5亿</div>
-      </li>
-      <li class="ranking-item">
-        <div class="rank-num normal">13</div>
-        <div class="concept-info">
-          <div class="concept-name">半导体概念</div>
-          <div class="concept-change down">-2.01%</div>
-        </div>
-        <div class="progress-area">
-          <div class="progress-bar">
-            <div class="progress-bar-inner out" style="width: 79.78241160471443%"></div>
-          </div>
-        </div>
-        <div class="net-amount out">-88.0亿</div>
-      </li>
-      <li class="ranking-item">
-        <div class="rank-num normal">14</div>
-        <div class="concept-info">
-          <div class="concept-name">存储芯片</div>
-          <div class="concept-change down">-1.53%</div>
-        </div>
-        <div class="progress-area">
-          <div class="progress-bar">
-            <div class="progress-bar-inner out" style="width: 100.0%"></div>
-          </div>
-        </div>
-        <div class="net-amount out">-110.3亿</div>
-      </li>
     </ul>
   </div>
 
@@ -501,14 +320,14 @@ body {
 <script>
 // 历史数据存储
 const historyData = {};
+historyData['20260914'] = {"date": "20260914", "time": "0926", "timestamp": "2026-09-14T09:26:04.481805", "wind_fund": {"机构": 0, "大户": 0, "中户": 0, "散户": 0}, "concepts": []};
 historyData['20260911'] = {"date": "20260911", "time": "1500", "timestamp": "2026-09-11T15:00:10.074361", "wind_fund": {"机构": 50.8419, "大户": -204.9564, "中户": -281.5342, "散户": -213.2521}, "concepts": [{"name": "光通信", "change_pct": 0.07, "main_force": 43.4}, {"name": "MLCC", "change_pct": 1.72, "main_force": 28.3}, {"name": "算力概念", "change_pct": -1.37, "main_force": 21.3}, {"name": "银行", "change_pct": -1.1, "main_force": -4.0}, {"name": "电网设备", "change_pct": -1.43, "main_force": -5.7}, {"name": "机器人概念", "change_pct": -2.45, "main_force": -7.4}, {"name": "半导体材料", "change_pct": -2.25, "main_force": -13.1}, {"name": "创新药", "change_pct": -2.31, "main_force": -29.1}, {"name": "AI应用", "change_pct": -2.08, "main_force": -37.7}, {"name": "PCB", "change_pct": -0.33, "main_force": -40.2}, {"name": "先进封装", "change_pct": -1.73, "main_force": -50.2}, {"name": "有色金属", "change_pct": -3.12, "main_force": -79.5}, {"name": "半导体概念", "change_pct": -2.01, "main_force": -88.0}, {"name": "存储芯片", "change_pct": -1.53, "main_force": -110.3}]};
 historyData['20260910'] = {"date": "20260910", "time": "1500", "timestamp": "2026-09-10T15:00:06.463438", "wind_fund": {"机构": 224.2601, "大户": -105.375, "中户": -262.1896, "散户": -184.9387}, "concepts": [{"name": "PCB", "change_pct": -0.14, "main_force": 22.9}, {"name": "存储芯片", "change_pct": -0.17, "main_force": 20.2}, {"name": "银行", "change_pct": 1.47, "main_force": 3.4}, {"name": "MLCC", "change_pct": -0.34, "main_force": 1.1}, {"name": "半导体材料", "change_pct": -0.45, "main_force": -1.4}, {"name": "先进封装", "change_pct": -0.71, "main_force": -1.8}, {"name": "机器人概念", "change_pct": -2.18, "main_force": -4.7}, {"name": "AI应用", "change_pct": -1.29, "main_force": -21.9}, {"name": "半导体概念", "change_pct": -0.7, "main_force": -23.3}, {"name": "电网设备", "change_pct": -1.55, "main_force": -24.7}, {"name": "有色金属", "change_pct": -1.63, "main_force": -32.4}, {"name": "创新药", "change_pct": -2.1, "main_force": -34.8}, {"name": "算力概念", "change_pct": -0.98, "main_force": -55.2}, {"name": "光通信", "change_pct": -0.68, "main_force": -64.3}]};
 historyData['20260909'] = {"date": "20260909", "time": "1500", "timestamp": "2026-09-09T15:00:04.482568", "wind_fund": {"机构": 427.9159, "大户": -52.7227, "中户": -216.427, "散户": -136.6684}, "concepts": [{"name": "PCB", "change_pct": 1.12, "main_force": 98.4}, {"name": "光通信", "change_pct": 0.65, "main_force": 87.5}, {"name": "有色金属", "change_pct": 1.08, "main_force": 26.4}, {"name": "电网设备", "change_pct": 0.34, "main_force": 4.5}, {"name": "先进封装", "change_pct": -0.06, "main_force": 3.9}, {"name": "MLCC", "change_pct": 0.1, "main_force": 2.7}, {"name": "银行", "change_pct": 0.28, "main_force": -2.7}, {"name": "机器人概念", "change_pct": -1.1, "main_force": -5.8}, {"name": "半导体材料", "change_pct": 0.53, "main_force": -8.1}, {"name": "算力概念", "change_pct": -0.63, "main_force": -18.3}, {"name": "创新药", "change_pct": -1.51, "main_force": -24.2}, {"name": "存储芯片", "change_pct": -0.16, "main_force": -57.1}, {"name": "半导体概念", "change_pct": -0.4, "main_force": -65.5}, {"name": "AI应用", "change_pct": -1.88, "main_force": -75.6}]};
 historyData['20260908'] = {"date": "20260908", "time": "1500", "timestamp": "2026-09-08T15:00:05.062854", "wind_fund": {"机构": 416.6806, "大户": -4.2464, "中户": -95.8239, "散户": -26.1226}, "concepts": [{"name": "有色金属", "change_pct": 0.64, "main_force": 32.3}, {"name": "创新药", "change_pct": 1.36, "main_force": 10.8}, {"name": "PCB", "change_pct": -0.01, "main_force": 4.7}, {"name": "光通信", "change_pct": -0.07, "main_force": 3.2}, {"name": "电网设备", "change_pct": 0.13, "main_force": -0.4}, {"name": "银行", "change_pct": 1.08, "main_force": -1.6}, {"name": "半导体材料", "change_pct": -1.21, "main_force": -2.5}, {"name": "机器人概念", "change_pct": -0.24, "main_force": -4.9}, {"name": "MLCC", "change_pct": -1.09, "main_force": -7.3}, {"name": "存储芯片", "change_pct": 0.0, "main_force": -8.7}, {"name": "半导体概念", "change_pct": -1.32, "main_force": -13.9}, {"name": "先进封装", "change_pct": -0.39, "main_force": -18.1}, {"name": "算力概念", "change_pct": -0.21, "main_force": -52.3}, {"name": "AI应用", "change_pct": 0.48, "main_force": -61.3}]};
-historyData['20260907'] = {"date": "20260907", "time": "1500", "timestamp": "2026-09-07T15:00:07.968474", "wind_fund": {"机构": 838.7543, "大户": 234.1468, "中户": -65.9274, "散户": 17.1322}, "concepts": [{"name": "光通信", "change_pct": 5.99, "main_force": 268.9}, {"name": "PCB", "change_pct": 4.49, "main_force": 173.3}, {"name": "算力概念", "change_pct": 1.1, "main_force": 152.1}, {"name": "存储芯片", "change_pct": 3.59, "main_force": 126.9}, {"name": "半导体概念", "change_pct": 2.54, "main_force": 98.0}, {"name": "先进封装", "change_pct": 3.34, "main_force": 53.3}, {"name": "MLCC", "change_pct": 2.89, "main_force": 14.8}, {"name": "半导体材料", "change_pct": 3.82, "main_force": 12.3}, {"name": "机器人概念", "change_pct": 1.81, "main_force": 1.4}, {"name": "创新药", "change_pct": 0.34, "main_force": -0.9}, {"name": "电网设备", "change_pct": 0.04, "main_force": -10.3}, {"name": "有色金属", "change_pct": 0.34, "main_force": -16.6}, {"name": "银行", "change_pct": -1.43, "main_force": -17.0}, {"name": "AI应用", "change_pct": 0.18, "main_force": -41.2}]};
-historyData['20260911'] = {"date": "20260911", "time": "1500", "timestamp": "2026-09-11T15:00:10.074361", "wind_fund": {"机构": 50.8419, "大户": -204.9564, "中户": -281.5342, "散户": -213.2521}, "concepts": [{"name": "光通信", "change_pct": 0.07, "main_force": 43.4}, {"name": "MLCC", "change_pct": 1.72, "main_force": 28.3}, {"name": "算力概念", "change_pct": -1.37, "main_force": 21.3}, {"name": "银行", "change_pct": -1.1, "main_force": -4.0}, {"name": "电网设备", "change_pct": -1.43, "main_force": -5.7}, {"name": "机器人概念", "change_pct": -2.45, "main_force": -7.4}, {"name": "半导体材料", "change_pct": -2.25, "main_force": -13.1}, {"name": "创新药", "change_pct": -2.31, "main_force": -29.1}, {"name": "AI应用", "change_pct": -2.08, "main_force": -37.7}, {"name": "PCB", "change_pct": -0.33, "main_force": -40.2}, {"name": "先进封装", "change_pct": -1.73, "main_force": -50.2}, {"name": "有色金属", "change_pct": -3.12, "main_force": -79.5}, {"name": "半导体概念", "change_pct": -2.01, "main_force": -88.0}, {"name": "存储芯片", "change_pct": -1.53, "main_force": -110.3}]};
+historyData['20260914'] = {"date": "20260914", "time": "0926", "timestamp": "2026-09-14T09:26:04.481805", "wind_fund": {"机构": 0, "大户": 0, "中户": 0, "散户": 0}, "concepts": []};
 
-let currentViewDate = '20260911';
+let currentViewDate = '20260914';
 let isHistoryView = false;
 
 // 每30秒自动刷新（仅当天数据）
@@ -534,7 +353,7 @@ setInterval(() => {
 function changeDate(dateStr) {
     if (!dateStr) {
         isHistoryView = false;
-        currentViewDate = '20260911';
+        currentViewDate = '20260914';
         location.reload();
         return;
     }
