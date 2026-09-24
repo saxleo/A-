@@ -3188,5 +3188,88 @@
         "main_force": -72.5
       }
     ]
+  },
+  {
+    "date": "20260924",
+    "time": "1048",
+    "timestamp": "2026-09-24T10:48:08.158934",
+    "wind_fund": {
+      "机构": 12.5567,
+      "大户": -135.1774,
+      "中户": -142.3791,
+      "散户": -72.2643
+    },
+    "concepts": [
+      {
+        "name": "半导体材料",
+        "change_pct": -0.21,
+        "main_force": 7.0
+      },
+      {
+        "name": "MLCC",
+        "change_pct": -1.31,
+        "main_force": 2.8
+      },
+      {
+        "name": "银行",
+        "change_pct": 0.73,
+        "main_force": 1.6
+      },
+      {
+        "name": "机器人概念",
+        "change_pct": 0.15,
+        "main_force": 1.6
+      },
+      {
+        "name": "电网设备",
+        "change_pct": -0.55,
+        "main_force": -5.4
+      },
+      {
+        "name": "AI应用",
+        "change_pct": -0.86,
+        "main_force": -17.0
+      },
+      {
+        "name": "先进封装",
+        "change_pct": -1.07,
+        "main_force": -23.5
+      },
+      {
+        "name": "算力概念",
+        "change_pct": -0.8,
+        "main_force": -24.8
+      },
+      {
+        "name": "创新药",
+        "change_pct": -1.86,
+        "main_force": -29.7
+      },
+      {
+        "name": "有色金属",
+        "change_pct": -1.67,
+        "main_force": -34.9
+      },
+      {
+        "name": "半导体概念",
+        "change_pct": -0.51,
+        "main_force": -38.8
+      },
+      {
+        "name": "光通信",
+        "change_pct": -1.74,
+        "main_force": -43.5
+      },
+      {
+        "name": "存储芯片",
+        "change_pct": -1.06,
+        "main_force": -47.0
+      },
+      {
+        "name": "PCB",
+        "change_pct": -2.05,
+        "main_force": -76.5
+      }
+    ]
   }
 ]
