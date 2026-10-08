@@ -281,8 +281,8 @@ body {
   </div>
 
   <div class="status-bar">
-    <span><span class="live-dot"></span>数据更新: 09:54:05 <span style="color:#feca57;font-size:11px"></span></span>
-    <span class="next-time">下次更新: 09:56</span>
+    <span><span class="live-dot"></span>数据更新: 09:58:09 <span style="color:#feca57;font-size:11px"></span></span>
+    <span class="next-time">下次更新: 10:00</span>
   </div>
 
   <div class="history-note" id="historyNote">
@@ -294,30 +294,30 @@ body {
     <div class="fund-grid" id="fundGrid">
       <div class="fund-item">
         <div class="label">机构资金</div>
-        <div class="amount in">+139.2亿</div>
+        <div class="amount in">+145.0亿</div>
         <div class="fund-bar">
           <div class="fund-bar-inner" style="width: 100.0%; background: #ff4757;"></div>
         </div>
       </div>
       <div class="fund-item">
         <div class="label">主力资金</div>
-        <div class="amount in">+58.4亿</div>
+        <div class="amount in">+47.4亿</div>
         <div class="fund-bar">
-          <div class="fund-bar-inner" style="width: 41.97116834982977%; background: #ff6348;"></div>
+          <div class="fund-bar-inner" style="width: 32.69993234496756%; background: #ff6348;"></div>
         </div>
       </div>
       <div class="fund-item">
         <div class="label">大户资金</div>
-        <div class="amount out">-4.9亿</div>
+        <div class="amount out">-20.8亿</div>
         <div class="fund-bar">
-          <div class="fund-bar-inner" style="width: 3.5098619471060606%; background: #2ed573;"></div>
+          <div class="fund-bar-inner" style="width: 14.31210831977589%; background: #2ed573;"></div>
         </div>
       </div>
       <div class="fund-item">
         <div class="label">散户资金</div>
-        <div class="amount in">+38.6亿</div>
+        <div class="amount out">-6.8亿</div>
         <div class="fund-bar">
-          <div class="fund-bar-inner" style="width: 27.708192670698594%; background: #48dbfb;"></div>
+          <div class="fund-bar-inner" style="width: 4.720472992124844%; background: #2ed573;"></div>
         </div>
       </div>
     </div>
@@ -520,12 +520,12 @@ body {
 <script>
 // 历史数据存储
 const historyData = {};
-historyData['20261008'] = {"date": "20261008", "time": "0954", "timestamp": "2026-10-08T09:54:05.686618", "wind_fund": {"机构": 139.222, "大户": 58.4331, "中户": -4.8865, "散户": 38.5759}, "concepts": [{"name": "PCB", "change_pct": 1.22, "main_force": 29.5}, {"name": "算力概念", "change_pct": 0.35, "main_force": 14.7}, {"name": "MLCC", "change_pct": 1.87, "main_force": 10.9}, {"name": "存储芯片", "change_pct": -0.02, "main_force": 3.5}, {"name": "电网设备", "change_pct": 1.33, "main_force": 2.7}, {"name": "创新药", "change_pct": -0.7, "main_force": 0.8}, {"name": "先进封装", "change_pct": -0.2, "main_force": 0.2}, {"name": "银行", "change_pct": 0.64, "main_force": 0.0}, {"name": "有色金属", "change_pct": 0.54, "main_force": -0.4}, {"name": "半导体材料", "change_pct": -0.47, "main_force": -0.4}, {"name": "机器人概念", "change_pct": -1.09, "main_force": -1.2}, {"name": "光通信", "change_pct": -0.79, "main_force": -3.8}, {"name": "AI应用", "change_pct": -0.28, "main_force": -8.4}, {"name": "半导体概念", "change_pct": -0.94, "main_force": -12.4}]};
+historyData['20261008'] = {"date": "20261008", "time": "0958", "timestamp": "2026-10-08T09:58:09.078840", "wind_fund": {"机构": 145.0003, "大户": 47.415, "中户": -20.7526, "散户": -6.8447}, "concepts": [{"name": "PCB", "change_pct": 1.22, "main_force": 29.5}, {"name": "算力概念", "change_pct": 0.35, "main_force": 14.7}, {"name": "MLCC", "change_pct": 1.87, "main_force": 10.9}, {"name": "存储芯片", "change_pct": -0.02, "main_force": 3.5}, {"name": "电网设备", "change_pct": 1.33, "main_force": 2.7}, {"name": "创新药", "change_pct": -0.7, "main_force": 0.8}, {"name": "先进封装", "change_pct": -0.2, "main_force": 0.2}, {"name": "银行", "change_pct": 0.64, "main_force": 0.0}, {"name": "有色金属", "change_pct": 0.54, "main_force": -0.4}, {"name": "半导体材料", "change_pct": -0.47, "main_force": -0.4}, {"name": "机器人概念", "change_pct": -1.09, "main_force": -1.2}, {"name": "光通信", "change_pct": -0.79, "main_force": -3.8}, {"name": "AI应用", "change_pct": -0.28, "main_force": -8.4}, {"name": "半导体概念", "change_pct": -0.94, "main_force": -12.4}]};
 historyData['20261007'] = {"date": "20261007", "time": "1500", "timestamp": "2026-10-07T15:00:09.659973", "wind_fund": {"机构": 81.8554, "大户": -15.4873, "中户": -175.3088, "散户": -72.4591}, "concepts": []};
 historyData['20261006'] = {"date": "20261006", "time": "1500", "timestamp": "2026-10-06T15:00:10.291187", "wind_fund": {"机构": 81.8554, "大户": -15.4873, "中户": -175.3088, "散户": -72.4591}, "concepts": []};
 historyData['20261005'] = {"date": "20261005", "time": "1458", "timestamp": "2026-10-05T14:58:07.611705", "wind_fund": {"机构": 81.8554, "大户": -15.4873, "中户": -175.3088, "散户": -72.4591}, "concepts": []};
 historyData['20261002'] = {"date": "20261002", "time": "1458", "timestamp": "2026-10-02T14:58:07.026296", "wind_fund": {"机构": 81.8554, "大户": -15.4873, "中户": -175.3088, "散户": -72.4591}, "concepts": []};
-historyData['20261008'] = {"date": "20261008", "time": "0954", "timestamp": "2026-10-08T09:54:05.686618", "wind_fund": {"机构": 139.222, "大户": 58.4331, "中户": -4.8865, "散户": 38.5759}, "concepts": [{"name": "PCB", "change_pct": 1.22, "main_force": 29.5}, {"name": "算力概念", "change_pct": 0.35, "main_force": 14.7}, {"name": "MLCC", "change_pct": 1.87, "main_force": 10.9}, {"name": "存储芯片", "change_pct": -0.02, "main_force": 3.5}, {"name": "电网设备", "change_pct": 1.33, "main_force": 2.7}, {"name": "创新药", "change_pct": -0.7, "main_force": 0.8}, {"name": "先进封装", "change_pct": -0.2, "main_force": 0.2}, {"name": "银行", "change_pct": 0.64, "main_force": 0.0}, {"name": "有色金属", "change_pct": 0.54, "main_force": -0.4}, {"name": "半导体材料", "change_pct": -0.47, "main_force": -0.4}, {"name": "机器人概念", "change_pct": -1.09, "main_force": -1.2}, {"name": "光通信", "change_pct": -0.79, "main_force": -3.8}, {"name": "AI应用", "change_pct": -0.28, "main_force": -8.4}, {"name": "半导体概念", "change_pct": -0.94, "main_force": -12.4}]};
+historyData['20261008'] = {"date": "20261008", "time": "0958", "timestamp": "2026-10-08T09:58:09.078840", "wind_fund": {"机构": 145.0003, "大户": 47.415, "中户": -20.7526, "散户": -6.8447}, "concepts": [{"name": "PCB", "change_pct": 1.22, "main_force": 29.5}, {"name": "算力概念", "change_pct": 0.35, "main_force": 14.7}, {"name": "MLCC", "change_pct": 1.87, "main_force": 10.9}, {"name": "存储芯片", "change_pct": -0.02, "main_force": 3.5}, {"name": "电网设备", "change_pct": 1.33, "main_force": 2.7}, {"name": "创新药", "change_pct": -0.7, "main_force": 0.8}, {"name": "先进封装", "change_pct": -0.2, "main_force": 0.2}, {"name": "银行", "change_pct": 0.64, "main_force": 0.0}, {"name": "有色金属", "change_pct": 0.54, "main_force": -0.4}, {"name": "半导体材料", "change_pct": -0.47, "main_force": -0.4}, {"name": "机器人概念", "change_pct": -1.09, "main_force": -1.2}, {"name": "光通信", "change_pct": -0.79, "main_force": -3.8}, {"name": "AI应用", "change_pct": -0.28, "main_force": -8.4}, {"name": "半导体概念", "change_pct": -0.94, "main_force": -12.4}]};
 
 let currentViewDate = '20261008';
 let isHistoryView = false;
