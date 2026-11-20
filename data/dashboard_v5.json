@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-20T14:55:09.779538",
+  "timestamp": "2026-11-20T14:57:09.221387",
   "total": 0,
   "success": 0,
   "has_fund_flow": 0,
@@ -15,8 +15,8 @@
     "last_close": 0.0,
     "change": 0.0,
     "change_pct": 0.0,
-    "main_force": -24725263872.0,
+    "main_force": -23484989440.0,
     "has_fund_flow": true,
-    "timestamp": "2026-11-20T14:55:09.778581"
+    "timestamp": "2026-11-20T14:57:09.220371"
   }
 }
